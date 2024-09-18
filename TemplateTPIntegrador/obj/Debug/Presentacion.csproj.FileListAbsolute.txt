@@ -1,0 +1,17 @@
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\bin\Debug\Datos.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\bin\Debug\Negocio.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\bin\Debug\Datos.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\bin\Debug\Negocio.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmMenuAdmin.resources
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmLogin.resources
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Properties.Resources.resources
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.RegistroUsuario.resources
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb

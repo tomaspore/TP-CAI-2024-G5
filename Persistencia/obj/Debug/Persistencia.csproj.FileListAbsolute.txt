@@ -1,0 +1,9 @@
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\bin\Debug\Datos.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\bin\Debug\Datos.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persistencia.csproj.AssemblyReference.cache
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persistencia.pdb

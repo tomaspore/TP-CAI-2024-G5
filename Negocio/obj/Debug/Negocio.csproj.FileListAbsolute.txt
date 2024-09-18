@@ -1,0 +1,11 @@
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\bin\Debug\Negocio.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\bin\Debug\Negocio.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\bin\Debug\Datos.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\bin\Debug\Persistencia.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\bin\Debug\Datos.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.dll
+C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.pdb
