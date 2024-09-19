@@ -113,7 +113,7 @@
             this.Controls.Add(this.btnModificacionProductos);
             this.Controls.Add(this.btnAltaProducto);
             this.Name = "FrmMenuSupervisor";
-            this.Text = "FrmMenuSupervisor";
+            this.Text = "Menu Principal - Supervisor";
             this.ResumeLayout(false);
 
         }

@@ -8,12 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TemplateTPIntegrador
+namespace TemplateTPIntegrador.Forms
 {
-    public partial class FrmMenuAdmin : Form
+    public partial class FrmMenuVendedor : Form
     {
-
-        public FrmMenuAdmin()
+        public FrmMenuVendedor()
         {
             InitializeComponent();
         }
