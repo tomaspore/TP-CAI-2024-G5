@@ -34,6 +34,7 @@ namespace TemplateTPIntegrador
                 MessageBox.Show("Debe ingresar un usuario y/o contraseña.");
                 intentos++;
             }
+
             else
             {
                 intentos = 0;

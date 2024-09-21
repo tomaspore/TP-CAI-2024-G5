@@ -14,8 +14,16 @@ namespace Negocio
             {
                 return true;
             }
-
+            
             return false;
         }
+        public bool ValidarContraseña(string password)
+        {
+            if(password.Length < 8)
+            {
+                return false; // Si la contraseña tiene menos de 8 caracteres, no es válida
+            }
+        }
     }
+
 }
