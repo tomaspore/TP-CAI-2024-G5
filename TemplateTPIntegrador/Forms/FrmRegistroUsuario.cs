@@ -15,6 +15,15 @@ namespace TemplateTPIntegrador.Forms
         public FrmRegistroUsuario()
         {
             InitializeComponent();
+            LlenarcmbHost(); // para poner los posibles valores a elegir en cmbHost
+        }
+
+        private void LlenarcmbHost()
+        {
+            // Se llena el comboBox Host con sus diferentes opciones:
+            cmbHost.Items.Add("Administrador (3)");
+            cmbHost.Items.Add("Supervisor (2)");
+            cmbHost.Items.Add("Vendedor (1)");
         }
 
         private void btnRegistrarUsuario_Click(object sender, EventArgs e)
