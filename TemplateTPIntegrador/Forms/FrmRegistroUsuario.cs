@@ -13,7 +13,7 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmRegistroUsuario : Form
     {
-        int UserId = 0; // que el id de usuario empiece en 0
+        private static int UserId; // metodo necesario para poder autoincrementar el Id por cada registro
 
         public FrmRegistroUsuario()
         {
