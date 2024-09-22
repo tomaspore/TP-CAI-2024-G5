@@ -16,5 +16,18 @@ namespace TemplateTPIntegrador.Forms
         {
             InitializeComponent();
         }
+
+        private void btnRegistrarUsuario_Click(object sender, EventArgs e)
+        {
+            string nombre = "";
+            string apellido = "";
+            string direccion = "";
+            string telefono = "";
+            string email = "";
+            string usuario = "";
+            string host = "";
+            string dni = "";
+            string contraseña = "";
+        }
     }
 }
