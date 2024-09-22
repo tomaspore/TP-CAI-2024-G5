@@ -25,9 +25,26 @@ namespace TemplateTPIntegrador.Forms
             string telefono = "";
             string email = "";
             string usuario = "";
-            string host = "";
             string dni = "";
             string contraseña = "";
+            string host = "";
+
+            // Se toman los valores que se van ingresando en el formulario de registro en los TextBox
+            nombre = txtNombre.Text;
+            apellido = txtApellido.Text;
+            direccion = txtDireccion.Text;
+            telefono = txtTelefono.Text;
+            email = txtEmail.Text;
+            usuario = txtUsuario.Text;
+            dni = txtDNI.Text;
+            contraseña = txtContraseña.Text;
+
+            // Se toma el valor que se ingresa en el comboBox
+            // host = cmbHost.SelectedItem.ToString();
+
+            // Usuario registrado con exito
+            MessageBox.Show("Usuario se ha registrado con exito.");
+
         }
     }
 }

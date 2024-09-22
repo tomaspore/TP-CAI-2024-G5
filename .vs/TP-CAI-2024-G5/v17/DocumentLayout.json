@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\ejercicios\\tp-grupal\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\ejercicios\\tp-grupal\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\ejercicios\\tp-grupal\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrousuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrousuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,13 +66,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmRegistroUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:37:48.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FrmRegistroUsuario.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
               "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAawB8AAAAFAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vyoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T21:23:44.874Z",
               "EditorCaption": ""
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmMenuAdmin.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
@@ -95,12 +112,11 @@
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAawBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T02:33:03.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T02:33:03.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FrmMenuVendedor.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuVendedor.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuVendedor.cs",
@@ -111,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FrmMenuSupervisor.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
@@ -123,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FrmMenuSupervisor.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
@@ -134,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Login.cs",
@@ -146,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Login.cs",
@@ -157,15 +173,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FrmMenuAdmin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
               "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\Ejercicios\\TP-GRUPAL\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs [Dise\u00F1o]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T00:12:35.277Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-19T00:12:35.277Z"
             }
           ]
         }
