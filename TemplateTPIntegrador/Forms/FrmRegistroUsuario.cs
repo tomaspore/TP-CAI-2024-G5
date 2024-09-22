@@ -12,10 +12,21 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmRegistroUsuario : Form
     {
+        int UserId = 0; // que el id de usuario empiece en 0
+
         public FrmRegistroUsuario()
         {
             InitializeComponent();
             LlenarcmbHost(); // para poner los posibles valores a elegir en cmbHost
+            AutoincrementarIDUsuario();
+        }
+
+        private void AutoincrementarIDUsuario()
+        {
+            UserId++;
+            txtIdUsuario.Text = UserId.ToString();
+            txtIdUsuario.ReadOnly = true; // se logra que no se edite de forma manual el Id de usuario.
+
         }
 
         private void LlenarcmbHost()

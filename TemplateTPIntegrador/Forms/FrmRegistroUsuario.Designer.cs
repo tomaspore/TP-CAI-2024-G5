@@ -37,7 +37,7 @@
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblHost = new System.Windows.Forms.Label();
             this.lblDNI = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtIdUsuario = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
@@ -132,12 +132,12 @@
             this.lblDNI.TabIndex = 8;
             this.lblDNI.Text = "Documento";
             // 
-            // textBox1
+            // txtIdUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(124, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 9;
+            this.txtIdUsuario.Location = new System.Drawing.Point(124, 37);
+            this.txtIdUsuario.Name = "txtIdUsuario";
+            this.txtIdUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtIdUsuario.TabIndex = 9;
             // 
             // txtNombre
             // 
@@ -238,7 +238,7 @@
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtIdUsuario);
             this.Controls.Add(this.lblDNI);
             this.Controls.Add(this.lblHost);
             this.Controls.Add(this.lblUsuario);
@@ -266,7 +266,7 @@
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblHost;
         private System.Windows.Forms.Label lblDNI;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtIdUsuario;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtDireccion;
