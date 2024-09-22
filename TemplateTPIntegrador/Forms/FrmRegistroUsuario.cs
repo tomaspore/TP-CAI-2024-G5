@@ -49,7 +49,7 @@ namespace TemplateTPIntegrador.Forms
             contraseña = txtContraseña.Text;
 
             // Se toma el valor que se ingresa en el comboBox
-            // host = cmbHost.SelectedItem.ToString();
+            host = cmbHost.SelectedItem?.ToString();
 
             // Usuario registrado con exito
             MessageBox.Show("Usuario se ha registrado con exito.");
