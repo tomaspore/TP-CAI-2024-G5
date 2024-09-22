@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -62,8 +63,30 @@ namespace TemplateTPIntegrador.Forms
             // Se toma el valor que se ingresa en el comboBox
             host = cmbHost.SelectedItem?.ToString();
 
-            // Usuario registrado con exito
-            MessageBox.Show("Usuario se ha registrado con exito.");
+            ValidacionesUtils validacionUntilRegistro = new ValidacionesUtils();
+            
+            if(validacionUntilRegistro.ValidarVacioRegistroUsuario(nombre, apellido, direccion, telefono, email, usuario, dni, contraseña, host))
+            {
+                MessageBox.Show("Le esta faltando ingresar datos.");
+            }
+            else
+            {
+                // Usuario registrado con exito
+                MessageBox.Show("Usuario se ha registrado con exito.");
+
+                // Volver al formulario de FrmMenuAdmin
+                FrmMenuAdmin menuadmin = new FrmMenuAdmin();
+
+                // Abrir el menu FrmMenuAdmin
+                menuadmin.Show();
+
+                // Cerrar el formulario de registro de usuario.
+                this.Hide();
+            }
+
+            
+
+            
 
         }
     }
