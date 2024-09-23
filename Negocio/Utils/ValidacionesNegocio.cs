@@ -69,6 +69,9 @@ namespace Negocio
         /*
         Creamos validación para que:
         -	La contraseña tenga entre 8 y 15 caracteres entre letras y números.
+
+        Creamos validación para que:
+        -	La contraseña tenga que contener como mínimo una letra mayúscula y un número
         */
 
         public bool ValidacionContraseña(string clave, out string error)
@@ -82,11 +85,45 @@ namespace Negocio
                 return false;
             }
 
+
+            // Creamos variables bool para ver si tiene mayuscula y ver si tiene numero.
+            bool letraMayuscula = false;
+            bool TieneNumero = false;
+
+            foreach (char c in clave)
+            {
+                if (char.IsUpper(c))
+                {
+                    letraMayuscula = true;
+                }
+                else if (char.IsDigit(c))
+                {
+                    TieneNumero = true;
+                }
+
+                if(letraMayuscula && TieneNumero)
+                {
+                    return true; // significa que se cumple que tiene la contraseña una letra mayuscula y tiene un numero.
+                    break; // sale del bloque foreach.
+                }
+            }
+
+            if (!letraMayuscula || !TieneNumero)
+            {
+                error = "La contraseña tiene que contener como minimo una letra mayuscula y un número.";
+                return false;
+            }
+
+
             /*
-            Si la contraseña ingresada contiene entre 8 y 15 caracteres entre letras y numeros, ahi entonces ok validación. 
+            Si la contraseña ingresada contiene entre 8 y 15 caracteres entre letras y numeros, 
+            y además la contraseña contiene como mínimo una letra mayúscula y un número
+            ahi entonces ok validación. 
             */
             return true;
             
+
+
         }
 
     }
