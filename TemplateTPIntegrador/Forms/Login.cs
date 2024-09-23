@@ -55,9 +55,13 @@ namespace TemplateTPIntegrador
                 //Se debería abrir el menu correspondiente al id usuario
 
                 menuadmin.Show();
+                this.Hide(); // una vez que se efectua el Login, cierre el formulario de Login.
             }
 
             //Usuarios inactivos guardar en memoria FileInfo
+
+
+
             
         }
 
