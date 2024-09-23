@@ -64,6 +64,21 @@ namespace TemplateTPIntegrador.Forms
             // Se toma el valor que se ingresa en el comboBox
             host = cmbHost.SelectedItem?.ToString();
 
+
+            // Llamamos a Validaciones de negocio
+            ValidacionesNegocio validacionesRegistro = new ValidacionesNegocio();
+            
+            // Creamos un campo tipo string para ver si devuelve error las validaciones de negocio
+            string error;
+
+            if(!validacionesRegistro.ValidarNombreRegistroUsuario(usuario, nombre, apellido, out error))
+            {
+                MessageBox.Show(error);
+                return; // con el return nos aseguramos que si devuelve false, nos siga pidiendo que ingresemos correctamente lo que pide hasta que la validacion se cumpla correctamente.
+            }
+
+
+
             ValidacionesUtils validacionUntilRegistro = new ValidacionesUtils();
             
             if(validacionUntilRegistro.ValidarVacioRegistroUsuario(nombre, apellido, direccion, telefono, email, usuario, dni, contraseña, host))
