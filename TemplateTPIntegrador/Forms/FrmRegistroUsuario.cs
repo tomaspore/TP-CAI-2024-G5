@@ -79,6 +79,7 @@ namespace TemplateTPIntegrador.Forms
 
 
 
+
             ValidacionesUtils validacionUntilRegistro = new ValidacionesUtils();
             
             if(validacionUntilRegistro.ValidarVacioRegistroUsuario(nombre, apellido, direccion, telefono, email, usuario, dni, contraseña, host))
