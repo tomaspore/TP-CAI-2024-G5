@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public class ValidacionesUtils
+    public class ValidacionesNegocio
     {
         public bool ValidarNombreUsuario(string username)
         {
@@ -17,5 +17,9 @@ namespace Negocio
 
             return false;
         }
+
+
+
+
     }
 }
