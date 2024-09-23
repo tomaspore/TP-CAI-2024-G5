@@ -77,6 +77,12 @@ namespace TemplateTPIntegrador.Forms
                 return; // con el return nos aseguramos que si devuelve false, nos siga pidiendo que ingresemos correctamente lo que pide hasta que la validacion se cumpla correctamente.
             }
 
+            if(!validacionesRegistro.ValidacionContraseña(contraseña, out error))
+            {
+                MessageBox.Show(error);
+                return;
+            }
+
 
 
 

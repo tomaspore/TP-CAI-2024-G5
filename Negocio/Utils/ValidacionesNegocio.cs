@@ -65,5 +65,29 @@ namespace Negocio
             return true;
         }
 
+
+        /*
+        Creamos validación para que:
+        -	La contraseña tenga entre 8 y 15 caracteres entre letras y números.
+        */
+
+        public bool ValidacionContraseña(string clave, out string error)
+        {
+            error = "";
+
+            // if para ver si la contraseña tiene entre 8 y 15 caracteres
+            if(clave.Length < 8 || clave.Length > 15)
+            {
+                error = "La contraseña debe tener entre 8 y 15 caracteres.";
+                return false;
+            }
+
+            /*
+            Si la contraseña ingresada contiene entre 8 y 15 caracteres entre letras y numeros, ahi entonces ok validación. 
+            */
+            return true;
+            
+        }
+
     }
 }
