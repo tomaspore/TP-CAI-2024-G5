@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TemplateTPIntegrador
+namespace TemplateTPIntegrador.Forms
 {
-    public partial class RegistroUsuario : Form
+    public partial class FrmMenuSupervisor : Form
     {
-        public RegistroUsuario()
+        public FrmMenuSupervisor()
         {
             InitializeComponent();
         }

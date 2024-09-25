@@ -9,7 +9,28 @@ C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\Templa
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.dll
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.pdb
-C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
-C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
+<<<<<<< Updated upstream
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
+=======
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
+>>>>>>> Stashed changes

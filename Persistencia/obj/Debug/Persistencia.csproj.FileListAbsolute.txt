@@ -7,6 +7,7 @@ C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\Templa
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Persistencia\obj\Debug\Persistencia.pdb
+<<<<<<< Updated upstream
 C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
 C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
 C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.dll
@@ -16,3 +17,14 @@ C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia
 C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
 C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\Nerina\Source\Repos\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
+=======
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.AssemblyReference.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
+>>>>>>> Stashed changes
