@@ -31,6 +31,6 @@ namespace Datos
             public int Dni { get => _dni; set => _dni = value; }
             public string NombreUsuario { get => _nombreUsuario; set => _nombreUsuario = value; }
             public int Perfil { get => _perfil; set => _perfil = value; }
-        }
+            }
     }
 
