@@ -28,3 +28,5 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Per
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
 >>>>>>> Stashed changes
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.xml
