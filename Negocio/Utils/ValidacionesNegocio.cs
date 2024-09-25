@@ -55,7 +55,7 @@ namespace Negocio
                 return false;
             }
 
-
+            //hola
 
             /* 
             Si el usuario ingresado contiene entre 8 y 15 caracteres y además
