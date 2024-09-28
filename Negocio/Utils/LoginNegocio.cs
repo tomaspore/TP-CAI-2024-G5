@@ -1,4 +1,5 @@
-﻿using Persistencia;
+﻿using Datos;
+using Persistencia;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,16 @@ namespace Negocio
         {
             //aca escribo que hace el login
 
-            LoginWS login = new LoginWS();
+            LoginDB loginDB = new LoginDB();
+            loginDB.guardarIntento(username);
 
-            login.login(username, password);
+
+            LoginWS loginWS = new LoginWS();
+            loginWS.login(username, password);
+
+
+
+
         }
     }
 }
