@@ -11,20 +11,20 @@ namespace Persistencia
     {
         private string filePath;
 
-        // Static constructor to set the default file path
-        public DBHelper()
+       
+        public DBHelper(String dataBaseName)
         {
             string solutionDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            filePath = Path.Combine(solutionDirectory, "data.txt");
+            filePath = Path.Combine(solutionDirectory, dataBaseName + ".txt");
 
-            // Create the file if it doesn't exist
+            
             if (!File.Exists(filePath))
             {
                 File.Create(filePath).Close();
             }
         }
 
-        // Method to insert a key-value pair
+        
         public void Insertar(string key, string value)
         {
             using (StreamWriter writer = new StreamWriter(filePath, true))
@@ -33,13 +33,13 @@ namespace Persistencia
             }
         }
 
-        // Method to modify the value of an existing key
+       
         public void Modificar(string key, string newValue)
         {
             List<string> lines = File.ReadAllLines(filePath).ToList();
             bool modified = false;
 
-            // Modify the line with the matching key
+            
             for (int i = 0; i < lines.Count; i++)
             {
                 string[] keyValue = lines[i].Split('|');
@@ -57,18 +57,18 @@ namespace Persistencia
             }
         }
 
-        // Method to delete a key-value pair by key
+        
         public void Borrar(string key)
         {
             List<string> lines = File.ReadAllLines(filePath).ToList();
 
-            // Remove the line with the matching key
+           
             lines = lines.Where(line => line.Split('|')[0] != key).ToList();
 
             File.WriteAllLines(filePath, lines);
         }
 
-        // Method to search for a value by key
+        
         public string Buscar(string key)
         {
             string[] lines = File.ReadAllLines(filePath);
@@ -82,13 +82,15 @@ namespace Persistencia
                 }
             }
 
-            return null; // Return null if not found
+            return null; 
         }
 
-        // Method to list all key-value pairs
+        
         public List<string> Listar()
         {
             return File.ReadAllLines(filePath).ToList();
         }
     }
 }
+
+
