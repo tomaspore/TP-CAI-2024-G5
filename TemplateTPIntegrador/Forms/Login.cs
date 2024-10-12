@@ -32,28 +32,16 @@ namespace TemplateTPIntegrador
 
             if (validacionUntil.ValidarVacio(usuario, contraseña))
             {
-                MessageBox.Show("Debe ingresar un usuario y/o contraseña.");
-                intentos++;
+                MessageBox.Show("Debe ingresar usuario y/o contraseña.");
             }
 
             else
             {
-                intentos = 0;
-            }
-
-
-            if (intentos == 3)
-            {
-                MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO. El programa se cerrara.");
-                intentos = 0;
-                this.Close();
-            }
-            else if (intentos == 0)
-            {
-                 //Acá en un futuro voy a poner el nombre de la persona y no el user
+                
+                //Acá en un futuro voy a poner el nombre de la persona y no el user
                 LoginNegocio negocio = new LoginNegocio();
 
-                string perfil = negocio.login(usuario,contraseña);
+                string perfil = negocio.login(usuario, contraseña);
 
                 if (perfil == "Administrador")
                 {
@@ -76,19 +64,27 @@ namespace TemplateTPIntegrador
                     vendedor.Show();
                     this.Hide();
                 }
-                else if(perfil == "Error" )
+                else if (perfil == "Error")
                 {
-                    MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo");
-                    //Usuarios inactivos guardar en memoria FileInfo
-                    //Pasar a capa Negocio esta validacion.
-                }
+                    intentos++;
+                    if (intentos == 3)
+                    {
+                        MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador");
+                        intentos = 0;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo");
+                        
+                        //Usuarios inactivos guardar en memoria FileInfo
+                        //Pasar a capa Negocio esta validacion.
+                    }
 
+                }
 
             }
 
             
-
-
 
             
         }
