@@ -37,6 +37,10 @@ namespace TemplateTPIntegrador
 
             else
             {
+<<<<<<< HEAD
+=======
+                
+>>>>>>> origin/TomasAlberio
                 //Acá en un futuro voy a poner el nombre de la persona y no el user
                 LoginNegocio negocio = new LoginNegocio();
 
@@ -74,6 +78,10 @@ namespace TemplateTPIntegrador
                     else
                     {
                         MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo");
+<<<<<<< HEAD
+=======
+                        
+>>>>>>> origin/TomasAlberio
                         //Usuarios inactivos guardar en memoria FileInfo
                         //Pasar a capa Negocio esta validacion.
                     }
@@ -82,9 +90,14 @@ namespace TemplateTPIntegrador
 
             }
 
+            
+
+<<<<<<< HEAD
 
 
-
+=======
+            
+>>>>>>> origin/TomasAlberio
         }
 
         private void label2_Click(object sender, EventArgs e)

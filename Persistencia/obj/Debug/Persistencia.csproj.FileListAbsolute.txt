@@ -41,6 +41,7 @@ C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\P
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
+<<<<<<< HEAD
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.dll
@@ -52,3 +53,5 @@ C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
+=======
+>>>>>>> origin/TomasAlberio

@@ -49,5 +49,8 @@ C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negoci
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
+<<<<<<< HEAD
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.dll
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.xml
+=======
+>>>>>>> origin/TomasAlberio
