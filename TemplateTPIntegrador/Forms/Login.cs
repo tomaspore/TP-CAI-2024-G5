@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TemplateTPIntegrador.Forms;
 
 namespace TemplateTPIntegrador
 {
@@ -51,10 +52,28 @@ namespace TemplateTPIntegrador
             {
                 MessageBox.Show("Bienvenido! " + usuario); //Acá en un futuro voy a poner el nombre de la persona y no el user
 
-                FrmMenuAdmin menuadmin = new FrmMenuAdmin();
+
+                string perfil = "Vendedor";
                 //Se debería abrir el menu correspondiente al id usuario
 
-                menuadmin.Show();
+                if (perfil == "Administrador")
+                {
+                    FrmMenuAdmin menuadmin = new FrmMenuAdmin();
+                    menuadmin.Show();
+
+                }
+                else if (perfil == "Supervisor")
+                {
+                    FrmMenuSupervisor menusup = new FrmMenuSupervisor();
+                    menusup.Show();
+                }
+                else if (perfil == "Vendedor")
+                {
+                    FrmMenuVendedor menuvend = new FrmMenuVendedor();
+                    menuvend.Show();
+                }
+
+
                 this.Hide(); // una vez que se efectua el Login, cierre el formulario de Login.
             }
 
