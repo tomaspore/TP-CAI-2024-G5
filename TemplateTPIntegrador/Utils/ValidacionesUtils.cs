@@ -11,11 +11,11 @@ namespace TemplateTPIntegrador
 
         public bool ValidarVacio(string texto1, string texto2)
         {
-            int intentos;
+       
 
             if (string.IsNullOrEmpty(texto1) && string.IsNullOrEmpty(texto2))
             {
-
+               
                 return true;
 
             }

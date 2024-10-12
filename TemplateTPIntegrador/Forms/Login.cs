@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TemplateTPIntegrador.Forms;
 
 namespace TemplateTPIntegrador
 {
@@ -31,15 +32,61 @@ namespace TemplateTPIntegrador
 
             if (validacionUntil.ValidarVacio(usuario, contraseña))
             {
-                MessageBox.Show("Debe ingresar un usuario y/o contraseña.");
-                intentos++;
+                MessageBox.Show("Debe ingresar usuario y/o contraseña.");
             }
+
             else
             {
-                intentos = 0;
+                
+                //Acá en un futuro voy a poner el nombre de la persona y no el user
+                LoginNegocio negocio = new LoginNegocio();
+
+                string perfil = negocio.login(usuario, contraseña);
+
+                if (perfil == "Administrador")
+                {
+                    MessageBox.Show("Bienvenido! " + usuario);
+                    FrmMenuAdmin admin = new FrmMenuAdmin();
+                    admin.Show();
+                    this.Hide();
+
+                }
+                else if (perfil == "Supervisor")
+                {
+                    MessageBox.Show("Bienvenido! " + usuario);
+                    FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
+                    supervisor.Show();
+                }
+                else if (perfil == "Vendedor")
+                {
+                    MessageBox.Show("Bienvenido! " + usuario);
+                    FrmMenuVendedor vendedor = new FrmMenuVendedor();
+                    vendedor.Show();
+                    this.Hide();
+                }
+                else if (perfil == "Error")
+                {
+                    intentos++;
+                    if (intentos == 3)
+                    {
+                        MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador");
+                        intentos = 0;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo");
+                        
+                        //Usuarios inactivos guardar en memoria FileInfo
+                        //Pasar a capa Negocio esta validacion.
+                    }
+
+                }
+
             }
 
+            
 
+<<<<<<< HEAD
             if (intentos == 3)
             {
                 MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO. El programa se cerrara.");
@@ -61,6 +108,8 @@ namespace TemplateTPIntegrador
 
 
 
+=======
+>>>>>>> origin/TomasAlberio
             
         }
 

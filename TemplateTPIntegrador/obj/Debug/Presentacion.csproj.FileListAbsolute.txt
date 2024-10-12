@@ -15,6 +15,10 @@ C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\Templa
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\Presenta.BC77CD05.Up2Date
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> origin/TomasAlberio
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
@@ -34,3 +38,56 @@ C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuSupervisor.resources
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuVendedor.resources
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
+<<<<<<< HEAD
+=======
+=======
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmMenuAdmin.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmLogin.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Properties.Resources.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.RegistroUsuario.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+>>>>>>> Stashed changes
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuSupervisor.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuVendedor.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmMenuAdmin.resources
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuSupervisor.resources
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuVendedor.resources
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmLogin.resources
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Properties.Resources.resources
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+>>>>>>> origin/TomasAlberio
