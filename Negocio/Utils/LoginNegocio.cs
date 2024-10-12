@@ -10,7 +10,7 @@ namespace Negocio
 {
     public class LoginNegocio
     {
-        public String login(String usuario, String password)
+        public String login(string usuario,string password)
         {
             String perfilLogin = "";
 
@@ -36,7 +36,7 @@ namespace Negocio
             // Paso 2.3: Credenciales validas--falta
 
             
-            List<UsuarioWS> usuariosActivos = loginWS.BuscarDatosUsuario();
+            List<UsuarioWS> usuariosActivos = loginWS.BuscarDatosUsuario(idUsuario);
 
             // Paseo 3.1: Verificar que el usuario este activo-- falta
 
@@ -68,10 +68,13 @@ namespace Negocio
             return perfilLogin;
         }
 
+
+
         private void verificarPrimerLogin(string usuario)
         {
             
         }
     }
+
 
 }

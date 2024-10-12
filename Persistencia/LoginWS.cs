@@ -41,7 +41,7 @@ namespace Persistencia
             return idUsuario;
         }
 
-        private List<UsuarioWS> BuscarDatosUsuario(String idUsuario)
+        public List<UsuarioWS> BuscarDatosUsuario(String idUsuario)
         {
             List<UsuarioWS> clientes = new List<UsuarioWS>();
 
@@ -61,20 +61,5 @@ namespace Persistencia
 
         }
 
-        public List<UsuarioWS> BuscarDatosUsuario()
-        {
-            List<UsuarioWS> clientes = new List<UsuarioWS>();
-
-            HttpResponseMessage response = WebHelper.Get("Usuario/TraerUsuariosActivos?id=" + adminId);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var contentStream = response.Content.ReadAsStringAsync().Result;
-                List<UsuarioWS> listadoClientes = JsonConvert.DeserializeObject<List<UsuarioWS>>(contentStream);
-            
-            }
-            List<UsuarioWS> ListadoClientes = null;
-            return ListadoClientes; //NO HACE NADA
-        }
     }
 }

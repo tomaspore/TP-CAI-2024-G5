@@ -51,26 +51,25 @@ namespace TemplateTPIntegrador
             else if (intentos == 0)
             {
                 MessageBox.Show("Bienvenido! " + usuario); //Acá en un futuro voy a poner el nombre de la persona y no el user
+                LoginNegocio negocio = new LoginNegocio();
 
-
-                string perfil = "Vendedor";
-                //Se debería abrir el menu correspondiente al id usuario
+                string perfil = negocio.login(usuario,contraseña);
 
                 if (perfil == "Administrador")
                 {
-                    FrmMenuAdmin menuadmin = new FrmMenuAdmin();
-                    menuadmin.Show();
+                    FrmMenuAdmin admin = new FrmMenuAdmin();
+                    admin.Show();
 
                 }
                 else if (perfil == "Supervisor")
                 {
-                    FrmMenuSupervisor menusup = new FrmMenuSupervisor();
-                    menusup.Show();
+                    FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
+                    supervisor.Show();
                 }
                 else if (perfil == "Vendedor")
                 {
-                    FrmMenuVendedor menuvend = new FrmMenuVendedor();
-                    menuvend.Show();
+                    FrmMenuVendedor vendedor = new FrmMenuVendedor();
+                    vendedor.Show();
                 }
 
 
