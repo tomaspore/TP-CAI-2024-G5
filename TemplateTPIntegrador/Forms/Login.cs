@@ -33,6 +33,7 @@ namespace TemplateTPIntegrador
             if (validacionUntil.ValidarVacio(usuario, contraseña))
             {
                 MessageBox.Show("Debe ingresar usuario y/o contraseña.");
+
             }
 
             else
