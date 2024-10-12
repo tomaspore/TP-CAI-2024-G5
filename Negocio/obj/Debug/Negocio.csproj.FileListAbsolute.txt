@@ -9,14 +9,7 @@ C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\Templa
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.dll
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\Negocio\obj\Debug\Negocio.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 <<<<<<< Updated upstream
->>>>>>> origin/TomasAlberio
-=======
-<<<<<<< Updated upstream
->>>>>>> origin/TomasAlberio
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.dll
@@ -28,11 +21,6 @@ C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/TomasAlberio
 =======
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
@@ -61,7 +49,3 @@ C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negoci
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
-<<<<<<< HEAD
->>>>>>> origin/TomasAlberio
-=======
->>>>>>> origin/TomasAlberio

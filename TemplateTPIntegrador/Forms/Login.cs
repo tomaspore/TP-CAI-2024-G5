@@ -88,6 +88,7 @@ namespace TemplateTPIntegrador
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (intentos == 3)
             {
                 MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO. El programa se cerrara.");
@@ -109,6 +110,8 @@ namespace TemplateTPIntegrador
 
 
 
+=======
+>>>>>>> origin/TomasAlberio
 =======
 >>>>>>> origin/TomasAlberio
 =======

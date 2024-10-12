@@ -17,6 +17,10 @@ C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\Templa
 C:\Users\talberio\Downloads\TP CAI - Visual Studio\TP CAI - Visual Studio\TemplateTPIntegrador\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> origin/TomasAlberio
 =======
 <<<<<<< Updated upstream
 >>>>>>> origin/TomasAlberio
@@ -44,7 +48,10 @@ C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/TomasAlberio
 =======
 >>>>>>> origin/TomasAlberio
 =======
@@ -98,6 +105,9 @@ C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/TomasAlberio
+=======
 >>>>>>> origin/TomasAlberio
 =======
 >>>>>>> origin/TomasAlberio
