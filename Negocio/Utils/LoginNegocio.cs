@@ -10,20 +10,67 @@ namespace Negocio
 {
     public class LoginNegocio
     {
-        public void Login(string username, string password) 
+        public String login(String usuario, String password)
         {
-            //aca escribo que hace el login
+            String perfilLogin = "";
 
+            
             LoginDB loginDB = new LoginDB();
-            loginDB.guardarIntento(username);
+            
 
+      
+            
+             // circuito de bloqueado de usuario - faltaaaa
+            
 
+           
             LoginWS loginWS = new LoginWS();
-            loginWS.login(username, password);
+            String idUsuario = loginWS.login(usuario, password);
 
+            
+            verificarPrimerLogin(usuario);
 
+            // Paso 2.2: Credenciales invalidas --falta
 
+            // Paso 2.3: Credenciales validas--falta
 
+            
+            List<UsuarioWS> usuariosActivos = loginWS.BuscarDatosUsuario();
+
+            // Paseo 3.1: Verificar que el usuario este activo-- falta
+
+           
+            int perfilUsuarioLogueado = 0;
+
+            foreach (UsuarioWS usuarioActivo in usuariosActivos)
+            {
+                if (usuarioActivo.Id.Equals(idUsuario))
+                {
+                    perfilUsuarioLogueado = usuarioActivo.Perfil;
+                }
+            }
+
+            
+            if (perfilUsuarioLogueado == 3)
+            {
+                perfilLogin = "Administrador";
+            }
+            else if (perfilUsuarioLogueado == 2)
+            {
+                perfilLogin = "Supervisor";
+            }
+            else
+            {
+                perfilLogin = "Vendedor";
+            }
+
+            return perfilLogin;
+        }
+
+        private void verificarPrimerLogin(string usuario)
+        {
+            
         }
     }
+
 }

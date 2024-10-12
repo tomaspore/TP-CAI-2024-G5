@@ -55,7 +55,7 @@ namespace Negocio
                 return false;
             }
 
-            //hola
+
 
             /* 
             Si el usuario ingresado contiene entre 8 y 15 caracteres y además
@@ -104,7 +104,7 @@ namespace Negocio
                 if(letraMayuscula && TieneNumero)
                 {
                     return true; // significa que se cumple que tiene la contraseña una letra mayuscula y tiene un numero.
-         
+                    break; // sale del bloque foreach.
                 }
             }
 

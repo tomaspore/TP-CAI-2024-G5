@@ -20,7 +20,7 @@ namespace Persistencia
             datos.Add("nombreUsuario", username);
             datos.Add("contraseña", password);
 
-            // Convert the data to a JSON string
+            
             var jsonData = JsonConvert.SerializeObject(datos);
 
             HttpResponseMessage response = WebHelper.Post("Usuario/Login", jsonData);
@@ -41,7 +41,7 @@ namespace Persistencia
             return idUsuario;
         }
 
-        public List<UsuarioWS> buscarDatosUsuario(String idUsuario)
+        private List<UsuarioWS> BuscarDatosUsuario(String idUsuario)
         {
             List<UsuarioWS> clientes = new List<UsuarioWS>();
 
@@ -61,5 +61,20 @@ namespace Persistencia
 
         }
 
+        public List<UsuarioWS> BuscarDatosUsuario()
+        {
+            List<UsuarioWS> clientes = new List<UsuarioWS>();
+
+            HttpResponseMessage response = WebHelper.Get("Usuario/TraerUsuariosActivos?id=" + adminId);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var contentStream = response.Content.ReadAsStringAsync().Result;
+                List<UsuarioWS> listadoClientes = JsonConvert.DeserializeObject<List<UsuarioWS>>(contentStream);
+            
+            }
+            List<UsuarioWS> ListadoClientes = null;
+            return ListadoClientes; //NO HACE NADA
+        }
     }
 }
