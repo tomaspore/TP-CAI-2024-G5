@@ -37,7 +37,6 @@ namespace TemplateTPIntegrador
 
             else
             {
-                
                 //Acá en un futuro voy a poner el nombre de la persona y no el user
                 LoginNegocio negocio = new LoginNegocio();
 
@@ -75,7 +74,6 @@ namespace TemplateTPIntegrador
                     else
                     {
                         MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo");
-                        
                         //Usuarios inactivos guardar en memoria FileInfo
                         //Pasar a capa Negocio esta validacion.
                     }
@@ -84,39 +82,9 @@ namespace TemplateTPIntegrador
 
             }
 
-            
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if (intentos == 3)
-            {
-                MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO. El programa se cerrara.");
-                intentos = 0;
-                this.Close();
-            }
-            else if (intentos == 0)
-            {
-                MessageBox.Show("Bienvenido! " + usuario); //Acá en un futuro voy a poner el nombre de la persona y no el user
-
-                FrmMenuAdmin menuadmin = new FrmMenuAdmin();
-                //Se debería abrir el menu correspondiente al id usuario
-
-                menuadmin.Show();
-                this.Hide(); // una vez que se efectua el Login, cierre el formulario de Login.
-            }
-
-            //Usuarios inactivos guardar en memoria FileInfo
 
 
 
-=======
->>>>>>> origin/TomasAlberio
-=======
->>>>>>> origin/TomasAlberio
-=======
->>>>>>> origin/TomasAlberio
-            
         }
 
         private void label2_Click(object sender, EventArgs e)
