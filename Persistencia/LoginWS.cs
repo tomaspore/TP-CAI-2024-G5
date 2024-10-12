@@ -31,14 +31,17 @@ namespace Persistencia
             {
                 var reader = new StreamReader(response.Content.ReadAsStreamAsync().Result);
                 idUsuario = JsonConvert.DeserializeObject<String>(reader.ReadToEnd());
+                return idUsuario;
             }
             else
             {
                 Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                throw new Exception("Error al momento del Login");
+                //throw new Exception("Error al momento del Login");
+                idUsuario = "Error";
+                return idUsuario;
             }
 
-            return idUsuario;
+            //return idUsuario;
         }
 
         public List<UsuarioWS> BuscarDatosUsuario(String idUsuario)

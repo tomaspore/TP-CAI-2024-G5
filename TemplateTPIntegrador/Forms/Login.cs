@@ -50,30 +50,38 @@ namespace TemplateTPIntegrador
             }
             else if (intentos == 0)
             {
-                MessageBox.Show("Bienvenido! " + usuario); //Acá en un futuro voy a poner el nombre de la persona y no el user
+                 //Acá en un futuro voy a poner el nombre de la persona y no el user
                 LoginNegocio negocio = new LoginNegocio();
 
                 string perfil = negocio.login(usuario,contraseña);
 
                 if (perfil == "Administrador")
                 {
+                    MessageBox.Show("Bienvenido! " + usuario);
                     FrmMenuAdmin admin = new FrmMenuAdmin();
                     admin.Show();
+                    this.Hide();
 
                 }
                 else if (perfil == "Supervisor")
                 {
+                    MessageBox.Show("Bienvenido! " + usuario);
                     FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
                     supervisor.Show();
                 }
                 else if (perfil == "Vendedor")
                 {
+                    MessageBox.Show("Bienvenido! " + usuario);
                     FrmMenuVendedor vendedor = new FrmMenuVendedor();
                     vendedor.Show();
+                    this.Hide();
+                }
+                else if(perfil == "Error" )
+                {
+                    MessageBox.Show("Contraseña incorrecta. Vuelta a intentarlo");
                 }
 
 
-                this.Hide(); // una vez que se efectua el Login, cierre el formulario de Login.
             }
 
             //Usuarios inactivos guardar en memoria FileInfo
