@@ -78,13 +78,15 @@ namespace TemplateTPIntegrador
                 }
                 else if(perfil == "Error" )
                 {
-                    MessageBox.Show("Contraseña incorrecta. Vuelta a intentarlo");
+                    MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo");
+                    //Usuarios inactivos guardar en memoria FileInfo
+                    //Pasar a capa Negocio esta validacion.
                 }
 
 
             }
 
-            //Usuarios inactivos guardar en memoria FileInfo
+            
 
 
 

@@ -13,6 +13,7 @@ namespace Negocio
         public String login(string usuario,string password)
         {
             String perfilLogin = "";
+            string nombre = "";
 
             
             LoginDB loginDB = new LoginDB();
@@ -44,6 +45,7 @@ namespace Negocio
                     if (usuarioActivo.Id.Equals(idUsuario))
                     {
                         perfilUsuarioLogueado = usuarioActivo.Perfil;
+                        nombre = usuarioActivo.Nombre;
                     }
                 }
 
@@ -51,6 +53,7 @@ namespace Negocio
                 if (perfilUsuarioLogueado == 3)
                 {
                     perfilLogin = "Administrador";
+                    
                 }
                 else if (perfilUsuarioLogueado == 2)
                 {
@@ -61,7 +64,7 @@ namespace Negocio
                     perfilLogin = "Vendedor";
                 }
 
-                return perfilLogin;
+                return perfilLogin + nombre;
             }
             else
             {
@@ -70,6 +73,8 @@ namespace Negocio
             }
 
         }
+
+
 
 
     }
