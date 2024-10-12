@@ -91,7 +91,7 @@ namespace TemplateTPIntegrador
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            //Hola esto es una prueba
         }
     }
 }
