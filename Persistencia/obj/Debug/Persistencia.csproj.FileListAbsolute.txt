@@ -31,7 +31,6 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Per
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.xml
 <<<<<<< HEAD
-=======
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.dll

@@ -20,7 +20,7 @@ namespace Persistencia
             datos.Add("nombreUsuario", username);
             datos.Add("contraseña", password);
 
-            
+            // Convert the data to a JSON string
             var jsonData = JsonConvert.SerializeObject(datos);
 
             HttpResponseMessage response = WebHelper.Post("Usuario/Login", jsonData);
@@ -31,20 +31,17 @@ namespace Persistencia
             {
                 var reader = new StreamReader(response.Content.ReadAsStreamAsync().Result);
                 idUsuario = JsonConvert.DeserializeObject<String>(reader.ReadToEnd());
-                return idUsuario;
             }
             else
             {
                 Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                //throw new Exception("Error al momento del Login");
-                idUsuario = "Error";
-                return idUsuario;
+                throw new Exception("Error al momento del Login");
             }
 
-            //return idUsuario;
+            return idUsuario;
         }
 
-        public List<UsuarioWS> BuscarDatosUsuario(String idUsuario)
+        public List<UsuarioWS> buscarDatosUsuario()
         {
             List<UsuarioWS> clientes = new List<UsuarioWS>();
 
@@ -63,6 +60,19 @@ namespace Persistencia
             }
 
         }
+        public void bloquearUsuario(string usuario)
+        {
+            var jsonData = JsonConvert.SerializeObject(new { usuario = usuario });
 
+            HttpResponseMessage response = WebHelper.Post("Usuario/Bloquear", jsonData); // Supongo que el endpoint para bloquear es 'Usuario/Bloquear'
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                throw new Exception("Error al bloquear el usuario");
+            }
+        }
     }
 }
+
+

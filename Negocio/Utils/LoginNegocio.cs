@@ -11,20 +11,30 @@ namespace Negocio
     public class LoginNegocio
     {
         private int intentos = 0; //Manejamos los intentos desde acá
-        public String login(string usuario,string password)
+        public String login(string usuario, string password)
         {
             String perfilLogin = "";
             string nombre = "";
 
-            
+
             LoginDB loginDB = new LoginDB();
-            
-            
-             // circuito de bloqueado de usuario - faltaaaa
-            
-           
             LoginWS loginWS = new LoginWS();
-            // Obtener el ID del usuario desde el servicio
+
+            // Obtener la lista de usuarios activos desde el servicio
+            List<UsuarioWS> usuariosActivos = loginWS.buscarDatosUsuario();
+            Console.WriteLine("Usuarios Activos encontrados: " + usuariosActivos.Count); // Depuración
+
+            // Verificar si el usuario está en la lista de usuarios activos
+            UsuarioWS usuarioActivo = usuariosActivos.FirstOrDefault(u => u.NombreUsuario == usuario);
+
+            if (usuarioActivo == null)
+            {
+                // El usuario no está en la lista, lo marcamos como inactivo
+                Console.WriteLine("Usuario no encontrado o inactivo.");
+                return "Usuario no activo"; // Retornar este mensaje si no encontramos el usuario
+            }
+
+            // Si el usuario está activo, verificar las credenciales de login
             String idUsuario = loginWS.login(usuario, password);
 
             if (idUsuario == "Error")
@@ -33,63 +43,42 @@ namespace Negocio
                 intentos++;
                 if (intentos == 3)
                 {
-                    // Bloquear el usuario o manejar su inactividad
-                    return "Inactivo";
+                    // Si se llega al tercer intento fallido, bloquear al usuario
+                    loginWS.bloquearUsuario(usuario);
+                    return "Inactivo"; // Retornamos "Inactivo" si el usuario fue bloqueado
                 }
                 return "Error";
             }
-                // Paso 2.2: Credenciales invalidas --falta
 
-                // Paso 2.3: Credenciales validas--falta
+            // Obtener el perfil del usuario logueado
+            int perfilUsuarioLogueado = usuarioActivo.Perfil;
+            nombre = usuarioActivo.Nombre;
 
-
-                List<UsuarioWS> usuariosActivos = loginWS.BuscarDatosUsuario(idUsuario);
-
-                // Paseo 3.1: Verificar que el usuario este activo-- falta
-
-
-                int perfilUsuarioLogueado = 0;
-            // Usar el foreach para encontrar el usuario por ID y obtener su perfil y nombre
-            foreach (UsuarioWS usuarioActivo in usuariosActivos)
-                {
-                    if (usuarioActivo.Id.Equals(idUsuario))
-                    {
-                        perfilUsuarioLogueado = usuarioActivo.Perfil;
-                        nombre = usuarioActivo.Nombre;
-                        break; // Salimos del foreach al encontrar el usuario
-                    }
-                }
-                        // Verificar si encontramos un usuario con el ID dado
-
-            if (string.IsNullOrEmpty(nombre))
-                {
-                    return "Usuario no activo"; // Si no encontramos el usuario, retornamos este mensaje
-                }
-
+            // Asignar el perfil según el valor del perfilUsuarioLogueado
             if (perfilUsuarioLogueado == 3)
-                {
-                    perfilLogin = "Administrador";
-                    
-                }
-                else if (perfilUsuarioLogueado == 2)
-                {
-                    perfilLogin = "Supervisor";
-                }
-                else
-                {
-                    perfilLogin = "Vendedor";
-                }
-            
-            intentos = 0; //reiniciar intentos si el login es exitoso
+            {
+                perfilLogin = "Administrador";
+            }
+            else if (perfilUsuarioLogueado == 2)
+            {
+                perfilLogin = "Supervisor";
+            }
+            else
+            {
+                perfilLogin = "Vendedor";
+            }
 
-            return perfilLogin + nombre; //retornar perfil y nombre
+            // Reiniciar los intentos si el login es exitoso
+            intentos = 0;
+
+            // Retornar el perfil y el nombre del usuario
+            return perfilLogin + " " + nombre;
         }
-           
-
-        }
-
-
-
 
     }
+}
+
+
+
+
 

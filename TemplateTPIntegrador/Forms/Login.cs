@@ -24,11 +24,9 @@ namespace TemplateTPIntegrador
         private void button1_Click(object sender, EventArgs e)
         {
             ValidacionesUtils validacionUntil = new ValidacionesUtils();
-            string usuario = "";
-            string contraseña = "";
+            string usuario = txtUsuario.Text;
+            string contraseña = txtContraseña.Text;
 
-            usuario = txtUsuario.Text;
-            contraseña = txtContraseña.Text;
 
             if (validacionUntil.ValidarVacio(usuario, contraseña))
             {
@@ -38,56 +36,56 @@ namespace TemplateTPIntegrador
 
             else
             {
-                
-                //Acá en un futuro voy a poner el nombre de la persona y no el user
-                LoginNegocio negocio = new LoginNegocio();
+                try
+                {
+                    // Crear instancia de la clase de negocio
+                    LoginNegocio negocio = new LoginNegocio();
+                    string perfil = negocio.login(usuario, contraseña);
 
-                string perfil = negocio.login(usuario, contraseña);
-
-                if (perfil == "Administrador")
-                {
-                    MessageBox.Show("Bienvenido! " + usuario);
-                    FrmMenuAdmin admin = new FrmMenuAdmin();
-                    admin.Show();
-                    this.Hide();
-
-                }
-                else if (perfil == "Supervisor")
-                {
-                    MessageBox.Show("Bienvenido! " + usuario);
-                    FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
-                    supervisor.Show();
-                }
-                else if (perfil == "Vendedor")
-                {
-                    MessageBox.Show("Bienvenido! " + usuario);
-                    FrmMenuVendedor vendedor = new FrmMenuVendedor();
-                    vendedor.Show();
-                    this.Hide();
-                }
-                else if (perfil == "Error")
-                {
-                    intentos++;
-                    if (intentos == 3)
+                    if (perfil.StartsWith("Administrador"))
                     {
-                        MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador");
-                        intentos = 0;
+                        MessageBox.Show("Bienvenido! " + usuario);
+                        FrmMenuAdmin admin = new FrmMenuAdmin();
+                        admin.Show();
+                        this.Hide();
                     }
-                    else
+                    else if (perfil.StartsWith("Supervisor"))
                     {
-                        MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo");
-                        
-                        //Usuarios inactivos guardar en memoria FileInfo
-                        //Pasar a capa Negocio esta validacion.
+                        MessageBox.Show("Bienvenido! " + usuario);
+                        FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
+                        supervisor.Show();
                     }
-
+                    else if (perfil.StartsWith("Vendedor"))
+                    {
+                        MessageBox.Show("Bienvenido! " + usuario);
+                        FrmMenuVendedor vendedor = new FrmMenuVendedor();
+                        vendedor.Show();
+                        this.Hide();
+                    }
+                    else if (perfil == "Error")
+                    {
+                        intentos++;
+                        if (intentos == 3)
+                        {
+                            MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador");
+                            intentos = 0;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo.");
+                        }
+                    }
+                    else if (perfil == "Usuario no activo")
+                    {
+                        MessageBox.Show("El usuario está inactivo. Contacte con el administrador.");
+                    }
                 }
-
+                catch (Exception ex)
+                {
+                    // Captura de cualquier excepción lanzada desde la capa de negocio
+                    MessageBox.Show($"Error: {ex.Message}");
+                }
             }
-
-            
-
-            
         }
 
         private void label2_Click(object sender, EventArgs e)

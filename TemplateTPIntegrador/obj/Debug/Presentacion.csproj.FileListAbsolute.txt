@@ -63,7 +63,6 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Tem
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
 <<<<<<< HEAD
-=======
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
