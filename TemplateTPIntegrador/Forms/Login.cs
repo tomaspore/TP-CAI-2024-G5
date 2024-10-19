@@ -14,26 +14,30 @@ namespace TemplateTPIntegrador
 {
     public partial class FrmLogin : Form
     {
+        private int intentos = 0; // Acá manejamos el número de intentos fallidos
+        private bool usuarioBloqueado = false; // para bloquear al usuario
+
         public FrmLogin()
         {
             InitializeComponent();
         }
 
-        private int intentos; //Temporalmente la variable intentos va a estar acá
-
         private void button1_Click(object sender, EventArgs e)
         {
+            if (usuarioBloqueado)
+            {
+                MessageBox.Show("El usuario está bloqueado. Contacte con el Administrador.");
+                return;
+            }
+
             ValidacionesUtils validacionUntil = new ValidacionesUtils();
             string usuario = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
 
-
             if (validacionUntil.ValidarVacio(usuario, contraseña))
             {
                 MessageBox.Show("Debe ingresar usuario y/o contraseña.");
-
             }
-
             else
             {
                 try
@@ -64,16 +68,21 @@ namespace TemplateTPIntegrador
                     }
                     else if (perfil == "Error")
                     {
-                        intentos++;
+                        intentos++; // Aumentar el contador de intentos fallidos
+
                         if (intentos == 3)
                         {
-                            MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador");
-                            intentos = 0;
+                            usuarioBloqueado = true; // Marcar al usuario como bloqueado
+                            MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador.");
                         }
                         else
                         {
                             MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo.");
                         }
+                    }
+                    else if (perfil == "Cuenta bloqueada por intentos fallidos")
+                    {
+                        MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador.");
                     }
                     else if (perfil == "Usuario no activo")
                     {

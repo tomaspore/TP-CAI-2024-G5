@@ -22,7 +22,6 @@ namespace Negocio
 
             // Obtener la lista de usuarios activos desde el servicio
             List<UsuarioWS> usuariosActivos = loginWS.buscarDatosUsuario();
-            Console.WriteLine("Usuarios Activos encontrados: " + usuariosActivos.Count); // Depuración
 
             // Verificar si el usuario está en la lista de usuarios activos
             UsuarioWS usuarioActivo = usuariosActivos.FirstOrDefault(u => u.NombreUsuario == usuario);
@@ -30,7 +29,6 @@ namespace Negocio
             if (usuarioActivo == null)
             {
                 // El usuario no está en la lista, lo marcamos como inactivo
-                Console.WriteLine("Usuario no encontrado o inactivo.");
                 return "Usuario no activo"; // Retornar este mensaje si no encontramos el usuario
             }
 
@@ -41,13 +39,16 @@ namespace Negocio
             {
                 // Incrementar intentos si las credenciales no son válidas
                 intentos++;
-                if (intentos == 3)
+                // Manejar intentos fallidos con if-else
+                if (intentos < 3)
                 {
-                    // Si se llega al tercer intento fallido, bloquear al usuario
-                    loginWS.bloquearUsuario(usuario);
-                    return "Inactivo"; // Retornamos "Inactivo" si el usuario fue bloqueado
+                    return "Error"; // Si no alcanzamos el límite, retornamos "Error"
                 }
-                return "Error";
+                else
+                {
+                    // Si se llega al tercer intento fallido, consideramos la cuenta bloqueada
+                    return "Cuenta bloqueada por intentos fallidos"; // Bloqueamos la cuenta lógicamente
+                }
             }
 
             // Obtener el perfil del usuario logueado
