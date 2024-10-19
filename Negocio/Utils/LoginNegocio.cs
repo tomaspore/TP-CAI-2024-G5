@@ -52,7 +52,7 @@ namespace Negocio
             }
 
             // Obtener el perfil del usuario logueado
-            int perfilUsuarioLogueado = usuarioActivo.Perfil;
+            int perfilUsuarioLogueado = usuarioActivo.Host;
             nombre = usuarioActivo.Nombre;
 
             // Asignar el perfil según el valor del perfilUsuarioLogueado

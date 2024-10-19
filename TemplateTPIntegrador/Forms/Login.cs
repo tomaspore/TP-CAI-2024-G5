@@ -101,5 +101,17 @@ namespace TemplateTPIntegrador
         {
             //Hola esto es una prueba
         }
+
+        private void chkMostrarContraseña_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkMostrarContraseña.CheckState == CheckState.Checked)
+            {
+                txtContraseña.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtContraseña.UseSystemPasswordChar = true;
+            }
+        }
     }
 }
