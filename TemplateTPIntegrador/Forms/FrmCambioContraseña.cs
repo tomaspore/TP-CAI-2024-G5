@@ -12,11 +12,9 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmCambioContraseña : Form
     {
-        public string Usuario { get; set; }
-        public FrmCambioContraseña(string usuario)
+        public FrmCambioContraseña()
         {
             InitializeComponent();
-            txtUsuario.Text = usuario;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

@@ -32,7 +32,7 @@ namespace TemplateTPIntegrador
         {
             FrmLogin logindatos = new FrmLogin();
             
-            FrmCambioContraseña cambiarpassword = new FrmCambioContraseña("tomas123");
+            FrmCambioContraseña cambiarpassword = new FrmCambioContraseña();
 
             cambiarpassword.Show();
             this.Hide();
@@ -45,7 +45,7 @@ namespace TemplateTPIntegrador
 
         }
 
-        private void btnRegistroUsuario_Click(object sender, EventArgs e)
+        private void btnRegistroUsuario__Click(object sender, EventArgs e)
         {
             FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
 

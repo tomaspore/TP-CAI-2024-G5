@@ -187,9 +187,9 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.btnModificarContraseña);
-            this.groupBox4.Location = new System.Drawing.Point(24, 291);
+            this.groupBox4.Location = new System.Drawing.Point(24, 280);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(228, 141);
+            this.groupBox4.Size = new System.Drawing.Size(228, 152);
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Perfil";
