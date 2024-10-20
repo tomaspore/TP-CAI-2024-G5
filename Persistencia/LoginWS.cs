@@ -20,40 +20,6 @@ namespace Persistencia
             datos.Add("nombreUsuario", username);
             datos.Add("contraseña", password);
 
-<<<<<<< HEAD
-            
-            var jsonData = JsonConvert.SerializeObject(datos);
-
-            HttpResponseMessage response = WebHelper.Post("Usuario/Login", jsonData);
-
-            String idUsuario = "";
-
-            if (response.IsSuccessStatusCode)
-            {
-                var reader = new StreamReader(response.Content.ReadAsStreamAsync().Result);
-                idUsuario = JsonConvert.DeserializeObject<String>(reader.ReadToEnd());
-                return idUsuario;
-            }
-            else
-            {
-                Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                //throw new Exception("Error al momento del Login");
-                idUsuario = "Error";
-                return idUsuario;
-            }
-
-            //return idUsuario;
-        }
-
-        public List<UsuarioWS> BuscarDatosUsuario(String idUsuario)
-        {
-            List<UsuarioWS> clientes = new List<UsuarioWS>();
-
-            HttpResponseMessage response = WebHelper.Get("Usuario/TraerUsuariosActivos?id=" + adminId);
-
-            if (response.IsSuccessStatusCode)
-            {
-=======
             // Convert the data to a JSON string
             var jsonData = JsonConvert.SerializeObject(datos);
 
@@ -96,23 +62,10 @@ namespace Persistencia
                     return null; // Devuelve null si hay un problema
                 }
 
->>>>>>> origin/TomasAlberio
                 var contentStream = response.Content.ReadAsStringAsync().Result;
                 List<UsuarioWS> listadoClientes = JsonConvert.DeserializeObject<List<UsuarioWS>>(contentStream);
                 return listadoClientes;
             }
-<<<<<<< HEAD
-            else
-            {
-                Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                throw new Exception("Error al momento de buscar los usuarios");
-            }
-
-        }
-
-    }
-}
-=======
             catch (Exception ex)
             {
                 Console.WriteLine($"Excepción: {ex.Message}");
@@ -123,4 +76,3 @@ namespace Persistencia
 }
 
 
->>>>>>> origin/TomasAlberio
