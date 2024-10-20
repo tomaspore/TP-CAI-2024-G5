@@ -30,6 +30,10 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Per
 >>>>>>> Stashed changes
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.xml
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/TomasAlberio
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.dll
@@ -41,6 +45,7 @@ C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\P
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
@@ -54,4 +59,18 @@ C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
 C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
 =======
+>>>>>>> origin/TomasAlberio
+=======
+>>>>>>> origin/TomasAlberio
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.AssemblyReference.cache
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
 >>>>>>> origin/TomasAlberio

@@ -34,29 +34,52 @@
             // 
             // btnRegistrarVenta
             // 
+<<<<<<< HEAD
             this.btnRegistrarVenta.Location = new System.Drawing.Point(100, 65);
             this.btnRegistrarVenta.Name = "btnRegistrarVenta";
             this.btnRegistrarVenta.Size = new System.Drawing.Size(123, 23);
+=======
+            this.btnRegistrarVenta.Location = new System.Drawing.Point(150, 100);
+            this.btnRegistrarVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnRegistrarVenta.Name = "btnRegistrarVenta";
+            this.btnRegistrarVenta.Size = new System.Drawing.Size(184, 35);
+>>>>>>> origin/TomasAlberio
             this.btnRegistrarVenta.TabIndex = 0;
             this.btnRegistrarVenta.Text = "Registrar venta";
             this.btnRegistrarVenta.UseVisualStyleBackColor = true;
             // 
             // btnReporteVentasXVendedor
             // 
+<<<<<<< HEAD
             this.btnReporteVentasXVendedor.Location = new System.Drawing.Point(51, 117);
             this.btnReporteVentasXVendedor.Name = "btnReporteVentasXVendedor";
             this.btnReporteVentasXVendedor.Size = new System.Drawing.Size(212, 23);
+=======
+            this.btnReporteVentasXVendedor.Location = new System.Drawing.Point(76, 180);
+            this.btnReporteVentasXVendedor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnReporteVentasXVendedor.Name = "btnReporteVentasXVendedor";
+            this.btnReporteVentasXVendedor.Size = new System.Drawing.Size(318, 35);
+>>>>>>> origin/TomasAlberio
             this.btnReporteVentasXVendedor.TabIndex = 1;
             this.btnReporteVentasXVendedor.Text = "Reporte de ventas por vendedor";
             this.btnReporteVentasXVendedor.UseVisualStyleBackColor = true;
             // 
             // FrmMenuVendedor
             // 
+<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(328, 258);
             this.Controls.Add(this.btnReporteVentasXVendedor);
             this.Controls.Add(this.btnRegistrarVenta);
+=======
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(492, 397);
+            this.Controls.Add(this.btnReporteVentasXVendedor);
+            this.Controls.Add(this.btnRegistrarVenta);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+>>>>>>> origin/TomasAlberio
             this.Name = "FrmMenuVendedor";
             this.Text = "Menu Principal - Vendedor";
             this.ResumeLayout(false);
