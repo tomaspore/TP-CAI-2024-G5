@@ -40,11 +40,6 @@ namespace TemplateTPIntegrador
 
         }
 
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRegistroUsuario__Click(object sender, EventArgs e)
         {
             FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
