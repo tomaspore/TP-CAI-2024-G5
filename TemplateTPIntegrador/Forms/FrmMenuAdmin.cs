@@ -45,7 +45,7 @@ namespace TemplateTPIntegrador
 
         }
 
-        private void btnRegistroUsuario_Click(object sender, EventArgs e)
+        private void btnRegistroUsuario__Click(object sender, EventArgs e)
         {
             FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
 

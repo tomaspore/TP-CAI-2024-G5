@@ -25,3 +25,9 @@ C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\De
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.dll
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Datos\bin\Debug\Datos.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Datos\bin\Debug\Datos.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\Ejercicios\TP-GRUPAL\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.pdb
