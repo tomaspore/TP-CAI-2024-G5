@@ -72,6 +72,7 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "¡Bienvenido a ElectroHogar!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblUsuario
             // 
@@ -94,7 +95,7 @@
             // chkMostrarContraseña
             // 
             this.chkMostrarContraseña.AutoSize = true;
-            this.chkMostrarContraseña.Location = new System.Drawing.Point(143, 187);
+            this.chkMostrarContraseña.Location = new System.Drawing.Point(138, 187);
             this.chkMostrarContraseña.Name = "chkMostrarContraseña";
             this.chkMostrarContraseña.Size = new System.Drawing.Size(176, 24);
             this.chkMostrarContraseña.TabIndex = 7;

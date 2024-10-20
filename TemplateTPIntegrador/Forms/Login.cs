@@ -40,11 +40,11 @@ namespace TemplateTPIntegrador
             }
             else
             {
-                try
+                try 
                 {
                     // Crear instancia de la clase de negocio
                     LoginNegocio negocio = new LoginNegocio();
-                    string perfil = "Supervisor Tomas"; //negocio.login(usuario, contraseña);
+                    string perfil = "Administrador Tomas"; //negocio.login(usuario, contraseña);
                     //Fix temporal hasta que el profe arregle el idadmin
 
                     //Fracciono perfil para quedarme solo con el nombre y usarlo en el cartel de bienvenida
@@ -117,6 +117,11 @@ namespace TemplateTPIntegrador
             {
                 txtContraseña.UseSystemPasswordChar = true;
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
