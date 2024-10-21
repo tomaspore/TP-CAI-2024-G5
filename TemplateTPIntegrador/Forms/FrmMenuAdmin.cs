@@ -47,5 +47,27 @@ namespace TemplateTPIntegrador
             menuregistrousuario.Show();
             this.Hide();
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmLogin logindatos = new FrmLogin();
+
+            FrmCambioContraseña cambiarpassword = new FrmCambioContraseña();
+
+            cambiarpassword.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
+            confirmacion.ShowDialog(); // Mostrar el formulario de confirmación de manera modal
+
+        }
     }
 }
