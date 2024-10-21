@@ -17,9 +17,30 @@ namespace TemplateTPIntegrador
         public FrmMenuAdmin()
         {
             InitializeComponent();
+           
         }
 
         private void btnRegistroUsuario_Click(object sender, EventArgs e)
+        {
+            FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
+
+            menuregistrousuario.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmLogin logindatos = new FrmLogin();
+            
+            FrmCambioContraseña cambiarpassword = new FrmCambioContraseña();
+
+            cambiarpassword.Show();
+            this.Hide();
+
+
+        }
+
+        private void btnRegistroUsuario__Click(object sender, EventArgs e)
         {
             FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
 

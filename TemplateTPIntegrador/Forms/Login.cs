@@ -40,28 +40,32 @@ namespace TemplateTPIntegrador
             }
             else
             {
-                try
+                try 
                 {
                     // Crear instancia de la clase de negocio
                     LoginNegocio negocio = new LoginNegocio();
                     string perfil = negocio.login(usuario, contraseña);
 
+                    //Fracciono perfil para quedarme solo con el nombre y usarlo en el cartel de bienvenida
+                    string[] partes = perfil.Split(' ');
+                    string nombre = partes[partes.Length - 1];
+
                     if (perfil.StartsWith("Administrador"))
                     {
-                        MessageBox.Show("Bienvenido! " + usuario);
+                        validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuAdmin admin = new FrmMenuAdmin();
                         admin.Show();
                         this.Hide();
                     }
                     else if (perfil.StartsWith("Supervisor"))
                     {
-                        MessageBox.Show("Bienvenido! " + usuario);
+                        validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
                         supervisor.Show();
                     }
                     else if (perfil.StartsWith("Vendedor"))
                     {
-                        MessageBox.Show("Bienvenido! " + usuario);
+                        validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuVendedor vendedor = new FrmMenuVendedor();
                         vendedor.Show();
                         this.Hide();
@@ -98,6 +102,28 @@ namespace TemplateTPIntegrador
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+            //Hola esto es una prueba
+        }
+
+        private void chkMostrarContraseña_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkMostrarContraseña.CheckState == CheckState.Checked)
+            {
+                txtContraseña.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtContraseña.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
         {
 
         }
