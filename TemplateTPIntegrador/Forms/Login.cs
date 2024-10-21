@@ -14,77 +14,116 @@ namespace TemplateTPIntegrador
 {
     public partial class FrmLogin : Form
     {
+        private int intentos = 0; // Acá manejamos el número de intentos fallidos
+        private bool usuarioBloqueado = false; // para bloquear al usuario
+
         public FrmLogin()
         {
             InitializeComponent();
         }
 
-        private int intentos; //Temporalmente la variable intentos va a estar acá
-
         private void button1_Click(object sender, EventArgs e)
         {
-            ValidacionesUtils validacionUntil = new ValidacionesUtils();
-            string usuario = "";
-            string contraseña = "";
+            if (usuarioBloqueado)
+            {
+                MessageBox.Show("El usuario está bloqueado. Contacte con el Administrador.");
+                return;
+            }
 
-            usuario = txtUsuario.Text;
-            contraseña = txtContraseña.Text;
+            ValidacionesUtils validacionUntil = new ValidacionesUtils();
+            string usuario = txtUsuario.Text;
+            string contraseña = txtContraseña.Text;
 
             if (validacionUntil.ValidarVacio(usuario, contraseña))
             {
-                MessageBox.Show("Debe ingresar un usuario y/o contraseña.");
-                intentos++;
+                MessageBox.Show("Debe ingresar usuario y/o contraseña.");
             }
-
             else
             {
-                intentos = 0;
-            }
-
-
-            if (intentos == 3)
-            {
-                MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO. El programa se cerrara.");
-                intentos = 0;
-                this.Close();
-            }
-            else if (intentos == 0)
-            {
-                MessageBox.Show("Bienvenido! " + usuario); //Acá en un futuro voy a poner el nombre de la persona y no el user
-
-
-                string perfil = "Vendedor";
-                //Se debería abrir el menu correspondiente al id usuario
-
-                if (perfil == "Administrador")
+                try 
                 {
-                    FrmMenuAdmin menuadmin = new FrmMenuAdmin();
-                    menuadmin.Show();
+                    // Crear instancia de la clase de negocio
+                    LoginNegocio negocio = new LoginNegocio();
+                    string perfil = negocio.login(usuario, contraseña);
 
+                    //Fracciono perfil para quedarme solo con el nombre y usarlo en el cartel de bienvenida
+                    string[] partes = perfil.Split(' ');
+                    string nombre = partes[partes.Length - 1];
+
+                    if (perfil.StartsWith("Administrador"))
+                    {
+                        validacionUntil.MensajeBienvenida(nombre);
+                        FrmMenuAdmin admin = new FrmMenuAdmin();
+                        admin.Show();
+                        this.Hide();
+                    }
+                    else if (perfil.StartsWith("Supervisor"))
+                    {
+                        validacionUntil.MensajeBienvenida(nombre);
+                        FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
+                        supervisor.Show();
+                    }
+                    else if (perfil.StartsWith("Vendedor"))
+                    {
+                        validacionUntil.MensajeBienvenida(nombre);
+                        FrmMenuVendedor vendedor = new FrmMenuVendedor();
+                        vendedor.Show();
+                        this.Hide();
+                    }
+                    else if (perfil == "Error")
+                    {
+                        intentos++; // Aumentar el contador de intentos fallidos
+
+                        if (intentos == 3)
+                        {
+                            usuarioBloqueado = true; // Marcar al usuario como bloqueado
+                            MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Contraseña y/o usuario incorrecto. Vuelta a intentarlo.");
+                        }
+                    }
+                    else if (perfil == "Cuenta bloqueada por intentos fallidos")
+                    {
+                        MessageBox.Show("El usuario " + usuario + " pasa a estado INACTIVO.\nContacte con el Administrador.");
+                    }
+                    else if (perfil == "Usuario no activo")
+                    {
+                        MessageBox.Show("El usuario está inactivo. Contacte con el administrador.");
+                    }
                 }
-                else if (perfil == "Supervisor")
+                catch (Exception ex)
                 {
-                    FrmMenuSupervisor menusup = new FrmMenuSupervisor();
-                    menusup.Show();
+                    // Captura de cualquier excepción lanzada desde la capa de negocio
+                    MessageBox.Show($"Error: {ex.Message}");
                 }
-                else if (perfil == "Vendedor")
-                {
-                    FrmMenuVendedor menuvend = new FrmMenuVendedor();
-                    menuvend.Show();
-                }
-
-
-                this.Hide(); // una vez que se efectua el Login, cierre el formulario de Login.
             }
-
-            //Usuarios inactivos guardar en memoria FileInfo
-
-
-
-            
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+            //Hola esto es una prueba
+        }
+
+        private void chkMostrarContraseña_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkMostrarContraseña.CheckState == CheckState.Checked)
+            {
+                txtContraseña.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtContraseña.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
         {
 
         }
