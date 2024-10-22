@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Datos;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,28 +24,20 @@ namespace Persistencia
             _httpClient = new HttpClient();
         }
 
-        public async Task<bool> CambiarContraseñaAsync(string nombreUsuario, string contraseña, string contraseñaNueva)
+        public bool CambioPassword(string nombreuser, string contraseña, string nuevacontraseña)
         {
-            var url = "https://cai-tp.azurewebsites.net/api/Usuario/CambiarContraseña";
+            string jsonrequest = $"{{\"nombreUsuario\":\"{nombreuser}\",\"contraseña\":\"{contraseña}\",\"contraseñaNueva\":\"{nuevacontraseña}\"}}";
+            HttpResponseMessage response = WebHelper.Patch("Usuario/CambiarContraseña", jsonrequest);
 
-            // Crear el objeto con los datos del cambio de contraseña
-            var requestData = new
+            if (!response.IsSuccessStatusCode)
             {
-                nombreUsuario = nombreUsuario,
-                contraseña = contraseña,
-                contraseñaNueva = contraseñaNueva
-            };
+                Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                return false;
+            }
 
-            // Convertir el objeto a JSON
-            var json = JsonConvert.SerializeObject(requestData);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            // Realizar la llamada POST
-            var response = await _httpClient.PostAsync(url, content);
-
-            // Verificar si la respuesta fue exitosa
-            return response.IsSuccessStatusCode;
+            return true;
         }
+           
     }
 
 }

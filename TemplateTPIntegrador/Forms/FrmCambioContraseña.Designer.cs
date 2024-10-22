@@ -28,22 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtContraseñaActual = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtContraseñaNueva = new System.Windows.Forms.TextBox();
+            this.txtModificarContraseña = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtContraseñaActual
             // 
-            this.textBox1.Location = new System.Drawing.Point(184, 83);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 26);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtContraseñaActual.Location = new System.Drawing.Point(184, 83);
+            this.txtContraseñaActual.Name = "txtContraseñaActual";
+            this.txtContraseñaActual.Size = new System.Drawing.Size(157, 26);
+            this.txtContraseñaActual.TabIndex = 0;
             // 
             // label1
             // 
@@ -63,21 +62,22 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Nueva Contraseña:";
             // 
-            // textBox2
+            // txtContraseñaNueva
             // 
-            this.textBox2.Location = new System.Drawing.Point(184, 139);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 26);
-            this.textBox2.TabIndex = 3;
+            this.txtContraseñaNueva.Location = new System.Drawing.Point(184, 139);
+            this.txtContraseñaNueva.Name = "txtContraseñaNueva";
+            this.txtContraseñaNueva.Size = new System.Drawing.Size(157, 26);
+            this.txtContraseñaNueva.TabIndex = 3;
             // 
-            // button1
+            // txtModificarContraseña
             // 
-            this.button1.Location = new System.Drawing.Point(123, 199);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 33);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtModificarContraseña.Location = new System.Drawing.Point(123, 199);
+            this.txtModificarContraseña.Name = "txtModificarContraseña";
+            this.txtModificarContraseña.Size = new System.Drawing.Size(141, 33);
+            this.txtModificarContraseña.TabIndex = 4;
+            this.txtModificarContraseña.Text = "Modificar";
+            this.txtModificarContraseña.UseVisualStyleBackColor = true;
+            this.txtModificarContraseña.Click += new System.EventHandler(this.txtModificarContraseña_Click);
             // 
             // label3
             // 
@@ -94,7 +94,6 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(157, 26);
             this.txtUsuario.TabIndex = 6;
-            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // FrmCambioContraseña
             // 
@@ -103,11 +102,11 @@
             this.ClientSize = new System.Drawing.Size(414, 255);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtModificarContraseña);
+            this.Controls.Add(this.txtContraseñaNueva);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtContraseñaActual);
             this.Name = "FrmCambioContraseña";
             this.Text = "FrmCambioContraseña";
             this.Load += new System.EventHandler(this.FrmCambioContraseña_Load);
@@ -118,11 +117,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtContraseñaActual;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtContraseñaNueva;
+        private System.Windows.Forms.Button txtModificarContraseña;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUsuario;
     }

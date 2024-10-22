@@ -44,8 +44,7 @@ namespace TemplateTPIntegrador
                 {
                     // Crear instancia de la clase de negocio
                     LoginNegocio negocio = new LoginNegocio();
-                    string perfil = "Administrador Tomas"; //negocio.login(usuario, contraseña);
-                    //Fix temporal hasta que el profe arregle el idadmin
+                    string perfil = negocio.login(usuario, contraseña);
 
                     //Fracciono perfil para quedarme solo con el nombre y usarlo en el cartel de bienvenida
                     string[] partes = perfil.Split(' ');
@@ -120,6 +119,11 @@ namespace TemplateTPIntegrador
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
         {
 
         }
