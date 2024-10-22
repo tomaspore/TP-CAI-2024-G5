@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace TemplateTPIntegrador
 {
@@ -11,11 +12,11 @@ namespace TemplateTPIntegrador
 
         public bool ValidarVacio(string texto1, string texto2)
         {
-            int intentos;
+       
 
             if (string.IsNullOrEmpty(texto1) && string.IsNullOrEmpty(texto2))
             {
-
+               
                 return true;
 
             }
@@ -31,6 +32,10 @@ namespace TemplateTPIntegrador
             }
         }
 
+        public void MensajeBienvenida(string nombreusuario)
+        {
+            MessageBox.Show("Bienvenido! " + nombreusuario);
+        }
 
         public bool ValidarVacioRegistroUsuario(string texto1, string texto2, string texto3, string texto4, string texto5, string texto6, string texto7, string texto8, string texto9)
         {
