@@ -69,6 +69,35 @@ namespace TemplateTPIntegrador.Forms
                 // Manejar cualquier excepción que pueda ocurrir
                 MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+        }
+
+        private void chkMostrarContraseñaActual_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkMostrarContraseñaActual.CheckState == CheckState.Checked)
+            {
+                txtContraseñaActual.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                txtContraseñaActual.UseSystemPasswordChar = false;
+            }
+        }
+        private void chkMostrarContraseñaNueva_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkMostrarContraseñaNueva.CheckState == CheckState.Checked)
+            {
+                txtContraseñaNueva.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                txtContraseñaNueva.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
