@@ -42,7 +42,7 @@
             // txtContraseñaActual
             // 
             this.txtContraseñaActual.Location = new System.Drawing.Point(123, 54);
-            this.txtContraseñaActual.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContraseñaActual.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseñaActual.Name = "txtContraseñaActual";
             this.txtContraseñaActual.Size = new System.Drawing.Size(106, 20);
             this.txtContraseñaActual.TabIndex = 0;
@@ -71,7 +71,7 @@
             // txtContraseñaNueva
             // 
             this.txtContraseñaNueva.Location = new System.Drawing.Point(123, 106);
-            this.txtContraseñaNueva.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContraseñaNueva.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseñaNueva.Name = "txtContraseñaNueva";
             this.txtContraseñaNueva.Size = new System.Drawing.Size(106, 20);
             this.txtContraseñaNueva.TabIndex = 3;
@@ -80,7 +80,7 @@
             // txtModificarContraseña
             // 
             this.txtModificarContraseña.Location = new System.Drawing.Point(87, 164);
-            this.txtModificarContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtModificarContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtModificarContraseña.Name = "txtModificarContraseña";
             this.txtModificarContraseña.Size = new System.Drawing.Size(94, 21);
             this.txtModificarContraseña.TabIndex = 4;
@@ -91,7 +91,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(123, 25);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(106, 20);
             this.txtUsuario.TabIndex = 6;
@@ -107,6 +107,8 @@
             this.chkMostrarContraseñaNueva.Text = "Mostrar Contraseña Nueva";
             this.chkMostrarContraseñaNueva.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMostrarContraseñaNueva.UseVisualStyleBackColor = true;
+            this.chkMostrarContraseñaNueva.CheckedChanged += new System.EventHandler(this.ChkMostrarContraseñaNueva_CheckedChanged);
+            this.chkMostrarContraseñaNueva.Click += new System.EventHandler(this.ChkMostrarContraseñaNueva_CheckedChanged);
             // 
             // chkMostrarContraseñaActual
             // 
@@ -119,7 +121,8 @@
             this.chkMostrarContraseñaActual.Text = "Mostrar Contraseña Actual";
             this.chkMostrarContraseñaActual.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMostrarContraseñaActual.UseVisualStyleBackColor = true;
-            this.chkMostrarContraseñaActual.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.chkMostrarContraseñaActual.CheckedChanged += new System.EventHandler(this.ChkMostrarContraseñaActual_CheckedChanged);
+            this.chkMostrarContraseñaActual.Click += new System.EventHandler(this.ChkMostrarContraseñaActual_CheckedChanged);
             // 
             // label3
             // 
@@ -145,7 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtContraseñaActual);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmCambioContraseña";
             this.Text = "FrmCambioContraseña";
             this.Load += new System.EventHandler(this.FrmCambioContraseña_Load);
