@@ -136,3 +136,5 @@ C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug
 C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presenta.BC77CD05.Up2Date
 C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
 C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmCambioContraseña.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmacionCerrarSesion.resources

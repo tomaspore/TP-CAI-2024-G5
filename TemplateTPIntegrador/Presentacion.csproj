@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FormMenuAdmin.cs" />
     <Compile Include="Forms\FrmCambioContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
