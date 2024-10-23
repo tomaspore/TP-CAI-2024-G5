@@ -16,7 +16,10 @@ namespace TemplateTPIntegrador.Forms
         public FrmCambioContraseña()
         {
             InitializeComponent();
-            UsuarioService _usuarioService = new UsuarioService(); 
+            UsuarioService _usuarioService = new UsuarioService();
+            // Asegurarse de que las contraseñas estén ocultas al iniciar el formulario
+            txtContraseñaActual.UseSystemPasswordChar = true;
+            txtContraseñaNueva.UseSystemPasswordChar = true;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -72,32 +75,27 @@ namespace TemplateTPIntegrador.Forms
 
         }
 
-        private void chkMostrarContraseñaActual_CheckedChanged(object sender, EventArgs e)
+        private void ChkMostrarContraseñaActual_CheckedChanged(object sender, EventArgs e)
         {
             if (chkMostrarContraseñaActual.CheckState == CheckState.Checked)
             {
-                txtContraseñaActual.UseSystemPasswordChar = true;
+                txtContraseñaActual.UseSystemPasswordChar = false;
             }
             else
             {
-                txtContraseñaActual.UseSystemPasswordChar = false;
+                txtContraseñaActual.UseSystemPasswordChar = true;
             }
         }
-        private void chkMostrarContraseñaNueva_CheckedChanged(object sender, EventArgs e)
+        private void ChkMostrarContraseñaNueva_CheckedChanged(object sender, EventArgs e)
         {
             if (chkMostrarContraseñaNueva.CheckState == CheckState.Checked)
             {
-                txtContraseñaNueva.UseSystemPasswordChar = true;
+                txtContraseñaNueva.UseSystemPasswordChar = false;
             }
             else
             {
-                txtContraseñaNueva.UseSystemPasswordChar = false;
+                txtContraseñaNueva.UseSystemPasswordChar = true;
             }
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
