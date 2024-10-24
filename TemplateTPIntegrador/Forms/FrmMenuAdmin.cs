@@ -69,15 +69,5 @@ namespace TemplateTPIntegrador
             confirmacion.ShowDialog(); // Mostrar el formulario de confirmación de manera modal
 
         }
-
-        private void btnAltaProducto_Click(object sender, EventArgs e)
-        {
-            FrmAgregarProducto altaproducto = new FrmAgregarProducto();
-
-            altaproducto.Show();
-            this.Hide();
-
-
-        }
     }
 }

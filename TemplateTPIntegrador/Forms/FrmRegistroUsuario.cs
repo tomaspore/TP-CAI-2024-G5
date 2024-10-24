@@ -68,7 +68,7 @@ namespace TemplateTPIntegrador.Forms
             }
 
             // Validar campos vacíos
-            Tools validacionUntilRegistro = new Tools();
+            ValidacionesUtils validacionUntilRegistro = new ValidacionesUtils();
             if (validacionUntilRegistro.ValidarVacioRegistroUsuario(nombre, apellido, direccion, telefono, email, usuario, dni, contraseña, host))
             {
                 MessageBox.Show("Le está faltando ingresar datos.");
