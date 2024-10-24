@@ -30,7 +30,7 @@ namespace TemplateTPIntegrador
                 return;
             }
 
-            ValidacionesUtils validacionUntil = new ValidacionesUtils();
+            Tools validacionUntil = new Tools();
             string usuario = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
 
