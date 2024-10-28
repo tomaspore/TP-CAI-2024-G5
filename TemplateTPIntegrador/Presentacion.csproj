@@ -77,6 +77,12 @@
     <Compile Include="Forms\FrmMenuVendedor.Designer.cs">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmModificarUsuario.Designer.cs">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmRegistroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     <EmbeddedResource Include="Forms\FrmMenuVendedor.resx">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmModificarUsuario.resx">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistroUsuario.resx">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +139,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -153,6 +163,18 @@
       <Project>{c45177fe-6854-49e9-aa70-13fd2cde1f69}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vibrant-purple-watercolor-painting-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Electrohogar logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarx2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarok.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
