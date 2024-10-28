@@ -73,6 +73,26 @@ namespace TemplateTPIntegrador.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap eletrohogarok {
+            get {
+                object obj = ResourceManager.GetObject("eletrohogarok", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap eletrohogarx2 {
+            get {
+                object obj = ResourceManager.GetObject("eletrohogarx2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vibrant_purple_watercolor_painting_background {
             get {
                 object obj = ResourceManager.GetObject("vibrant-purple-watercolor-painting-background", resourceCulture);

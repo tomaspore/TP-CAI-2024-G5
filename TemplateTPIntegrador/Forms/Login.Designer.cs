@@ -41,31 +41,35 @@
             // 
             // btnAcceder
             // 
-            this.btnAcceder.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcceder.Location = new System.Drawing.Point(270, 334);
+            this.btnAcceder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.btnAcceder.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAcceder.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAcceder.Location = new System.Drawing.Point(305, 315);
             this.btnAcceder.Margin = new System.Windows.Forms.Padding(2);
             this.btnAcceder.Name = "btnAcceder";
-            this.btnAcceder.Size = new System.Drawing.Size(85, 29);
+            this.btnAcceder.Size = new System.Drawing.Size(119, 38);
             this.btnAcceder.TabIndex = 0;
             this.btnAcceder.Text = "Acceder";
-            this.btnAcceder.UseVisualStyleBackColor = true;
+            this.btnAcceder.UseVisualStyleBackColor = false;
             this.btnAcceder.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(283, 251);
+            this.txtContraseña.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Location = new System.Drawing.Point(305, 231);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(128, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(239, 27);
             this.txtContraseña.TabIndex = 2;
             this.txtContraseña.UseSystemPasswordChar = true;
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(283, 214);
+            this.txtUsuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(305, 151);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(128, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(239, 27);
             this.txtUsuario.TabIndex = 3;
             // 
             // label1
@@ -73,7 +77,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(38, 19);
+            this.label1.Location = new System.Drawing.Point(301, 32);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(233, 20);
@@ -86,11 +90,11 @@
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsuario.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(175, 213);
+            this.lblUsuario.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(302, 131);
             this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(70, 19);
+            this.lblUsuario.Size = new System.Drawing.Size(61, 18);
             this.lblUsuario.TabIndex = 5;
             this.lblUsuario.Text = "Usuario:";
             // 
@@ -98,11 +102,11 @@
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.BackColor = System.Drawing.Color.Transparent;
-            this.lblContraseña.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(175, 252);
+            this.lblContraseña.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseña.Location = new System.Drawing.Point(302, 211);
             this.lblContraseña.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(97, 19);
+            this.lblContraseña.Size = new System.Drawing.Size(87, 18);
             this.lblContraseña.TabIndex = 6;
             this.lblContraseña.Text = "Contraseña:";
             // 
@@ -110,12 +114,12 @@
             // 
             this.chkMostrarContraseña.AutoSize = true;
             this.chkMostrarContraseña.BackColor = System.Drawing.Color.Transparent;
-            this.chkMostrarContraseña.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkMostrarContraseña.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkMostrarContraseña.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.chkMostrarContraseña.Location = new System.Drawing.Point(256, 279);
+            this.chkMostrarContraseña.Location = new System.Drawing.Point(305, 270);
             this.chkMostrarContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.chkMostrarContraseña.Name = "chkMostrarContraseña";
-            this.chkMostrarContraseña.Size = new System.Drawing.Size(168, 23);
+            this.chkMostrarContraseña.Size = new System.Drawing.Size(139, 20);
             this.chkMostrarContraseña.TabIndex = 7;
             this.chkMostrarContraseña.Text = "Mostrar Contraseña";
             this.chkMostrarContraseña.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -124,19 +128,17 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources.Electrohogar_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(616, 185);
+            this.pictureBox1.Size = new System.Drawing.Size(257, 392);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources.vibrant_purple_watercolor_painting_background;
             this.ClientSize = new System.Drawing.Size(610, 393);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.chkMostrarContraseña);
