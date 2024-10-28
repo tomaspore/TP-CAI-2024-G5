@@ -69,7 +69,6 @@
             this.btnModificacionUsuario.TabIndex = 1;
             this.btnModificacionUsuario.Text = "Modificar Usuario";
             this.btnModificacionUsuario.UseVisualStyleBackColor = true;
-            this.btnModificacionUsuario.Click += new System.EventHandler(this.btnModificacionUsuario_Click);
             // 
             // btnBajaUsuario
             // 
@@ -89,7 +88,6 @@
             this.btnAltaProducto.TabIndex = 3;
             this.btnAltaProducto.Text = "Alta de Productos";
             this.btnAltaProducto.UseVisualStyleBackColor = true;
-            this.btnAltaProducto.Click += new System.EventHandler(this.btnAltaProducto_Click);
             // 
             // btnModificacionProductos
             // 
@@ -184,9 +182,9 @@
             this.groupBox5.Controls.Add(this.button3);
             this.groupBox5.Controls.Add(this.button4);
             this.groupBox5.Location = new System.Drawing.Point(16, 199);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox5.Size = new System.Drawing.Size(181, 149);
             this.groupBox5.TabIndex = 18;
             this.groupBox5.TabStop = false;

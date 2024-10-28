@@ -11,17 +11,20 @@ namespace Persistencia
     {
         private string filePath;
 
+       
         public DBHelper(String dataBaseName)
         {
             string solutionDirectory = AppDomain.CurrentDomain.BaseDirectory;
             filePath = Path.Combine(solutionDirectory, dataBaseName + ".txt");
 
+            
             if (!File.Exists(filePath))
             {
                 File.Create(filePath).Close();
             }
         }
 
+        
         public void Insertar(string key, string value)
         {
             using (StreamWriter writer = new StreamWriter(filePath, true))
@@ -30,11 +33,13 @@ namespace Persistencia
             }
         }
 
+       
         public void Modificar(string key, string newValue)
         {
             List<string> lines = File.ReadAllLines(filePath).ToList();
             bool modified = false;
 
+            
             for (int i = 0; i < lines.Count; i++)
             {
                 string[] keyValue = lines[i].Split('|');
@@ -52,6 +57,18 @@ namespace Persistencia
             }
         }
 
+        
+        public void Borrar(string key)
+        {
+            List<string> lines = File.ReadAllLines(filePath).ToList();
+
+           
+            lines = lines.Where(line => line.Split('|')[0] != key).ToList();
+
+            File.WriteAllLines(filePath, lines);
+        }
+
+        
         public string Buscar(string key)
         {
             string[] lines = File.ReadAllLines(filePath);
@@ -65,9 +82,10 @@ namespace Persistencia
                 }
             }
 
-            return null;
+            return null; 
         }
 
+        
         public List<string> Listar()
         {
             return File.ReadAllLines(filePath).ToList();
