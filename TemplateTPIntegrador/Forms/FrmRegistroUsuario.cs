@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,54 +38,40 @@ namespace TemplateTPIntegrador.Forms
             cmbHost.Items.Add("Vendedor (1)");
         }
 
-        private void btnRegistrarUsuario_Click(object sender, EventArgs e)
+        private async void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
-            // Obtiene los valores de los campos del formulario
-            string nombre = txtNombre.Text;
-            string apellido = txtApellido.Text;
-            string direccion = txtDireccion.Text;
-            string telefono = txtTelefono.Text;
-            string email = txtEmail.Text;
-            string usuario = txtUsuario.Text;
-            string dni = txtDNI.Text;
-            string contraseña = txtContraseña.Text;
-            string host = cmbHost.SelectedItem?.ToString();
-
-            // Validaciones de negocio
-            ValidacionesNegocio validacionesRegistro = new ValidacionesNegocio();
-            string error;
-
-            // Validaciones de nombre de usuario y contraseña
-            if (!validacionesRegistro.ValidarNombreRegistroUsuario(usuario, nombre, apellido, out error))
+            try
             {
-                MessageBox.Show(error);
-                return;
-            }
+                UsuarioService usuarioService = new UsuarioService();
 
-            if (!validacionesRegistro.ValidacionContraseña(contraseña, out error))
+                bool registrado = await usuarioService.RegistrarUsuario(
+                    Guid.NewGuid(),
+                    txtNombre.Text,
+                    txtApellido.Text,
+                    int.Parse(txtDNI.Text),
+                    txtUsuario.Text,
+                    cmbHost.SelectedIndex + 1,
+                    txtDireccion.Text,
+                    txtTelefono.Text,
+                    txtEmail.Text,
+                    dtpFechaNacimiento.Value,
+                    dtpFechaAlta.Value,
+                    txtContraseña.Text
+                );
+
+                if (registrado)
+                {
+                    MessageBox.Show("Usuario registrado exitosamente en el sistema.");
+                }
+                else
+                {
+                    MessageBox.Show("Error al registrar el usuario. Intente nuevamente.");
+                }
+            }
+            catch (Exception ex)
             {
-                MessageBox.Show(error);
-                return;
+                MessageBox.Show("Ocurrió un error: " + ex.Message);
             }
-
-            // Validar campos vacíos
-            ValidacionesUtils validacionUntilRegistro = new ValidacionesUtils();
-            if (validacionUntilRegistro.ValidarVacioRegistroUsuario(nombre, apellido, direccion, telefono, email, usuario, dni, contraseña, host))
-            {
-                MessageBox.Show("Le está faltando ingresar datos.");
-                return;
-            }
-
-            // Si las validaciones son exitosas, registrar al usuario
-            MessageBox.Show("Usuario se ha registrado con éxito.");
-
-            // Incrementar el ID después del registro exitoso
-            UserId++;
-
-            // Volver al formulario de FrmMenuAdmin
-            FrmMenuAdmin menuadmin = new FrmMenuAdmin();
-            menuadmin.Show();
-            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -93,6 +80,71 @@ namespace TemplateTPIntegrador.Forms
             this.Close();  // Cierra el formulario actual (Registrar Usuario)
             FrmMenuAdmin menu = new FrmMenuAdmin(); // Crea una instancia del menú administrador
             menu.Show();  // Muestra el formulario del menú administrador
+        }
+
+        private void txtIdUsuario_TextChanged(object sender, EventArgs e)
+        {
+            //ID USUARIO
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //fecha nacimiento
+        }
+
+        private void FrmRegistroUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblEmail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblContraseña_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtContraseña_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDNI_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDNI_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -78,5 +78,12 @@ namespace TemplateTPIntegrador
             this.Hide();
 
         }
+
+        private void btnModificacionUsuario_Click(object sender, EventArgs e)
+        {
+            FrmModificarUsuario modificarUsuarioForm = new FrmModificarUsuario();
+            modificarUsuarioForm.Show();
+            this.Hide();
+        }
     }
 }
