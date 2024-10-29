@@ -84,7 +84,7 @@
             // txtNombreProducto
             // 
             this.txtNombreProducto.Location = new System.Drawing.Point(95, 34);
-            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreProducto.Name = "txtNombreProducto";
             this.txtNombreProducto.Size = new System.Drawing.Size(82, 20);
             this.txtNombreProducto.TabIndex = 4;
@@ -92,7 +92,7 @@
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(95, 98);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(82, 20);
             this.txtPrecio.TabIndex = 5;
@@ -100,7 +100,7 @@
             // txtStock
             // 
             this.txtStock.Location = new System.Drawing.Point(95, 129);
-            this.txtStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStock.Margin = new System.Windows.Forms.Padding(2);
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(82, 20);
             this.txtStock.TabIndex = 6;
@@ -109,7 +109,7 @@
             // 
             this.cmbCategoria.FormattingEnabled = true;
             this.cmbCategoria.Location = new System.Drawing.Point(95, 64);
-            this.cmbCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(82, 21);
             this.cmbCategoria.TabIndex = 7;
@@ -128,15 +128,16 @@
             // 
             this.lstProveedores.FormattingEnabled = true;
             this.lstProveedores.Location = new System.Drawing.Point(219, 49);
-            this.lstProveedores.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstProveedores.Margin = new System.Windows.Forms.Padding(2);
             this.lstProveedores.Name = "lstProveedores";
             this.lstProveedores.Size = new System.Drawing.Size(137, 108);
             this.lstProveedores.TabIndex = 9;
+            this.lstProveedores.SelectedIndexChanged += new System.EventHandler(this.lstProveedores_SelectedIndexChanged);
             // 
             // btnAgregarProducto
             // 
             this.btnAgregarProducto.Location = new System.Drawing.Point(155, 170);
-            this.btnAgregarProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregarProducto.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregarProducto.Name = "btnAgregarProducto";
             this.btnAgregarProducto.Size = new System.Drawing.Size(73, 27);
             this.btnAgregarProducto.TabIndex = 10;
@@ -160,7 +161,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmAgregarProducto";
             this.Text = "AgregarProducto";
             this.ResumeLayout(false);

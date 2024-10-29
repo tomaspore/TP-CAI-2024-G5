@@ -1,4 +1,5 @@
 ﻿using Negocio.Utils;
+using Persistencia;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +14,13 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmAgregarProducto : Form
     {
+        private readonly TraerProveedor _traerProveedor;
+
         public FrmAgregarProducto()
         {
             InitializeComponent();
+            _traerProveedor = new TraerProveedor();
+
             cmbCategoria.Items.Add("Audio");
 
             cmbCategoria.Items.Add("Celulares");
@@ -25,6 +30,23 @@ namespace TemplateTPIntegrador.Forms
             cmbCategoria.Items.Add("Informática");
 
             cmbCategoria.Items.Add("Smart TV");
+
+            // Mover la llamada al método CargarProveedores aquí
+            CargarProveedores(); // Llama al método para cargar proveedores al iniciar el formulario
+        }
+
+        private async void CargarProveedores()
+        {
+            try
+            {
+                var proveedores = await _traerProveedor.ObtenerProveedoresAsync();
+                lstProveedores.DataSource = proveedores;
+                lstProveedores.DisplayMember = "Nombre"; // Ajusta según la propiedad que quieras mostrar
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error al cargar los proveedores: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
@@ -116,5 +138,9 @@ namespace TemplateTPIntegrador.Forms
 
         }
 
+        private void lstProveedores_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

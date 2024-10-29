@@ -47,6 +47,7 @@
     <Compile Include="LoginData\LoginDB.cs" />
     <Compile Include="ModificacionWS.cs" />
     <Compile Include="Productos\Producto.cs" />
+    <Compile Include="Proveedores\Proveedores.cs" />
     <Compile Include="UsuariosData\UsuarioWS.cs" />
     <Compile Include="Utils\DBHelper.cs" />
     <Compile Include="LoginData\LoginWS.cs" />
