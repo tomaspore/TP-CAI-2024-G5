@@ -33,16 +33,21 @@
             this.btnRepProdMasVendidoXCategoria = new System.Windows.Forms.Button();
             this.btnReporteVentasXVendedor = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.btnModificarContraseña = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnAltaProducto = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnModificacionProductos = new System.Windows.Forms.Button();
+            this.btnBajaProductos = new System.Windows.Forms.Button();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnDevolucionVenta
@@ -95,6 +100,16 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Opciones Personales";
             this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(16, 73);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(153, 25);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "Cerrar Sesión";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnModificarContraseña
             // 
@@ -151,16 +166,6 @@
             this.button3.Text = "Baja de Productos";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(16, 73);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(153, 25);
-            this.button5.TabIndex = 17;
-            this.button5.Text = "Cerrar Sesión";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnReporteVentasXVendedor);
@@ -168,17 +173,60 @@
             this.groupBox1.Controls.Add(this.btnReporteStockCritico);
             this.groupBox1.Location = new System.Drawing.Point(228, 36);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(179, 317);
+            this.groupBox1.Size = new System.Drawing.Size(179, 151);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reportes";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // btnAltaProducto
+            // 
+            this.btnAltaProducto.Location = new System.Drawing.Point(16, 33);
+            this.btnAltaProducto.Name = "btnAltaProducto";
+            this.btnAltaProducto.Size = new System.Drawing.Size(141, 23);
+            this.btnAltaProducto.TabIndex = 3;
+            this.btnAltaProducto.Text = "Alta de Productos";
+            this.btnAltaProducto.UseVisualStyleBackColor = true;
+            this.btnAltaProducto.Click += new System.EventHandler(this.btnAltaProducto_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btnAltaProducto);
+            this.groupBox3.Controls.Add(this.btnModificacionProductos);
+            this.groupBox3.Controls.Add(this.btnBajaProductos);
+            this.groupBox3.Location = new System.Drawing.Point(230, 203);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Size = new System.Drawing.Size(177, 149);
+            this.groupBox3.TabIndex = 18;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Control de Inventario";
+            // 
+            // btnModificacionProductos
+            // 
+            this.btnModificacionProductos.Location = new System.Drawing.Point(16, 76);
+            this.btnModificacionProductos.Name = "btnModificacionProductos";
+            this.btnModificacionProductos.Size = new System.Drawing.Size(141, 23);
+            this.btnModificacionProductos.TabIndex = 4;
+            this.btnModificacionProductos.Text = "Modificacion de Productos";
+            this.btnModificacionProductos.UseVisualStyleBackColor = true;
+            // 
+            // btnBajaProductos
+            // 
+            this.btnBajaProductos.Location = new System.Drawing.Point(16, 119);
+            this.btnBajaProductos.Name = "btnBajaProductos";
+            this.btnBajaProductos.Size = new System.Drawing.Size(141, 23);
+            this.btnBajaProductos.TabIndex = 5;
+            this.btnBajaProductos.Text = "Baja de Productos";
+            this.btnBajaProductos.UseVisualStyleBackColor = true;
             // 
             // FrmMenuSupervisor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 363);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox4);
@@ -187,6 +235,7 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -204,5 +253,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnAltaProducto;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btnModificacionProductos;
+        private System.Windows.Forms.Button btnBajaProductos;
     }
 }

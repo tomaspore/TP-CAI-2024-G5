@@ -37,11 +37,6 @@ namespace TemplateTPIntegrador.Forms
 
         }
 
-        private void btnAltaProducto_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -82,6 +77,14 @@ namespace TemplateTPIntegrador.Forms
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAltaProducto_Click(object sender, EventArgs e)
+        {
+            FrmAgregarProducto altaproducto = new FrmAgregarProducto();
+
+            altaproducto.Show();
+            this.Hide();
         }
     }
 }
