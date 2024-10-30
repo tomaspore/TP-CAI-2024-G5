@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FrmAgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAgregarProducto.Designer.cs">
+      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMenuAdmin.cs" />
     <Compile Include="Forms\FrmCambioContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +77,12 @@
     <Compile Include="Forms\FrmMenuVendedor.Designer.cs">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmModificarUsuario.Designer.cs">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmRegistroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +104,9 @@
     <Compile Include="Utils\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\ValidacionesUtils.cs" />
+    <EmbeddedResource Include="Forms\FrmAgregarProducto.resx">
+      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmCambioContraseña.resx">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +122,9 @@
     <EmbeddedResource Include="Forms\FrmMenuVendedor.resx">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmModificarUsuario.resx">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistroUsuario.resx">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +139,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -143,6 +163,22 @@
       <Project>{c45177fe-6854-49e9-aa70-13fd2cde1f69}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Persistencia\Persistencia.csproj">
+      <Project>{d70d39da-312d-45da-a378-fd222ec9672f}</Project>
+      <Name>Persistencia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vibrant-purple-watercolor-painting-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Electrohogar logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarx2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarok.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
