@@ -39,6 +39,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lstProveedores = new System.Windows.Forms.ListBox();
             this.btnAgregarProducto = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -145,11 +146,22 @@
             this.btnAgregarProducto.UseVisualStyleBackColor = true;
             this.btnAgregarProducto.Click += new System.EventHandler(this.btnAltaProducto_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(145, 213);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Volver al Menú";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmAgregarProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(395, 205);
+            this.ClientSize = new System.Drawing.Size(395, 248);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAgregarProducto);
             this.Controls.Add(this.lstProveedores);
             this.Controls.Add(this.label5);
@@ -182,5 +194,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox lstProveedores;
         private System.Windows.Forms.Button btnAgregarProducto;
+        private System.Windows.Forms.Button button1;
     }
 }
