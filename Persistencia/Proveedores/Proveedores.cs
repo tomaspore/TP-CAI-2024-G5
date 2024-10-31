@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Persistencia
 {
     public class Proveedores
-        //Esto es un commit de prueba
+       
     {
         private static readonly HttpClient client = new HttpClient();
 
