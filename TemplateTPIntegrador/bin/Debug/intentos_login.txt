@@ -1,3 +1,4 @@
-tomaspore|0
+tomaspore|3
 toms123456|0
 Adminis05CW|3
+perfilvendedor|0

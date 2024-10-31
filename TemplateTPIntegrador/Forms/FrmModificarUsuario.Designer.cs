@@ -291,6 +291,8 @@
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.txtIdUsuario);
             this.Name = "FrmModificarUsuario";
+            this.Text = "Modificar Usuario";
+            this.Load += new System.EventHandler(this.FrmModificarUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

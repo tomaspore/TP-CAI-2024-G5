@@ -53,6 +53,12 @@
       <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormMenuAdmin.cs" />
+    <Compile Include="Forms\FrmBajaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmBajaUsuario.Designer.cs">
+      <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmCambioContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,11 +89,23 @@
     <Compile Include="Forms\FrmModificarUsuario.Designer.cs">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmRegistrarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRegistrarVenta.Designer.cs">
+      <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmRegistroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FrmRegistroUsuario.Designer.cs">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmReporteVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmReporteVentas.Designer.cs">
+      <DependentUpon>FrmReporteVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
@@ -107,6 +125,9 @@
     <EmbeddedResource Include="Forms\FrmAgregarProducto.resx">
       <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmBajaUsuario.resx">
+      <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmCambioContraseña.resx">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,8 +146,14 @@
     <EmbeddedResource Include="Forms\FrmModificarUsuario.resx">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegistrarVenta.resx">
+      <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistroUsuario.resx">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmReporteVentas.resx">
+      <DependentUpon>FrmReporteVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -179,6 +206,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eletrohogarok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vibrant-purple-watercolor-painting-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Electrohogar logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarx2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo electrohogar final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo electrohogar final1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo electrohogar final2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31-10-2024 18-31-58.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

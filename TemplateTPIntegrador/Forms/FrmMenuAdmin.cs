@@ -13,85 +13,69 @@ namespace TemplateTPIntegrador
 {
     public partial class FrmMenuAdmin : Form
     {
-
         public FrmMenuAdmin()
         {
             InitializeComponent();
-           
+        }
+
+        private void btnBajaUsuario_Click(object sender, EventArgs e)
+        {
+            FrmBajaUsuario frmBajaUsuario = new FrmBajaUsuario();
+            frmBajaUsuario.Show();
         }
 
         private void btnRegistroUsuario_Click(object sender, EventArgs e)
         {
-            FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
-
-            menuregistrousuario.Show();
-            this.Hide();
+            FrmRegistroUsuario frmRegistroUsuario = new FrmRegistroUsuario();
+            frmRegistroUsuario.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnModificacionUsuario_Click(object sender, EventArgs e)
         {
-            FrmLogin logindatos = new FrmLogin();
-            
-            FrmCambioContraseña cambiarpassword = new FrmCambioContraseña();
-
-            cambiarpassword.Show();
-            this.Hide();
-
-
+            // Lógica para abrir el formulario de modificación de usuario
         }
 
-        private void btnRegistroUsuario__Click(object sender, EventArgs e)
+        private void btnAltaProducto_Click(object sender, EventArgs e)
         {
-            FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
-
-            menuregistrousuario.Show();
-            this.Hide();
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            FrmLogin logindatos = new FrmLogin();
-
-            FrmCambioContraseña cambiarpassword = new FrmCambioContraseña();
-
-            cambiarpassword.Show();
-            this.Hide();
+            // Lógica para abrir el formulario de alta de productos
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
-            confirmacion.ShowDialog(); // Mostrar el formulario de confirmación de manera modal
-
+            if (confirmacion.ShowDialog() == DialogResult.Yes)
+            {
+                FrmLogin login = new FrmLogin();
+                login.Show();
+                this.Close(); // Cierra el formulario actual (por ejemplo, FrmMenuAdmin o FrmMenuSupervisor)
+            }
         }
 
-        private void btnAltaProducto_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            FrmAgregarProducto altaproducto = new FrmAgregarProducto();
-
-            altaproducto.Show();
-            this.Hide();
-
+            // Lógica para modificar la contraseña
         }
 
-        private void btnModificacionUsuario_Click(object sender, EventArgs e)
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
-            FrmModificarUsuario modificarUsuarioForm = new FrmModificarUsuario();
-            modificarUsuarioForm.Show();
-            this.Hide();
+            // Lógica adicional para manejar cuando el usuario entra en el `groupBox2`, si es necesaria
         }
 
-        private void btnRegistr0Usuario_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
 
-            menuregistrousuario.Show();
-            this.Hide();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+ 
     }
 }

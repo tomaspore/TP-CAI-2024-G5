@@ -24,15 +24,14 @@ namespace TemplateTPIntegrador.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmLogin login = new FrmLogin();
-            login.Show();
+            this.DialogResult = DialogResult.Yes; // Devuelve Yes al formulario principal
             this.Close(); // Cierra el formulario de confirmación
-            Application.OpenForms["FrmMenuSupervisor"].Close(); // Cierra el formulario de supervisor
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.No; // Devuelve No al formulario principal
             this.Close(); // Cierra el formulario de confirmación sin hacer nada
         }
     
