@@ -85,13 +85,5 @@ namespace TemplateTPIntegrador
             modificarUsuarioForm.Show();
             this.Hide();
         }
-
-        private void btnRegistr0Usuario_Click(object sender, EventArgs e)
-        {
-            FrmRegistroUsuario menuregistrousuario = new FrmRegistroUsuario();
-
-            menuregistrousuario.Show();
-            this.Hide();
-        }
     }
 }

@@ -180,5 +180,17 @@
   <ItemGroup>
     <None Include="Resources\eletrohogarok.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vibrant-purple-watercolor-painting-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Electrohogar logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarx2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eletrohogarok.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
