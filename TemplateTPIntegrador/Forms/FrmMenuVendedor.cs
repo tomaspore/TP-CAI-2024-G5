@@ -26,7 +26,9 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnReporteVentasXVendedor_Click(object sender, EventArgs e)
         {
-
+            FrmReporteVentas reporteVentas = new FrmReporteVentas();
+            reporteVentas.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -47,7 +49,26 @@ namespace TemplateTPIntegrador.Forms
         private void button3_Click(object sender, EventArgs e)
         {
             FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
-            confirmacion.ShowDialog(); // Mostrar el formulario de confirmación de manera modal
+            if (confirmacion.ShowDialog() == DialogResult.Yes)
+            {
+                FrmLogin login = new FrmLogin();
+                login.Show();
+                this.Close(); // Cierra el formulario actual (por ejemplo, FrmMenuAdmin o FrmMenuSupervisor)
+            }
+
+        }
+
+        private void btnRegistrarVenta_Click(object sender, EventArgs e)
+        {
+            
+                FrmRegistrarVenta registrarVenta = new FrmRegistrarVenta();
+                registrarVenta.Show();
+                this.Hide();
+            
+        }
+
+        private void FrmMenuVendedor_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -242,6 +242,7 @@
             this.button4.TabIndex = 42;
             this.button4.Text = "Volver al Menú";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // checkBox2
             // 
@@ -290,6 +291,8 @@
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.txtIdUsuario);
             this.Name = "FrmModificarUsuario";
+            this.Text = "Modificar Usuario";
+            this.Load += new System.EventHandler(this.FrmModificarUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -132,5 +132,11 @@ namespace TemplateTPIntegrador
         {
 
         }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            //label olvide mi contraseña
+            MessageBox.Show("Contacte al administrador para restablecer su contraseña.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

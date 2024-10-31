@@ -60,5 +60,6 @@ namespace Negocio
 
             return await nuevoUsuario.RegistrarUsuarioAsync();
         }
+
     }
 }

@@ -36,6 +36,7 @@
             this.lblContraseña = new System.Windows.Forms.Label();
             this.chkMostrarContraseña = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,11 +136,25 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(49, 368);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(158, 16);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "He olvidado mi contraseña";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 393);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.chkMostrarContraseña);
             this.Controls.Add(this.lblContraseña);
@@ -168,6 +183,7 @@
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.CheckBox chkMostrarContraseña;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

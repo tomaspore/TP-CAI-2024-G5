@@ -25,3 +25,9 @@ C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\De
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.dll
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Datos\bin\Debug\Datos.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Datos\bin\Debug\Datos.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.pdb
