@@ -60,13 +60,22 @@ namespace TemplateTPIntegrador
         {
             // Lógica adicional para manejar cuando el usuario entra en el `groupBox2`, si es necesaria
         }
-<<<<<<< Updated upstream
-=======
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
->>>>>>> Stashed changes
+ 
     }
 }

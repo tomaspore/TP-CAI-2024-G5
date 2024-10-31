@@ -32,9 +32,8 @@
             this.btnReporteStockCritico = new System.Windows.Forms.Button();
             this.btnRepProdMasVendidoXCategoria = new System.Windows.Forms.Button();
             this.btnReporteVentasXVendedor = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.btnModificarContraseña = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnAltaProducto = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -43,9 +42,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.greet_user = new System.Windows.Forms.Label();
-            this.groupBox4.SuspendLayout();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -90,41 +88,28 @@
             this.btnReporteVentasXVendedor.Text = "Ventas por vendedor";
             this.btnReporteVentasXVendedor.UseVisualStyleBackColor = true;
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.btnModificarContraseña);
-            this.groupBox4.Location = new System.Drawing.Point(356, 304);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(181, 110);
-            this.groupBox4.TabIndex = 15;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Opciones Personales";
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.button5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(28, 450);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(153, 37);
-            this.button5.TabIndex = 17;
-            this.button5.Text = "Cerrar Sesión";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // btnModificarContraseña
             // 
-            this.btnModificarContraseña.Location = new System.Drawing.Point(5, 43);
+            this.btnModificarContraseña.Location = new System.Drawing.Point(37, 374);
             this.btnModificarContraseña.Name = "btnModificarContraseña";
             this.btnModificarContraseña.Size = new System.Drawing.Size(153, 25);
             this.btnModificarContraseña.TabIndex = 10;
             this.btnModificarContraseña.Text = "Modificar Contraseña";
             this.btnModificarContraseña.UseVisualStyleBackColor = true;
             this.btnModificarContraseña.Click += new System.EventHandler(this.btnModificarContraseña_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.button5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button5.Location = new System.Drawing.Point(23, 313);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(180, 46);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "Cerrar Sesión";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox1
             // 
@@ -133,7 +118,7 @@
             this.groupBox1.Controls.Add(this.btnReporteStockCritico);
             this.groupBox1.Location = new System.Drawing.Point(455, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(179, 151);
+            this.groupBox1.Size = new System.Drawing.Size(179, 185);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reportes";
@@ -208,22 +193,14 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.panel2.Controls.Add(this.greet_user);
             this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.btnModificarContraseña);
+            this.panel2.Controls.Add(this.greet_user);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Location = new System.Drawing.Point(1, 41);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(222, 499);
+            this.panel2.Size = new System.Drawing.Size(222, 513);
             this.panel2.TabIndex = 20;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources.eletrohogarx2;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 68);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(225, 228);
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
             // 
             // greet_user
             // 
@@ -237,19 +214,26 @@
             this.greet_user.Text = "¡Bienvenido!";
             this.greet_user.Click += new System.EventHandler(this.greet_user_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources._31_10_2024_18_31_58;
+            this.pictureBox1.Location = new System.Drawing.Point(11, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(209, 198);
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmMenuSupervisor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(681, 550);
+            this.ClientSize = new System.Drawing.Size(684, 458);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox4);
             this.Name = "FrmMenuSupervisor";
             this.Text = "Menu Principal - Supervisor";
-            this.groupBox4.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -266,7 +250,6 @@
         private System.Windows.Forms.Button btnReporteStockCritico;
         private System.Windows.Forms.Button btnRepProdMasVendidoXCategoria;
         private System.Windows.Forms.Button btnReporteVentasXVendedor;
-        private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnModificarContraseña;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.GroupBox groupBox1;

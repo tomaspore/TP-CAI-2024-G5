@@ -219,5 +219,17 @@
   <ItemGroup>
     <None Include="Resources\eletrohogarok.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo electrohogar final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo electrohogar final1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo electrohogar final2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31-10-2024 18-31-58.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

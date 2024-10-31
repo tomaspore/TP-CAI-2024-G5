@@ -138,5 +138,22 @@ namespace TemplateTPIntegrador
             //label olvide mi contraseña
             MessageBox.Show("Contacte al administrador para restablecer su contraseña.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void logout_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            //boton SALIR
+            DialogResult result = MessageBox.Show("¿Seguro que quieres salir?", "Confirmar salida", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+
+        }
     }
 }
