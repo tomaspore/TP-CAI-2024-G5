@@ -21,5 +21,14 @@ namespace TemplateTPIntegrador.Forms
         {
             //registrar
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //VOLVER AL MENU DEL VENDEDOR
+            this.Close();  // Cierra el formulario actual (Registrar Usuario)
+            FrmMenuVendedor menu = new FrmMenuVendedor(); // Crea una instancia del menú Vendedor
+            menu.Show();  // Muestra el formulario del menú Vendedor
+
+        }
     }
 }
