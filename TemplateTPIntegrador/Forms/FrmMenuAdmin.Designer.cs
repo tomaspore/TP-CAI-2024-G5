@@ -142,6 +142,7 @@
             this.btnReporteStockCritico.TabIndex = 7;
             this.btnReporteStockCritico.Text = "Stock crítico";
             this.btnReporteStockCritico.UseVisualStyleBackColor = true;
+            this.btnReporteStockCritico.Click += new System.EventHandler(this.btnReporteStockCritico_Click);
             // 
             // groupBox1
             // 

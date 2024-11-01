@@ -76,6 +76,10 @@ namespace TemplateTPIntegrador
         {
 
         }
- 
+
+        private void btnReporteStockCritico_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

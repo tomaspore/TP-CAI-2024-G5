@@ -1,181 +1,18 @@
 {
   "Version": 1,
-<<<<<<< Updated upstream
-  "WorkspaceRootPath": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\proveedores\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\proveedores\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmagregarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\modificacionws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\modificacionws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\utils\\webhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\utils\\webhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\negocio\\utils\\traerproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\traerproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\negocio\\utils\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\datos\\productows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|solutionrelative:datos\\productows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\logindata\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\logindata\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\logindata\\loginws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\logindata\\loginws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\utils\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\utils\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\formmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
   "WorkspaceRootPath": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmenuvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenuvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmodificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmodificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmodificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmodificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrousuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrousuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\negocio\\utils\\traerproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\traerproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\negocio\\utils\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\proveedores\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\proveedores\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\modificacionws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\modificacionws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\utils\\webhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\utils\\webhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\datos\\productows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|solutionrelative:datos\\productows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\logindata\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\logindata\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenusupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\formmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> Stashed changes
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\formmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -185,20 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 11,
-=======
-          "SelectedChildIndex": 10,
->>>>>>> Stashed changes
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
@@ -213,9 +38,6 @@
             },
             {
               "$type": "Bookmark",
-<<<<<<< Updated upstream
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-=======
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
@@ -225,7 +47,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
->>>>>>> Stashed changes
             },
             {
               "$type": "Bookmark",
@@ -233,495 +54,39 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
-              "Title": "FrmAgregarProducto.Designer.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.Designer.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.Designer.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wLcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T01:26:44.031Z",
-=======
-              "DocumentIndex": 2,
-              "Title": "FrmModificarUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAMwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T01:01:16.222Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 7,
-              "Title": "TraerProveedor.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Utils\\TraerProveedor.cs",
-              "RelativeDocumentMoniker": "Negocio\\Utils\\TraerProveedor.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Utils\\TraerProveedor.cs",
-=======
-              "DocumentIndex": 5,
-              "Title": "FrmRegistroUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:58:35.5Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmAgregarProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs [Dise\u00F1o]",
+              "Title": "FrmMenuVendedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuVendedor.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuVendedor.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuVendedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuVendedor.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:23:31.562Z",
+              "WhenOpened": "2024-11-01T01:11:56.717Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmAgregarProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAMwJYAAAAEAAAAAAAAAA==",
+              "Title": "FrmRegistrarDatosVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:23:35.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmRegistroUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAMwE4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:59:00.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmModificarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmModificarUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T01:01:11.516Z",
+              "WhenOpened": "2024-11-01T00:34:31.949Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmRegistroUsuario.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistroUsuario.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:58:28.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TraerProveedor.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\TraerProveedor.cs",
-              "RelativeDocumentMoniker": "Negocio\\Utils\\TraerProveedor.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\TraerProveedor.cs",
->>>>>>> Stashed changes
-              "RelativeToolTip": "Negocio\\Utils\\TraerProveedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:25:16.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 8,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Negocio\\Utils\\UsuarioService.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
-=======
-              "DocumentIndex": 7,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Negocio\\Utils\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
->>>>>>> Stashed changes
-              "RelativeToolTip": "Negocio\\Utils\\UsuarioService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:18:18.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 12,
-              "Title": "LoginDB.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginDB.cs",
-              "RelativeDocumentMoniker": "Persistencia\\LoginData\\LoginDB.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginDB.cs",
-=======
-              "DocumentIndex": 16,
-              "Title": "LoginDB.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginDB.cs",
-              "RelativeDocumentMoniker": "Persistencia\\LoginData\\LoginDB.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginDB.cs",
->>>>>>> Stashed changes
-              "RelativeToolTip": "Persistencia\\LoginData\\LoginDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:04:26.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 0,
-              "Title": "Proveedores.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Proveedores\\Proveedores.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Proveedores\\Proveedores.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Proveedores\\Proveedores.cs",
-              "RelativeToolTip": "Persistencia\\Proveedores\\Proveedores.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-=======
-              "DocumentIndex": 10,
-              "Title": "Proveedores.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Proveedores\\Proveedores.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Proveedores\\Proveedores.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Proveedores\\Proveedores.cs",
-              "RelativeToolTip": "Persistencia\\Proveedores\\Proveedores.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwAoAAAAcAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:03:43.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 16,
-              "Title": "DBHelper.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Utils\\DBHelper.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Utils\\DBHelper.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Utils\\DBHelper.cs",
-              "RelativeToolTip": "Persistencia\\Utils\\DBHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:02:40.609Z",
-=======
-              "DocumentIndex": 9,
-              "Title": "AgregarProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\AgregarProducto.cs",
-              "RelativeDocumentMoniker": "Negocio\\Utils\\AgregarProducto.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\AgregarProducto.cs",
-              "RelativeToolTip": "Negocio\\Utils\\AgregarProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:49:01.239Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-<<<<<<< Updated upstream
-              "Title": "LoginWS.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginWS.cs",
-              "RelativeDocumentMoniker": "Persistencia\\LoginData\\LoginWS.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginWS.cs",
-              "RelativeToolTip": "Persistencia\\LoginData\\LoginWS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:49:41.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AgregarProducto.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Utils\\AgregarProducto.cs",
-              "RelativeDocumentMoniker": "Negocio\\Utils\\AgregarProducto.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Utils\\AgregarProducto.cs",
-              "RelativeToolTip": "Negocio\\Utils\\AgregarProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:49:01.239Z",
-              "EditorCaption": ""
-=======
-              "Title": "WebHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Utils\\WebHelper.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Utils\\WebHelper.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Utils\\WebHelper.cs",
-              "RelativeToolTip": "Persistencia\\Utils\\WebHelper.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAwFMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:39:35.342Z"
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-<<<<<<< Updated upstream
-              "Title": "UsuarioWS.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\UsuarioWS.cs",
-              "RelativeDocumentMoniker": "Persistencia\\UsuariosData\\UsuarioWS.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\UsuarioWS.cs",
-              "RelativeToolTip": "Persistencia\\UsuariosData\\UsuarioWS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:48:43.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Productos\\Producto.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Productos\\Producto.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Productos\\Producto.cs",
-              "RelativeToolTip": "Persistencia\\Productos\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:44:13.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WebHelper.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Utils\\WebHelper.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Utils\\WebHelper.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Utils\\WebHelper.cs",
-              "RelativeToolTip": "Persistencia\\Utils\\WebHelper.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAwFMAAAANAAAAAAAAAA==",
-=======
-              "Title": "FrmCambioContrase\u00F1a.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAwGMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:38:13.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FrmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs [Dise\u00F1o]",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:39:35.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FrmCambioContrase\u00F1a.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAwGMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:38:13.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 5,
-              "Title": "FrmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-=======
-              "DocumentIndex": 11,
-              "Title": "ModificacionWS.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\ModificacionWS.cs",
-              "RelativeDocumentMoniker": "Persistencia\\ModificacionWS.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\ModificacionWS.cs",
-              "RelativeToolTip": "Persistencia\\ModificacionWS.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCoAAAABAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:38:10.639Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 4,
-              "Title": "ModificacionWS.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\ModificacionWS.cs",
-              "RelativeDocumentMoniker": "Persistencia\\ModificacionWS.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\ModificacionWS.cs",
-              "RelativeToolTip": "Persistencia\\ModificacionWS.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:35:34.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FrmMenuSupervisor.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-=======
-              "DocumentIndex": 17,
-              "Title": "FrmMenuSupervisor.cs",
+              "DocumentIndex": 2,
+              "Title": "FrmMenuSupervisor.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
->>>>>>> Stashed changes
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:24:48.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmAgregarProducto.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:23:35.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 2,
-              "Title": "FrmAgregarProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:23:31.562Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FrmMenuAdmin.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:18:42.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FrmMenuSupervisor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs [Dise\u00F1o]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs [Dise\u00F1o]",
-=======
-              "DocumentIndex": 18,
-              "Title": "FrmMenuSupervisor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuSupervisor.cs [Dise\u00F1o]",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:18:13.231Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 20,
-              "Title": "FrmMenuAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs [Dise\u00F1o]",
-=======
-              "DocumentIndex": 19,
-              "Title": "FrmMenuAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs [Design]",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:18:10.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FormMenuAdmin.cs",
-<<<<<<< Updated upstream
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FormMenuAdmin.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FormMenuAdmin.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FormMenuAdmin.cs",
-=======
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FormMenuAdmin.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FormMenuAdmin.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FormMenuAdmin.cs",
->>>>>>> Stashed changes
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FormMenuAdmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:17:38.23Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 10,
-              "Title": "ProductoWS.cs",
-              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Datos\\ProductoWS.cs",
-              "RelativeDocumentMoniker": "Datos\\ProductoWS.cs",
-              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Datos\\ProductoWS.cs",
-=======
-              "DocumentIndex": 14,
-              "Title": "ProductoWS.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Datos\\ProductoWS.cs",
-              "RelativeDocumentMoniker": "Datos\\ProductoWS.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Datos\\ProductoWS.cs",
->>>>>>> Stashed changes
-              "RelativeToolTip": "Datos\\ProductoWS.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T22:52:27.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T01:11:53.04Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
