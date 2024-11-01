@@ -19,7 +19,10 @@ namespace TemplateTPIntegrador.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //registrar
+            FrmRegistrarDatosVenta registrarDatosVenta = new FrmRegistrarDatosVenta();
+            registrarDatosVenta.Show();
+            this.Hide();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,5 +33,14 @@ namespace TemplateTPIntegrador.Forms
             menu.Show();  // Muestra el formulario del menú Vendedor
 
         }
+
+        private void FrmRegistrarVenta_Load(object sender, EventArgs e)
+        {
+           
+        }
+    }
+
+    internal class FrmregistrarDatosVenta
+    {
     }
 }
