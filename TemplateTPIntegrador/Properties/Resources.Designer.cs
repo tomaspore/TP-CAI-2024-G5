@@ -73,12 +73,7 @@ namespace TemplateTPIntegrador.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _31_10_2024_18_31_58 {
-            get {
-                object obj = ResourceManager.GetObject("31-10-2024 18-31-58", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -150,35 +145,7 @@ namespace TemplateTPIntegrador.Properties {
             }
         }
         
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap logo_electrohogar_final {
-            get {
-                object obj = ResourceManager.GetObject("logo electrohogar final", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap logo_electrohogar_final1 {
-            get {
-                object obj = ResourceManager.GetObject("logo electrohogar final1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap logo_electrohogar_final2 {
-            get {
-                object obj = ResourceManager.GetObject("logo electrohogar final2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
