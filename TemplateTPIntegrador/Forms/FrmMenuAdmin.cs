@@ -22,22 +22,29 @@ namespace TemplateTPIntegrador
         {
             FrmBajaUsuario frmBajaUsuario = new FrmBajaUsuario();
             frmBajaUsuario.Show();
+            this.Hide();
         }
 
         private void btnRegistroUsuario_Click(object sender, EventArgs e)
         {
             FrmRegistroUsuario frmRegistroUsuario = new FrmRegistroUsuario();
             frmRegistroUsuario.Show();
+            this.Hide();
         }
 
         private void btnModificacionUsuario_Click(object sender, EventArgs e)
         {
-            // Lógica para abrir el formulario de modificación de usuario
+            FrmModificarUsuario frmModificarUsuario = new FrmModificarUsuario();
+            frmModificarUsuario.Show();
+            this.Hide();
         }
 
         private void btnAltaProducto_Click(object sender, EventArgs e)
         {
-            // Lógica para abrir el formulario de alta de productos
+            FrmAgregarProducto altaproducto = new FrmAgregarProducto();
+
+            altaproducto.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
