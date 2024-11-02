@@ -60,11 +60,11 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnRegistrarVenta_Click(object sender, EventArgs e)
         {
-            
-                FrmRegistrarVenta registrarVenta = new FrmRegistrarVenta();
-                registrarVenta.Show();
-                this.Hide();
-            
+
+            FrmRegistrarDatosVenta registrarDatosVenta = new FrmRegistrarDatosVenta();
+            registrarDatosVenta.Show();
+            this.Hide();
+
         }
 
         private void FrmMenuVendedor_Load(object sender, EventArgs e)
