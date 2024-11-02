@@ -73,6 +73,11 @@ namespace TemplateTPIntegrador.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Electrohogar_logo {
             get {
                 object obj = ResourceManager.GetObject("Electrohogar logo", resourceCulture);
@@ -140,8 +145,10 @@ namespace TemplateTPIntegrador.Properties {
             }
         }
         
+
+        
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap vibrant_purple_watercolor_painting_background {
             get {
