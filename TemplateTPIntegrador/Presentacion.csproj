@@ -95,12 +95,6 @@
     <Compile Include="Forms\FrmModificarUsuario.Designer.cs">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmRegistrarVenta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmRegistrarVenta.Designer.cs">
-      <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FrmRegistroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,9 +148,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmModificarUsuario.resx">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmRegistrarVenta.resx">
-      <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistroUsuario.resx">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
