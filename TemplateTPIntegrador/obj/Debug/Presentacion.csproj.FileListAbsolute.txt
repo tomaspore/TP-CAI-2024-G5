@@ -215,3 +215,7 @@ C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIn
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistrarVenta.resources
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmReporteVentas.resources
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmClientes.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmModificarCliente.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmControlClientes.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmNuevoCliente.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Clientes.FrmReactivarCliente.resources
