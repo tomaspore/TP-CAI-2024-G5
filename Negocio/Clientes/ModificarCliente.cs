@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Negocio.Utils
 {
-    public class ClientesService
+    public class ModificarCliente
     {
         private readonly ClientesData _clientesData;
 
-        public ClientesService()
+        public ModificarCliente()
         {
             _clientesData = new ClientesData();
         }

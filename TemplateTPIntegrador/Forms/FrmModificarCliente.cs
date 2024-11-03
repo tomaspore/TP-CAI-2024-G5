@@ -16,13 +16,13 @@ namespace TemplateTPIntegrador.Forms
     public partial class FrmModificarCliente : Form
     {
         private ClientesWS _cliente;
-        private readonly ClientesService _clientesService;
+        private readonly ModificarCliente _clientesService;
 
         public FrmModificarCliente(ClientesWS cliente)
         {
             InitializeComponent();
             _cliente = cliente;
-            _clientesService = new ClientesService();
+            _clientesService = new ModificarCliente();
 
             // Rellenar los campos con los datos del cliente seleccionado
             txtNombreCliente.Text = cliente.Nombre;

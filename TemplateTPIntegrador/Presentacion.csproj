@@ -84,16 +84,16 @@
     <Compile Include="Forms\FrmConfirmacionCerrarSesion.Designer.cs">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmMenuSupervisor.cs">
+    <Compile Include="Forms\Menúes\FrmMenuSupervisor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmMenuSupervisor.Designer.cs">
+    <Compile Include="Forms\Menúes\FrmMenuSupervisor.Designer.cs">
       <DependentUpon>FrmMenuSupervisor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmMenuVendedor.cs">
+    <Compile Include="Forms\Menúes\FrmMenuVendedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmMenuVendedor.Designer.cs">
+    <Compile Include="Forms\Menúes\FrmMenuVendedor.Designer.cs">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmModificarUsuario.cs">
@@ -126,10 +126,10 @@
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmMenuAdmin.cs">
+    <Compile Include="Forms\Menúes\FrmMenuAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmMenuAdmin.Designer.cs">
+    <Compile Include="Forms\Menúes\FrmMenuAdmin.Designer.cs">
       <DependentUpon>FrmMenuAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmModificarCliente.cs">
@@ -159,13 +159,13 @@
     <EmbeddedResource Include="Forms\FrmConfirmacionCerrarSesion.resx">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmMenuAdmin.resx">
+    <EmbeddedResource Include="Forms\Menúes\FrmMenuAdmin.resx">
       <DependentUpon>FrmMenuAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmMenuSupervisor.resx">
+    <EmbeddedResource Include="Forms\Menúes\FrmMenuSupervisor.resx">
       <DependentUpon>FrmMenuSupervisor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmMenuVendedor.resx">
+    <EmbeddedResource Include="Forms\Menúes\FrmMenuVendedor.resx">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmModificarUsuario.resx">
