@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\persistencia\\clientes\\deletecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\clientes\\deletecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\negocio\\utils\\borrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\borrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\logindata\\loginws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\logindata\\loginws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\utils\\webhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\utils\\webhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,27 +67,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmMenuAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAmwIUAAAApAAAAAAAAAA==",
+              "Title": "DeleteCliente.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Clientes\\DeleteCliente.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Clientes\\DeleteCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Clientes\\DeleteCliente.cs",
+              "RelativeToolTip": "Persistencia\\Clientes\\DeleteCliente.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:05:56.419Z",
+              "WhenOpened": "2024-11-03T04:49:18.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmAgregarProducto.cs",
-              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
+              "Title": "BorrarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\BorrarCliente.cs",
+              "RelativeDocumentMoniker": "Negocio\\Utils\\BorrarCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\BorrarCliente.cs",
+              "RelativeToolTip": "Negocio\\Utils\\BorrarCliente.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T20:07:12.588Z",
+              "WhenOpened": "2024-11-03T04:00:46.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebHelper.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Utils\\WebHelper.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Utils\\WebHelper.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Utils\\WebHelper.cs",
+              "RelativeToolTip": "Persistencia\\Utils\\WebHelper.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:58:06.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Productos\\Producto.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Productos\\Producto.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Productos\\Producto.cs",
+              "RelativeToolTip": "Persistencia\\Productos\\Producto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:52:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWS.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginWS.cs",
+              "RelativeDocumentMoniker": "Persistencia\\LoginData\\LoginWS.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginWS.cs",
+              "RelativeToolTip": "Persistencia\\LoginData\\LoginWS.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:35:39.686Z",
               "EditorCaption": ""
             }
           ]
