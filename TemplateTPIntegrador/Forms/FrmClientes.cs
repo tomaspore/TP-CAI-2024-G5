@@ -16,5 +16,15 @@ namespace TemplateTPIntegrador.Forms
         {
             InitializeComponent();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReactivarCliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
