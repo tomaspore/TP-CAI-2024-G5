@@ -16,12 +16,23 @@ namespace Negocio.Clientes
         {
             _clientesData = new ClientesData();
         }
-
-        public async Task<bool> ActualizarCliente(ClientesWS cliente)
+        public bool AgregarCliente(string nombre,string apellido,DateTime fecha,int dni,string telefono,string email,string domicilio)
         {
-            return await _clientesData.ActualizarCliente(cliente);
-        }
+            if (!int.TryParse(telefono, out int tel) || !email.Contains('@') || dni.ToString().Length != 8)
+            {
+                return false;
+            }
+            else if (1!=1)
+            {
 
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+                
+        }
 
     }
 }
