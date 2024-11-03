@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientesWS.cs" />
+    <Compile Include="Clientes.cs" />
     <Compile Include="ProductoWS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
