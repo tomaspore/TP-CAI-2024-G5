@@ -17,6 +17,15 @@ namespace TemplateTPIntegrador.Forms
             InitializeComponent();
         }
 
+        private void btnAgregarCliente_Click(object sender, EventArgs e)
+        {
+            string nombre = txtNombreCliente.Text;
+            string apellido = txtApellidoCliente.Text;
+            DateTime fechanacimiento = dtpFechaNacimiento.Value;
+            string email = txtEmailCliente.Text;
 
+
+
+        }
     }
 }
