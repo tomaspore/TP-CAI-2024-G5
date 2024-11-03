@@ -47,11 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Forms\ConfiguracionUsuario.cs" />
-    <Compile Include="Forms\FrmClientes.cs">
+    <Compile Include="Forms\Clientes\FrmControlClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmClientes.Designer.cs">
-      <DependentUpon>FrmClientes.cs</DependentUpon>
+    <Compile Include="Forms\Clientes\FrmControlClientes.Designer.cs">
+      <DependentUpon>FrmControlClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clientes\FrmNuevoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\FrmNuevoCliente.Designer.cs">
+      <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmRegistrarDatosVenta.cs">
       <SubType>Form</SubType>
@@ -66,22 +72,22 @@
       <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormMenuAdmin.cs" />
-    <Compile Include="Forms\FrmBajaUsuario.cs">
+    <Compile Include="Forms\Usuarios\FrmBajaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmBajaUsuario.Designer.cs">
+    <Compile Include="Forms\Usuarios\FrmBajaUsuario.Designer.cs">
       <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmCambioContraseña.cs">
+    <Compile Include="Forms\Usuarios\FrmCambioContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmCambioContraseña.Designer.cs">
+    <Compile Include="Forms\Usuarios\FrmCambioContraseña.Designer.cs">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmConfirmacionCerrarSesion.cs">
+    <Compile Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmConfirmacionCerrarSesion.Designer.cs">
+    <Compile Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.Designer.cs">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Menúes\FrmMenuSupervisor.cs">
@@ -96,10 +102,10 @@
     <Compile Include="Forms\Menúes\FrmMenuVendedor.Designer.cs">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmModificarUsuario.cs">
+    <Compile Include="Forms\Usuarios\FrmModificarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmModificarUsuario.Designer.cs">
+    <Compile Include="Forms\Usuarios\FrmModificarUsuario.Designer.cs">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmRegistrarVenta.cs">
@@ -108,10 +114,10 @@
     <Compile Include="Forms\FrmRegistrarVenta.Designer.cs">
       <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmRegistroUsuario.cs">
+    <Compile Include="Forms\Usuarios\FrmRegistroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmRegistroUsuario.Designer.cs">
+    <Compile Include="Forms\Usuarios\FrmRegistroUsuario.Designer.cs">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmReporteVentas.cs">
@@ -132,17 +138,17 @@
     <Compile Include="Forms\Menúes\FrmMenuAdmin.Designer.cs">
       <DependentUpon>FrmMenuAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmModificarCliente.cs">
+    <Compile Include="Forms\Clientes\FrmModificarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmModificarCliente.Designer.cs">
+    <Compile Include="Forms\Clientes\FrmModificarCliente.Designer.cs">
       <DependentUpon>FrmModificarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\ValidacionesUtils.cs" />
-    <EmbeddedResource Include="Forms\FrmClientes.resx">
-      <DependentUpon>FrmClientes.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Clientes\FrmControlClientes.resx">
+      <DependentUpon>FrmControlClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistrarDatosVenta.resx">
       <DependentUpon>FrmRegistrarDatosVenta.cs</DependentUpon>
@@ -150,13 +156,13 @@
     <EmbeddedResource Include="Forms\FrmAgregarProducto.resx">
       <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmBajaUsuario.resx">
+    <EmbeddedResource Include="Forms\Usuarios\FrmBajaUsuario.resx">
       <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmCambioContraseña.resx">
+    <EmbeddedResource Include="Forms\Usuarios\FrmCambioContraseña.resx">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmConfirmacionCerrarSesion.resx">
+    <EmbeddedResource Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.resx">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Menúes\FrmMenuAdmin.resx">
@@ -168,13 +174,13 @@
     <EmbeddedResource Include="Forms\Menúes\FrmMenuVendedor.resx">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmModificarUsuario.resx">
+    <EmbeddedResource Include="Forms\Usuarios\FrmModificarUsuario.resx">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistrarVenta.resx">
       <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmRegistroUsuario.resx">
+    <EmbeddedResource Include="Forms\Usuarios\FrmRegistroUsuario.resx">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmReporteVentas.resx">
@@ -183,7 +189,7 @@
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmModificarCliente.resx">
+    <EmbeddedResource Include="Forms\Clientes\FrmModificarCliente.resx">
       <DependentUpon>FrmModificarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

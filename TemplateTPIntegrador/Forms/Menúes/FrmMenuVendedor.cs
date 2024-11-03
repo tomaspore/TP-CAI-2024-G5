@@ -82,7 +82,7 @@ namespace TemplateTPIntegrador.Forms
             BorrarCliente borrarCliente = new BorrarCliente(new DeleteCliente());
 
             // Pasa estas instancias al constructor de FrmClientes
-            FrmClientes clientes = new FrmClientes(traerClientes, borrarCliente);
+            FrmControlClientes clientes = new FrmControlClientes(traerClientes, borrarCliente);
 
             clientes.Show();
 

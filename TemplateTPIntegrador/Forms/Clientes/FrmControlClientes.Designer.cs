@@ -1,6 +1,6 @@
 ﻿namespace TemplateTPIntegrador.Forms
 {
-    partial class FrmClientes
+    partial class FrmControlClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -58,12 +58,14 @@
             // 
             // btnAgregarCliente
             // 
+            this.btnAgregarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarCliente.Location = new System.Drawing.Point(323, 46);
             this.btnAgregarCliente.Name = "btnAgregarCliente";
             this.btnAgregarCliente.Size = new System.Drawing.Size(188, 36);
             this.btnAgregarCliente.TabIndex = 2;
-            this.btnAgregarCliente.Text = "Agregar Nuevo";
+            this.btnAgregarCliente.Text = "Nuevo Cliente";
             this.btnAgregarCliente.UseVisualStyleBackColor = true;
+            this.btnAgregarCliente.Click += new System.EventHandler(this.btnAgregarCliente_Click);
             // 
             // btnModificarCliente
             // 
@@ -106,7 +108,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Edición";
             // 
-            // FrmClientes
+            // FrmControlClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,7 +117,7 @@
             this.Controls.Add(this.btnAgregarCliente);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lstListaClientes);
-            this.Name = "FrmClientes";
+            this.Name = "FrmControlClientes";
             this.Text = "Control de Clientes";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

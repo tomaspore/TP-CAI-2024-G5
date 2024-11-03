@@ -13,12 +13,12 @@ using Negocio.Utils;
 
 namespace TemplateTPIntegrador.Forms
 {
-    public partial class FrmClientes : Form
+    public partial class FrmControlClientes : Form
 {
     private readonly TraerClientes _traerClientes;
     private readonly BorrarCliente _borrarCliente;
 
-    public FrmClientes(TraerClientes traerClientes, BorrarCliente borrarCliente)
+    public FrmControlClientes(TraerClientes traerClientes, BorrarCliente borrarCliente)
     {
         InitializeComponent();
 
@@ -90,6 +90,11 @@ namespace TemplateTPIntegrador.Forms
                 MessageBox.Show("Seleccione un cliente para modificar.");
             }
 
+
+        }
+
+        private void btnAgregarCliente_Click(object sender, EventArgs e)
+        {
 
         }
     }
