@@ -29,12 +29,10 @@ namespace Persistencia
         }
     }
 
-    //esto es una prueba 
-
     public class Proveedor
     {
         public string Id { get; set; }  // Cambia el tipo de 'int' a 'string'
         public string Nombre { get; set; }
-        // Otros campos 
+        // Otros campos según tu modelo
     }
 }
