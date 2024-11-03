@@ -13,7 +13,7 @@ namespace Persistencia.Clientes
 
         public bool BajaCliente(string idCliente)
         {
-            HttpResponseMessage response = WebHelper.Delete("Cliente/BajaCliente" + idCliente );
+            HttpResponseMessage response = WebHelper.Delete("Cliente/BajaCliente?id=" + idCliente );
 
             if(!response.IsSuccessStatusCode)
             {

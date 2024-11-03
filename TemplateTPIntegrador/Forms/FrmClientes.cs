@@ -53,16 +53,16 @@ namespace TemplateTPIntegrador.Forms
 
             if (lstListaClientes.SelectedItem != null)
             {
-                var clienteSeleccionado = (TraerClientes)lstListaClientes.SelectedItem;
+                string clienteSeleccionado = lstListaClientes.SelectedItem.ToString();
                 // Continua con la lógica, como la búsqueda del cliente
 
                 var clientes = await _traerclientes.ObtenerClientesAsync();
 
-                var clienteEncontrado = clientes.Find(c => c.Nombre == clienteSeleccionado).Id;
+                //string clienteEncontrado = clientes.Find(c => c.Nombre == clienteSeleccionado).Id;
 
                 BorrarCliente borrar = new BorrarCliente();
 
-                bool respuesta = borrar.BajaClienteNegocio(clienteEncontrado.);
+                bool respuesta = borrar.BajaClienteNegocio("ff7d3565-1eef-48df-bfb4-0e25c4524623");
 
                 if (!respuesta)
                 {
