@@ -150,6 +150,9 @@
     <EmbeddedResource Include="Forms\Clientes\FrmControlClientes.resx">
       <DependentUpon>FrmControlClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clientes\FrmNuevoCliente.resx">
+      <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistrarDatosVenta.resx">
       <DependentUpon>FrmRegistrarDatosVenta.cs</DependentUpon>
     </EmbeddedResource>

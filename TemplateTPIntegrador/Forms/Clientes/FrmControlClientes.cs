@@ -95,7 +95,9 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
+            FrmNuevoCliente nuevocliente = new FrmNuevoCliente();
 
+            nuevocliente.Show();
         }
     }
 }
