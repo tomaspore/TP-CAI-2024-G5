@@ -1,8 +1,10 @@
 ﻿using Datos;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,29 +58,44 @@ namespace Persistencia.Clientes
             }
         }
 
-        public bool AgregarCliente(ClientesWS cliente)
+        public bool AgregarCliente(string idUsuario, string nombre, string apellido, DateTime fecha, int dni,string telefono,string email,string domicilio, string host)
         {
+            // Crear el diccionario con los parámetros del producto
+            Dictionary<String, Object> datos = new Dictionary<String, Object>
+            {
+                { "idUsuario", idUsuario },
+                { "nombre", nombre },
+                { "apellido", apellido },
+                { "dni", dni },
+                { "direccion", domicilio },
+                { "telefono", telefono },
+                {"email",email },
+                {"fechaNacimiento",fecha },
+                {"host",host }
+
+            };
+
             try
             {
                 // Convertir el objeto cliente a una cadena JSON
-                string json = JsonConvert.SerializeObject(cliente);
+                var jsonData = JsonConvert.SerializeObject(datos);
 
                 // Enviar la solicitud POST
-                HttpResponseMessage response = WebHelper.Post("Cliente/AgregarCliente", json);
-                response.EnsureSuccessStatusCode();
+                HttpResponseMessage response = WebHelper.Post("Cliente/AgregarCliente", jsonData);
+                
 
                 return response.IsSuccessStatusCode;
-            }
-            catch (HttpRequestException e)
-            {
+             }
+              catch (HttpRequestException e)
+                {
                 Console.WriteLine($"Error de solicitud HTTP: {e.Message}");
                 return false;
-            }
-            catch (Exception e)
-            {
+                }
+                 catch (Exception e)
+                {
                 Console.WriteLine($"Error inesperado: {e.Message}");
                 return false;
-            }
+                }
         }
 
     }

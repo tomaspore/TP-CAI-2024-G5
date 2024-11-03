@@ -49,15 +49,19 @@ namespace TemplateTPIntegrador.Forms
                 {
                     AgregarClienteWS nuevocliente = new AgregarClienteWS();
 
-                    bool response = nuevocliente.AgregarCliente(nombre,apellido,fechanacimiento,dni,telefono,email,domicilio);
-                    if (response)
+                    int response = nuevocliente.AgregarCliente(nombre,apellido,fechanacimiento,dni,telefono,email,domicilio);
+                    if (response == 3)
                     {
                         MessageBox.Show("Cliente agregado correctamente.");
                         this.Close();
                     }
-                    else
+                    else if(response == 1)
                     {
                         MessageBox.Show("Error al agregar el cliente.\nVerifique los datos cargados.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al agregar el cliente. Contacte con el Adminisrador");
                     }
                 }
             }

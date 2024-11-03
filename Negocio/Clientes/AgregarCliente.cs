@@ -16,20 +16,27 @@ namespace Negocio.Clientes
         {
             _clientesData = new ClientesData();
         }
-        public bool AgregarCliente(string nombre,string apellido,DateTime fecha,int dni,string telefono,string email,string domicilio)
+        public int AgregarCliente(string nombre,string apellido,DateTime fecha,int dni,string telefono,string email,string domicilio)
         {
+            string idadmin = "1653c7ec-870d-468a-b581-9800961d53d2";
+            string host = "X";
+            //Siempre lo va a subir con el mismo id.
+
+            bool response = _clientesData.AgregarCliente(idadmin, nombre, apellido, fecha, dni, telefono, email, domicilio, host);
+
             if (!int.TryParse(telefono, out int tel) || !email.Contains('@') || dni.ToString().Length != 8)
             {
-                return false;
+                return 1;
             }
-            else if (1!=1)
+            else if (!response)
             {
 
-                return false;
+                return 2;
             }
             else
             {
-                return true;
+
+                return 3;
             }
                 
         }
