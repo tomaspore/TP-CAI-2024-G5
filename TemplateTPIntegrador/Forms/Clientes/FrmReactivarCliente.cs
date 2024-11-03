@@ -32,6 +32,11 @@ namespace TemplateTPIntegrador.Forms.Clientes
                 {
                     MessageBox.Show("No se ha podido reactivar el ID. \nConsejos:\n-El ID ya se encuentra activo.\n-El ID no existe.");
                 }
+                else
+                {
+                    MessageBox.Show("Cliente reactivado exitosamente.\nReinicie la aplicación para ver los cambios.");
+                    this.Close();
+                }
             }
             else
             {

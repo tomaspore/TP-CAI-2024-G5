@@ -58,15 +58,12 @@ namespace Persistencia.Clientes
             }
         }
 
-        public async Task<bool> ReactivarCliente(ClientesWS cliente)
+        public bool ReactivarCliente(string idCliente)
         {
             try
             {
-                // Convertir el objeto cliente a una cadena JSON
-                string json = JsonConvert.SerializeObject(cliente);
-
-                // Usar WebHelper.Patch para enviar la solicitud
-                HttpResponseMessage response = WebHelper.Patch("Cliente/ReactivarCliente", json);
+              
+                HttpResponseMessage response = WebHelper.Patch("Cliente/ReactivarCliente?id="+ idCliente,"");
                 
 
                 return response.IsSuccessStatusCode;

@@ -31,11 +31,12 @@
             this.btnReactivaciónCliente = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtidCliente = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnReactivaciónCliente
             // 
-            this.btnReactivaciónCliente.Location = new System.Drawing.Point(160, 133);
+            this.btnReactivaciónCliente.Location = new System.Drawing.Point(162, 159);
             this.btnReactivaciónCliente.Name = "btnReactivaciónCliente";
             this.btnReactivaciónCliente.Size = new System.Drawing.Size(118, 31);
             this.btnReactivaciónCliente.TabIndex = 0;
@@ -59,11 +60,21 @@
             this.txtidCliente.Size = new System.Drawing.Size(265, 26);
             this.txtidCliente.TabIndex = 2;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(63, 122);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(332, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Consulte con el Administrador el ID de Cliente";
+            // 
             // FrmReactivarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(440, 202);
+            this.ClientSize = new System.Drawing.Size(440, 224);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtidCliente);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnReactivaciónCliente);
@@ -80,5 +91,6 @@
         private System.Windows.Forms.Button btnReactivaciónCliente;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtidCliente;
+        private System.Windows.Forms.Label label2;
     }
 }
