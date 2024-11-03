@@ -72,5 +72,25 @@ namespace TemplateTPIntegrador.Forms
         }
     }
 
+        private void btnModificarCliente_Click(object sender, EventArgs e)
+        {
+
+            if (lstListaClientes.SelectedItem != null)
+            {
+                var clienteSeleccionado = (ClientesWS)lstListaClientes.SelectedItem;
+
+                FrmModificarCliente frmModificar = new FrmModificarCliente(clienteSeleccionado);
+                frmModificar.ShowDialog();
+
+                // Opcional: Recargar la lista después de la modificación
+                CargarClientes();
+            }
+            else
+            {
+                MessageBox.Show("Seleccione un cliente para modificar.");
+            }
+
+
+        }
     }
 }

@@ -18,6 +18,7 @@ namespace Negocio
             _listadoClientes = listadoClientes ?? throw new ArgumentNullException(nameof(listadoClientes));
         }
 
+
         public async Task<List<ClientesWS>> ObtenerClientesAsync()
         {
             try
@@ -30,6 +31,8 @@ namespace Negocio
                 Console.WriteLine($"Error al obtener clientes: {ex.Message}");
                 return new List<ClientesWS>();
             }
+
+
         }
     }
 }

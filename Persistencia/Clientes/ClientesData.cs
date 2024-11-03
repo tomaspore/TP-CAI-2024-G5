@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistencia.Clientes
 {
+
     public class ClientesData
     {
         private static readonly HttpClient client = new HttpClient();
@@ -48,5 +49,12 @@ namespace Persistencia.Clientes
             return true;
 
         }
+    }
+
+    public class ActualizarCliente
+    {
+        private static readonly HttpClient client = new HttpClient();
+
+       
     }
 }

@@ -71,8 +71,9 @@
             this.btnModificarCliente.Name = "btnModificarCliente";
             this.btnModificarCliente.Size = new System.Drawing.Size(197, 41);
             this.btnModificarCliente.TabIndex = 3;
-            this.btnModificarCliente.Text = "Modificar Existente";
+            this.btnModificarCliente.Text = "Modificar Datos";
             this.btnModificarCliente.UseVisualStyleBackColor = true;
+            this.btnModificarCliente.Click += new System.EventHandler(this.btnModificarCliente_Click);
             // 
             // btnBajaCliente
             // 
