@@ -37,6 +37,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+
             // 
             // lstListaClientes
             // 
@@ -46,6 +47,7 @@
             this.lstListaClientes.Name = "lstListaClientes";
             this.lstListaClientes.Size = new System.Drawing.Size(258, 424);
             this.lstListaClientes.TabIndex = 0;
+
             // 
             // label1
             // 
@@ -55,6 +57,7 @@
             this.label1.Size = new System.Drawing.Size(152, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Listado de Clientes: ";
+
             // 
             // btnAgregarCliente
             // 
@@ -64,6 +67,9 @@
             this.btnAgregarCliente.TabIndex = 2;
             this.btnAgregarCliente.Text = "Agregar Nuevo";
             this.btnAgregarCliente.UseVisualStyleBackColor = true;
+            // Asigna el evento aquí si tienes un método para agregar clientes
+            // this.btnAgregarCliente.Click += new System.EventHandler(this.btnAgregarCliente_Click);
+
             // 
             // btnModificarCliente
             // 
@@ -73,6 +79,9 @@
             this.btnModificarCliente.TabIndex = 3;
             this.btnModificarCliente.Text = "Modificar Existente";
             this.btnModificarCliente.UseVisualStyleBackColor = true;
+            // Asigna el evento aquí si tienes un método para modificar clientes
+            // this.btnModificarCliente.Click += new System.EventHandler(this.btnModificarCliente_Click);
+
             // 
             // btnBajaCliente
             // 
@@ -83,6 +92,7 @@
             this.btnBajaCliente.Text = "Desactivar";
             this.btnBajaCliente.UseVisualStyleBackColor = true;
             this.btnBajaCliente.Click += new System.EventHandler(this.btnBajaCliente_Click);
+
             // 
             // btnReactivarCliente
             // 
@@ -92,7 +102,9 @@
             this.btnReactivarCliente.TabIndex = 5;
             this.btnReactivarCliente.Text = "Reactivar";
             this.btnReactivarCliente.UseVisualStyleBackColor = true;
-            this.btnReactivarCliente.Click += new System.EventHandler(this.btnReactivarCliente_Click);
+            // Asigna el evento aquí si tienes un método para reactivar clientes
+            // this.btnReactivarCliente.Click += new System.EventHandler(this.btnReactivarCliente_Click);
+
             // 
             // groupBox1
             // 
@@ -105,7 +117,8 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Edición";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+           // this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+
             // 
             // FrmClientes
             // 
@@ -121,7 +134,6 @@
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

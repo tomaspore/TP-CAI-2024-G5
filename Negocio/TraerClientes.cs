@@ -11,15 +11,25 @@ namespace Negocio
 {
     public class TraerClientes
     {
+        private readonly GetClientes _listadoClientes;
 
-        private readonly GetClientes listadoclientes = new GetClientes();
+        public TraerClientes(GetClientes listadoClientes)
+        {
+            _listadoClientes = listadoClientes ?? throw new ArgumentNullException(nameof(listadoClientes));
+        }
 
-       public async Task<List<ClientesWS>> ObtenerClientesAsync()
-       {
-                return await listadoclientes.ListadoClientes();
-       }
-
-       
-
+        public async Task<List<ClientesWS>> ObtenerClientesAsync()
+        {
+            try
+            {
+                return await _listadoClientes.ListadoClientes();
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores o log
+                Console.WriteLine($"Error al obtener clientes: {ex.Message}");
+                return new List<ClientesWS>();
+            }
+        }
     }
 }

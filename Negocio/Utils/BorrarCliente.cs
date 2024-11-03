@@ -10,18 +10,24 @@ namespace Negocio.Utils
 {
     public class BorrarCliente
     {
+        private readonly DeleteCliente _deleteCliente;
+
+        public BorrarCliente(DeleteCliente deleteCliente)
+        {
+            _deleteCliente = deleteCliente ?? throw new ArgumentNullException(nameof(deleteCliente));
+        }
+
         public bool BajaClienteNegocio(string idCliente)
         {
-            DeleteCliente deletecliente = new DeleteCliente();
-
-            bool response = deletecliente.BajaCliente(idCliente);
-
-            if(!response)
+            try
             {
+                return _deleteCliente.BajaCliente(idCliente);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al borrar cliente: {ex.Message}");
                 return false;
             }
-
-            return true;
         }
     }
 }
