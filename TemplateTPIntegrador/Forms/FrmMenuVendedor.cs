@@ -71,5 +71,14 @@ namespace TemplateTPIntegrador.Forms
         {
 
         }
+
+        private void btnControlClientes_Click(object sender, EventArgs e)
+        {
+            FrmClientes clientes = new FrmClientes();
+
+            clientes.Show();
+
+            this.Hide();
+        }
     }
 }
