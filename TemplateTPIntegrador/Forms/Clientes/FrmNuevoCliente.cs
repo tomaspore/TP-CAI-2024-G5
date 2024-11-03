@@ -61,7 +61,7 @@ namespace TemplateTPIntegrador.Forms
                     }
                     else
                     {
-                        MessageBox.Show("Error al agregar el cliente. Contacte con el Adminisrador");
+                        MessageBox.Show("El cliente ya existe.");
                     }
                 }
             }

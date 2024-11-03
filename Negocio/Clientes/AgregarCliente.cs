@@ -24,7 +24,9 @@ namespace Negocio.Clientes
 
             bool response = _clientesData.AgregarCliente(idadmin, nombre, apellido, fecha, dni, telefono, email, domicilio, host);
 
-            if (!int.TryParse(telefono, out int tel) || !email.Contains('@') || dni.ToString().Length != 8)
+            DateTime fechaLimite = DateTime.Today.AddYears(-18);
+
+            if (!int.TryParse(telefono, out int tel) || !email.Contains('@') || dni.ToString().Length != 8 || fecha > fechaLimite)
             {
                 return 1;
             }
