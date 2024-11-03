@@ -78,7 +78,7 @@ namespace TemplateTPIntegrador.Forms
         private void btnControlClientes_Click(object sender, EventArgs e)
         {
             // Crea instancias de las clases de Negocio
-            TraerClientes traerClientes = new TraerClientes(new GetClientes());
+            TraerClientes traerClientes = new TraerClientes(new ClientesData());
             BorrarCliente borrarCliente = new BorrarCliente(new DeleteCliente());
 
             // Pasa estas instancias al constructor de FrmClientes

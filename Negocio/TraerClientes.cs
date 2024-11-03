@@ -11,9 +11,9 @@ namespace Negocio
 {
     public class TraerClientes
     {
-        private readonly GetClientes _listadoClientes;
+        private readonly ClientesData _listadoClientes;
 
-        public TraerClientes(GetClientes listadoClientes)
+        public TraerClientes(ClientesData listadoClientes)
         {
             _listadoClientes = listadoClientes ?? throw new ArgumentNullException(nameof(listadoClientes));
         }
