@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lstListaClientes = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAgregarCliente = new System.Windows.Forms.Button();
             this.btnModificarCliente = new System.Windows.Forms.Button();
@@ -38,15 +38,14 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // listBox1
+            // lstListaClientes
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(24, 46);
-            this.listBox1.MultiColumn = true;
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(258, 424);
-            this.listBox1.TabIndex = 0;
+            this.lstListaClientes.FormattingEnabled = true;
+            this.lstListaClientes.ItemHeight = 20;
+            this.lstListaClientes.Location = new System.Drawing.Point(24, 46);
+            this.lstListaClientes.Name = "lstListaClientes";
+            this.lstListaClientes.Size = new System.Drawing.Size(258, 424);
+            this.lstListaClientes.TabIndex = 0;
             // 
             // label1
             // 
@@ -83,6 +82,7 @@
             this.btnBajaCliente.TabIndex = 4;
             this.btnBajaCliente.Text = "Desactivar";
             this.btnBajaCliente.UseVisualStyleBackColor = true;
+            this.btnBajaCliente.Click += new System.EventHandler(this.btnBajaCliente_Click);
             // 
             // btnReactivarCliente
             // 
@@ -115,9 +115,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnAgregarCliente);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lstListaClientes);
             this.Name = "FrmClientes";
-            this.Text = "FrmClientes";
+            this.Text = "Control de Clientes";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -126,7 +126,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstListaClientes;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAgregarCliente;
         private System.Windows.Forms.Button btnModificarCliente;

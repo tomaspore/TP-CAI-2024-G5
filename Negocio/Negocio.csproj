@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TraerClientes.cs" />
     <Compile Include="Utils\AgregarProducto.cs" />
     <Compile Include="Utils\TraerProveedor.cs" />
     <Compile Include="Utils\UsuarioService.cs" />
