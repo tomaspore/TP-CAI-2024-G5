@@ -72,7 +72,15 @@ namespace Persistencia
         {
             return File.ReadAllLines(filePath).ToList();
         }
+
+        public int EjecutarEscalar(string query, Dictionary<string, object> parametros)
+        {
+            throw new NotImplementedException();
+        }
+
+        
     }
 }
+
 
 

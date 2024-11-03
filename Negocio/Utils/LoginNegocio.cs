@@ -107,6 +107,9 @@ namespace Negocio
             // Retornar el perfil y el nombre del usuario
             return perfilLogin + " " + nombre;
         }
+
+        
+        
     }
 }
 

@@ -28,5 +28,18 @@ namespace TemplateTPIntegrador.Forms
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();  // Cierra el formulario actual (Registrar Usuario)
+            FrmMenuAdmin menu = new FrmMenuAdmin(); // Crea una instancia del menú administrador
+            menu.Show();  // Muestra el formulario del menú administrador
+
+        }
+
+        private void FrmModificarUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

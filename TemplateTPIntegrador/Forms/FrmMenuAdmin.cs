@@ -85,5 +85,76 @@ namespace TemplateTPIntegrador
             modificarUsuarioForm.Show();
             this.Hide();
         }
+
+        private void btnBajaUsuario_Click(object sender, EventArgs e)
+        {
+            FrmBajaUsuario frmBajaUsuario = new FrmBajaUsuario();
+            frmBajaUsuario.Show();
+            this.Hide();
+        }
+
+        private void btnRegistroUsuario_Click(object sender, EventArgs e)
+        {
+            FrmRegistroUsuario frmRegistroUsuario = new FrmRegistroUsuario();
+            frmRegistroUsuario.Show();
+            this.Hide();
+        }
+
+        private void btnModificacionUsuario_Click(object sender, EventArgs e)
+        {
+            FrmModificarUsuario frmModificarUsuario = new FrmModificarUsuario();
+            frmModificarUsuario.Show();
+            this.Hide();
+        }
+
+        private void btnAltaProducto_Click(object sender, EventArgs e)
+        {
+            FrmAgregarProducto altaproducto = new FrmAgregarProducto();
+
+            altaproducto.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
+            if (confirmacion.ShowDialog() == DialogResult.Yes)
+            {
+                FrmLogin login = new FrmLogin();
+                login.Show();
+                this.Close(); // Cierra el formulario actual (por ejemplo, FrmMenuAdmin o FrmMenuSupervisor)
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Lógica para modificar la contraseña
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+            // Lógica adicional para manejar cuando el usuario entra en el `groupBox2`, si es necesaria
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnReporteStockCritico_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
