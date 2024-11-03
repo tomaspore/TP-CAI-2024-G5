@@ -37,12 +37,14 @@
             this.lblApellidoCliente = new System.Windows.Forms.Label();
             this.lblNombreCliente = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtDomicilioCliente = new System.Windows.Forms.TextBox();
+            this.txtTeléfonoCliente = new System.Windows.Forms.TextBox();
             this.lblDomicilioCliente = new System.Windows.Forms.Label();
             this.lblTeléfonoCliente = new System.Windows.Forms.Label();
             this.lblEmailCliente = new System.Windows.Forms.Label();
             this.btnAgregarCliente = new System.Windows.Forms.Button();
+            this.txtDNICliente = new System.Windows.Forms.TextBox();
+            this.lblDNICliente = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +65,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblDNICliente);
+            this.groupBox1.Controls.Add(this.txtDNICliente);
             this.groupBox1.Controls.Add(this.dtpFechaNacimiento);
             this.groupBox1.Controls.Add(this.txtApellidoCliente);
             this.groupBox1.Controls.Add(this.lblFechaNacimientoCliente);
@@ -71,7 +75,7 @@
             this.groupBox1.Controls.Add(this.txtNombreCliente);
             this.groupBox1.Location = new System.Drawing.Point(12, 25);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(406, 185);
+            this.groupBox1.Size = new System.Drawing.Size(406, 234);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Básicos";
@@ -114,7 +118,7 @@
             // lblNombreCliente
             // 
             this.lblNombreCliente.AutoSize = true;
-            this.lblNombreCliente.Location = new System.Drawing.Point(18, 37);
+            this.lblNombreCliente.Location = new System.Drawing.Point(18, 40);
             this.lblNombreCliente.Name = "lblNombreCliente";
             this.lblNombreCliente.Size = new System.Drawing.Size(69, 20);
             this.lblNombreCliente.TabIndex = 1;
@@ -122,8 +126,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox9);
+            this.groupBox2.Controls.Add(this.txtDomicilioCliente);
+            this.groupBox2.Controls.Add(this.txtTeléfonoCliente);
             this.groupBox2.Controls.Add(this.lblDomicilioCliente);
             this.groupBox2.Controls.Add(this.lblTeléfonoCliente);
             this.groupBox2.Controls.Add(this.lblEmailCliente);
@@ -135,19 +139,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos de Contacto";
             // 
-            // textBox10
+            // txtDomicilioCliente
             // 
-            this.textBox10.Location = new System.Drawing.Point(123, 136);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(161, 26);
-            this.textBox10.TabIndex = 6;
+            this.txtDomicilioCliente.Location = new System.Drawing.Point(123, 136);
+            this.txtDomicilioCliente.Name = "txtDomicilioCliente";
+            this.txtDomicilioCliente.Size = new System.Drawing.Size(161, 26);
+            this.txtDomicilioCliente.TabIndex = 6;
             // 
-            // textBox9
+            // txtTeléfonoCliente
             // 
-            this.textBox9.Location = new System.Drawing.Point(123, 86);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(161, 26);
-            this.textBox9.TabIndex = 5;
+            this.txtTeléfonoCliente.Location = new System.Drawing.Point(123, 86);
+            this.txtTeléfonoCliente.Name = "txtTeléfonoCliente";
+            this.txtTeléfonoCliente.Size = new System.Drawing.Size(161, 26);
+            this.txtTeléfonoCliente.TabIndex = 5;
             // 
             // lblDomicilioCliente
             // 
@@ -178,19 +182,35 @@
             // 
             // btnAgregarCliente
             // 
-            this.btnAgregarCliente.Location = new System.Drawing.Point(371, 236);
+            this.btnAgregarCliente.Location = new System.Drawing.Point(354, 275);
             this.btnAgregarCliente.Name = "btnAgregarCliente";
-            this.btnAgregarCliente.Size = new System.Drawing.Size(114, 39);
+            this.btnAgregarCliente.Size = new System.Drawing.Size(148, 39);
             this.btnAgregarCliente.TabIndex = 10;
             this.btnAgregarCliente.Text = "Agregar";
             this.btnAgregarCliente.UseVisualStyleBackColor = true;
             this.btnAgregarCliente.Click += new System.EventHandler(this.btnAgregarCliente_Click);
             // 
+            // txtDNICliente
+            // 
+            this.txtDNICliente.Location = new System.Drawing.Point(201, 185);
+            this.txtDNICliente.Name = "txtDNICliente";
+            this.txtDNICliente.Size = new System.Drawing.Size(155, 26);
+            this.txtDNICliente.TabIndex = 6;
+            // 
+            // lblDNICliente
+            // 
+            this.lblDNICliente.AutoSize = true;
+            this.lblDNICliente.Location = new System.Drawing.Point(18, 188);
+            this.lblDNICliente.Name = "lblDNICliente";
+            this.lblDNICliente.Size = new System.Drawing.Size(96, 20);
+            this.lblDNICliente.TabIndex = 7;
+            this.lblDNICliente.Text = "Documento:";
+            // 
             // FrmNuevoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(822, 287);
+            this.ClientSize = new System.Drawing.Size(822, 326);
             this.Controls.Add(this.btnAgregarCliente);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -218,8 +238,10 @@
         private System.Windows.Forms.Label lblFechaNacimientoCliente;
         private System.Windows.Forms.Label lblApellidoCliente;
         private System.Windows.Forms.Label lblNombreCliente;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtDomicilioCliente;
+        private System.Windows.Forms.TextBox txtTeléfonoCliente;
         private System.Windows.Forms.Button btnAgregarCliente;
+        private System.Windows.Forms.Label lblDNICliente;
+        private System.Windows.Forms.TextBox txtDNICliente;
     }
 }

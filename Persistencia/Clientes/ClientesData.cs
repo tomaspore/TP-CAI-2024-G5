@@ -55,8 +55,33 @@ namespace Persistencia.Clientes
                 return false;
             }
         }
-    }
 
+        public bool AgregarCliente(ClientesWS cliente)
+        {
+            try
+            {
+                // Convertir el objeto cliente a una cadena JSON
+                string json = JsonConvert.SerializeObject(cliente);
+
+                // Enviar la solicitud POST
+                HttpResponseMessage response = WebHelper.Post("Cliente/AgregarCliente", json);
+                response.EnsureSuccessStatusCode();
+
+                return response.IsSuccessStatusCode;
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Error de solicitud HTTP: {e.Message}");
+                return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error inesperado: {e.Message}");
+                return false;
+            }
+        }
+
+    }
     public class DeleteCliente
     {
         private static readonly HttpClient client = new HttpClient();

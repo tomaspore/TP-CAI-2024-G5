@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes\AgregarCliente.cs" />
     <Compile Include="Clientes\TraerClientes.cs" />
     <Compile Include="Productos\AgregarProducto.cs" />
     <Compile Include="Clientes\BorrarCliente.cs" />
