@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
+  "WorkspaceRootPath": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,6 +31,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -47,12 +55,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmMenuAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmMenuAdmin.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAmwIUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:05:56.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrmAgregarProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAWwGYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T20:07:12.588Z",
               "EditorCaption": ""

@@ -93,21 +93,21 @@ namespace TemplateTPIntegrador
             this.Hide();
         }
 
-        private void btnRegistroUsuario_Click(object sender, EventArgs e)
+        private void btnRegistroUsuari0_Click(object sender, EventArgs e)
         {
             FrmRegistroUsuario frmRegistroUsuario = new FrmRegistroUsuario();
             frmRegistroUsuario.Show();
             this.Hide();
         }
 
-        private void btnModificacionUsuario_Click(object sender, EventArgs e)
+        private void btnModificacionUsuari0_Click(object sender, EventArgs e)
         {
             FrmModificarUsuario frmModificarUsuario = new FrmModificarUsuario();
             frmModificarUsuario.Show();
             this.Hide();
         }
 
-        private void btnAltaProducto_Click(object sender, EventArgs e)
+        private void btnAltaProduct0_Click(object sender, EventArgs e)
         {
             FrmAgregarProducto altaproducto = new FrmAgregarProducto();
 
@@ -115,7 +115,7 @@ namespace TemplateTPIntegrador
             this.Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button31_Click(object sender, EventArgs e)
         {
             FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
             if (confirmacion.ShowDialog() == DialogResult.Yes)
@@ -126,12 +126,12 @@ namespace TemplateTPIntegrador
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
             // Lógica para modificar la contraseña
         }
 
-        private void groupBox2_Enter(object sender, EventArgs e)
+        private void groupBox22_Enter(object sender, EventArgs e)
         {
             // Lógica adicional para manejar cuando el usuario entra en el `groupBox2`, si es necesaria
         }

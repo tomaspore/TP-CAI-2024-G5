@@ -210,3 +210,7 @@ C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug
 C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.registrarDatosVenta.resources
 C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmRegistrarDatosVenta.resources
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmRegistrarDatosVenta.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmRegistrarDatosVenta.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmBajaUsuario.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistrarVenta.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmReporteVentas.resources
