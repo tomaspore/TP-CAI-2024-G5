@@ -95,6 +95,7 @@
             this.btnReactivarCliente.TabIndex = 5;
             this.btnReactivarCliente.Text = "Reactivar";
             this.btnReactivarCliente.UseVisualStyleBackColor = true;
+            this.btnReactivarCliente.Click += new System.EventHandler(this.btnReactivarCliente_Click);
             // 
             // groupBox1
             // 

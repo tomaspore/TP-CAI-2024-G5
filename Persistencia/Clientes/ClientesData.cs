@@ -58,6 +58,31 @@ namespace Persistencia.Clientes
             }
         }
 
+        public async Task<bool> ReactivarCliente(ClientesWS cliente)
+        {
+            try
+            {
+                // Convertir el objeto cliente a una cadena JSON
+                string json = JsonConvert.SerializeObject(cliente);
+
+                // Usar WebHelper.Patch para enviar la solicitud
+                HttpResponseMessage response = WebHelper.Patch("Cliente/ReactivarCliente", json);
+                
+
+                return response.IsSuccessStatusCode;
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Error de solicitud HTTP: {e.Message}");
+                return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error inesperado: {e.Message}");
+                return false;
+            }
+        }
+
         public bool AgregarCliente(string idUsuario, string nombre, string apellido, DateTime fecha, int dni,string telefono,string email,string domicilio, string host)
         {
             // Crear el diccionario con los parámetros del producto

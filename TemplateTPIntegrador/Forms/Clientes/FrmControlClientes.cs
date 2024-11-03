@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Datos;
 using Negocio;
 using Negocio.Utils;
+using TemplateTPIntegrador.Forms.Clientes;
 
 namespace TemplateTPIntegrador.Forms
 {
@@ -98,6 +99,14 @@ namespace TemplateTPIntegrador.Forms
             FrmNuevoCliente nuevocliente = new FrmNuevoCliente();
 
             nuevocliente.Show();
+        }
+
+        private void btnReactivarCliente_Click(object sender, EventArgs e)
+        {
+            FrmReactivarCliente reactivar = new FrmReactivarCliente();
+            reactivar.Show();
+
+
         }
     }
 }
