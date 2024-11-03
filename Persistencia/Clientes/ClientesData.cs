@@ -30,6 +30,31 @@ namespace Persistencia.Clientes
             }
 
         }
+
+        public async Task<bool> ActualizarCliente(ClientesWS cliente)
+        {
+            try
+            {
+                // Convertir el objeto cliente a una cadena JSON
+                string json = JsonConvert.SerializeObject(cliente);
+
+                // Usar WebHelper.Patch para enviar la solicitud
+                HttpResponseMessage response = WebHelper.Patch("Cliente/PatchCliente", json);
+                response.EnsureSuccessStatusCode();
+
+                return response.IsSuccessStatusCode;
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Error de solicitud HTTP: {e.Message}");
+                return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error inesperado: {e.Message}");
+                return false;
+            }
+        }
     }
 
     public class DeleteCliente
@@ -51,10 +76,5 @@ namespace Persistencia.Clientes
         }
     }
 
-    public class ActualizarCliente
-    {
-        private static readonly HttpClient client = new HttpClient();
 
-       
-    }
 }

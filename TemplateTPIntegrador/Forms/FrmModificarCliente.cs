@@ -1,5 +1,6 @@
 ﻿using Datos;
 using Negocio;
+using Negocio.Utils;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,10 +16,13 @@ namespace TemplateTPIntegrador.Forms
     public partial class FrmModificarCliente : Form
     {
         private ClientesWS _cliente;
+        private readonly ClientesService _clientesService;
+
         public FrmModificarCliente(ClientesWS cliente)
         {
             InitializeComponent();
             _cliente = cliente;
+            _clientesService = new ClientesService();
 
             // Rellenar los campos con los datos del cliente seleccionado
             txtNombreCliente.Text = cliente.Nombre;
@@ -27,11 +31,22 @@ namespace TemplateTPIntegrador.Forms
             txtEmailCliente.Text = cliente.Email;
         }
 
-        private void btnModificarDatos_Click(object sender, EventArgs e)
+        private async void btnModificarDatos_Click(object sender, EventArgs e)
         {
             _cliente.Direccion = txtDomicilioCliente.Text;
             _cliente.Telefono = txtTeléfonoCliente.Text;
             _cliente.Email = txtEmailCliente.Text;
+
+            bool resultado = await _clientesService.ActualizarCliente(_cliente);
+
+            if (resultado)
+            {
+                MessageBox.Show("Datos actualizados correctamente.");
+            }
+            else
+            {
+                MessageBox.Show("Error al actualizar los datos.");
+            }
 
             this.Close();
         }
