@@ -49,14 +49,37 @@ namespace TemplateTPIntegrador.Forms
 
         private async void btnBajaCliente_Click(object sender, EventArgs e)
         {
-            string clienteSeleccionado = lstListaClientes.SelectedItem.ToString();
 
-            var clientes = await _traerclientes.ObtenerClientesAsync();
 
-            var clienteEncontrado = clientes.Find(c => c.Nombre == clienteSeleccionado).Id;
+            if (lstListaClientes.SelectedItem != null)
+            {
+                var clienteSeleccionado = (TraerClientes)lstListaClientes.SelectedItem;
+                // Continua con la lógica, como la búsqueda del cliente
 
+                var clientes = await _traerclientes.ObtenerClientesAsync();
+
+                var clienteEncontrado = clientes.Find(c => c.Nombre == clienteSeleccionado).Id;
+
+                BorrarCliente borrar = new BorrarCliente();
+
+                bool respuesta = borrar.BajaClienteNegocio(clienteEncontrado.);
+
+                if (!respuesta)
+                {
+                    MessageBox.Show("El cliente no se ha podido dar de baja. Contacte con el Administrador. ");
+                }
+                else
+                {
+                    MessageBox.Show("El cliente fue exitosamente dado de baja");
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se seleccionó ningún cliente.");
+            }
             
 
+           
 
 
         }

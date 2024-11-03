@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="TraerClientes.cs" />
     <Compile Include="Utils\AgregarProducto.cs" />
+    <Compile Include="Utils\BorrarCliente.cs" />
     <Compile Include="Utils\TraerProveedor.cs" />
     <Compile Include="Utils\UsuarioService.cs" />
     <Compile Include="Utils\LoginNegocio.cs" />
