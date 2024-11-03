@@ -62,3 +62,42 @@ C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.pdb
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.dll
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.dll
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.pdb
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.pdb
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
+C:\Documentos\d78138\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb
