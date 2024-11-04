@@ -85,6 +85,7 @@ namespace TemplateTPIntegrador.Forms
             }
 
             int idcategoria;
+            //idcategoria
 
             if (categoria == "Audio")
             {
