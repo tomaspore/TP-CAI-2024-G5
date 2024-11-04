@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Negocio.Utils;
+using Negocio;
+using Persistencia.Clientes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -70,6 +73,20 @@ namespace TemplateTPIntegrador.Forms
         private void FrmMenuVendedor_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnControlClientes_Click(object sender, EventArgs e)
+        {
+            // Crea instancias de las clases de Negocio
+            TraerClientes traerClientes = new TraerClientes(new ClientesData());
+            BorrarCliente borrarCliente = new BorrarCliente(new DeleteCliente());
+
+            // Pasa estas instancias al constructor de FrmClientes
+            FrmControlClientes clientes = new FrmControlClientes(traerClientes, borrarCliente);
+
+            clientes.Show();
+
+            this.Hide();
         }
     }
 }
