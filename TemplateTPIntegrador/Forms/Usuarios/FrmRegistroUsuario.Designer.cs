@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNumeroRegistro = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblApellido = new System.Windows.Forms.Label();
             this.lblDireccion = new System.Windows.Forms.Label();
@@ -36,8 +35,6 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblHost = new System.Windows.Forms.Label();
-            this.lblDNI = new System.Windows.Forms.Label();
-            this.txtIdUsuario = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
@@ -54,16 +51,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dtpFechaAlta = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblDNI = new System.Windows.Forms.Label();
+            this.txtIdUsuario = new System.Windows.Forms.TextBox();
+            this.lblNumeroRegistro = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lblNumeroRegistro
-            // 
-            this.lblNumeroRegistro.AutoSize = true;
-            this.lblNumeroRegistro.Location = new System.Drawing.Point(53, 45);
-            this.lblNumeroRegistro.Name = "lblNumeroRegistro";
-            this.lblNumeroRegistro.Size = new System.Drawing.Size(55, 13);
-            this.lblNumeroRegistro.TabIndex = 0;
-            this.lblNumeroRegistro.Text = "Id Usuario";
             // 
             // lblNombre
             // 
@@ -129,24 +120,6 @@
             this.lblHost.Size = new System.Drawing.Size(29, 13);
             this.lblHost.TabIndex = 7;
             this.lblHost.Text = "Host";
-            // 
-            // lblDNI
-            // 
-            this.lblDNI.AutoSize = true;
-            this.lblDNI.Location = new System.Drawing.Point(272, 154);
-            this.lblDNI.Name = "lblDNI";
-            this.lblDNI.Size = new System.Drawing.Size(62, 13);
-            this.lblDNI.TabIndex = 8;
-            this.lblDNI.Text = "Documento";
-            this.lblDNI.Click += new System.EventHandler(this.lblDNI_Click);
-            // 
-            // txtIdUsuario
-            // 
-            this.txtIdUsuario.Location = new System.Drawing.Point(124, 42);
-            this.txtIdUsuario.Name = "txtIdUsuario";
-            this.txtIdUsuario.Size = new System.Drawing.Size(100, 20);
-            this.txtIdUsuario.TabIndex = 9;
-            this.txtIdUsuario.TextChanged += new System.EventHandler(this.txtIdUsuario_TextChanged);
             // 
             // txtNombre
             // 
@@ -281,6 +254,33 @@
             this.label2.TabIndex = 26;
             this.label2.Text = "Fecha de Alta";
             // 
+            // lblDNI
+            // 
+            this.lblDNI.AutoSize = true;
+            this.lblDNI.Location = new System.Drawing.Point(272, 154);
+            this.lblDNI.Name = "lblDNI";
+            this.lblDNI.Size = new System.Drawing.Size(62, 13);
+            this.lblDNI.TabIndex = 8;
+            this.lblDNI.Text = "Documento";
+            this.lblDNI.Click += new System.EventHandler(this.lblDNI_Click);
+            // 
+            // txtIdUsuario
+            // 
+            this.txtIdUsuario.Location = new System.Drawing.Point(124, 42);
+            this.txtIdUsuario.Name = "txtIdUsuario";
+            this.txtIdUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtIdUsuario.TabIndex = 9;
+            this.txtIdUsuario.TextChanged += new System.EventHandler(this.txtIdUsuario_TextChanged);
+            // 
+            // lblNumeroRegistro
+            // 
+            this.lblNumeroRegistro.AutoSize = true;
+            this.lblNumeroRegistro.Location = new System.Drawing.Point(53, 45);
+            this.lblNumeroRegistro.Name = "lblNumeroRegistro";
+            this.lblNumeroRegistro.Size = new System.Drawing.Size(55, 13);
+            this.lblNumeroRegistro.TabIndex = 0;
+            this.lblNumeroRegistro.Text = "Id Usuario";
+            // 
             // FrmRegistroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,8 +321,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblNumeroRegistro;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label lblDireccion;
@@ -330,8 +328,6 @@
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblHost;
-        private System.Windows.Forms.Label lblDNI;
-        private System.Windows.Forms.TextBox txtIdUsuario;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtDireccion;
@@ -348,5 +344,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpFechaAlta;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblDNI;
+        private System.Windows.Forms.TextBox txtIdUsuario;
+        private System.Windows.Forms.Label lblNumeroRegistro;
     }
 }

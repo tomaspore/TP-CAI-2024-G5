@@ -1,36 +1,86 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Datos
 {
     public class UsuarioWS
-            {
-            Guid _id;
-            String _nombre;
-            String _apellido;
-            int _dni;
-            String _nombreUsuario;
-            int _host;
+    {
+        public UsuarioWS() { }
 
-            public UsuarioWS(Guid id, string nombre, string apellido, int dni, string nombreUsuario, int host)
-            {
-                Id = id;
-                Nombre = nombre;
-                Apellido = apellido;
-                Dni = dni;
-                NombreUsuario = nombreUsuario;
-                Host = host;
-            }
+        public Guid Id { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public int Dni { get; set; }
+        public string NombreUsuario { get; set; }
+        public int Host { get; set; }
+        public string Direccion { get; set; }
+        public string Telefono { get; set; }
+        public string Email { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public DateTime FechaAlta { get; set; }
+        public string Contraseña { get; set; }
 
-            public Guid Id { get => _id; set => _id = value; }
-            public string Nombre { get => _nombre; set => _nombre = value; }
-            public string Apellido { get => _apellido; set => _apellido = value; }
-            public int Dni { get => _dni; set => _dni = value; }
-            public string NombreUsuario { get => _nombreUsuario; set => _nombreUsuario = value; }
-            public int Host { get => _host; set => _host = value; }
+        public async Task<bool> RegistrarUsuarioAsync()
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://cai-tp.azurewebsites.net");
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+                string jsonData = JsonConvert.SerializeObject(this);
+                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+
+                try
+                {
+                    HttpResponseMessage response = await client.PostAsync("/api/Usuario/AgregarUsuario", content);
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        Console.WriteLine("Error en la respuesta de la API: " + response.ReasonPhrase);
+                    }
+
+                    return response.IsSuccessStatusCode;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error en UsuarioWS.RegistrarUsuarioAsync: " + ex.Message);
+                    return false;
+                }
             }
+        }
+
+        // Nuevo método para cambiar la contraseña
+        public async Task<bool> CambiarContraseñaAsync(string nombreUsuario, string contraseñaActual, string nuevaContraseña)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://cai-tp.azurewebsites.net");
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+                // Crear un objeto anónimo con los datos necesarios para el cambio de contraseña
+                var data = new
+                {
+                    NombreUsuario = nombreUsuario,
+                    ContraseñaActual = contraseñaActual,
+                    NuevaContraseña = nuevaContraseña
+                };
+
+                // Serializar el objeto a JSON
+                string jsonData = JsonConvert.SerializeObject(data);
+                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+
+                // Enviar la solicitud POST a la API para cambiar la contraseña
+                HttpResponseMessage response = await client.PostAsync("/api/Usuario/CambiarContraseña", content);
+
+                return response.IsSuccessStatusCode;
+            }
+        }
     }
-
+}

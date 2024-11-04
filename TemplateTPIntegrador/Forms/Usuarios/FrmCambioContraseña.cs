@@ -13,10 +13,13 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmCambioContraseña : Form
     {
+        private readonly UsuarioService _usuarioService;
+
         public FrmCambioContraseña()
         {
             InitializeComponent();
-            UsuarioService _usuarioService = new UsuarioService();
+            _usuarioService = new UsuarioService();
+
             // Asegurarse de que las contraseñas estén ocultas al iniciar el formulario
             txtContraseñaActual.UseSystemPasswordChar = true;
             txtContraseñaNueva.UseSystemPasswordChar = true;
@@ -37,10 +40,9 @@ namespace TemplateTPIntegrador.Forms
             
         }
 
-        private void txtModificarContraseña_Click(object sender, EventArgs e)
+        private async void txtModificarContraseña_Click(object sender, EventArgs e)
         {
             // Capturar los valores de los TextBoxes
-            UsuarioService _usuarioService = new UsuarioService();
             string nombreUsuario = txtUsuario.Text;
             string contraseñaActual = txtContraseñaActual.Text;
             string nuevaContraseña = txtContraseñaNueva.Text;
@@ -55,7 +57,7 @@ namespace TemplateTPIntegrador.Forms
             try
             {
                 // Llamar al método de la capa de negocio para cambiar la contraseña
-                bool resultado = _usuarioService.CambiarContraseñaAsync(nombreUsuario, contraseñaActual, nuevaContraseña);
+                bool resultado = await _usuarioService.CambiarContraseña(nombreUsuario, contraseñaActual, nuevaContraseña);
 
                 // Mostrar el resultado al usuario
                 if (resultado)
@@ -72,7 +74,6 @@ namespace TemplateTPIntegrador.Forms
                 // Manejar cualquier excepción que pueda ocurrir
                 MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
 
         private void ChkMostrarContraseñaActual_CheckedChanged(object sender, EventArgs e)
