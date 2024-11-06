@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Negocio
@@ -127,41 +126,5 @@ namespace Negocio
 
         }
 
-        // Validación de campos de texto como nombre, apellido y dirección
-        public bool ValidarCadena(string input, string campo, int minLength, int maxLength, out string mensajeError)
-        {
-            if (string.IsNullOrEmpty(input) || input.Length < minLength || input.Length > maxLength)
-            {
-                mensajeError = $"{campo} debe tener entre {minLength} y {maxLength} caracteres.";
-                return false;
-            }
-            mensajeError = string.Empty;
-            return true;
-      
-        
-        }
-        public bool ValidarEntero(string input, string campo, int min, int max, out int resultado, out string mensajeError)
-        {
-            if (int.TryParse(input, out resultado) && resultado >= min && resultado <= max)
-            {
-                mensajeError = string.Empty;
-                return true;
-            }
-            mensajeError = $"{campo} debe ser un número entre {min} y {max}.";
-            resultado = 0;
-            return false;
-        }
-        public bool ValidarEmail(string input, out string mensajeError)
-        {
-            if (Regex.IsMatch(input, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-            {
-                mensajeError = string.Empty;
-                return true;
-            }
-            mensajeError = "Formato de correo electrónico inválido.";
-            return false;
-        }
-
     }
-
 }

@@ -40,50 +40,15 @@ namespace TemplateTPIntegrador.Forms
 
         private async void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
-            ValidacionesNegocio validaciones = new ValidacionesNegocio();
-            List<string> mensajesError = new List<string>();
-
-            bool validoNombre = validaciones.ValidarCadena(txtNombre.Text, "Nombre", 3, 30, out string mensajeErrorNombre);
-            if (!validoNombre) mensajesError.Add(mensajeErrorNombre);
-
-            bool validoApellido = validaciones.ValidarCadena(txtApellido.Text, "Apellido", 3, 30, out string mensajeErrorApellido);
-            if (!validoApellido) mensajesError.Add(mensajeErrorApellido);
-
-            bool validoDNI = validaciones.ValidarEntero(txtDNI.Text, "DNI", 1000000, 100000000, out int dni, out string mensajeErrorDNI);
-            if (!validoDNI) mensajesError.Add(mensajeErrorDNI);
-
-            bool validoDireccion = validaciones.ValidarCadena(txtDireccion.Text, "Dirección", 3, 50, out string mensajeErrorDireccion);
-            if (!validoDireccion) mensajesError.Add(mensajeErrorDireccion);
-
-            bool validoTelefono = validaciones.ValidarCadena(txtTelefono.Text, "Teléfono", 7, 15, out string mensajeErrorTelefono);
-            if (!validoTelefono) mensajesError.Add(mensajeErrorTelefono);
-
-            bool validoEmail = validaciones.ValidarEmail(txtEmail.Text, out string mensajeErrorEmail);
-            if (!validoEmail) mensajesError.Add(mensajeErrorEmail);
-
-            bool validoUsuario = validaciones.ValidarNombreRegistroUsuario(txtUsuario.Text, txtNombre.Text, txtApellido.Text, out string mensajeErrorUsuario);
-            if (!validoUsuario) mensajesError.Add(mensajeErrorUsuario);
-
-            bool validoContraseña = validaciones.ValidacionContraseña(txtContraseña.Text, out string mensajeErrorContraseña);
-            if (!validoContraseña) mensajesError.Add(mensajeErrorContraseña);
-
-            // Concatenar solo mensajes de error no vacíos
-            string mensajeError = string.Join("\n", mensajesError);
-
-            if (!string.IsNullOrEmpty(mensajeError))
-            {
-                MessageBox.Show(mensajeError, "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
             try
             {
                 UsuarioService usuarioService = new UsuarioService();
+
                 bool registrado = await usuarioService.RegistrarUsuario(
                     Guid.NewGuid(),
                     txtNombre.Text,
                     txtApellido.Text,
-                    dni,
+                    int.Parse(txtDNI.Text),
                     txtUsuario.Text,
                     cmbHost.SelectedIndex + 1,
                     txtDireccion.Text,
