@@ -71,23 +71,49 @@ namespace Persistencia.UsuariosData
             return listaIds;
         }
         // Método para registrar un nuevo usuario
-        public async Task<bool> RegistrarUsuarioAsync()
+        public bool RegistrarUsuario(int hostvalor, string nombre, string apellido, int documento, string direccion, string telefono, string email, DateTime fechaNacimiento, string usuario, string contraseña)
         {
-            using (HttpClient client = new HttpClient())
-            {
-                client.BaseAddress = new Uri("https://cai-tp.azurewebsites.net");
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+            string idUsuario = "1653c7ec-870d-468a-b581-9800961d53d2";
+            // Crear el diccionario con los parámetros del producto
+            Dictionary<String, Object> datos = new Dictionary<String, Object>
+      {
+          { "idUsuario", idUsuario },
+          { "host", hostvalor },
+          {"nombre",nombre },
+          { "apellido", apellido },
+          { "dni", documento },
+          { "direccion", direccion },
+          { "telefono", telefono },
+          {"email",email },
+          {"fechaNacimiento",fechaNacimiento },
+          {"nombreUsuario",usuario },
+          {"contraseña",contraseña }
 
-                // Serializar el objeto a JSON
-                string jsonData = JsonConvert.SerializeObject(this);
-                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+      };
+
+            try
+            {
+                // Convertir el objeto cliente a una cadena JSON
+                var jsonData = JsonConvert.SerializeObject(datos);
 
                 // Enviar la solicitud POST
-                HttpResponseMessage response = await client.PostAsync("/api/Usuario/AgregarUsuario", content);
+                HttpResponseMessage response = WebHelper.Post("Usuario/AgregarUsuario", jsonData);
+
 
                 return response.IsSuccessStatusCode;
             }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Error de solicitud HTTP: {e.Message}");
+                return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error inesperado: {e.Message}");
+                return false;
+            }
+
+
         }
     }
 }
