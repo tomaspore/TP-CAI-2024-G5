@@ -81,7 +81,7 @@ namespace TemplateTPIntegrador
 
         private void btnModificacionUsuario_Click(object sender, EventArgs e)
         {
-            FrmModificarUsuario modificarUsuarioForm = new FrmModificarUsuario();
+            FrmReactivarUsuario modificarUsuarioForm = new FrmReactivarUsuario();
             modificarUsuarioForm.Show();
             this.Hide();
         }
@@ -102,7 +102,7 @@ namespace TemplateTPIntegrador
 
         private void btnModificacionUsuari0_Click(object sender, EventArgs e)
         {
-            FrmModificarUsuario frmModificarUsuario = new FrmModificarUsuario();
+            FrmReactivarUsuario frmModificarUsuario = new FrmReactivarUsuario();
             frmModificarUsuario.Show();
             this.Hide();
         }

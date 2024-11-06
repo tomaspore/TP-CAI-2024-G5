@@ -46,5 +46,10 @@ namespace TemplateTPIntegrador
         {
 
         }
+
+        private void dtpFechaNacimiento_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -108,11 +108,11 @@
     <Compile Include="Forms\Menúes\FrmMenuVendedor.Designer.cs">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmModificarUsuario.cs">
+    <Compile Include="Forms\Usuarios\FrmReactivarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmModificarUsuario.Designer.cs">
-      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    <Compile Include="Forms\Usuarios\FrmReactivarUsuario.Designer.cs">
+      <DependentUpon>FrmReactivarUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmRegistrarVenta.cs">
       <SubType>Form</SubType>
@@ -186,8 +186,8 @@
     <EmbeddedResource Include="Forms\Menúes\FrmMenuVendedor.resx">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Usuarios\FrmModificarUsuario.resx">
-      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Usuarios\FrmReactivarUsuario.resx">
+      <DependentUpon>FrmReactivarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRegistrarVenta.resx">
       <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>

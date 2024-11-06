@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace TemplateTPIntegrador.Forms
 {
-    public partial class FrmModificarUsuario : Form
+    public partial class FrmReactivarUsuario : Form
     {
-        public FrmModificarUsuario()
+        public FrmReactivarUsuario()
         {
             InitializeComponent();
         }
@@ -38,6 +38,16 @@ namespace TemplateTPIntegrador.Forms
         }
 
         private void FrmModificarUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
         {
 
         }
