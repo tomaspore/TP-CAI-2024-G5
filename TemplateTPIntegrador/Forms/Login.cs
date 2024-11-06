@@ -52,6 +52,7 @@ namespace TemplateTPIntegrador
 
                     if (perfil.StartsWith("Administrador"))
                     {
+                        ConfiguracionUsuario.PerfilUsuario = "Administrador";
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuAdmin admin = new FrmMenuAdmin();
                         admin.Show();
@@ -59,12 +60,14 @@ namespace TemplateTPIntegrador
                     }
                     else if (perfil.StartsWith("Supervisor"))
                     {
+                        ConfiguracionUsuario.PerfilUsuario = "Supervisor";
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
                         supervisor.Show();
                     }
                     else if (perfil.StartsWith("Vendedor"))
                     {
+                        ConfiguracionUsuario.PerfilUsuario = "Vendedor";
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuVendedor vendedor = new FrmMenuVendedor();
                         vendedor.Show();
@@ -153,6 +156,11 @@ namespace TemplateTPIntegrador
             {
                 Application.Exit();
             }
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

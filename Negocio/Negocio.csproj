@@ -41,8 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Utils\AgregarProducto.cs" />
-    <Compile Include="Utils\TraerProveedor.cs" />
+    <Compile Include="Clientes\AgregarCliente.cs" />
+    <Compile Include="Clientes\ReactivarCliente.cs" />
+    <Compile Include="Clientes\TraerClientes.cs" />
+    <Compile Include="Productos\AgregarProducto.cs" />
+    <Compile Include="Clientes\BorrarCliente.cs" />
+    <Compile Include="Clientes\ModificarCliente.cs" />
+    <Compile Include="Proveedores\TraerProveedor.cs" />
     <Compile Include="Utils\UsuarioService.cs" />
     <Compile Include="Utils\LoginNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -40,25 +40,36 @@ namespace Negocio
             return resultado;
         }
 
-        public async Task<bool> RegistrarUsuario(Guid id, string nombre, string apellido, int dni, string nombreUsuario, int host, string direccion, string telefono, string email, DateTime fechaNacimiento, DateTime fechaAlta, string contraseña)
+        public bool RegistrarUsuario(string host, string nombre, string apellido, int documento, string direccion, string telefono, string email, DateTime fechaNacimiento, string usuario, string contraseña)
         {
-            UsuarioWS nuevoUsuario = new UsuarioWS
-            {
-                Id = id,
-                Nombre = nombre,
-                Apellido = apellido,
-                Dni = dni,
-                NombreUsuario = nombreUsuario,
-                Host = host,
-                Direccion = direccion,
-                Telefono = telefono,
-                Email = email,
-                FechaNacimiento = fechaNacimiento,
-                FechaAlta = fechaAlta,
-                Contraseña = contraseña
-            };
+            int hostvalor;
 
-            return await nuevoUsuario.RegistrarUsuarioAsync();
+            switch (host)
+            {
+                case "Vendedor (1)":
+                    hostvalor = 1;
+                    break;
+                case "Supervisor (2)":
+                    hostvalor = 2;
+                    break;
+                case "Administrador (3)":
+                    hostvalor = 3;
+                    break;
+                default:
+                    hostvalor = 1;
+                    break;
+            }
+
+            bool response = _usuarioWS.RegistrarUsuario(hostvalor, nombre, apellido, documento, direccion, telefono, email, fechaNacimiento, usuario, contraseña);
+
+            if (!response)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
 
     }
