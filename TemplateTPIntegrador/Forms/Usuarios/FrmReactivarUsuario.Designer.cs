@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.btnRegistrarUsuario = new System.Windows.Forms.Button();
+            this.btnReactivar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -41,15 +41,15 @@
             this.textBox9.Size = new System.Drawing.Size(120, 20);
             this.textBox9.TabIndex = 11;
             // 
-            // btnRegistrarUsuario
+            // btnReactivar
             // 
-            this.btnRegistrarUsuario.Location = new System.Drawing.Point(141, 171);
-            this.btnRegistrarUsuario.Name = "btnRegistrarUsuario";
-            this.btnRegistrarUsuario.Size = new System.Drawing.Size(129, 23);
-            this.btnRegistrarUsuario.TabIndex = 25;
-            this.btnRegistrarUsuario.Text = "Reactivar Usuario";
-            this.btnRegistrarUsuario.UseVisualStyleBackColor = true;
-            this.btnRegistrarUsuario.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
+            this.btnReactivar.Location = new System.Drawing.Point(141, 171);
+            this.btnReactivar.Name = "btnReactivar";
+            this.btnReactivar.Size = new System.Drawing.Size(129, 23);
+            this.btnReactivar.TabIndex = 25;
+            this.btnReactivar.Text = "Reactivar";
+            this.btnReactivar.UseVisualStyleBackColor = true;
+            this.btnReactivar.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
             // 
             // label11
             // 
@@ -76,7 +76,7 @@
             this.ClientSize = new System.Drawing.Size(437, 270);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.btnRegistrarUsuario);
+            this.Controls.Add(this.btnReactivar);
             this.Controls.Add(this.textBox9);
             this.Name = "FrmReactivarUsuario";
             this.Text = "Reactivar Usuario";
@@ -92,7 +92,7 @@
        
        
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button btnRegistrarUsuario;
+        private System.Windows.Forms.Button btnReactivar;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button4;
     }

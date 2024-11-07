@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\men\u00FAes\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\men\u00FAes\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\usuarios\\frmmodificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmmodificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\negocio\\clientes\\agregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\clientes\\agregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\users\\ludmila\\documents\\github\\tp-cai-2024-g5-\\persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,52 +58,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmRegistrarDatosVenta.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs*",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs*",
-              "ViewState": "AgIAACAAAAAAAAAAAAApwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T22:56:54.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmRegistrarDatosVenta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Dise\u00F1o]*",
+              "Title": "FrmMenuAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T22:56:16.483Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmModificarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmModificarUsuario.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmModificarUsuario.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmModificarUsuario.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmModificarUsuario.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T22:55:24.607Z",
+              "WhenOpened": "2024-11-07T01:20:07.21Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AgregarCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Clientes\\AgregarCliente.cs",
-              "RelativeDocumentMoniker": "Negocio\\Clientes\\AgregarCliente.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Clientes\\AgregarCliente.cs",
-              "RelativeToolTip": "Negocio\\Clientes\\AgregarCliente.cs",
+              "Title": "FrmReactivarUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs*",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T22:28:34.912Z",
+              "WhenOpened": "2024-11-07T01:12:12.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmReactivarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs*",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:10:19.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmReactivarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:08:56.958Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioWS.cs",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\UsuarioWS.cs",
+              "RelativeDocumentMoniker": "Persistencia\\UsuariosData\\UsuarioWS.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\UsuarioWS.cs",
+              "RelativeToolTip": "Persistencia\\UsuariosData\\UsuarioWS.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:06:31.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Negocio\\Utils\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
+              "RelativeToolTip": "Negocio\\Utils\\UsuarioService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:58:20.859Z",
               "EditorCaption": ""
             }
           ]

@@ -29,7 +29,7 @@
             private void InitializeComponent()
             {
             this.btnRegistroUsuario = new System.Windows.Forms.Button();
-            this.btnModificacionUsuario = new System.Windows.Forms.Button();
+            this.btnReactivarUsuario = new System.Windows.Forms.Button();
             this.btnBajaUsuario = new System.Windows.Forms.Button();
             this.btnAltaProducto = new System.Windows.Forms.Button();
             this.btnModificacionProductos = new System.Windows.Forms.Button();
@@ -66,16 +66,16 @@
             this.btnRegistroUsuario.UseVisualStyleBackColor = true;
             this.btnRegistroUsuario.Click += new System.EventHandler(this.btnRegistroUsuario_Click);
             // 
-            // btnModificacionUsuario
+            // btnReactivarUsuario
             // 
-            this.btnModificacionUsuario.Location = new System.Drawing.Point(16, 71);
-            this.btnModificacionUsuario.Margin = new System.Windows.Forms.Padding(2);
-            this.btnModificacionUsuario.Name = "btnModificacionUsuario";
-            this.btnModificacionUsuario.Size = new System.Drawing.Size(147, 22);
-            this.btnModificacionUsuario.TabIndex = 1;
-            this.btnModificacionUsuario.Text = "Modificar Usuario";
-            this.btnModificacionUsuario.UseVisualStyleBackColor = true;
-            this.btnModificacionUsuario.Click += new System.EventHandler(this.btnModificacionUsuario_Click);
+            this.btnReactivarUsuario.Location = new System.Drawing.Point(16, 71);
+            this.btnReactivarUsuario.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReactivarUsuario.Name = "btnReactivarUsuario";
+            this.btnReactivarUsuario.Size = new System.Drawing.Size(147, 22);
+            this.btnReactivarUsuario.TabIndex = 1;
+            this.btnReactivarUsuario.Text = "Reactivar Usuario";
+            this.btnReactivarUsuario.UseVisualStyleBackColor = true;
+            this.btnReactivarUsuario.Click += new System.EventHandler(this.btnModificacionUsuario_Click);
             // 
             // btnBajaUsuario
             // 
@@ -176,7 +176,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnRegistroUsuario);
-            this.groupBox3.Controls.Add(this.btnModificacionUsuario);
+            this.groupBox3.Controls.Add(this.btnReactivarUsuario);
             this.groupBox3.Controls.Add(this.btnBajaUsuario);
             this.groupBox3.Location = new System.Drawing.Point(220, 58);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
@@ -287,7 +287,7 @@
             #endregion
 
             private System.Windows.Forms.Button btnRegistroUsuario;
-            private System.Windows.Forms.Button btnModificacionUsuario;
+            private System.Windows.Forms.Button btnReactivarUsuario;
             private System.Windows.Forms.Button btnBajaUsuario;
             private System.Windows.Forms.Button btnAltaProducto;
             private System.Windows.Forms.Button btnModificacionProductos;

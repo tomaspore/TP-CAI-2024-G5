@@ -71,6 +71,22 @@ namespace Negocio
                 return true;
             }
         }
+        
+        // Creamos el metodo para Reactivar Usuario
+        public bool ReactivarUsuario(string id)
+        {
+
+            bool response = _usuarioWS.ReactivarUsuario(id);
+
+            if (!response)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
     }
 }

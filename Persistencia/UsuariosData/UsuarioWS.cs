@@ -115,5 +115,36 @@ namespace Persistencia.UsuariosData
 
 
         }
+        public bool ReactivarUsuario(string idUsuario)
+        {
+            string idAdmin = "1653c7ec-870d-468a-b581-9800961d53d2";
+            //El idadmin para poder tener permisos.
+
+            try
+            {
+                Dictionary<String, Object> datos = new Dictionary<String, Object>
+                {
+                { "id", idUsuario },
+                { "idUsuario", idAdmin },
+                };
+
+                var jsonData = JsonConvert.SerializeObject(datos);
+                HttpResponseMessage response = WebHelper.Patch("Usuario/ReactivarUsuario", jsonData);
+
+
+                return response.IsSuccessStatusCode;
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Error de solicitud HTTP: {e.Message}");
+                return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error inesperado: {e.Message}");
+                return false;
+            }
+        }
+
     }
 }

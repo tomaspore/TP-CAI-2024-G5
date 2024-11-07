@@ -26,7 +26,22 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
+            UsuarioService _usuarioservice = new UsuarioService();
+            string id = textBox9.Text;
 
+            if (!string.IsNullOrEmpty(id))
+            {
+                bool response = _usuarioservice.ReactivarUsuario(id);
+
+                if (!response)
+                {
+                    MessageBox.Show("Error. No se ha podido reactivar el usuario, verifique el ID.");
+                }
+                else
+                {
+                    MessageBox.Show("Usuario reactivado exitosamente.");
+                }
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
