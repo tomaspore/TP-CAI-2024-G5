@@ -81,7 +81,46 @@ namespace Persistencia.Productos
                     return null;
                 }
             }
+
+
+        // Método para actualizar producto
+        public String ActualizarProducto(string nombre, double nuevoPrecio, int nuevoStock)
+        {
+            // Crear el diccionario con los parámetros del producto actualizado
+            Dictionary<String, Object> datos = new Dictionary<String, Object>
+            {
+                { "nombre", nombre },
+                { "nuevoPrecio", nuevoPrecio },
+                { "nuevoStock", nuevoStock }
+            };
+
+            // Convertir los datos a una cadena JSON
+            var jsonData = JsonConvert.SerializeObject(datos);
+
+            try
+            {
+                // Enviar la solicitud POST al servicio web para actualizar el producto
+                HttpResponseMessage response = WebHelper.Post("Producto/ActualizarProducto", jsonData);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                    return "Error";
+                }
+
+                var reader = new StreamReader(response.Content.ReadAsStreamAsync().Result);
+                var resultado = JsonConvert.DeserializeObject<String>(reader.ReadToEnd());
+
+                return resultado; // Devolver el resultado del servicio web
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Excepción: {ex.Message}");
+                return "Error";
+            }
         }
 
-    
+    }
+
+
 }
