@@ -106,6 +106,7 @@
             this.btnModificacionProductos.TabIndex = 4;
             this.btnModificacionProductos.Text = "Modificacion de Productos";
             this.btnModificacionProductos.UseVisualStyleBackColor = true;
+            this.btnModificacionProductos.Click += new System.EventHandler(this.btnModificacionProductos_Click);
             // 
             // btnBajaProductos
             // 

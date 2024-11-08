@@ -156,5 +156,13 @@ namespace TemplateTPIntegrador
         {
 
         }
+
+        private void btnModificacionProductos_Click(object sender, EventArgs e)
+        {
+            FrmModificarProducto modificarProducto = new FrmModificarProducto();
+
+            modificarProducto.Show();
+            this.Hide();
+        }
     }
 }
