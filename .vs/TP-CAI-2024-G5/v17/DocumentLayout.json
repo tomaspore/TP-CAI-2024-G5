@@ -3,7 +3,67 @@
   "WorkspaceRootPath": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\venta\\agregarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\venta\\agregarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\negocio\\ventas\\agregarventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\ventas\\agregarventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmconfirmarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmconfirmarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmconfirmarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmconfirmarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\clientes\\clientesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\clientes\\clientesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\negocio\\clientes\\agregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\clientes\\agregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\men\u00FAes\\frmmenuvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\men\u00FAes\\frmmenuvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\men\u00FAes\\frmmenuvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\men\u00FAes\\frmmenuvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrardatosventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\datos\\ventasws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|solutionrelative:datos\\ventasws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +71,7 @@
       "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\productos\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\datos\\productows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\datos\\productows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E0D8FE3-7EAA-45B0-A363-D14D2CB1FCE9}|Datos\\Datos.csproj|solutionrelative:datos\\productows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +79,7 @@
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\facultad\\2do cuatrimestre - 2024\\cai-bertagnoli\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -29,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\negocio\\proveedores\\traerproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\proveedores\\traerproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\men\u00FAes\\frmmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -69,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\utils\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,7 +162,159 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgregarVentaNegocio.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Ventas\\AgregarVentaNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\Ventas\\AgregarVentaNegocio.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Ventas\\AgregarVentaNegocio.cs",
+              "RelativeToolTip": "Negocio\\Ventas\\AgregarVentaNegocio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:39:59.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AgregarVenta.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Venta\\AgregarVenta.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Venta\\AgregarVenta.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Venta\\AgregarVenta.cs",
+              "RelativeToolTip": "Persistencia\\Venta\\AgregarVenta.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:31:20.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientesData.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Clientes\\ClientesData.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Clientes\\ClientesData.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Clientes\\ClientesData.cs",
+              "RelativeToolTip": "Persistencia\\Clientes\\ClientesData.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwv3oAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:24:20.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgregarCliente.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Clientes\\AgregarCliente.cs",
+              "RelativeDocumentMoniker": "Negocio\\Clientes\\AgregarCliente.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Clientes\\AgregarCliente.cs",
+              "RelativeToolTip": "Negocio\\Clientes\\AgregarCliente.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:23:57.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmMenuVendedor.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAWwEQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:19:08.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmMenuVendedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:19:03.316Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmConfirmarVenta.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:13:41.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmConfirmarVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:13:27.901Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmRegistrarDatosVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:12:43.466Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmRegistrarVenta.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAD4vycAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:12:17.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmRegistrarVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:09:15.091Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VentasWS.cs",
+              "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Datos\\VentasWS.cs",
+              "RelativeDocumentMoniker": "Datos\\VentasWS.cs",
+              "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Datos\\VentasWS.cs",
+              "RelativeToolTip": "Datos\\VentasWS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:08:54.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ProductoWS.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Datos\\ProductoWS.cs",
               "RelativeDocumentMoniker": "Datos\\ProductoWS.cs",
@@ -122,12 +322,11 @@
               "RelativeToolTip": "Datos\\ProductoWS.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T04:15:11.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T04:15:11.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Productos\\Producto.cs",
               "RelativeDocumentMoniker": "Persistencia\\Productos\\Producto.cs",
@@ -140,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "TraerProveedor.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Proveedores\\TraerProveedor.cs",
               "RelativeDocumentMoniker": "Negocio\\Proveedores\\TraerProveedor.cs",
@@ -152,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "FrmMenuAdmin.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs",
@@ -164,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "FrmMenuSupervisor.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
@@ -175,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Login.cs",
@@ -186,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "FrmModificarProducto.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
@@ -194,24 +393,22 @@
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:53:48.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:53:48.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "FrmModificarProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
               "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs [Dise\u00F1o]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:45:10.008Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-08T03:45:10.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "AgregarProducto.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Productos\\AgregarProducto.cs",
               "RelativeDocumentMoniker": "Negocio\\Productos\\AgregarProducto.cs",
@@ -219,12 +416,11 @@
               "RelativeToolTip": "Negocio\\Productos\\AgregarProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:20:18.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:20:18.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "Proveedores.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\Proveedores\\Proveedores.cs",
               "RelativeDocumentMoniker": "Persistencia\\Proveedores\\Proveedores.cs",
@@ -232,12 +428,11 @@
               "RelativeToolTip": "Persistencia\\Proveedores\\Proveedores.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:13:51.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:13:51.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "FrmAgregarProducto.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
@@ -245,22 +440,24 @@
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAASwDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:11:53.996Z"
+              "WhenOpened": "2024-11-08T03:11:53.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "FrmAgregarProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs [Dise\u00F1o]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:10:21.478Z"
+              "WhenOpened": "2024-11-08T03:10:21.478Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "FrmMenuAdmin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuAdmin.cs",
@@ -271,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "FrmReactivarUsuario.Designer.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs",
@@ -283,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "FrmReactivarUsuario.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
@@ -295,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "FrmReactivarUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
@@ -306,19 +503,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "UsuarioWS.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\UsuarioWS.cs",
               "RelativeDocumentMoniker": "Persistencia\\UsuariosData\\UsuarioWS.cs",
               "ToolTip": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\UsuarioWS.cs",
               "RelativeToolTip": "Persistencia\\UsuariosData\\UsuarioWS.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAIwHQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAwwHcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:06:31.8Z"
+              "WhenOpened": "2024-11-07T01:06:31.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Facultad\\2DO CUATRIMESTRE - 2024\\CAI-Bertagnoli\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Negocio\\Utils\\UsuarioService.cs",

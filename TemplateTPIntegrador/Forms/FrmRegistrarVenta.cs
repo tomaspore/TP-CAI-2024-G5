@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Datos;
+using Negocio.Ventas;
+using Persistencia.UsuariosData;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace TemplateTPIntegrador.Forms
 {
@@ -19,9 +23,29 @@ namespace TemplateTPIntegrador.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmRegistrarDatosVenta registrarDatosVenta = new FrmRegistrarDatosVenta();
-            registrarDatosVenta.Show();
-            this.Hide();
+            AgregarVentaNegocio AgregarN = new AgregarVentaNegocio();
+
+            string ingresoCliente = txtDNICliente.Text;
+            string productos = "e038c3d9-7ae4-4447-9646-000e16877537";  /*lstProductos.SelectedItem.ToString();*/
+            string cantidadAComprar = txtCantidadAComprar.Text; // va a haber que transformarlo a numero mediante un validador
+            string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab";
+
+            int cantidad = Convert.ToInt32(cantidadAComprar);
+
+            bool response = AgregarN.AgregarVenta(ingresoCliente, idUsuario, productos, cantidad);
+
+            if (!response)
+            {
+                MessageBox.Show("Ha ocurrido un error con la carga");
+            }
+            else
+            {
+                MessageBox.Show("Datos cargados exitosamente");
+            }
+            
+
+            //FrmConfirmarVenta confirmar = new FrmConfirmarVenta();
+            //confirmar.Show();            
 
         }
 

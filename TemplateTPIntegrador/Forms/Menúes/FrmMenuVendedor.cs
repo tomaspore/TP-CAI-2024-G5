@@ -64,8 +64,8 @@ namespace TemplateTPIntegrador.Forms
         private void btnRegistrarVenta_Click(object sender, EventArgs e)
         {
 
-            FrmRegistrarDatosVenta registrarDatosVenta = new FrmRegistrarDatosVenta();
-            registrarDatosVenta.Show();
+            FrmRegistrarVenta confirmar = new FrmRegistrarVenta();
+            confirmar.Show();
             this.Hide();
 
         }

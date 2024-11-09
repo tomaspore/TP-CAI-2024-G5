@@ -65,6 +65,12 @@
     <Compile Include="Forms\Clientes\FrmNuevoCliente.Designer.cs">
       <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmConfirmarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmConfirmarVenta.Designer.cs">
+      <DependentUpon>FrmConfirmarVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmModificarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Clientes\FrmReactivarCliente.resx">
       <DependentUpon>FrmReactivarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmConfirmarVenta.resx">
+      <DependentUpon>FrmConfirmarVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmModificarProducto.resx">
       <DependentUpon>FrmModificarProducto.cs</DependentUpon>
