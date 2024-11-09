@@ -55,50 +55,58 @@ namespace TemplateTPIntegrador.Forms
             AgregarVentaNegocio AgregarN = new AgregarVentaNegocio();
 
             // Obtener el DNI del cliente ingresado en el formulario
-             string ingresoCliente = txtDNICliente.Text;
-             int dniCliente;
-             if (!int.TryParse(ingresoCliente, out dniCliente))
-             {
-               MessageBox.Show("Por favor ingrese un DNI válido.");
-                 return;
-             }
+            string ingresoCliente = txtDNICliente.Text;
+            int dniCliente;
+            if (!int.TryParse(ingresoCliente, out dniCliente))
+            {
+                MessageBox.Show("Por favor ingrese un DNI válido.");
+                return;
+            }
 
-             // Buscar el ID del cliente usando el DNI
-             Guid idCliente = AgregarN.BuscarClientePorDNI(dniCliente);
+            // Buscar el ID del cliente usando el DNI
+            Guid idCliente = AgregarN.BuscarClientePorDNI(dniCliente);
 
-             if (idCliente == Guid.Empty)
-             {
-                 MessageBox.Show("Cliente no encontrado.");
-                 return;
-             }
+            if (idCliente == Guid.Empty)
+            {
+                MessageBox.Show("Cliente no encontrado.");
+                return;
+            }
 
-              // Obtener el resto de los datos del formulario
-             string productos = "1717601f-6aad-495c-a20e-06deadf0ce64"; // Ejemplo de ID de producto, puedes actualizarlo según sea necesario
-             string cantidadAComprar = txtCantidad.Text;
-             string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab"; // Ejemplo de ID de usuario, puedes actualizarlo según sea necesario
+            // Obtener el producto seleccionado en el ListBox
+            if (lstProductos.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor seleccione un producto.");
+                return;
+            }
 
-             int cantidad;
+            ListItem productoSeleccionado = (ListItem)lstProductos.SelectedItem;
+            string idProducto = productoSeleccionado.Value;
+
+            // Obtener la cantidad del formulario
+            string cantidadAComprar = txtCantidad.Text;
+            string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab"; // Ejemplo de ID de usuario, puedes actualizarlo según sea necesario
+
+            int cantidad;
             if (!int.TryParse(cantidadAComprar, out cantidad))
             {
                 MessageBox.Show("Por favor ingrese una cantidad válida.");
-                  return;
+                return;
             }
 
-             // Agregar la venta utilizando el ID del cliente
-             bool response = AgregarN.AgregarVenta(idCliente.ToString(), idUsuario, productos, cantidad);
+            // Agregar la venta utilizando el ID del cliente y el ID del producto
+            bool response = AgregarN.AgregarVenta(idCliente.ToString(), idUsuario, idProducto, cantidad);
 
-             // Mostrar mensaje de éxito o error
+            // Mostrar mensaje de éxito o error
             if (!response)
             {
-               MessageBox.Show("Ha ocurrido un error con la carga. Verifique los datos cargados.");
+                MessageBox.Show("Ha ocurrido un error con la carga. Verifique los datos cargados.");
             }
             else
             {
-                MessageBox.Show("Datos cargados exitosamente");
-                
+                MessageBox.Show("Venta cargada exitosamente");
             }
- 
         }
+
 
         private void FrmRegistrarVenta_Load(object sender, EventArgs e)
         {
@@ -107,18 +115,20 @@ namespace TemplateTPIntegrador.Forms
 
         private void CargarProductos()
         {
-            ObtenerProductosWS productosWS = new ObtenerProductosWS();
-            List<ProductoWS> productos = productosWS.buscarDatosProductos();
+            ObtenerProductosWS obtenerProductos = new ObtenerProductosWS();
+            List<ProductoWS> productos = obtenerProductos.buscarDatosProductos();
 
-            if (productos != null && productos.Count > 0)
+            if (productos != null)
             {
-                lstProductos.DataSource = productos;
-                lstProductos.DisplayMember = "Nombre"; // Propiedad que se mostrará en el ListBox
-                lstProductos.ValueMember = "Id"; // Propiedad que será el valor del item
+                foreach (var producto in productos)
+                {
+                    // Añadir el producto al ListBox, mostrando el nombre pero guardando el IDProducto
+                    lstProductos.Items.Add(new ListItem(producto.Nombre, producto.Id.ToString()));
+                }
             }
             else
             {
-                MessageBox.Show("No se encontraron productos.");
+                MessageBox.Show("No se pudieron cargar los productos.");
             }
         }
 
@@ -127,6 +137,24 @@ namespace TemplateTPIntegrador.Forms
 
         }
     }
+
+    public class ListItem
+    {
+        public string Text { get; set; }
+        public string Value { get; set; }
+
+        public ListItem(string text, string value)
+        {
+            Text = text;
+            Value = value;
+        }
+
+        public override string ToString()
+        {
+            return Text;
+        }
+    }
+
 
     internal class FrmregistrarDatosVenta
     {
