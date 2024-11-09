@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistrarDatosVenta));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,7 +44,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.RegistrarVenta = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -63,6 +64,14 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de la Venta";
+            // 
+            // dtpFechaNacimiento
+            // 
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(126, 49);
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(121, 20);
+            this.dtpFechaNacimiento.TabIndex = 25;
+            this.dtpFechaNacimiento.ValueChanged += new System.EventHandler(this.dtpFechaNacimiento_ValueChanged);
             // 
             // textBox3
             // 
@@ -170,12 +179,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(205, 352);
+            this.button1.Location = new System.Drawing.Point(283, 352);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 27);
             this.button1.TabIndex = 3;
             this.button1.Text = "Generar Remito";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -194,13 +204,15 @@
             this.pictureBox1.WaitOnLoad = true;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // dtpFechaNacimiento
+            // RegistrarVenta
             // 
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(126, 49);
-            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            this.dtpFechaNacimiento.Size = new System.Drawing.Size(121, 20);
-            this.dtpFechaNacimiento.TabIndex = 25;
-            this.dtpFechaNacimiento.ValueChanged += new System.EventHandler(this.dtpFechaNacimiento_ValueChanged);
+            this.RegistrarVenta.Location = new System.Drawing.Point(85, 352);
+            this.RegistrarVenta.Name = "RegistrarVenta";
+            this.RegistrarVenta.Size = new System.Drawing.Size(114, 27);
+            this.RegistrarVenta.TabIndex = 5;
+            this.RegistrarVenta.Text = "Registrar Venta";
+            this.RegistrarVenta.UseVisualStyleBackColor = true;
+            this.RegistrarVenta.Click += new System.EventHandler(this.button2_Click);
             // 
             // FrmRegistrarDatosVenta
             // 
@@ -208,6 +220,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(490, 391);
+            this.Controls.Add(this.RegistrarVenta);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
@@ -241,5 +254,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
+        private System.Windows.Forms.Button RegistrarVenta;
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Datos;
+using Persistencia.Productos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,6 +52,16 @@ namespace TemplateTPIntegrador
         private void dtpFechaNacimiento_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Registrar venta
         }
     }
 }
