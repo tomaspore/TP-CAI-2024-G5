@@ -28,21 +28,26 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnDevolverVenta_Click(object sender, EventArgs e)
         {
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
 
-            DevolverVentaNegocio devolver = new DevolverVentaNegocio();
-
-            string idventa = txtIDVenta.Text;
-
-            bool response = devolver.DevolverVenta(idventa);
-
-            if(!response)
+            if (confirmar.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Ha ocurrido un error. Verifique el ID.");
+                DevolverVentaNegocio devolver = new DevolverVentaNegocio();
+
+                string idventa = txtIDVenta.Text;
+
+                bool response = devolver.DevolverVenta(idventa);
+
+                if (!response)
+                {
+                    MessageBox.Show("Ha ocurrido un error. Verifique el ID.");
+                }
+                else
+                {
+                    MessageBox.Show("La devolución se realizo con éxito.");
+                }
             }
-            else
-            {
-                MessageBox.Show("La devolución se realizo con éxito.");
-            }
+            
                
 
         }
