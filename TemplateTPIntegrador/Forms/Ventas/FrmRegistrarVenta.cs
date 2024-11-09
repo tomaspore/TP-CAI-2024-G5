@@ -24,74 +24,20 @@ namespace TemplateTPIntegrador.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AgregarVentaNegocio AgregarN = new AgregarVentaNegocio();
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
 
-            // Obtener el DNI del cliente ingresado en el formulario
-            string ingresoCliente = txtDNICliente.Text;
-            int dniCliente;
-            if (!int.TryParse(ingresoCliente, out dniCliente))
+            if(confirmar.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Por favor ingrese un DNI válido.");
-                return;
-            }
-
-            // Buscar el ID del cliente usando el DNI
-            Guid idCliente = AgregarN.BuscarClientePorDNI(dniCliente);
-
-            if (idCliente == Guid.Empty)
-            {
-                MessageBox.Show("Cliente no encontrado.");
-                return;
-            }
-
-            // Obtener el resto de los datos del formulario
-            string productos = "1717601f-6aad-495c-a20e-06deadf0ce64"; // Ejemplo de ID de producto, puedes actualizarlo según sea necesario
-            string cantidadAComprar = txtCantidad.Text;
-            string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab"; // Ejemplo de ID de usuario, puedes actualizarlo según sea necesario
-
-            int cantidad;
-            if (!int.TryParse(cantidadAComprar, out cantidad))
-            {
-                MessageBox.Show("Por favor ingrese una cantidad válida.");
-                return;
-            }
-
-            // Agregar la venta utilizando el ID del cliente
-            bool response = AgregarN.AgregarVenta(idCliente.ToString(), idUsuario, productos, cantidad);
-
-            // Mostrar mensaje de éxito o error
-            if (!response)
-            {
-                MessageBox.Show("Ha ocurrido un error con la carga");
+                OperaciónVenta();
+                txtCantidad.Clear();
+                lstProductos.SelectedIndex = -1;
             }
             else
             {
-                MessageBox.Show("Datos cargados exitosamente");
+
             }
 
 
-
-            //string ingresoCliente = txtDNICliente.Text;
-            //string productos = "e038c3d9-7ae4-4447-9646-000e16877537";  /*lstProductos.SelectedItem.ToString();*/
-            //string cantidadAComprar = txtCantidadAComprar.Text; // va a haber que transformarlo a numero mediante un validador
-            //string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab";
-
-            //int cantidad = Convert.ToInt32(cantidadAComprar);
-
-            //bool response = AgregarN.AgregarVenta(ingresoCliente, idUsuario, productos, cantidad);
-
-            //if (!response)
-            //{
-            //    MessageBox.Show("Ha ocurrido un error con la carga");
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Datos cargados exitosamente");
-            //}
-            
-
-            //FrmConfirmarVenta confirmar = new FrmConfirmarVenta();
-            //confirmar.Show();            
 
         }
 
@@ -102,6 +48,56 @@ namespace TemplateTPIntegrador.Forms
             FrmMenuVendedor menu = new FrmMenuVendedor(); // Crea una instancia del menú Vendedor
             menu.Show();  // Muestra el formulario del menú Vendedor
 
+        }
+
+        public void OperaciónVenta()
+        {
+            AgregarVentaNegocio AgregarN = new AgregarVentaNegocio();
+
+            // Obtener el DNI del cliente ingresado en el formulario
+             string ingresoCliente = txtDNICliente.Text;
+             int dniCliente;
+             if (!int.TryParse(ingresoCliente, out dniCliente))
+             {
+               MessageBox.Show("Por favor ingrese un DNI válido.");
+                 return;
+             }
+
+             // Buscar el ID del cliente usando el DNI
+             Guid idCliente = AgregarN.BuscarClientePorDNI(dniCliente);
+
+             if (idCliente == Guid.Empty)
+             {
+                 MessageBox.Show("Cliente no encontrado.");
+                 return;
+             }
+
+              // Obtener el resto de los datos del formulario
+             string productos = "1717601f-6aad-495c-a20e-06deadf0ce64"; // Ejemplo de ID de producto, puedes actualizarlo según sea necesario
+             string cantidadAComprar = txtCantidad.Text;
+             string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab"; // Ejemplo de ID de usuario, puedes actualizarlo según sea necesario
+
+             int cantidad;
+            if (!int.TryParse(cantidadAComprar, out cantidad))
+            {
+                MessageBox.Show("Por favor ingrese una cantidad válida.");
+                  return;
+            }
+
+             // Agregar la venta utilizando el ID del cliente
+             bool response = AgregarN.AgregarVenta(idCliente.ToString(), idUsuario, productos, cantidad);
+
+             // Mostrar mensaje de éxito o error
+            if (!response)
+            {
+               MessageBox.Show("Ha ocurrido un error con la carga. Verifique los datos cargados.");
+            }
+            else
+            {
+                MessageBox.Show("Datos cargados exitosamente");
+                
+            }
+ 
         }
 
         private void FrmRegistrarVenta_Load(object sender, EventArgs e)

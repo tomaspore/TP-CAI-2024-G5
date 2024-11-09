@@ -165,9 +165,9 @@
             this.groupBox2.Controls.Add(this.btnAltaProducto);
             this.groupBox2.Controls.Add(this.btnModificacionProductos);
             this.groupBox2.Controls.Add(this.btnBajaProductos);
-            this.groupBox2.Location = new System.Drawing.Point(644, 397);
+            this.groupBox2.Location = new System.Drawing.Point(341, 360);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(266, 229);
+            this.groupBox2.Size = new System.Drawing.Size(264, 229);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Control de Inventario";
@@ -178,7 +178,7 @@
             this.groupBox3.Controls.Add(this.btnRegistroUsuario);
             this.groupBox3.Controls.Add(this.btnReactivarUsuario);
             this.groupBox3.Controls.Add(this.btnBajaUsuario);
-            this.groupBox3.Location = new System.Drawing.Point(330, 89);
+            this.groupBox3.Location = new System.Drawing.Point(341, 89);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(264, 234);
             this.groupBox3.TabIndex = 13;
@@ -187,7 +187,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(56, 575);
+            this.button4.Location = new System.Drawing.Point(56, 539);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(230, 38);
@@ -232,7 +232,7 @@
             // 
             // btnCerrarSesión
             // 
-            this.btnCerrarSesión.Location = new System.Drawing.Point(56, 512);
+            this.btnCerrarSesión.Location = new System.Drawing.Point(56, 476);
             this.btnCerrarSesión.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
             this.btnCerrarSesión.Size = new System.Drawing.Size(230, 38);
@@ -268,7 +268,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 708);
+            this.ClientSize = new System.Drawing.Size(969, 671);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox3);

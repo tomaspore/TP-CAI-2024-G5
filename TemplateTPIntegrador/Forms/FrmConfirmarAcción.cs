@@ -12,9 +12,9 @@ using Negocio.Ventas;
 
 namespace TemplateTPIntegrador.Forms
 {
-    public partial class FrmConfirmarVenta : Form
+    public partial class FrmConfirmarAcción : Form
     {
-        public FrmConfirmarVenta()
+        public FrmConfirmarAcción()
         {
             InitializeComponent();
         }
