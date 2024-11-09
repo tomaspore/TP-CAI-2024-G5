@@ -36,17 +36,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 35);
+            this.label1.Location = new System.Drawing.Point(98, 54);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 13);
+            this.label1.Size = new System.Drawing.Size(203, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "¿Desea confirmar la venta?";
             // 
             // btnConfirmarVenta
             // 
-            this.btnConfirmarVenta.Location = new System.Drawing.Point(172, 35);
+            this.btnConfirmarVenta.Location = new System.Drawing.Point(69, 122);
+            this.btnConfirmarVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConfirmarVenta.Name = "btnConfirmarVenta";
-            this.btnConfirmarVenta.Size = new System.Drawing.Size(75, 23);
+            this.btnConfirmarVenta.Size = new System.Drawing.Size(112, 35);
             this.btnConfirmarVenta.TabIndex = 1;
             this.btnConfirmarVenta.Text = "Confirmar";
             this.btnConfirmarVenta.UseVisualStyleBackColor = true;
@@ -54,9 +56,10 @@
             // 
             // btnCancelarVenta
             // 
-            this.btnCancelarVenta.Location = new System.Drawing.Point(172, 79);
+            this.btnCancelarVenta.Location = new System.Drawing.Point(223, 122);
+            this.btnCancelarVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelarVenta.Name = "btnCancelarVenta";
-            this.btnCancelarVenta.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelarVenta.Size = new System.Drawing.Size(112, 35);
             this.btnCancelarVenta.TabIndex = 2;
             this.btnCancelarVenta.Text = "Cancelar";
             this.btnCancelarVenta.UseVisualStyleBackColor = true;
@@ -64,12 +67,13 @@
             // 
             // FrmConfirmarVenta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 234);
+            this.ClientSize = new System.Drawing.Size(432, 222);
             this.Controls.Add(this.btnCancelarVenta);
             this.Controls.Add(this.btnConfirmarVenta);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmConfirmarVenta";
             this.Text = "FrmConfirmarVenta";
             this.Load += new System.EventHandler(this.FrmConfirmarVenta_Load);

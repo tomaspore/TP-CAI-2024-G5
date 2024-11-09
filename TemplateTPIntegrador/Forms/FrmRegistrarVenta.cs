@@ -126,6 +126,10 @@ namespace TemplateTPIntegrador.Forms
             }
         }
 
+        private void lstProductos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
     internal class FrmregistrarDatosVenta
