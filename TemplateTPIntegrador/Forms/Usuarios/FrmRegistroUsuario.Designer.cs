@@ -43,8 +43,6 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtDNI = new System.Windows.Forms.TextBox();
-            this.lblContraseña = new System.Windows.Forms.Label();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.cmbHost = new System.Windows.Forms.ComboBox();
             this.btnRegistrarUsuario = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -127,7 +125,7 @@
             // lblDNI
             // 
             this.lblDNI.AutoSize = true;
-            this.lblDNI.Location = new System.Drawing.Point(408, 237);
+            this.lblDNI.Location = new System.Drawing.Point(408, 180);
             this.lblDNI.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDNI.Name = "lblDNI";
             this.lblDNI.Size = new System.Drawing.Size(92, 20);
@@ -187,35 +185,16 @@
             // 
             // txtDNI
             // 
-            this.txtDNI.Location = new System.Drawing.Point(594, 232);
+            this.txtDNI.Location = new System.Drawing.Point(594, 175);
             this.txtDNI.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(148, 26);
             this.txtDNI.TabIndex = 17;
             this.txtDNI.TextChanged += new System.EventHandler(this.txtDNI_TextChanged);
             // 
-            // lblContraseña
-            // 
-            this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Location = new System.Drawing.Point(410, 177);
-            this.lblContraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(92, 20);
-            this.lblContraseña.TabIndex = 18;
-            this.lblContraseña.Text = "Contraseña";
-            this.lblContraseña.Click += new System.EventHandler(this.lblContraseña_Click);
-            // 
-            // txtContraseña
-            // 
-            this.txtContraseña.Location = new System.Drawing.Point(594, 177);
-            this.txtContraseña.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(148, 26);
-            this.txtContraseña.TabIndex = 19;
-            this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
-            // 
             // cmbHost
             // 
+            this.cmbHost.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.cmbHost.FormattingEnabled = true;
             this.cmbHost.Location = new System.Drawing.Point(193, 231);
             this.cmbHost.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -248,7 +227,7 @@
             // dtpFechaNacimiento
             // 
             this.dtpFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(594, 297);
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(594, 246);
             this.dtpFechaNacimiento.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             this.dtpFechaNacimiento.Size = new System.Drawing.Size(148, 26);
@@ -258,7 +237,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(408, 308);
+            this.label1.Location = new System.Drawing.Point(408, 246);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 20);
@@ -276,8 +255,6 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRegistrarUsuario);
             this.Controls.Add(this.cmbHost);
-            this.Controls.Add(this.txtContraseña);
-            this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtEmail);
@@ -318,8 +295,6 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtDNI;
-        private System.Windows.Forms.Label lblContraseña;
-        private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.ComboBox cmbHost;
         private System.Windows.Forms.Button btnRegistrarUsuario;
         private System.Windows.Forms.Button button1;
