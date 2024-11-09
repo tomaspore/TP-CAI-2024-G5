@@ -27,10 +27,19 @@ namespace Persistencia.Venta
             {
                 // Convertir el objeto cliente a una cadena JSON
                 var jsonData = JsonConvert.SerializeObject(datos);
+                Console.WriteLine($"Datos JSON enviados: {jsonData}");
 
                 // Enviar la solicitud POST
                 HttpResponseMessage response = WebHelper.Post("Venta/AgregarVenta", jsonData);
+                Console.WriteLine($"Código de estado de la respuesta: {response.StatusCode}");
 
+                if (!response.IsSuccessStatusCode)
+                { 
+                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                    // Imprimir el contenido de la respuesta en caso de error
+                    var contentStream = response.Content.ReadAsStringAsync().Result;
+                    Console.WriteLine($"Contenido de la respuesta: {contentStream}");
+                }
 
                 return response.IsSuccessStatusCode;
             }

@@ -1,5 +1,6 @@
 ﻿using Datos;
 using Negocio.Ventas;
+using Persistencia.Productos;
 using Persistencia.UsuariosData;
 using System;
 using System.Collections.Generic;
@@ -44,7 +45,7 @@ namespace TemplateTPIntegrador.Forms
             }
 
             // Obtener el resto de los datos del formulario
-            string productos = "e038c3d9-7ae4-4447-9646-000e16877537"; // Ejemplo de ID de producto, puedes actualizarlo según sea necesario
+            string productos = "1717601f-6aad-495c-a20e-06deadf0ce64"; // Ejemplo de ID de producto, puedes actualizarlo según sea necesario
             string cantidadAComprar = txtCantidadAComprar.Text;
             string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab"; // Ejemplo de ID de usuario, puedes actualizarlo según sea necesario
 
@@ -105,8 +106,26 @@ namespace TemplateTPIntegrador.Forms
 
         private void FrmRegistrarVenta_Load(object sender, EventArgs e)
         {
-           
+            CargarProductos();
         }
+
+        private void CargarProductos()
+        {
+            ObtenerProductosWS productosWS = new ObtenerProductosWS();
+            List<ProductoWS> productos = productosWS.buscarDatosProductos();
+
+            if (productos != null && productos.Count > 0)
+            {
+                lstProductos.DataSource = productos;
+                lstProductos.DisplayMember = "Nombre"; // Propiedad que se mostrará en el ListBox
+                lstProductos.ValueMember = "Id"; // Propiedad que será el valor del item
+            }
+            else
+            {
+                MessageBox.Show("No se encontraron productos.");
+            }
+        }
+
     }
 
     internal class FrmregistrarDatosVenta

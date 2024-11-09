@@ -11,15 +11,15 @@ namespace Datos
         public class ProductoWS
         {
             Guid _id;
-            Guid _idcategoria;
+            int _idcategoria;
             string _nombre;
             DateTime _fechaalta;
-            DateTime _fechabaja;
+            DateTime? _fechabaja;
             double _precio;
             int _stock;
 
 
-            public ProductoWS(Guid id, Guid idCategoria, string nombre, DateTime fechaalta, DateTime fechabaja, double precio, int stock)
+            public ProductoWS(Guid id, int idCategoria, string nombre, DateTime fechaalta, DateTime? fechabaja, double precio, int stock)
             {
                 Id = id;
                 IdCategoria = idCategoria;
@@ -31,10 +31,10 @@ namespace Datos
             }
 
             public Guid Id { get => _id; set => _id = value; }
-            public Guid IdCategoria { get => _idcategoria; set => _idcategoria = value; }
+            public int IdCategoria { get => _idcategoria; set => _idcategoria = value; }
             public string Nombre { get => _nombre; set => _nombre = value; }
             public DateTime FechaAlta { get => _fechaalta; set => _fechaalta = value; }
-            public DateTime FechaBaja { get => _fechabaja; set => _fechabaja = value; }
+            public DateTime? FechaBaja { get => _fechabaja; set => _fechabaja = value; }
             public double Precio { get => _precio; set => _precio = value; }
             public int Stock { get => _stock; set => _stock = value; }
         }
