@@ -138,11 +138,11 @@
     <Compile Include="Forms\Usuarios\FrmRegistroUsuario.Designer.cs">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Ventas\FrmReporteVentas.cs">
+    <Compile Include="Forms\Ventas\FrmDevoluciónVenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Ventas\FrmReporteVentas.Designer.cs">
-      <DependentUpon>FrmReporteVentas.cs</DependentUpon>
+    <Compile Include="Forms\Ventas\FrmDevoluciónVenta.Designer.cs">
+      <DependentUpon>FrmDevoluciónVenta.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Usuarios\Login.cs">
       <SubType>Form</SubType>
@@ -213,8 +213,8 @@
     <EmbeddedResource Include="Forms\Usuarios\FrmRegistroUsuario.resx">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Ventas\FrmReporteVentas.resx">
-      <DependentUpon>FrmReporteVentas.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Ventas\FrmDevoluciónVenta.resx">
+      <DependentUpon>FrmDevoluciónVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Usuarios\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
