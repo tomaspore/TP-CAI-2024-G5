@@ -50,7 +50,7 @@ namespace TemplateTPIntegrador.Forms
 
         }
 
-        public void OperaciónVenta()
+        private void OperaciónVenta()
         {
             AgregarVentaNegocio AgregarN = new AgregarVentaNegocio();
 
