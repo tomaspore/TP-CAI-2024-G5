@@ -15,19 +15,11 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmRegistroUsuario : Form
     {
-        private static int UserId = 1; // Inicializa el Id una sola vez
-
         public FrmRegistroUsuario()
         {
             InitializeComponent();
             LlenarcmbHost(); // Para poner los posibles valores a elegir en cmbHost
-            MostrarIDUsuarioActual();
-        }
 
-        private void MostrarIDUsuarioActual()
-        {
-            txtIdUsuario.Text = UserId.ToString(); // Muestra el Id actual
-            txtIdUsuario.ReadOnly = true; // Hace que no se pueda editar el campo manualmente
         }
 
         private void LlenarcmbHost()
@@ -48,7 +40,7 @@ namespace TemplateTPIntegrador.Forms
                 string telefono = txtTelefono.Text;
                 string email = txtEmail.Text;
                 string usuario = txtUsuario.Text;
-                string contraseña = txtContraseña.Text;
+                string contraseña = "CAI20232";
                 int documento = Convert.ToInt32(txtDNI.Text); //Agregar un validador
                 DateTime fechaNacimiento = dtpFechaNacimiento.Value;
 
