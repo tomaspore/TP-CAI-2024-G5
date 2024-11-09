@@ -32,5 +32,20 @@ namespace TemplateTPIntegrador.Forms
                 menuSupervisor.Show();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+
+            if(confirmar.ShowDialog() == DialogResult.OK)
+            {
+                OperaciónModificarProducto();
+            }
+        }
+
+        private void OperaciónModificarProducto()
+        {
+
+        }
     }
 }

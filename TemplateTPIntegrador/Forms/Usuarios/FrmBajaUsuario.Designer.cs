@@ -29,7 +29,7 @@
             // 
             this.txtUsuario.Location = new System.Drawing.Point(292, 70);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(200, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(200, 26);
             this.txtUsuario.TabIndex = 2;
             // 
             // lblResultado
@@ -37,7 +37,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.Location = new System.Drawing.Point(50, 160);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(58, 13);
+            this.lblResultado.Size = new System.Drawing.Size(86, 20);
             this.lblResultado.TabIndex = 4;
             this.lblResultado.Text = "Resultado:";
             // 
@@ -56,7 +56,7 @@
             this.labelTitle.AutoSize = true;
             this.labelTitle.Location = new System.Drawing.Point(150, 20);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(102, 13);
+            this.labelTitle.Size = new System.Drawing.Size(152, 20);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Dar de Baja Usuario";
             // 
@@ -65,15 +65,15 @@
             this.labelUsuario.AutoSize = true;
             this.labelUsuario.Location = new System.Drawing.Point(50, 70);
             this.labelUsuario.Name = "labelUsuario";
-            this.labelUsuario.Size = new System.Drawing.Size(127, 13);
+            this.labelUsuario.Size = new System.Drawing.Size(191, 20);
             this.labelUsuario.TabIndex = 1;
             this.labelUsuario.Text = "Ingresar Nombre Usuario:";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(269, 206);
+            this.button1.Location = new System.Drawing.Point(253, 214);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 23);
+            this.button1.Size = new System.Drawing.Size(141, 40);
             this.button1.TabIndex = 5;
             this.button1.Text = "Volver al Menú";
             this.button1.UseVisualStyleBackColor = true;
@@ -81,7 +81,7 @@
             // 
             // FrmBajaUsuario
             // 
-            this.ClientSize = new System.Drawing.Size(639, 250);
+            this.ClientSize = new System.Drawing.Size(639, 299);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.labelUsuario);

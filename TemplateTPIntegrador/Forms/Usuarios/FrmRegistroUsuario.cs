@@ -32,7 +32,9 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
-            
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+            if (confirmar.ShowDialog() == DialogResult.OK)
+            {
                 string nombre = txtNombre.Text;
                 string apellido = txtApellido.Text;
                 string direccion = txtDireccion.Text;
@@ -67,6 +69,7 @@ namespace TemplateTPIntegrador.Forms
                     MessageBox.Show("Ocurrió un error: " + ex.Message);
                 }
             }
+        }
 
             private void button1_Click(object sender, EventArgs e)
         {

@@ -33,22 +33,26 @@ namespace TemplateTPIntegrador.Forms
 
         private async void btnModificarDatos_Click(object sender, EventArgs e)
         {
-            _cliente.Direccion = txtDomicilioCliente.Text;
-            _cliente.Telefono = txtTeléfonoCliente.Text;
-            _cliente.Email = txtEmailCliente.Text;
-
-            bool resultado = await _clientesService.ActualizarCliente(_cliente);
-
-            if (resultado)
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+            if (confirmar.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Datos actualizados correctamente.");
-            }
-            else
-            {
-                MessageBox.Show("Error al actualizar los datos.");
-            }
+                _cliente.Direccion = txtDomicilioCliente.Text;
+                _cliente.Telefono = txtTeléfonoCliente.Text;
+                _cliente.Email = txtEmailCliente.Text;
 
-            this.Close();
+                bool resultado = await _clientesService.ActualizarCliente(_cliente);
+
+                if (resultado)
+                {
+                    MessageBox.Show("Datos actualizados correctamente.");
+                }
+                else
+                {
+                    MessageBox.Show("Error al actualizar los datos.");
+                }
+
+                this.Close();
+            }
         }
     }
 }

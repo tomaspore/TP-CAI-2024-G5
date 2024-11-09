@@ -24,7 +24,17 @@ namespace TemplateTPIntegrador.Forms
         // Evento Click para el botón Dar de Baja
         private void btnDarBaja_Click(object sender, EventArgs e)
         {
-            string usuario = txtUsuario.Text.Trim(); 
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+            if (confirmar.ShowDialog() == DialogResult.OK)
+            {
+                OperaciónBaja();
+            }
+           
+        }
+
+        public void OperaciónBaja()
+        {
+            string usuario = txtUsuario.Text.Trim();
 
             // Verifica que se haya ingresado un nombre de usuario
             if (string.IsNullOrEmpty(usuario))
@@ -49,11 +59,10 @@ namespace TemplateTPIntegrador.Forms
             }
             catch (Exception ex)
             {
-              
+
                 lblResultado.Text = $"Error al dar de baja: {ex.Message}";
             }
         }
-
         private void FrmBajaUsuario_Load(object sender, EventArgs e)
         {
             

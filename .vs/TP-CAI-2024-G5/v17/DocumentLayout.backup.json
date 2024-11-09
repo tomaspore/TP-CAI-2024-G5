@@ -3,7 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\ventas\\frmdevoluci\u00F3nventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\usuarios\\frmbajausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmbajausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\clientes\\frmreactivarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\clientes\\frmreactivarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\clientes\\frmreactivarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\clientes\\frmreactivarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\clientes\\frmnuevocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\clientes\\frmnuevocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\clientes\\frmnuevocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\clientes\\frmnuevocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\usuarios\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\usuarios\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\ventas\\frmdevoluci\u00F3nventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\ventas\\frmdevoluci\u00F3nventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\logindata\\loginws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\logindata\\loginws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\usuarios\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmregistrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\usuariosdata\\usuariows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\proveedores\\traerproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\usuarios\\frmreactivarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -154,7 +202,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,32 +238,156 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmConfirmarAcci\u00F3n.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs",
-              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs [Design]",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "FrmModificarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T14:49:23.12Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmMenuSupervisor.cs",
-              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
-              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAH8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T14:01:30.239Z",
+              "WhenOpened": "2024-11-09T15:36:42.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FrmModificarProducto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:36:31.979Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmAgregarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:34:48.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmAgregarProducto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Productos\\FrmAgregarProducto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:34:46.303Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmBajaUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmBajaUsuario.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmBajaUsuario.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmBajaUsuario.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmBajaUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:34:36.961Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmReactivarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAD4vxoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:34:04.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmReactivarCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Clientes\\FrmReactivarCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:34:00.05Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmNuevoCliente.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:30:45.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmNuevoCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Clientes\\FrmNuevoCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:30:43.073Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmModificarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:29:09.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmModificarCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Clientes\\FrmModificarCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:29:07.353Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmRegistroUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:26:50.639Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "FrmDevoluci\u00F3nVenta.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Ventas\\FrmDevoluci\u00F3nVenta.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Ventas\\FrmDevoluci\u00F3nVenta.cs",
@@ -228,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "DevolverVentaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Ventas\\DevolverVentaNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\Ventas\\DevolverVentaNegocio.cs",
@@ -240,19 +412,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "FrmRegistroUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAEYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:49:56.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmMenuSupervisor.cs",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuSupervisor.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAH8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:01:30.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmReactivarUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:08:56.958Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmConfirmarAcci\u00F3n.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs",
+              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs",
+              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs [Design]",
+              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmConfirmarAcci\u00F3n.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:49:23.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "FrmDevoluci\u00F3nVenta.cs [Design]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Ventas\\FrmDevoluci\u00F3nVenta.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Ventas\\FrmDevoluci\u00F3nVenta.cs",
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Ventas\\FrmDevoluci\u00F3nVenta.cs [Design]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Ventas\\FrmDevoluci\u00F3nVenta.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T14:04:08.728Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-09T14:04:08.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "LoginWS.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\LoginData\\LoginWS.cs",
               "RelativeDocumentMoniker": "Persistencia\\LoginData\\LoginWS.cs",
@@ -264,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "AgregarVenta.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Venta\\AgregarVenta.cs",
               "RelativeDocumentMoniker": "Persistencia\\Venta\\AgregarVenta.cs",
@@ -276,19 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmRegistroUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
-              "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
-              "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmRegistroUsuario.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:49:56.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "UsuarioWS.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\UsuarioWS.cs",
               "RelativeDocumentMoniker": "Persistencia\\UsuariosData\\UsuarioWS.cs",
@@ -300,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 39,
               "Title": "FrmRegistrarVenta.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
@@ -312,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 40,
               "Title": "FrmModificarProducto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
@@ -323,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "FrmRegistrarDatosVenta.cs [Design]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs",
@@ -334,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "FrmConfirmarVenta.cs [Design]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
@@ -345,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "AgregarVentaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Ventas\\AgregarVentaNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\Ventas\\AgregarVentaNegocio.cs",
@@ -357,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "ClientesWS.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Datos\\ClientesWS.cs",
               "RelativeDocumentMoniker": "Datos\\ClientesWS.cs",
@@ -369,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "ModificacionWS.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\UsuariosData\\ModificacionWS.cs",
               "RelativeDocumentMoniker": "Persistencia\\UsuariosData\\ModificacionWS.cs",
@@ -381,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "TraerClientes.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Clientes\\TraerClientes.cs",
               "RelativeDocumentMoniker": "Negocio\\Clientes\\TraerClientes.cs",
@@ -393,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "ClientesData.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Clientes\\ClientesData.cs",
               "RelativeDocumentMoniker": "Persistencia\\Clientes\\ClientesData.cs",
@@ -405,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "AgregarCliente.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Clientes\\AgregarCliente.cs",
               "RelativeDocumentMoniker": "Negocio\\Clientes\\AgregarCliente.cs",
@@ -417,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "FrmMenuVendedor.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
@@ -429,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "FrmMenuVendedor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Men\u00FAes\\FrmMenuVendedor.cs",
@@ -440,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 43,
               "Title": "FrmConfirmarVenta.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
@@ -452,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "VentasWS.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Datos\\VentasWS.cs",
               "RelativeDocumentMoniker": "Datos\\VentasWS.cs",
@@ -464,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "ProductoWS.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Datos\\ProductoWS.cs",
               "RelativeDocumentMoniker": "Datos\\ProductoWS.cs",
@@ -476,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Productos\\Producto.cs",
               "RelativeDocumentMoniker": "Persistencia\\Productos\\Producto.cs",
@@ -488,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 36,
               "Title": "TraerProveedor.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Proveedores\\TraerProveedor.cs",
               "RelativeDocumentMoniker": "Negocio\\Proveedores\\TraerProveedor.cs",
@@ -500,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 44,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Login.cs",
@@ -511,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "FrmModificarProducto.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
@@ -523,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "AgregarProducto.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Productos\\AgregarProducto.cs",
               "RelativeDocumentMoniker": "Negocio\\Productos\\AgregarProducto.cs",
@@ -535,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 35,
               "Title": "Proveedores.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Proveedores\\Proveedores.cs",
               "RelativeDocumentMoniker": "Persistencia\\Proveedores\\Proveedores.cs",
@@ -547,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 46,
               "Title": "FrmAgregarProducto.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
@@ -558,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 47,
               "Title": "FrmAgregarProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmAgregarProducto.cs",
@@ -569,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 38,
               "Title": "FrmReactivarUsuario.Designer.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs",
@@ -577,11 +784,12 @@
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:12:12.198Z"
+              "WhenOpened": "2024-11-07T01:12:12.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
               "Title": "FrmReactivarUsuario.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
@@ -589,22 +797,12 @@
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwCoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:10:19.038Z"
+              "WhenOpened": "2024-11-07T01:10:19.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FrmReactivarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
-              "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs",
-              "ToolTip": "C:\\Users\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Ludmila\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Usuarios\\FrmReactivarUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:08:56.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Utils\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Negocio\\Utils\\UsuarioService.cs",

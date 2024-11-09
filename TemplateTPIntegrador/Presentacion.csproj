@@ -102,10 +102,10 @@
     <Compile Include="Forms\Usuarios\FrmCambioContraseña.Designer.cs">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.cs">
+    <Compile Include="Forms\Menúes\FrmConfirmacionCerrarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.Designer.cs">
+    <Compile Include="Forms\Menúes\FrmConfirmacionCerrarSesion.Designer.cs">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Menúes\FrmMenuSupervisor.cs">
@@ -192,7 +192,7 @@
     <EmbeddedResource Include="Forms\Usuarios\FrmCambioContraseña.resx">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.resx">
+    <EmbeddedResource Include="Forms\Menúes\FrmConfirmacionCerrarSesion.resx">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Menúes\FrmMenuAdmin.resx">
