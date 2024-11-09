@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -189,8 +189,7 @@
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs [Design]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:45:10.008Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-08T03:45:10.008Z"
             },
             {
               "$type": "Document",
@@ -212,7 +211,7 @@
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarVenta.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAApwIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T02:12:17.211Z",
               "EditorCaption": ""
@@ -226,8 +225,7 @@
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Design]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmRegistrarDatosVenta.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T02:12:43.466Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-09T02:12:43.466Z"
             },
             {
               "$type": "Document",
@@ -238,8 +236,7 @@
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs [Design]",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T02:13:27.901Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-09T02:13:27.901Z"
             },
             {
               "$type": "Document",
@@ -251,8 +248,7 @@
               "RelativeToolTip": "Negocio\\Ventas\\AgregarVentaNegocio.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T02:39:59.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T02:39:59.933Z"
             },
             {
               "$type": "Document",
@@ -370,8 +366,7 @@
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmConfirmarVenta.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T02:13:41.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T02:13:41.147Z"
             },
             {
               "$type": "Document",
@@ -465,8 +460,7 @@
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\FrmModificarProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:53:48.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:53:48.837Z"
             },
             {
               "$type": "Document",

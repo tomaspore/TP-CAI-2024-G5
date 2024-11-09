@@ -34,13 +34,13 @@
             this.lblDNI = new System.Windows.Forms.Label();
             this.lstProductos = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtCantidadAComprar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Registrar
             // 
-            this.Registrar.Location = new System.Drawing.Point(101, 455);
+            this.Registrar.Location = new System.Drawing.Point(174, 389);
             this.Registrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Registrar.Name = "Registrar";
             this.Registrar.Size = new System.Drawing.Size(203, 35);
@@ -86,7 +86,7 @@
             this.lstProductos.Location = new System.Drawing.Point(17, 122);
             this.lstProductos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstProductos.Name = "lstProductos";
-            this.lstProductos.Size = new System.Drawing.Size(306, 224);
+            this.lstProductos.Size = new System.Drawing.Size(506, 224);
             this.lstProductos.TabIndex = 4;
             this.lstProductos.SelectedIndexChanged += new System.EventHandler(this.lstProductos_SelectedIndexChanged);
             // 
@@ -100,31 +100,30 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Seleccionar producto:";
             // 
-            // txtCantidadAComprar
-            // 
-            this.txtCantidadAComprar.Location = new System.Drawing.Point(126, 387);
-            this.txtCantidadAComprar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCantidadAComprar.Name = "txtCantidadAComprar";
-            this.txtCantidadAComprar.Size = new System.Drawing.Size(178, 26);
-            this.txtCantidadAComprar.TabIndex = 6;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 387);
+            this.label2.Location = new System.Drawing.Point(334, 54);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Cantidad:";
             // 
+            // txtCantidad
+            // 
+            this.txtCantidad.Location = new System.Drawing.Point(423, 49);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(100, 26);
+            this.txtCantidad.TabIndex = 8;
+            // 
             // FrmRegistrarVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 526);
+            this.ClientSize = new System.Drawing.Size(544, 438);
+            this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtCantidadAComprar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lstProductos);
             this.Controls.Add(this.lblDNI);
@@ -148,7 +147,7 @@
         private System.Windows.Forms.Label lblDNI;
         private System.Windows.Forms.ListBox lstProductos;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtCantidadAComprar;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtCantidad;
     }
 }

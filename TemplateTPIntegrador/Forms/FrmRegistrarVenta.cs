@@ -46,7 +46,7 @@ namespace TemplateTPIntegrador.Forms
 
             // Obtener el resto de los datos del formulario
             string productos = "1717601f-6aad-495c-a20e-06deadf0ce64"; // Ejemplo de ID de producto, puedes actualizarlo según sea necesario
-            string cantidadAComprar = txtCantidadAComprar.Text;
+            string cantidadAComprar = txtCantidad.Text;
             string idUsuario = "25e430a1-2da0-4f63-a98e-9c2f29bedbab"; // Ejemplo de ID de usuario, puedes actualizarlo según sea necesario
 
             int cantidad;
