@@ -65,10 +65,6 @@ namespace Persistencia.Productos
                 {
                     HttpResponseMessage response = WebHelper.Get("Producto/TraerProductos");
 
-                    // Imprimir el contenido de la respuesta para depuración
-                    // Console.WriteLine($"Contenido de la respuesta: {contentStream}");
-
-
                     if (!response.IsSuccessStatusCode)
                     {
                         Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
@@ -77,10 +73,6 @@ namespace Persistencia.Productos
 
                     var contentStream = response.Content.ReadAsStringAsync().Result;
                     List<ProductoWS> listadoProductos = JsonConvert.DeserializeObject<List<ProductoWS>>(contentStream);
-
-                    // Imprimir la cantidad de productos obtenidos para depuración
-                    Console.WriteLine($"Cantidad de productos obtenidos: {listadoProductos.Count}");
-
                     return listadoProductos;
                 }
                 catch (Exception ex)
@@ -89,46 +81,7 @@ namespace Persistencia.Productos
                     return null;
                 }
             }
-
-
-        // Método para actualizar producto
-        public String ActualizarProducto(string nombre, double nuevoPrecio, int nuevoStock)
-        {
-            // Crear el diccionario con los parámetros del producto actualizado
-            Dictionary<String, Object> datos = new Dictionary<String, Object>
-            {
-                { "nombre", nombre },
-                { "nuevoPrecio", nuevoPrecio },
-                { "nuevoStock", nuevoStock }
-            };
-
-            // Convertir los datos a una cadena JSON
-            var jsonData = JsonConvert.SerializeObject(datos);
-
-            try
-            {
-                // Enviar la solicitud POST al servicio web para actualizar el producto
-                HttpResponseMessage response = WebHelper.Post("Producto/ActualizarProducto", jsonData);
-
-                if (!response.IsSuccessStatusCode)
-                {
-                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                    return "Error";
-                }
-
-                var reader = new StreamReader(response.Content.ReadAsStreamAsync().Result);
-                var resultado = JsonConvert.DeserializeObject<String>(reader.ReadToEnd());
-
-                return resultado; // Devolver el resultado del servicio web
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Excepción: {ex.Message}");
-                return "Error";
-            }
         }
 
-    }
-
-
+    
 }

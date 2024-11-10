@@ -40,52 +40,25 @@ namespace Negocio
             return resultado;
         }
 
-        public bool RegistrarUsuario(string host, string nombre, string apellido, int documento, string direccion, string telefono, string email, DateTime fechaNacimiento, string usuario, string contraseña)
+        public async Task<bool> RegistrarUsuario(Guid id, string nombre, string apellido, int dni, string nombreUsuario, int host, string direccion, string telefono, string email, DateTime fechaNacimiento, DateTime fechaAlta, string contraseña)
         {
-            int hostvalor;
-
-            switch (host)
+            UsuarioWS nuevoUsuario = new UsuarioWS
             {
-                case "Vendedor (1)":
-                    hostvalor = 1;
-                    break;
-                case "Supervisor (2)":
-                    hostvalor = 2;
-                    break;
-                case "Administrador (3)":
-                    hostvalor = 3;
-                    break;
-                default:
-                    hostvalor = 1;
-                    break;
-            }
+                Id = id,
+                Nombre = nombre,
+                Apellido = apellido,
+                Dni = dni,
+                NombreUsuario = nombreUsuario,
+                Host = host,
+                Direccion = direccion,
+                Telefono = telefono,
+                Email = email,
+                FechaNacimiento = fechaNacimiento,
+                FechaAlta = fechaAlta,
+                Contraseña = contraseña
+            };
 
-            bool response = _usuarioWS.RegistrarUsuario(hostvalor, nombre, apellido, documento, direccion, telefono, email, fechaNacimiento, usuario, contraseña);
-
-            if (!response)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
-        
-        // Creamos el metodo para Reactivar Usuario
-        public bool ReactivarUsuario(string id)
-        {
-
-            bool response = _usuarioWS.ReactivarUsuario(id);
-
-            if (!response)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+            return await nuevoUsuario.RegistrarUsuarioAsync();
         }
 
     }

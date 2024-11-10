@@ -36,10 +36,5 @@ namespace TemplateTPIntegrador.Forms
             menu.Show();  // Muestra el formulario del menú administrador
 
         }
-
-        private void FrmModificarUsuario_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

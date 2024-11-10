@@ -46,43 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Clientes\FrmReactivarCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Clientes\FrmReactivarCliente.Designer.cs">
-      <DependentUpon>FrmReactivarCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ConfiguracionUsuario.cs" />
-    <Compile Include="Forms\Clientes\FrmControlClientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Clientes\FrmControlClientes.Designer.cs">
-      <DependentUpon>FrmControlClientes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Clientes\FrmNuevoCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Clientes\FrmNuevoCliente.Designer.cs">
-      <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FrmConfirmarVenta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmConfirmarVenta.Designer.cs">
-      <DependentUpon>FrmConfirmarVenta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FrmModificarProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmModificarProducto.Designer.cs">
-      <DependentUpon>FrmModificarProducto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FrmRegistrarDatosVenta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmRegistrarDatosVenta.Designer.cs">
-      <DependentUpon>FrmRegistrarDatosVenta.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FrmAgregarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,59 +53,47 @@
       <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormMenuAdmin.cs" />
-    <Compile Include="Forms\Usuarios\FrmBajaUsuario.cs">
+    <Compile Include="Forms\FrmBajaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmBajaUsuario.Designer.cs">
+    <Compile Include="Forms\FrmBajaUsuario.Designer.cs">
       <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmCambioContraseña.cs">
+    <Compile Include="Forms\FrmCambioContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmCambioContraseña.Designer.cs">
+    <Compile Include="Forms\FrmCambioContraseña.Designer.cs">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.cs">
+    <Compile Include="Forms\FrmConfirmacionCerrarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.Designer.cs">
+    <Compile Include="Forms\FrmConfirmacionCerrarSesion.Designer.cs">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Menúes\FrmMenuSupervisor.cs">
+    <Compile Include="Forms\FrmMenuSupervisor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Menúes\FrmMenuSupervisor.Designer.cs">
+    <Compile Include="Forms\FrmMenuSupervisor.Designer.cs">
       <DependentUpon>FrmMenuSupervisor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Menúes\FrmMenuVendedor.cs">
+    <Compile Include="Forms\FrmMenuVendedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Menúes\FrmMenuVendedor.Designer.cs">
+    <Compile Include="Forms\FrmMenuVendedor.Designer.cs">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmReactivarUsuario.cs">
+    <Compile Include="Forms\FrmModificarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Usuarios\FrmReactivarUsuario.Designer.cs">
-      <DependentUpon>FrmReactivarUsuario.cs</DependentUpon>
+    <Compile Include="Forms\FrmModificarUsuario.Designer.cs">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmRegistrarVenta.cs">
+    <Compile Include="Forms\FrmRegistroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmRegistrarVenta.Designer.cs">
-      <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Usuarios\FrmRegistroUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Usuarios\FrmRegistroUsuario.Designer.cs">
+    <Compile Include="Forms\FrmRegistroUsuario.Designer.cs">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FrmReporteVentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmReporteVentas.Designer.cs">
-      <DependentUpon>FrmReporteVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
@@ -150,77 +101,44 @@
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Menúes\FrmMenuAdmin.cs">
+    <Compile Include="Forms\FrmMenuAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Menúes\FrmMenuAdmin.Designer.cs">
+    <Compile Include="Forms\FrmMenuAdmin.Designer.cs">
       <DependentUpon>FrmMenuAdmin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Clientes\FrmModificarCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Clientes\FrmModificarCliente.Designer.cs">
-      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\ValidacionesUtils.cs" />
-    <EmbeddedResource Include="Forms\Clientes\FrmControlClientes.resx">
-      <DependentUpon>FrmControlClientes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Clientes\FrmNuevoCliente.resx">
-      <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Clientes\FrmReactivarCliente.resx">
-      <DependentUpon>FrmReactivarCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmConfirmarVenta.resx">
-      <DependentUpon>FrmConfirmarVenta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmModificarProducto.resx">
-      <DependentUpon>FrmModificarProducto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmRegistrarDatosVenta.resx">
-      <DependentUpon>FrmRegistrarDatosVenta.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmAgregarProducto.resx">
       <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Usuarios\FrmBajaUsuario.resx">
+    <EmbeddedResource Include="Forms\FrmBajaUsuario.resx">
       <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Usuarios\FrmCambioContraseña.resx">
+    <EmbeddedResource Include="Forms\FrmCambioContraseña.resx">
       <DependentUpon>FrmCambioContraseña.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Usuarios\FrmConfirmacionCerrarSesion.resx">
+    <EmbeddedResource Include="Forms\FrmConfirmacionCerrarSesion.resx">
       <DependentUpon>FrmConfirmacionCerrarSesion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menúes\FrmMenuAdmin.resx">
+    <EmbeddedResource Include="Forms\FrmMenuAdmin.resx">
       <DependentUpon>FrmMenuAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menúes\FrmMenuSupervisor.resx">
+    <EmbeddedResource Include="Forms\FrmMenuSupervisor.resx">
       <DependentUpon>FrmMenuSupervisor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menúes\FrmMenuVendedor.resx">
+    <EmbeddedResource Include="Forms\FrmMenuVendedor.resx">
       <DependentUpon>FrmMenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Usuarios\FrmReactivarUsuario.resx">
-      <DependentUpon>FrmReactivarUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmModificarUsuario.resx">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmRegistrarVenta.resx">
-      <DependentUpon>FrmRegistrarVenta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Usuarios\FrmRegistroUsuario.resx">
+    <EmbeddedResource Include="Forms\FrmRegistroUsuario.resx">
       <DependentUpon>FrmRegistroUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmReporteVentas.resx">
-      <DependentUpon>FrmReporteVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Clientes\FrmModificarCliente.resx">
-      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -270,33 +188,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eletrohogarok.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vibrant-purple-watercolor-painting-background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Electrohogar logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\eletrohogarx2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\eletrohogarok.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo electrohogar final.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo electrohogar final1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo electrohogar final2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\31-10-2024 18-31-58.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\venta1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
