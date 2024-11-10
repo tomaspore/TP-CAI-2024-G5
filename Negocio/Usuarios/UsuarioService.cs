@@ -87,6 +87,21 @@ namespace Negocio
                 return true;
             }
         }
+        public bool BajaUsuario(string id)
+        {
+            bool response = _usuarioWS.BajaUsuario(id);
+
+
+
+            if (!response)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
     }
 }
