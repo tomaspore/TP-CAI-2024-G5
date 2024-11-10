@@ -22,13 +22,14 @@
             this.btnDarBaja = new System.Windows.Forms.Button();
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelUsuario = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(292, 70);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(200, 26);
+            this.txtUsuario.Size = new System.Drawing.Size(200, 20);
             this.txtUsuario.TabIndex = 2;
             // 
             // lblResultado
@@ -36,7 +37,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.Location = new System.Drawing.Point(50, 160);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(105, 24);
+            this.lblResultado.Size = new System.Drawing.Size(58, 13);
             this.lblResultado.TabIndex = 4;
             this.lblResultado.Text = "Resultado:";
             // 
@@ -55,7 +56,7 @@
             this.labelTitle.AutoSize = true;
             this.labelTitle.Location = new System.Drawing.Point(150, 20);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(282, 33);
+            this.labelTitle.Size = new System.Drawing.Size(102, 13);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Dar de Baja Usuario";
             // 
@@ -64,13 +65,24 @@
             this.labelUsuario.AutoSize = true;
             this.labelUsuario.Location = new System.Drawing.Point(50, 70);
             this.labelUsuario.Name = "labelUsuario";
-            this.labelUsuario.Size = new System.Drawing.Size(236, 23);
+            this.labelUsuario.Size = new System.Drawing.Size(127, 13);
             this.labelUsuario.TabIndex = 1;
             this.labelUsuario.Text = "Ingresar Nombre Usuario:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(269, 206);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Volver al Menú";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmBajaUsuario
             // 
             this.ClientSize = new System.Drawing.Size(639, 250);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.labelUsuario);
             this.Controls.Add(this.txtUsuario);
@@ -80,6 +92,7 @@
             this.Text = "Baja de Usuario";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
@@ -89,5 +102,6 @@
         private System.Windows.Forms.Button btnDarBaja;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label labelUsuario;
+        private System.Windows.Forms.Button button1;
     }
 }
