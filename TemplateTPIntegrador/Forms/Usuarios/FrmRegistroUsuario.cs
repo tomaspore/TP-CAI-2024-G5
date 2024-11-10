@@ -38,43 +38,45 @@ namespace TemplateTPIntegrador.Forms
             cmbHost.Items.Add("Vendedor (1)");
         }
 
-        private async void btnRegistrarUsuario_Click(object sender, EventArgs e)
+        private void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
-            try
-            {
-                UsuarioService usuarioService = new UsuarioService();
+            
+                string nombre = txtNombre.Text;
+                string apellido = txtApellido.Text;
+                string direccion = txtDireccion.Text;
+                string host = cmbHost.SelectedItem.ToString();
+                string telefono = txtTelefono.Text;
+                string email = txtEmail.Text;
+                string usuario = txtUsuario.Text;
+                string contraseña = txtContraseña.Text;
+                int documento = Convert.ToInt32(txtDNI.Text); //Agregar un validador
+                DateTime fechaNacimiento = dtpFechaNacimiento.Value;
 
-                bool registrado = await usuarioService.RegistrarUsuario(
-                    Guid.NewGuid(),
-                    txtNombre.Text,
-                    txtApellido.Text,
-                    int.Parse(txtDNI.Text),
-                    txtUsuario.Text,
-                    cmbHost.SelectedIndex + 1,
-                    txtDireccion.Text,
-                    txtTelefono.Text,
-                    txtEmail.Text,
-                    dtpFechaNacimiento.Value,
-                    dtpFechaAlta.Value,
-                    txtContraseña.Text
-                );
+                //El idadmin lo pongo recién en la capa de persitencia.
+                //La fecha de alta la asigna el sistema
 
-                if (registrado)
+                try
                 {
-                    MessageBox.Show("Usuario registrado exitosamente en el sistema.");
+                    UsuarioService usuarioService = new UsuarioService();
+
+                    bool registrado = usuarioService.RegistrarUsuario(host, nombre, apellido, documento, direccion, telefono, email, fechaNacimiento, usuario, contraseña);
+
+                    if (registrado)
+                    {
+                        MessageBox.Show("Usuario registrado exitosamente en el sistema.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al registrar el usuario. Intente nuevamente.");
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Error al registrar el usuario. Intente nuevamente.");
+                    MessageBox.Show("Ocurrió un error: " + ex.Message);
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ocurrió un error: " + ex.Message);
-            }
-        }
 
-        private void button1_Click(object sender, EventArgs e)
+            private void button1_Click(object sender, EventArgs e)
         {
             //VOLVER AL MENU INICIAL
             this.Close();  // Cierra el formulario actual (Registrar Usuario)

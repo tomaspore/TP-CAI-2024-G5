@@ -44,8 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes\ClientesData.cs" />
     <Compile Include="LoginData\LoginDB.cs" />
-    <Compile Include="ModificacionWS.cs" />
+    <Compile Include="UsuariosData\ModificacionWS.cs" />
     <Compile Include="Productos\Producto.cs" />
     <Compile Include="Proveedores\Proveedores.cs" />
     <Compile Include="UsuariosData\UsuarioWS.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="LoginData\LoginWS.cs" />
     <Compile Include="Utils\WebHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Venta\AgregarVenta.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj">

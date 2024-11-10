@@ -52,6 +52,7 @@ namespace TemplateTPIntegrador
 
                     if (perfil.StartsWith("Administrador"))
                     {
+                        ConfiguracionUsuario.PerfilUsuario = "Administrador";
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuAdmin admin = new FrmMenuAdmin();
                         admin.Show();
@@ -59,12 +60,14 @@ namespace TemplateTPIntegrador
                     }
                     else if (perfil.StartsWith("Supervisor"))
                     {
+                        ConfiguracionUsuario.PerfilUsuario = "Supervisor";
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
                         supervisor.Show();
                     }
                     else if (perfil.StartsWith("Vendedor"))
                     {
+                        ConfiguracionUsuario.PerfilUsuario = "Vendedor";
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuVendedor vendedor = new FrmMenuVendedor();
                         vendedor.Show();
@@ -133,6 +136,32 @@ namespace TemplateTPIntegrador
 
         }
 
-       
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            //label olvide mi contraseña
+            MessageBox.Show("Contacte al administrador para restablecer su contraseña.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void logout_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            //boton SALIR
+            DialogResult result = MessageBox.Show("¿Seguro que quieres salir?", "Confirmar salida", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

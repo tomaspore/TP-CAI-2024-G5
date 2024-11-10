@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Negocio.Utils;
+using Negocio;
+using Persistencia.Clientes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,7 +42,7 @@ namespace TemplateTPIntegrador.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //ALTA PRODUCTOS
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -60,7 +63,12 @@ namespace TemplateTPIntegrador.Forms
         private void button5_Click(object sender, EventArgs e)
         {
             FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
-            confirmacion.ShowDialog(); // Mostrar el formulario de confirmación de manera modal
+            if (confirmacion.ShowDialog() == DialogResult.Yes)
+            {
+                FrmLogin login = new FrmLogin();
+                login.Show();
+                this.Close(); // Cierra el formulario actual (por ejemplo, FrmMenuAdmin o FrmMenuSupervisor)
+            }
 
         }
 
@@ -84,6 +92,45 @@ namespace TemplateTPIntegrador.Forms
             FrmAgregarProducto altaproducto = new FrmAgregarProducto();
 
             altaproducto.Show();
+            this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBajaProductos_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void greet_user_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnControlClientes_Click(object sender, EventArgs e)
+        {
+            // Crea instancias de las clases de Negocio
+            TraerClientes traerClientes = new TraerClientes(new ClientesData());
+            BorrarCliente borrarCliente = new BorrarCliente(new DeleteCliente());
+
+            // Pasa estas instancias al constructor de FrmClientes
+            FrmControlClientes clientes = new FrmControlClientes(traerClientes, borrarCliente);
+
+            clientes.Show();
+
             this.Hide();
         }
     }
