@@ -28,72 +28,114 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnDevolverVenta = new System.Windows.Forms.Button();
-            this.btnVolver = new System.Windows.Forms.Button();
+            this.panelLeft = new System.Windows.Forms.Panel();
+            this.pictureBoxIcon = new System.Windows.Forms.PictureBox();
+            this.labelTitle = new System.Windows.Forms.Label();
             this.txtIDVenta = new System.Windows.Forms.TextBox();
             this.lblDNIVenta = new System.Windows.Forms.Label();
+            this.btnDevolverVenta = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.panelLeft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnDevolverVenta
+            // panelLeft
             // 
-            this.btnDevolverVenta.Location = new System.Drawing.Point(122, 175);
-            this.btnDevolverVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnDevolverVenta.Name = "btnDevolverVenta";
-            this.btnDevolverVenta.Size = new System.Drawing.Size(132, 35);
-            this.btnDevolverVenta.TabIndex = 0;
-            this.btnDevolverVenta.Text = "Devolver";
-            this.btnDevolverVenta.UseVisualStyleBackColor = true;
-            this.btnDevolverVenta.Click += new System.EventHandler(this.btnDevolverVenta_Click);
+            this.panelLeft.BackColor = System.Drawing.Color.Purple;
+            this.panelLeft.Controls.Add(this.pictureBoxIcon);
+            this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelLeft.Name = "panelLeft";
+            this.panelLeft.Size = new System.Drawing.Size(190, 338);
+            this.panelLeft.TabIndex = 0;
             // 
-            // btnVolver
+            // pictureBoxIcon
             // 
-            this.btnVolver.Location = new System.Drawing.Point(112, 220);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(160, 35);
-            this.btnVolver.TabIndex = 1;
-            this.btnVolver.Text = "Volver al Menú";
-            this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.button2_Click);
+            this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
+            this.pictureBoxIcon.Location = new System.Drawing.Point(21, 83);
+            this.pictureBoxIcon.Name = "pictureBoxIcon";
+            this.pictureBoxIcon.Size = new System.Drawing.Size(132, 132);
+            this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxIcon.TabIndex = 0;
+            this.pictureBoxIcon.TabStop = false;
+            // 
+            // labelTitle
+            // 
+            this.labelTitle.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
+            this.labelTitle.Location = new System.Drawing.Point(196, 22);
+            this.labelTitle.Name = "labelTitle";
+            this.labelTitle.Size = new System.Drawing.Size(336, 59);
+            this.labelTitle.TabIndex = 1;
+            this.labelTitle.Text = "Devolución de Venta";
             // 
             // txtIDVenta
             // 
-            this.txtIDVenta.Location = new System.Drawing.Point(47, 101);
+            this.txtIDVenta.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txtIDVenta.Location = new System.Drawing.Point(209, 120);
             this.txtIDVenta.Name = "txtIDVenta";
-            this.txtIDVenta.Size = new System.Drawing.Size(274, 26);
+            this.txtIDVenta.Size = new System.Drawing.Size(200, 36);
             this.txtIDVenta.TabIndex = 2;
             // 
             // lblDNIVenta
             // 
-            this.lblDNIVenta.AutoSize = true;
-            this.lblDNIVenta.Location = new System.Drawing.Point(80, 63);
+            this.lblDNIVenta.Font = new System.Drawing.Font("Arial", 12F);
+            this.lblDNIVenta.Location = new System.Drawing.Point(204, 83);
             this.lblDNIVenta.Name = "lblDNIVenta";
-            this.lblDNIVenta.Size = new System.Drawing.Size(203, 20);
-            this.lblDNIVenta.TabIndex = 3;
-            this.lblDNIVenta.Text = "Introduzca el ID de la venta";
+            this.lblDNIVenta.Size = new System.Drawing.Size(200, 25);
+            this.lblDNIVenta.TabIndex = 2;
+            this.lblDNIVenta.Text = "ID de la Venta";
+            // 
+            // btnDevolverVenta
+            // 
+            this.btnDevolverVenta.BackColor = System.Drawing.Color.Purple;
+            this.btnDevolverVenta.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnDevolverVenta.ForeColor = System.Drawing.Color.White;
+            this.btnDevolverVenta.Location = new System.Drawing.Point(209, 206);
+            this.btnDevolverVenta.Name = "btnDevolverVenta";
+            this.btnDevolverVenta.Size = new System.Drawing.Size(150, 40);
+            this.btnDevolverVenta.TabIndex = 3;
+            this.btnDevolverVenta.Text = "Devolver";
+            this.btnDevolverVenta.UseVisualStyleBackColor = false;
+            this.btnDevolverVenta.Click += new System.EventHandler(this.btnDevolverVenta_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Gray;
+            this.btnVolver.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnVolver.ForeColor = System.Drawing.Color.White;
+            this.btnVolver.Location = new System.Drawing.Point(209, 262);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(200, 38);
+            this.btnVolver.TabIndex = 4;
+            this.btnVolver.Text = "Volver al Menú";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.button2_Click);
             // 
             // FrmDevoluciónVenta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(395, 280);
+            this.ClientSize = new System.Drawing.Size(544, 338);
+            this.Controls.Add(this.panelLeft);
+            this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.lblDNIVenta);
             this.Controls.Add(this.txtIDVenta);
-            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnDevolverVenta);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Controls.Add(this.btnVolver);
             this.Name = "FrmDevoluciónVenta";
             this.Text = "Devolución de Venta";
+            this.panelLeft.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
-
-        #endregion
-
-        private System.Windows.Forms.Button btnDevolverVenta;
-        private System.Windows.Forms.Button btnVolver;
+        #endregion  
+        private System.Windows.Forms.Panel panelLeft;
+        private System.Windows.Forms.PictureBox pictureBoxIcon;
+        private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.TextBox txtIDVenta;
         private System.Windows.Forms.Label lblDNIVenta;
+        private System.Windows.Forms.Button btnDevolverVenta;
+        private System.Windows.Forms.Button btnVolver;
+
     }
 }

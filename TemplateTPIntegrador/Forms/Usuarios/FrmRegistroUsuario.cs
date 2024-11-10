@@ -157,5 +157,10 @@ namespace TemplateTPIntegrador.Forms
         {
 
         }
+
+        private void txtApellido_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
