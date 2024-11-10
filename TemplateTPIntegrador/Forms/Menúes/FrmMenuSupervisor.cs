@@ -74,7 +74,10 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnDevolucionVenta_Click(object sender, EventArgs e)
         {
+            FrmDevoluciónVenta devolucionmenu = new FrmDevoluciónVenta();
 
+            devolucionmenu.Show();
+            this.Close();
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)

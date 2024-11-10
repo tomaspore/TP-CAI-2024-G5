@@ -15,19 +15,11 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmRegistroUsuario : Form
     {
-        private static int UserId = 1; // Inicializa el Id una sola vez
-
         public FrmRegistroUsuario()
         {
             InitializeComponent();
             LlenarcmbHost(); // Para poner los posibles valores a elegir en cmbHost
-            MostrarIDUsuarioActual();
-        }
 
-        private void MostrarIDUsuarioActual()
-        {
-            txtIdUsuario.Text = UserId.ToString(); // Muestra el Id actual
-            txtIdUsuario.ReadOnly = true; // Hace que no se pueda editar el campo manualmente
         }
 
         private void LlenarcmbHost()
@@ -40,23 +32,34 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
-            
-                string nombre = txtNombre.Text;
-                string apellido = txtApellido.Text;
-                string direccion = txtDireccion.Text;
-                string host = cmbHost.SelectedItem.ToString();
-                string telefono = txtTelefono.Text;
-                string email = txtEmail.Text;
-                string usuario = txtUsuario.Text;
-                string contraseña = txtContraseña.Text;
-                int documento = Convert.ToInt32(txtDNI.Text); //Agregar un validador
-                DateTime fechaNacimiento = dtpFechaNacimiento.Value;
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+            if (confirmar.ShowDialog() == DialogResult.OK)
+            {
+                OperaciónRegistrarUsuario();
+            }
+        }
 
-                //El idadmin lo pongo recién en la capa de persitencia.
-                //La fecha de alta la asigna el sistema
+        private void OperaciónRegistrarUsuario()
+        {
+            string nombre = txtNombre.Text;
+            string apellido = txtApellido.Text;
+            string direccion = txtDireccion.Text;
+            string host = cmbHost.SelectedItem.ToString();
+            string telefono = txtTelefono.Text;
+            string email = txtEmail.Text;
+            string usuario = txtUsuario.Text;
+            string contraseña = "#CAI20232";
+            string validardocumento = txtDNI.Text; //Agregar un validador
+            DateTime fechaNacimiento = dtpFechaNacimiento.Value;
 
+            //El idadmin lo pongo recién en la capa de persitencia.
+            //La fecha de alta la asigna el sistema
+
+            if (int.TryParse(validardocumento, out int documento))
+            {
                 try
                 {
+
                     UsuarioService usuarioService = new UsuarioService();
 
                     bool registrado = usuarioService.RegistrarUsuario(host, nombre, apellido, documento, direccion, telefono, email, fechaNacimiento, usuario, contraseña);
@@ -75,8 +78,14 @@ namespace TemplateTPIntegrador.Forms
                     MessageBox.Show("Ocurrió un error: " + ex.Message);
                 }
             }
+            else
+            {
+                MessageBox.Show("El DNI debe ser un valor númerico.");
+            }
 
-            private void button1_Click(object sender, EventArgs e)
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             //VOLVER AL MENU INICIAL
             this.Close();  // Cierra el formulario actual (Registrar Usuario)

@@ -65,6 +65,10 @@ namespace Persistencia.Productos
                 {
                     HttpResponseMessage response = WebHelper.Get("Producto/TraerProductos");
 
+                    // Imprimir el contenido de la respuesta para depuración
+                    // Console.WriteLine($"Contenido de la respuesta: {contentStream}");
+
+
                     if (!response.IsSuccessStatusCode)
                     {
                         Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
@@ -73,6 +77,10 @@ namespace Persistencia.Productos
 
                     var contentStream = response.Content.ReadAsStringAsync().Result;
                     List<ProductoWS> listadoProductos = JsonConvert.DeserializeObject<List<ProductoWS>>(contentStream);
+
+                    // Imprimir la cantidad de productos obtenidos para depuración
+                    Console.WriteLine($"Cantidad de productos obtenidos: {listadoProductos.Count}");
+
                     return listadoProductos;
                 }
                 catch (Exception ex)

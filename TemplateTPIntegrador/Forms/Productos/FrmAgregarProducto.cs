@@ -56,6 +56,21 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnAltaProducto_Click(object sender, EventArgs e)
         {
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+
+            if (confirmar.ShowDialog() == DialogResult.OK)
+            {
+                OperaciónAgregarProducto();
+            }
+        }
+
+        private void lstProveedores_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OperaciónAgregarProducto()
+        {
             string nombre = txtNombreProducto.Text;
             string proveedor = lstProveedores.SelectedItem?.ToString();
             string categoria = cmbCategoria.SelectedItem?.ToString();
@@ -139,10 +154,6 @@ namespace TemplateTPIntegrador.Forms
             }
 
 
-        }
-
-        private void lstProveedores_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
 

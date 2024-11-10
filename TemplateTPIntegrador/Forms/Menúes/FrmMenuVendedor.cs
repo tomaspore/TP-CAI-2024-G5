@@ -29,7 +29,7 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnReporteVentasXVendedor_Click(object sender, EventArgs e)
         {
-            FrmReporteVentas reporteVentas = new FrmReporteVentas();
+            FrmDevoluciónVenta reporteVentas = new FrmDevoluciónVenta();
             reporteVentas.Show();
             this.Hide();
         }
@@ -64,8 +64,8 @@ namespace TemplateTPIntegrador.Forms
         private void btnRegistrarVenta_Click(object sender, EventArgs e)
         {
 
-            FrmRegistrarDatosVenta registrarDatosVenta = new FrmRegistrarDatosVenta();
-            registrarDatosVenta.Show();
+            FrmRegistrarVenta confirmar = new FrmRegistrarVenta();
+            confirmar.Show();
             this.Hide();
 
         }

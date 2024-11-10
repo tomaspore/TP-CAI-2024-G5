@@ -36,16 +36,16 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(217, 88);
+            this.textBox9.Location = new System.Drawing.Point(62, 88);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(120, 20);
+            this.textBox9.Size = new System.Drawing.Size(312, 26);
             this.textBox9.TabIndex = 11;
             // 
             // btnReactivar
             // 
-            this.btnReactivar.Location = new System.Drawing.Point(141, 171);
+            this.btnReactivar.Location = new System.Drawing.Point(141, 164);
             this.btnReactivar.Name = "btnReactivar";
-            this.btnReactivar.Size = new System.Drawing.Size(129, 23);
+            this.btnReactivar.Size = new System.Drawing.Size(151, 32);
             this.btnReactivar.TabIndex = 25;
             this.btnReactivar.Text = "Reactivar";
             this.btnReactivar.UseVisualStyleBackColor = true;
@@ -54,18 +54,18 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(52, 95);
+            this.label11.Location = new System.Drawing.Point(111, 43);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(130, 13);
+            this.label11.Size = new System.Drawing.Size(191, 20);
             this.label11.TabIndex = 31;
             this.label11.Text = "Id del Usuario a Reactivar";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(154, 214);
+            this.button4.Location = new System.Drawing.Point(145, 214);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(105, 23);
+            this.button4.Size = new System.Drawing.Size(138, 30);
             this.button4.TabIndex = 42;
             this.button4.Text = "Volver al Menú";
             this.button4.UseVisualStyleBackColor = true;
