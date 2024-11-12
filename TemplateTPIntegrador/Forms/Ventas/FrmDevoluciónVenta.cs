@@ -22,7 +22,7 @@ namespace TemplateTPIntegrador.Forms
         {
             //VOLVER AL MENU DEL VENDEDOR
             this.Close();  // Cierra el formulario actual (Registrar Usuario)
-            FrmMenuVendedor menu = new FrmMenuVendedor(); // Crea una instancia del menú Vendedor
+            FrmMenuSupervisor menu = new FrmMenuSupervisor(); // Crea una instancia del menú Vendedor
             menu.Show();  // Muestra el formulario del menú Vendedor
         }
 
