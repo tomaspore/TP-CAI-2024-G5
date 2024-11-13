@@ -284,6 +284,7 @@
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMenuSupervisor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal - Supervisor";
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

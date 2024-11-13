@@ -188,6 +188,7 @@
             this.Controls.Add(this.txtModificarContraseña);
             this.Controls.Add(this.buttonBack);
             this.Name = "FrmCambioContraseña";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cambio de Contraseña";
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();

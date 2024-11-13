@@ -122,6 +122,7 @@
             this.Controls.Add(this.txtNombreProducto);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmModificarProducto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Producto";
             this.ResumeLayout(false);
             this.PerformLayout();

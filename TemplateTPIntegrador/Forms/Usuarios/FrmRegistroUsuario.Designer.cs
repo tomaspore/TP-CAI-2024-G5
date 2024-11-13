@@ -271,6 +271,7 @@
             this.Controls.Add(this.btnRegistrarUsuario);
             this.Controls.Add(this.buttonBack);
             this.Name = "FrmRegistroUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Usuario";
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();

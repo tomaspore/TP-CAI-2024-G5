@@ -36,9 +36,10 @@
             // 
             // btnReactivaciónCliente
             // 
-            this.btnReactivaciónCliente.Location = new System.Drawing.Point(162, 159);
+            this.btnReactivaciónCliente.Location = new System.Drawing.Point(108, 103);
+            this.btnReactivaciónCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnReactivaciónCliente.Name = "btnReactivaciónCliente";
-            this.btnReactivaciónCliente.Size = new System.Drawing.Size(118, 31);
+            this.btnReactivaciónCliente.Size = new System.Drawing.Size(79, 20);
             this.btnReactivaciónCliente.TabIndex = 0;
             this.btnReactivaciónCliente.Text = "Reactivar";
             this.btnReactivaciónCliente.UseVisualStyleBackColor = true;
@@ -47,38 +48,43 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(124, 25);
+            this.label1.Location = new System.Drawing.Point(83, 16);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 20);
+            this.label1.Size = new System.Drawing.Size(134, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Introduzca el ID del Cliente";
             // 
             // txtidCliente
             // 
-            this.txtidCliente.Location = new System.Drawing.Point(92, 70);
+            this.txtidCliente.Location = new System.Drawing.Point(61, 46);
+            this.txtidCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtidCliente.Name = "txtidCliente";
-            this.txtidCliente.Size = new System.Drawing.Size(265, 26);
+            this.txtidCliente.Size = new System.Drawing.Size(178, 20);
             this.txtidCliente.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 122);
+            this.label2.Location = new System.Drawing.Point(42, 79);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(332, 20);
+            this.label2.Size = new System.Drawing.Size(221, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Consulte con el Administrador el ID de Cliente";
             // 
             // FrmReactivarCliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(440, 224);
+            this.ClientSize = new System.Drawing.Size(293, 146);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtidCliente);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnReactivaciónCliente);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmReactivarCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reactivar Cliente";
             this.Load += new System.EventHandler(this.FrmReactivarCliente_Load);
             this.ResumeLayout(false);

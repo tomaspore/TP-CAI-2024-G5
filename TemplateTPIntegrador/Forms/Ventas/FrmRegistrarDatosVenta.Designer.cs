@@ -100,14 +100,14 @@
             // 
             this.dtpFechaNacimiento.Location = new System.Drawing.Point(176, 54);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            this.dtpFechaNacimiento.Size = new System.Drawing.Size(121, 26);
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(121, 20);
             this.dtpFechaNacimiento.TabIndex = 25;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(176, 85);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 26);
+            this.textBox3.Size = new System.Drawing.Size(121, 20);
             this.textBox3.TabIndex = 5;
             // 
             // label3
@@ -115,7 +115,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(7, 88);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 20);
+            this.label3.Size = new System.Drawing.Size(87, 13);
             this.label3.TabIndex = 26;
             this.label3.Text = "Datos del Cliente";
             // 
@@ -124,7 +124,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
+            this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 27;
             this.label2.Text = "Fecha";
             // 
@@ -132,7 +132,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(176, 25);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 26);
+            this.textBox1.Size = new System.Drawing.Size(121, 20);
             this.textBox1.TabIndex = 1;
             // 
             // label1
@@ -140,7 +140,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 20);
+            this.label1.Size = new System.Drawing.Size(114, 13);
             this.label1.TabIndex = 28;
             this.label1.Text = "Nombre de la Empresa";
             // 
@@ -162,7 +162,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(250, 31);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 20);
+            this.label7.Size = new System.Drawing.Size(76, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "Monto Unitario";
             // 
@@ -171,7 +171,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(172, 31);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 20);
+            this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 1;
             this.label6.Text = "Cantidad";
             // 
@@ -180,7 +180,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(94, 31);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 20);
+            this.label5.Size = new System.Drawing.Size(63, 13);
             this.label5.TabIndex = 2;
             this.label5.Text = "Descripción";
             // 
@@ -189,7 +189,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(15, 31);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 20);
+            this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "ID Producto";
             // 
@@ -237,6 +237,7 @@
             this.Controls.Add(this.RegistrarVenta);
             this.Controls.Add(this.button1);
             this.Name = "FrmRegistrarDatosVenta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Datos de la Venta";
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
