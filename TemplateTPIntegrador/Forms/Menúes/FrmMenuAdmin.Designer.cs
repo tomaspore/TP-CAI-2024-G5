@@ -28,6 +28,7 @@
             /// </summary>
             private void InitializeComponent()
             {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenuAdmin));
             this.btnRegistroUsuario = new System.Windows.Forms.Button();
             this.btnReactivarUsuario = new System.Windows.Forms.Button();
             this.btnBajaUsuario = new System.Windows.Forms.Button();
@@ -59,7 +60,7 @@
             this.btnRegistroUsuario.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.btnRegistroUsuario.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistroUsuario.Location = new System.Drawing.Point(16, 29);
-            this.btnRegistroUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistroUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistroUsuario.Name = "btnRegistroUsuario";
             this.btnRegistroUsuario.Size = new System.Drawing.Size(147, 23);
             this.btnRegistroUsuario.TabIndex = 0;
@@ -72,7 +73,7 @@
             this.btnReactivarUsuario.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.btnReactivarUsuario.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReactivarUsuario.Location = new System.Drawing.Point(16, 71);
-            this.btnReactivarUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReactivarUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.btnReactivarUsuario.Name = "btnReactivarUsuario";
             this.btnReactivarUsuario.Size = new System.Drawing.Size(147, 22);
             this.btnReactivarUsuario.TabIndex = 1;
@@ -85,7 +86,7 @@
             this.btnBajaUsuario.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.btnBajaUsuario.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaUsuario.Location = new System.Drawing.Point(16, 113);
-            this.btnBajaUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBajaUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.btnBajaUsuario.Name = "btnBajaUsuario";
             this.btnBajaUsuario.Size = new System.Drawing.Size(147, 21);
             this.btnBajaUsuario.TabIndex = 2;
@@ -127,6 +128,7 @@
             this.btnBajaProductos.TabIndex = 5;
             this.btnBajaProductos.Text = "Baja de Productos";
             this.btnBajaProductos.UseVisualStyleBackColor = false;
+            this.btnBajaProductos.Click += new System.EventHandler(this.btnBajaProductos_Click);
             // 
             // btnReporteVentasXVendedor
             // 
@@ -169,9 +171,9 @@
             this.groupBox1.Controls.Add(this.btnRepProdMasVendidoXCategoria);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(429, 58);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(193, 152);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
@@ -181,9 +183,9 @@
             // 
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(227, 234);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(395, 156);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
@@ -197,9 +199,9 @@
             this.groupBox3.Controls.Add(this.btnBajaUsuario);
             this.groupBox3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(227, 58);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(176, 152);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
@@ -296,7 +298,8 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmMenuAdmin";
             this.Text = "Menu Principal - Administrador";
             this.groupBox1.ResumeLayout(false);

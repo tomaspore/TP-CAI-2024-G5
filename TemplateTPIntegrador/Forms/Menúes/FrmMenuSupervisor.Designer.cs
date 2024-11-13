@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenuSupervisor));
             this.btnDevolucionVenta = new System.Windows.Forms.Button();
             this.btnReporteStockCritico = new System.Windows.Forms.Button();
             this.btnRepProdMasVendidoXCategoria = new System.Windows.Forms.Button();
@@ -158,9 +159,9 @@
             this.groupBox3.Controls.Add(this.btnDevolucionVenta);
             this.groupBox3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(256, 69);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(177, 219);
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
@@ -249,9 +250,9 @@
             this.grpClientes.Controls.Add(this.btnControlClientes);
             this.grpClientes.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpClientes.Location = new System.Drawing.Point(256, 312);
-            this.grpClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpClientes.Margin = new System.Windows.Forms.Padding(2);
             this.grpClientes.Name = "grpClientes";
-            this.grpClientes.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpClientes.Padding = new System.Windows.Forms.Padding(2);
             this.grpClientes.Size = new System.Drawing.Size(389, 79);
             this.grpClientes.TabIndex = 21;
             this.grpClientes.TabStop = false;
@@ -262,7 +263,7 @@
             this.btnControlClientes.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.btnControlClientes.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnControlClientes.Location = new System.Drawing.Point(120, 33);
-            this.btnControlClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnControlClientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnControlClientes.Name = "btnControlClientes";
             this.btnControlClientes.Size = new System.Drawing.Size(144, 22);
             this.btnControlClientes.TabIndex = 22;
@@ -281,6 +282,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMenuSupervisor";
             this.Text = "Menu Principal - Supervisor";
             this.groupBox1.ResumeLayout(false);

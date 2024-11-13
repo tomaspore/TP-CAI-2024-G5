@@ -51,7 +51,7 @@
             this.btnAcceder.Margin = new System.Windows.Forms.Padding(2);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(119, 38);
-            this.btnAcceder.TabIndex = 0;
+            this.btnAcceder.TabIndex = 3;
             this.btnAcceder.Text = "Acceder";
             this.btnAcceder.UseVisualStyleBackColor = false;
             this.btnAcceder.Click += new System.EventHandler(this.button1_Click);
@@ -63,7 +63,7 @@
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(239, 27);
-            this.txtContraseña.TabIndex = 2;
+            this.txtContraseña.TabIndex = 1;
             this.txtContraseña.UseSystemPasswordChar = true;
             // 
             // txtUsuario
@@ -73,7 +73,7 @@
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(239, 27);
-            this.txtUsuario.TabIndex = 3;
+            this.txtUsuario.TabIndex = 0;
             this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // label1
@@ -124,7 +124,7 @@
             this.chkMostrarContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.chkMostrarContraseña.Name = "chkMostrarContraseña";
             this.chkMostrarContraseña.Size = new System.Drawing.Size(139, 20);
-            this.chkMostrarContraseña.TabIndex = 7;
+            this.chkMostrarContraseña.TabIndex = 2;
             this.chkMostrarContraseña.Text = "Mostrar Contraseña";
             this.chkMostrarContraseña.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMostrarContraseña.UseVisualStyleBackColor = false;
@@ -148,7 +148,7 @@
             this.label2.Location = new System.Drawing.Point(49, 315);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 16);
-            this.label2.TabIndex = 9;
+            this.label2.TabIndex = 4;
             this.label2.Text = "He olvidado mi contraseña";
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
@@ -161,7 +161,7 @@
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 25);
-            this.button1.TabIndex = 10;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Salir";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);

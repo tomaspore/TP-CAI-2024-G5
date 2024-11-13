@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TemplateTPIntegrador.Forms.Productos;
 
 namespace TemplateTPIntegrador.Forms
 {
@@ -110,7 +111,12 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnBajaProductos_Click_1(object sender, EventArgs e)
         {
+            
+            FrmBajaProducto frmBajaProducto = new FrmBajaProducto();
+            frmBajaProducto.Show();
 
+            // Cerrar el formulario actual 
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
