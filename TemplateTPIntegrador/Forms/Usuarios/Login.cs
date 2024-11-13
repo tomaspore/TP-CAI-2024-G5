@@ -163,5 +163,11 @@ namespace TemplateTPIntegrador
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            //exit
+            this.Close();
+        }
     }
 }

@@ -79,7 +79,7 @@
             this.txtUsuario.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtUsuario.Location = new System.Drawing.Point(449, 119);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(220, 36);
+            this.txtUsuario.Size = new System.Drawing.Size(220, 27);
             this.txtUsuario.TabIndex = 3;
             // 
             // label3
@@ -96,7 +96,7 @@
             this.txtContraseñaActual.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtContraseñaActual.Location = new System.Drawing.Point(449, 203);
             this.txtContraseñaActual.Name = "txtContraseñaActual";
-            this.txtContraseñaActual.Size = new System.Drawing.Size(220, 36);
+            this.txtContraseñaActual.Size = new System.Drawing.Size(220, 27);
             this.txtContraseñaActual.TabIndex = 5;
             this.txtContraseñaActual.UseSystemPasswordChar = true;
             // 
@@ -114,7 +114,7 @@
             this.txtContraseñaNueva.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtContraseñaNueva.Location = new System.Drawing.Point(449, 320);
             this.txtContraseñaNueva.Name = "txtContraseñaNueva";
-            this.txtContraseñaNueva.Size = new System.Drawing.Size(220, 36);
+            this.txtContraseñaNueva.Size = new System.Drawing.Size(220, 27);
             this.txtContraseñaNueva.TabIndex = 8;
             this.txtContraseñaNueva.UseSystemPasswordChar = true;
             // 
@@ -144,18 +144,20 @@
             this.chkMostrarContraseñaActual.Font = new System.Drawing.Font("Arial", 9F);
             this.chkMostrarContraseñaActual.Location = new System.Drawing.Point(449, 245);
             this.chkMostrarContraseñaActual.Name = "chkMostrarContraseñaActual";
-            this.chkMostrarContraseñaActual.Size = new System.Drawing.Size(104, 24);
+            this.chkMostrarContraseñaActual.Size = new System.Drawing.Size(200, 24);
             this.chkMostrarContraseñaActual.TabIndex = 6;
             this.chkMostrarContraseñaActual.Text = "Mostrar Contraseña Actual";
+            this.chkMostrarContraseñaActual.CheckedChanged += new System.EventHandler(this.ChkMostrarContraseñaActual_CheckedChanged);
             // 
             // chkMostrarContraseñaNueva
             // 
             this.chkMostrarContraseñaNueva.Font = new System.Drawing.Font("Arial", 9F);
             this.chkMostrarContraseñaNueva.Location = new System.Drawing.Point(449, 362);
             this.chkMostrarContraseñaNueva.Name = "chkMostrarContraseñaNueva";
-            this.chkMostrarContraseñaNueva.Size = new System.Drawing.Size(104, 24);
+            this.chkMostrarContraseñaNueva.Size = new System.Drawing.Size(187, 24);
             this.chkMostrarContraseñaNueva.TabIndex = 9;
             this.chkMostrarContraseñaNueva.Text = "Mostrar Contraseña Nueva";
+            this.chkMostrarContraseñaNueva.CheckedChanged += new System.EventHandler(this.ChkMostrarContraseñaNueva_CheckedChanged);
             // 
             // buttonBack
             // 
@@ -168,6 +170,7 @@
             this.buttonBack.TabIndex = 0;
             this.buttonBack.Text = "Volver al Menú";
             this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // FrmCambioContraseña
             // 
