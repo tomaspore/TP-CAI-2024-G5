@@ -15,7 +15,7 @@ namespace TemplateTPIntegrador.Forms.Productos
     public partial class FrmBajaProducto : Form
     {
         private ObtenerProductosWS productosWS;
-        private bool productoEliminado = false; // Para indicar si el producto ya está dado de baja
+       
 
         public FrmBajaProducto()
         {

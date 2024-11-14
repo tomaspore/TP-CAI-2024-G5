@@ -140,6 +140,7 @@
             this.btnReporteVentasXVendedor.TabIndex = 9;
             this.btnReporteVentasXVendedor.Text = "Ventas por vendedor";
             this.btnReporteVentasXVendedor.UseVisualStyleBackColor = false;
+            this.btnReporteVentasXVendedor.Click += new System.EventHandler(this.btnReporteVentasXVendedor_Click);
             // 
             // btnRepProdMasVendidoXCategoria
             // 
