@@ -67,7 +67,7 @@
             this.btnReporteVentasXVendedor.Name = "btnReporteVentasXVendedor";
             this.btnReporteVentasXVendedor.Size = new System.Drawing.Size(153, 23);
             this.btnReporteVentasXVendedor.TabIndex = 1;
-            this.btnReporteVentasXVendedor.Text = "Reporte de ventas";
+            this.btnReporteVentasXVendedor.Text = "Devolución de ventas";
             this.btnReporteVentasXVendedor.UseVisualStyleBackColor = false;
             this.btnReporteVentasXVendedor.Click += new System.EventHandler(this.btnReporteVentasXVendedor_Click);
             // 

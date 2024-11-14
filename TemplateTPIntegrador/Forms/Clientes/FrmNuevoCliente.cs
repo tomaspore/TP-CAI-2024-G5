@@ -22,7 +22,7 @@ namespace TemplateTPIntegrador.Forms
             _clientesService = new AgregarClienteWS();
         }
 
-        private async void btnAgregarCliente_Click(object sender, EventArgs e)
+        private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
             FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
 

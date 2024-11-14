@@ -61,22 +61,8 @@ namespace TemplateTPIntegrador.Forms.Clientes
         {
             //VOLVER AL MENU
             this.Close(); // Cierra el formulario actual
-
-            if (ConfiguracionUsuario.PerfilUsuario == "Administrador")
-            {
-                FrmMenuAdmin menuAdmin = new FrmMenuAdmin();
-                menuAdmin.Show();
-            }
-            else if (ConfiguracionUsuario.PerfilUsuario == "Supervisor")
-            {
-                FrmMenuSupervisor menuSupervisor = new FrmMenuSupervisor();
-                menuSupervisor.Show();
-            }
-            else if (ConfiguracionUsuario.PerfilUsuario == "Vendedor")
-            {
-                FrmMenuVendedor menuVendedor = new FrmMenuVendedor();
-                menuVendedor.Show();
-            }
+             
+            
         }
     }
 }

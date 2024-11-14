@@ -58,6 +58,12 @@
     <Compile Include="Forms\Productos\FrmBajaProducto.Designer.cs">
       <DependentUpon>FrmBajaProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Ventas\FrmListadoVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\FrmListadoVentas.Designer.cs">
+      <DependentUpon>FrmListadoVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Negocio\ProductoNegocio.cs" />
     <Compile Include="Other\ConfiguracionUsuario.cs" />
     <Compile Include="Forms\Clientes\FrmControlClientes.cs">
@@ -189,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Productos\FrmModificarProducto.resx">
       <DependentUpon>FrmModificarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\FrmListadoVentas.resx">
+      <DependentUpon>FrmListadoVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Ventas\FrmRegistrarDatosVenta.resx">
       <DependentUpon>FrmRegistrarDatosVenta.cs</DependentUpon>

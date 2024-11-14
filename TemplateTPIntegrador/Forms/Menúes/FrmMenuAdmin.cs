@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TemplateTPIntegrador.Forms;
 using TemplateTPIntegrador.Forms.Productos;
+using TemplateTPIntegrador.Forms.Ventas;
 
 namespace TemplateTPIntegrador
 {
@@ -178,8 +179,14 @@ namespace TemplateTPIntegrador
             FrmBajaProducto frmBajaProducto = new FrmBajaProducto();
             frmBajaProducto.Show();
 
-            // Cerrar el formulario actual (Menú Principal - Supervisor)
+            // Cerrar el formulario actual (Menú Principal)
             this.Close();
+        }
+
+        private void btnReporteVentasXVendedor_Click(object sender, EventArgs e)
+        {
+            FrmListadoVentas listadoVentasForm = new FrmListadoVentas();
+            listadoVentasForm.Show();
         }
     }
 }

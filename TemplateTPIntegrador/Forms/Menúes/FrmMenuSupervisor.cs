@@ -111,11 +111,11 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnBajaProductos_Click_1(object sender, EventArgs e)
         {
-            
+            // Crear y mostrar el formulario de baja de productos
             FrmBajaProducto frmBajaProducto = new FrmBajaProducto();
             frmBajaProducto.Show();
 
-            // Cerrar el formulario actual 
+            // Cerrar el formulario actual (Menú Principal)
             this.Close();
         }
 
