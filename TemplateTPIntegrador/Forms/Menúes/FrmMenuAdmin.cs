@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TemplateTPIntegrador.Forms;
+using TemplateTPIntegrador.Forms.Productos;
 
 namespace TemplateTPIntegrador
 {
@@ -66,7 +67,13 @@ namespace TemplateTPIntegrador
         private void button3_Click(object sender, EventArgs e)
         {
             FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
-            confirmacion.ShowDialog(); // Mostrar el formulario de confirmación de manera modal
+            if (confirmacion.ShowDialog() == DialogResult.Yes)
+            {
+                FrmLogin login = new FrmLogin();
+                login.Show();
+                this.Close(); // Cierra el formulario actual (por ejemplo, FrmMenuAdmin o FrmMenuSupervisor)
+            }
+
 
         }
 
@@ -155,6 +162,24 @@ namespace TemplateTPIntegrador
         private void btnReporteStockCritico_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnModificacionProductos_Click(object sender, EventArgs e)
+        {
+            FrmModificarProducto modificarProducto = new FrmModificarProducto();
+
+            modificarProducto.Show();
+            this.Hide();
+        }
+
+        private void btnBajaProductos_Click(object sender, EventArgs e)
+        {
+            // Crear y mostrar el formulario de baja de productos
+            FrmBajaProducto frmBajaProducto = new FrmBajaProducto();
+            frmBajaProducto.Show();
+
+            // Cerrar el formulario actual (Menú Principal - Supervisor)
+            this.Close();
         }
     }
 }

@@ -112,5 +112,27 @@ namespace TemplateTPIntegrador.Forms
         {
 
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            //VOLVER AL MENU (ESTE MODIF CONTRASEÑA ES EL MISMO PARA LOS TRES MENUS ENTONCES TIENE QUE IDENTIFICAR EL USUARIO)
+            this.Close(); // Cierra el formulario actual
+
+            if (ConfiguracionUsuario.PerfilUsuario == "Administrador")
+            {
+                FrmMenuAdmin menuAdmin = new FrmMenuAdmin();
+                menuAdmin.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Supervisor")
+            {
+                FrmMenuSupervisor menuSupervisor = new FrmMenuSupervisor();
+                menuSupervisor.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Vendedor")
+            {
+                FrmMenuVendedor menuVendedor = new FrmMenuVendedor();
+                menuVendedor.Show();
+            }
+        }
     }
 }

@@ -28,6 +28,7 @@
             /// </summary>
             private void InitializeComponent()
             {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenuAdmin));
             this.btnRegistroUsuario = new System.Windows.Forms.Button();
             this.btnReactivarUsuario = new System.Windows.Forms.Button();
             this.btnBajaUsuario = new System.Windows.Forms.Button();
@@ -44,11 +45,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.greet_user = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCerrarSesión = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -57,91 +57,111 @@
             // 
             // btnRegistroUsuario
             // 
+            this.btnRegistroUsuario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnRegistroUsuario.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistroUsuario.Location = new System.Drawing.Point(16, 29);
             this.btnRegistroUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistroUsuario.Name = "btnRegistroUsuario";
             this.btnRegistroUsuario.Size = new System.Drawing.Size(147, 23);
             this.btnRegistroUsuario.TabIndex = 0;
             this.btnRegistroUsuario.Text = "Registrar Usuario";
-            this.btnRegistroUsuario.UseVisualStyleBackColor = true;
+            this.btnRegistroUsuario.UseVisualStyleBackColor = false;
             this.btnRegistroUsuario.Click += new System.EventHandler(this.btnRegistroUsuario_Click);
             // 
             // btnReactivarUsuario
             // 
+            this.btnReactivarUsuario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnReactivarUsuario.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReactivarUsuario.Location = new System.Drawing.Point(16, 71);
             this.btnReactivarUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.btnReactivarUsuario.Name = "btnReactivarUsuario";
             this.btnReactivarUsuario.Size = new System.Drawing.Size(147, 22);
             this.btnReactivarUsuario.TabIndex = 1;
             this.btnReactivarUsuario.Text = "Reactivar Usuario";
-            this.btnReactivarUsuario.UseVisualStyleBackColor = true;
+            this.btnReactivarUsuario.UseVisualStyleBackColor = false;
             this.btnReactivarUsuario.Click += new System.EventHandler(this.btnModificacionUsuario_Click);
             // 
             // btnBajaUsuario
             // 
+            this.btnBajaUsuario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnBajaUsuario.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaUsuario.Location = new System.Drawing.Point(16, 113);
             this.btnBajaUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.btnBajaUsuario.Name = "btnBajaUsuario";
             this.btnBajaUsuario.Size = new System.Drawing.Size(147, 21);
             this.btnBajaUsuario.TabIndex = 2;
             this.btnBajaUsuario.Text = "Baja de Usuario";
-            this.btnBajaUsuario.UseVisualStyleBackColor = true;
+            this.btnBajaUsuario.UseVisualStyleBackColor = false;
             this.btnBajaUsuario.Click += new System.EventHandler(this.btnBajaUsuario_Click);
             // 
             // btnAltaProducto
             // 
-            this.btnAltaProducto.Location = new System.Drawing.Point(16, 33);
+            this.btnAltaProducto.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnAltaProducto.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAltaProducto.Location = new System.Drawing.Point(344, 266);
             this.btnAltaProducto.Name = "btnAltaProducto";
             this.btnAltaProducto.Size = new System.Drawing.Size(141, 23);
             this.btnAltaProducto.TabIndex = 3;
             this.btnAltaProducto.Text = "Alta de Productos";
-            this.btnAltaProducto.UseVisualStyleBackColor = true;
+            this.btnAltaProducto.UseVisualStyleBackColor = false;
             this.btnAltaProducto.Click += new System.EventHandler(this.btnAltaProducto_Click);
             // 
             // btnModificacionProductos
             // 
-            this.btnModificacionProductos.Location = new System.Drawing.Point(16, 76);
+            this.btnModificacionProductos.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnModificacionProductos.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificacionProductos.Location = new System.Drawing.Point(344, 309);
             this.btnModificacionProductos.Name = "btnModificacionProductos";
             this.btnModificacionProductos.Size = new System.Drawing.Size(141, 23);
             this.btnModificacionProductos.TabIndex = 4;
             this.btnModificacionProductos.Text = "Modificacion de Productos";
-            this.btnModificacionProductos.UseVisualStyleBackColor = true;
+            this.btnModificacionProductos.UseVisualStyleBackColor = false;
+            this.btnModificacionProductos.Click += new System.EventHandler(this.btnModificacionProductos_Click);
             // 
             // btnBajaProductos
             // 
-            this.btnBajaProductos.Location = new System.Drawing.Point(16, 119);
+            this.btnBajaProductos.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnBajaProductos.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBajaProductos.Location = new System.Drawing.Point(344, 352);
             this.btnBajaProductos.Name = "btnBajaProductos";
             this.btnBajaProductos.Size = new System.Drawing.Size(141, 23);
             this.btnBajaProductos.TabIndex = 5;
             this.btnBajaProductos.Text = "Baja de Productos";
-            this.btnBajaProductos.UseVisualStyleBackColor = true;
+            this.btnBajaProductos.UseVisualStyleBackColor = false;
+            this.btnBajaProductos.Click += new System.EventHandler(this.btnBajaProductos_Click);
             // 
             // btnReporteVentasXVendedor
             // 
+            this.btnReporteVentasXVendedor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnReporteVentasXVendedor.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteVentasXVendedor.Location = new System.Drawing.Point(16, 70);
             this.btnReporteVentasXVendedor.Name = "btnReporteVentasXVendedor";
             this.btnReporteVentasXVendedor.Size = new System.Drawing.Size(141, 23);
             this.btnReporteVentasXVendedor.TabIndex = 9;
             this.btnReporteVentasXVendedor.Text = "Ventas por vendedor";
-            this.btnReporteVentasXVendedor.UseVisualStyleBackColor = true;
+            this.btnReporteVentasXVendedor.UseVisualStyleBackColor = false;
             // 
             // btnRepProdMasVendidoXCategoria
             // 
+            this.btnRepProdMasVendidoXCategoria.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnRepProdMasVendidoXCategoria.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRepProdMasVendidoXCategoria.Location = new System.Drawing.Point(16, 113);
             this.btnRepProdMasVendidoXCategoria.Name = "btnRepProdMasVendidoXCategoria";
             this.btnRepProdMasVendidoXCategoria.Size = new System.Drawing.Size(141, 23);
             this.btnRepProdMasVendidoXCategoria.TabIndex = 8;
             this.btnRepProdMasVendidoXCategoria.Text = "Productos más vendidos";
-            this.btnRepProdMasVendidoXCategoria.UseVisualStyleBackColor = true;
+            this.btnRepProdMasVendidoXCategoria.UseVisualStyleBackColor = false;
             // 
             // btnReporteStockCritico
             // 
+            this.btnReporteStockCritico.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnReporteStockCritico.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteStockCritico.Location = new System.Drawing.Point(16, 29);
             this.btnReporteStockCritico.Name = "btnReporteStockCritico";
             this.btnReporteStockCritico.Size = new System.Drawing.Size(141, 23);
             this.btnReporteStockCritico.TabIndex = 7;
             this.btnReporteStockCritico.Text = "Stock crítico";
-            this.btnReporteStockCritico.UseVisualStyleBackColor = true;
+            this.btnReporteStockCritico.UseVisualStyleBackColor = false;
             this.btnReporteStockCritico.Click += new System.EventHandler(this.btnReporteStockCritico_Click);
             // 
             // groupBox1
@@ -149,6 +169,7 @@
             this.groupBox1.Controls.Add(this.btnReporteStockCritico);
             this.groupBox1.Controls.Add(this.btnReporteVentasXVendedor);
             this.groupBox1.Controls.Add(this.btnRepProdMasVendidoXCategoria);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(429, 58);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
@@ -160,14 +181,12 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btnAltaProducto);
-            this.groupBox2.Controls.Add(this.btnModificacionProductos);
-            this.groupBox2.Controls.Add(this.btnBajaProductos);
-            this.groupBox2.Location = new System.Drawing.Point(429, 258);
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(227, 234);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(177, 149);
+            this.groupBox2.Size = new System.Drawing.Size(395, 156);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Control de Inventario";
@@ -178,7 +197,8 @@
             this.groupBox3.Controls.Add(this.btnRegistroUsuario);
             this.groupBox3.Controls.Add(this.btnReactivarUsuario);
             this.groupBox3.Controls.Add(this.btnBajaUsuario);
-            this.groupBox3.Location = new System.Drawing.Point(220, 58);
+            this.groupBox3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(227, 58);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
@@ -189,12 +209,14 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(37, 374);
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(39, 350);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(153, 25);
+            this.button4.Size = new System.Drawing.Size(139, 25);
             this.button4.TabIndex = 10;
             this.button4.Text = "Modificar Contraseña";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel2
@@ -228,22 +250,25 @@
             this.greet_user.TabIndex = 21;
             this.greet_user.Text = "¡Bienvenido!";
             // 
-            // button3
+            // btnCerrarSesión
             // 
-            this.button3.Location = new System.Drawing.Point(37, 333);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 25);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Cerrar Sesión";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnCerrarSesión.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.btnCerrarSesión.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesión.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCerrarSesión.Location = new System.Drawing.Point(27, 293);
+            this.btnCerrarSesión.Name = "btnCerrarSesión";
+            this.btnCerrarSesión.Size = new System.Drawing.Size(163, 41);
+            this.btnCerrarSesión.TabIndex = 17;
+            this.btnCerrarSesión.Text = "Cerrar Sesión";
+            this.btnCerrarSesión.UseVisualStyleBackColor = false;
+            this.btnCerrarSesión.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.btnCerrarSesión);
             this.panel1.Controls.Add(this.greet_user);
             this.panel1.Location = new System.Drawing.Point(0, 49);
             this.panel1.Name = "panel1";
@@ -263,17 +288,22 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 460);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(634, 436);
+            this.Controls.Add(this.btnAltaProducto);
+            this.Controls.Add(this.btnModificacionProductos);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnBajaProductos);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmMenuAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal - Administrador";
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -302,7 +332,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label greet_user;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCerrarSesión;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

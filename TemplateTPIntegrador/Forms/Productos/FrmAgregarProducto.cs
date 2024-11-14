@@ -56,6 +56,21 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnAltaProducto_Click(object sender, EventArgs e)
         {
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+
+            if (confirmar.ShowDialog() == DialogResult.OK)
+            {
+                OperaciónAgregarProducto();
+            }
+        }
+
+        private void lstProveedores_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OperaciónAgregarProducto()
+        {
             string nombre = txtNombreProducto.Text;
             string proveedor = lstProveedores.SelectedItem?.ToString();
             string categoria = cmbCategoria.SelectedItem?.ToString();
@@ -105,42 +120,40 @@ namespace TemplateTPIntegrador.Forms
             }
             else idcategoria = 5;
 
-            // Aquí debes obtener los Guid correspondientes para la categoría y proveedor
-            // Esto depende de cómo estén estructurados tus datos
 
-
-
-            string idProveedor = "984c5534-0b26-46f1-8b89-04496bff9957";
-            string idUsuario = "1653c7ec-870d-468a-b581-9800961d53d2";
-
-            // Instanciar o inyectar el servicio de negocio
-            AgregarProductos productoService = new AgregarProductos();
-
-            // Llamar al servicio de negocio para agregar el producto
-            string resultado = productoService.AgregarProductoConValidaciones(idcategoria, idUsuario, idProveedor, nombre, precio, stock);
-
-            // Verificar el resultado
-            if (resultado == "Error")
+            // Obtener el idProveedor seleccionado del ListBox
+            if (lstProveedores.SelectedItem is Proveedor proveedorSeleccionado)
             {
-                MessageBox.Show("Ocurrió un error al agregar el producto.");
+                string idProveedor = proveedorSeleccionado.Id; // Ajusta según la propiedad de tu clase Proveedor
+                string idUsuario = "1653c7ec-870d-468a-b581-9800961d53d2";
+
+                // Instanciar o inyectar el servicio de negocio
+                AgregarProductos productoService = new AgregarProductos();
+
+                // Llamar al servicio de negocio para agregar el producto
+                string resultado = productoService.AgregarProductoConValidaciones(idcategoria, idUsuario, idProveedor, nombre, precio, stock);
+
+                // Verificar el resultado
+                if (resultado == "Error")
+                {
+                    MessageBox.Show("Ocurrió un error al agregar el producto.");
+                }
+                else
+                {
+                    MessageBox.Show("Producto agregado exitosamente.");
+                    txtNombreProducto.Clear();
+                    lstProveedores.SelectedIndex = -1;
+                    cmbCategoria.SelectedIndex = -1;
+                    txtPrecio.Clear();
+                    txtStock.Clear();
+                }
             }
             else
             {
-                MessageBox.Show("Producto agregado exitosamente.");
-                txtNombreProducto.Clear();
-                lstProveedores.SelectedIndex = -1;
-                cmbCategoria.SelectedIndex = -1;
-                txtPrecio.Clear();
-                txtStock.Clear();
-
-
+                MessageBox.Show("Debe seleccionar un proveedor.");
             }
 
 
-        }
-
-        private void lstProveedores_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
 
@@ -158,6 +171,11 @@ namespace TemplateTPIntegrador.Forms
                 FrmMenuSupervisor menuSupervisor = new FrmMenuSupervisor();
                 menuSupervisor.Show();
             }
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -145,6 +145,31 @@ namespace Persistencia.UsuariosData
                 return false;
             }
         }
+        public bool BajaUsuario(string idUsuario)
+        {
+            string idAdmin = "1653c7ec-870d-468a-b581-9800961d53d2";
+            //El idadmin para poder tener permisos.
+
+            Dictionary<String, Object> datos = new Dictionary<String, Object>
+            {
+                { "id", idUsuario },
+                { "idUsuario", idAdmin },
+
+            };
+            var jsonData = JsonConvert.SerializeObject(datos);
+            HttpResponseMessage response = WebHelper.DeleteWithBody("Usuario/BajaUsuario", jsonData);
+
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                return false;
+            }
+
+            return true;
+
+        }
+
 
     }
 }
