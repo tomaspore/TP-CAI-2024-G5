@@ -167,5 +167,14 @@ namespace TemplateTPIntegrador.Forms
             FrmMenuAdmin menu = new FrmMenuAdmin(); // Crea una instancia del menú administrador
             menu.Show();  // Muestra el formulario del menú administrador
         }
+
+        private void btnRegistrarUsuario_Click_1(object sender, EventArgs e)
+        {
+            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
+            if (confirmar.ShowDialog() == DialogResult.OK)
+            {
+                OperaciónRegistrarUsuario();
+            }
+        }
     }
 }
