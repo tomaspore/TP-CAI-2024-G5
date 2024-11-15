@@ -108,5 +108,13 @@ namespace TemplateTPIntegrador.Forms
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmMenuVendedor menu = new FrmMenuVendedor();
+
+            menu.Show();
+            this.Close();
+        }
     }
 }

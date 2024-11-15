@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TemplateTPIntegrador.Forms;
 
 namespace TemplateTPIntegrador
 {
@@ -62,6 +63,33 @@ namespace TemplateTPIntegrador
         private void button2_Click(object sender, EventArgs e)
         {
             //Registrar venta
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            //generar remito
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            //VOLVER AL MENU
+            this.Close(); // Cierra el formulario actual
+
+            if (ConfiguracionUsuario.PerfilUsuario == "Administrador")
+            {
+                FrmMenuAdmin menuAdmin = new FrmMenuAdmin();
+                menuAdmin.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Supervisor")
+            {
+                FrmMenuSupervisor menuSupervisor = new FrmMenuSupervisor();
+                menuSupervisor.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Vendedor")
+            {
+                FrmMenuVendedor menuVendedor = new FrmMenuVendedor();
+                menuVendedor.Show();
+            }
         }
     }
 }

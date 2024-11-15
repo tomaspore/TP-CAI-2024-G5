@@ -20,10 +20,24 @@ namespace TemplateTPIntegrador.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //VOLVER AL MENU DEL VENDEDOR
-            this.Close();  // Cierra el formulario actual (Registrar Usuario)
-            FrmMenuSupervisor menu = new FrmMenuSupervisor(); // Crea una instancia del menú Vendedor
-            menu.Show();  // Muestra el formulario del menú Vendedor
+            //VOLVER AL MENU
+            this.Close(); // Cierra el formulario actual
+
+            if (ConfiguracionUsuario.PerfilUsuario == "Administrador")
+            {
+                FrmMenuAdmin menuAdmin = new FrmMenuAdmin();
+                menuAdmin.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Supervisor")
+            {
+                FrmMenuSupervisor menuSupervisor = new FrmMenuSupervisor();
+                menuSupervisor.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Vendedor")
+            {
+                FrmMenuVendedor menuVendedor = new FrmMenuVendedor();
+                menuVendedor.Show();
+            }
         }
 
         private void btnDevolverVenta_Click(object sender, EventArgs e)

@@ -96,7 +96,7 @@
             // 
             this.txtNombre.Location = new System.Drawing.Point(390, 70);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(193, 26);
+            this.txtNombre.Size = new System.Drawing.Size(193, 20);
             this.txtNombre.TabIndex = 3;
             // 
             // lblApellido
@@ -111,7 +111,7 @@
             // 
             this.txtApellido.Location = new System.Drawing.Point(390, 107);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(193, 26);
+            this.txtApellido.Size = new System.Drawing.Size(193, 20);
             this.txtApellido.TabIndex = 5;
             this.txtApellido.TextChanged += new System.EventHandler(this.txtApellido_TextChanged);
             // 
@@ -127,7 +127,7 @@
             // 
             this.txtDireccion.Location = new System.Drawing.Point(390, 144);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(193, 26);
+            this.txtDireccion.Size = new System.Drawing.Size(193, 20);
             this.txtDireccion.TabIndex = 7;
             // 
             // lblTelefono
@@ -142,7 +142,7 @@
             // 
             this.txtTelefono.Location = new System.Drawing.Point(390, 187);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(193, 26);
+            this.txtTelefono.Size = new System.Drawing.Size(193, 20);
             this.txtTelefono.TabIndex = 9;
             // 
             // lblEmail
@@ -157,7 +157,7 @@
             // 
             this.txtEmail.Location = new System.Drawing.Point(390, 227);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(193, 26);
+            this.txtEmail.Size = new System.Drawing.Size(193, 20);
             this.txtEmail.TabIndex = 11;
             // 
             // lblUsuario
@@ -172,7 +172,7 @@
             // 
             this.txtUsuario.Location = new System.Drawing.Point(390, 267);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(193, 26);
+            this.txtUsuario.Size = new System.Drawing.Size(193, 20);
             this.txtUsuario.TabIndex = 13;
             // 
             // lblDNI
@@ -187,7 +187,7 @@
             // 
             this.txtDNI.Location = new System.Drawing.Point(390, 307);
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(193, 26);
+            this.txtDNI.Size = new System.Drawing.Size(193, 20);
             this.txtDNI.TabIndex = 15;
             // 
             // lblHost
@@ -202,14 +202,14 @@
             // 
             this.cmbHost.Location = new System.Drawing.Point(390, 347);
             this.cmbHost.Name = "cmbHost";
-            this.cmbHost.Size = new System.Drawing.Size(202, 28);
+            this.cmbHost.Size = new System.Drawing.Size(202, 21);
             this.cmbHost.TabIndex = 17;
             // 
             // dtpFechaNacimiento
             // 
             this.dtpFechaNacimiento.Location = new System.Drawing.Point(390, 390);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            this.dtpFechaNacimiento.Size = new System.Drawing.Size(200, 26);
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(200, 20);
             this.dtpFechaNacimiento.TabIndex = 19;
             // 
             // label1
@@ -243,6 +243,7 @@
             this.buttonBack.TabIndex = 21;
             this.buttonBack.Text = "Volver al Menú";
             this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // FrmRegistroUsuario
             // 
@@ -270,6 +271,7 @@
             this.Controls.Add(this.btnRegistrarUsuario);
             this.Controls.Add(this.buttonBack);
             this.Name = "FrmRegistroUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Usuario";
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();

@@ -73,7 +73,7 @@
             this.textBox9.Font = new System.Drawing.Font("Tahoma", 12F);
             this.textBox9.Location = new System.Drawing.Point(254, 130);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(184, 36);
+            this.textBox9.Size = new System.Drawing.Size(184, 27);
             this.textBox9.TabIndex = 2;
             // 
             // label11
@@ -122,6 +122,7 @@
             this.Controls.Add(this.btnReactivar);
             this.Controls.Add(this.buttonBack);
             this.Name = "FrmReactivarUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reactivar Usuario";
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
