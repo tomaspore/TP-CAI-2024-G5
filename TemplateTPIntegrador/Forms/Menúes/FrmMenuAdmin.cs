@@ -162,7 +162,14 @@ namespace TemplateTPIntegrador
 
         private void btnReporteStockCritico_Click(object sender, EventArgs e)
         {
+            // Crear una instancia del formulario FrmStockCritico
+            FrmStockCritico frmStockCritico = new FrmStockCritico();
 
+            // Mostrar el formulario de Stock Crítico
+            frmStockCritico.Show();
+
+            // Cerrar el formulario actual
+            this.Close();
         }
 
         private void btnModificacionProductos_Click(object sender, EventArgs e)

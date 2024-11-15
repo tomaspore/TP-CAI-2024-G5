@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TemplateTPIntegrador.Forms.Productos;
+using TemplateTPIntegrador.Forms.Ventas;
 
 namespace TemplateTPIntegrador.Forms
 {
@@ -148,6 +149,18 @@ namespace TemplateTPIntegrador.Forms
             FrmModificarProducto modificar = new FrmModificarProducto();
 
             modificar.Show();
+            this.Close();
+        }
+
+        private void btnReporteStockCritico_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario FrmStockCritico
+            FrmStockCritico frmStockCritico = new FrmStockCritico();
+
+            // Mostrar el formulario de Stock Crítico
+            frmStockCritico.Show();
+
+            // Cerrar el formulario actual
             this.Close();
         }
     }

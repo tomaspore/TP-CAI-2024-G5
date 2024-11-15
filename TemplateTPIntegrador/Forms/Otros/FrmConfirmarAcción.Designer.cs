@@ -37,10 +37,10 @@
             // 
             this.lblCartel.AutoSize = true;
             this.lblCartel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCartel.Location = new System.Drawing.Point(41, 31);
+            this.lblCartel.Location = new System.Drawing.Point(97, 34);
             this.lblCartel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCartel.Name = "lblCartel";
-            this.lblCartel.Size = new System.Drawing.Size(265, 22);
+            this.lblCartel.Size = new System.Drawing.Size(175, 14);
             this.lblCartel.TabIndex = 0;
             this.lblCartel.Text = "¿Desea confirmar la acción?";
             // 
@@ -72,7 +72,7 @@
             // 
             // FrmConfirmarAcción
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(349, 139);
@@ -83,6 +83,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmConfirmarAcción";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confirmación";
             this.Load += new System.EventHandler(this.FrmConfirmarVenta_Load);
             this.ResumeLayout(false);
