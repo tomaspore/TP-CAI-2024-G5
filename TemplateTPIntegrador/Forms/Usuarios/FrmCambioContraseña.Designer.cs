@@ -143,6 +143,7 @@
             this.txtModificarContraseña.TabIndex = 10;
             this.txtModificarContraseña.Text = "Modificar";
             this.txtModificarContraseña.UseVisualStyleBackColor = false;
+            this.txtModificarContraseña.Click += new System.EventHandler(this.txtModificarContraseña_Click_1);
             // 
             // chkMostrarContraseñaActual
             // 

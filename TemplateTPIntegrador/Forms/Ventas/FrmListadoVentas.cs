@@ -33,7 +33,7 @@ namespace TemplateTPIntegrador.Forms.Ventas
             }
             else
             {
-                MessageBox.Show("No se encontraron ventas ficticias.");
+                MessageBox.Show("No se encontraron ventas.");
             }
         }
 

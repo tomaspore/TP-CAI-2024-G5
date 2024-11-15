@@ -56,7 +56,7 @@
             // 
             this.txtDNICliente.BackColor = System.Drawing.Color.White;
             this.txtDNICliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDNICliente.ForeColor = System.Drawing.Color.White;
+            this.txtDNICliente.ForeColor = System.Drawing.Color.Black;
             this.txtDNICliente.Location = new System.Drawing.Point(158, 64);
             this.txtDNICliente.Name = "txtDNICliente";
             this.txtDNICliente.Size = new System.Drawing.Size(152, 23);
@@ -115,9 +115,9 @@
             // 
             this.txtCantidad.BackColor = System.Drawing.Color.White;
             this.txtCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCantidad.ForeColor = System.Drawing.Color.White;
+            this.txtCantidad.ForeColor = System.Drawing.Color.Black;
             this.txtCantidad.Location = new System.Drawing.Point(158, 99);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(152, 23);
             this.txtCantidad.TabIndex = 8;
