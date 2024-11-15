@@ -29,57 +29,36 @@
         private void InitializeComponent()
         {
             this.dgvVentas = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtIdCliente = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVentas)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvVentas
             // 
             this.dgvVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVentas.Location = new System.Drawing.Point(24, 83);
+            this.dgvVentas.Location = new System.Drawing.Point(36, 128);
+            this.dgvVentas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvVentas.Name = "dgvVentas";
-            this.dgvVentas.Size = new System.Drawing.Size(669, 214);
+            this.dgvVentas.RowHeadersWidth = 62;
+            this.dgvVentas.Size = new System.Drawing.Size(1004, 329);
             this.dgvVentas.TabIndex = 0;
             this.dgvVentas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVentas_CellContentClick);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(596, 312);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // txtIdCliente
-            // 
-            this.txtIdCliente.Location = new System.Drawing.Point(76, 46);
-            this.txtIdCliente.Name = "txtIdCliente";
-            this.txtIdCliente.Size = new System.Drawing.Size(100, 20);
-            this.txtIdCliente.TabIndex = 2;
-            // 
             // FrmListadoVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(721, 357);
-            this.Controls.Add(this.txtIdCliente);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1082, 549);
             this.Controls.Add(this.dgvVentas);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmListadoVentas";
             this.Text = "FrmListadoVentas";
             ((System.ComponentModel.ISupportInitialize)(this.dgvVentas)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dgvVentas;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtIdCliente;
     }
 }
