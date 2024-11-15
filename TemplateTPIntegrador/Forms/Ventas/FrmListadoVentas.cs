@@ -55,12 +55,18 @@ namespace TemplateTPIntegrador.Forms.Ventas
         }
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            // Cerrar el formulario actual
-            this.Close();
+            this.Close(); // Cierra el formulario actual
 
-            // Mostrar el formulario del menú principal
-            FrmMenuAdmin menuPrincipal = new FrmMenuAdmin();
-            menuPrincipal.Show();
+            if (ConfiguracionUsuario.PerfilUsuario == "Administrador")
+            {
+                FrmMenuAdmin menuAdmin = new FrmMenuAdmin();
+                menuAdmin.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Supervisor")
+            {
+                FrmMenuSupervisor menuSupervisor = new FrmMenuSupervisor();
+                menuSupervisor.Show();
+            }
         }
     }
 }
