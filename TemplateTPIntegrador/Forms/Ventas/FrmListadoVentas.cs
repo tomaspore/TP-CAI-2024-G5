@@ -53,5 +53,14 @@ namespace TemplateTPIntegrador.Forms.Ventas
         {
 
         }
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            // Cerrar el formulario actual
+            this.Close();
+
+            // Mostrar el formulario del menú principal
+            FrmMenuAdmin menuPrincipal = new FrmMenuAdmin();
+            menuPrincipal.Show();
+        }
     }
 }
