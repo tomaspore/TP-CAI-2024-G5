@@ -43,41 +43,46 @@
             // 
             // panelLeft
             // 
-            this.panelLeft.BackColor = System.Drawing.Color.Purple;
+            this.panelLeft.BackColor = System.Drawing.Color.Goldenrod;
             this.panelLeft.Controls.Add(this.pictureBoxIcon);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelLeft.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(250, 380);
+            this.panelLeft.Size = new System.Drawing.Size(375, 527);
             this.panelLeft.TabIndex = 1;
             // 
             // pictureBoxIcon
             // 
             this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarx2;
-            this.pictureBoxIcon.Location = new System.Drawing.Point(50, 100);
+            this.pictureBoxIcon.Location = new System.Drawing.Point(75, 154);
+            this.pictureBoxIcon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxIcon.Name = "pictureBoxIcon";
-            this.pictureBoxIcon.Size = new System.Drawing.Size(150, 150);
+            this.pictureBoxIcon.Size = new System.Drawing.Size(225, 231);
             this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxIcon.TabIndex = 0;
             this.pictureBoxIcon.TabStop = false;
             // 
             // labelTitle
             // 
-            this.labelTitle.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.labelTitle.Location = new System.Drawing.Point(265, 25);
+            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.Color.Goldenrod;
+            this.labelTitle.Location = new System.Drawing.Point(398, 38);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(241, 50);
+            this.labelTitle.Size = new System.Drawing.Size(362, 66);
             this.labelTitle.TabIndex = 2;
             this.labelTitle.Text = "Baja Producto";
             // 
             // btnDarBaja
             // 
-            this.btnDarBaja.BackColor = System.Drawing.Color.Purple;
-            this.btnDarBaja.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnDarBaja.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnDarBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDarBaja.ForeColor = System.Drawing.Color.White;
-            this.btnDarBaja.Location = new System.Drawing.Point(300, 173);
+            this.btnDarBaja.Location = new System.Drawing.Point(405, 194);
+            this.btnDarBaja.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDarBaja.Name = "btnDarBaja";
-            this.btnDarBaja.Size = new System.Drawing.Size(200, 40);
+            this.btnDarBaja.Size = new System.Drawing.Size(158, 39);
             this.btnDarBaja.TabIndex = 5;
             this.btnDarBaja.Text = "Dar de Baja";
             this.btnDarBaja.UseVisualStyleBackColor = false;
@@ -85,30 +90,34 @@
             // 
             // labelUsuario
             // 
-            this.labelUsuario.Font = new System.Drawing.Font("Arial", 12F);
-            this.labelUsuario.Location = new System.Drawing.Point(297, 75);
+            this.labelUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUsuario.ForeColor = System.Drawing.Color.White;
+            this.labelUsuario.Location = new System.Drawing.Point(400, 101);
+            this.labelUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelUsuario.Name = "labelUsuario";
-            this.labelUsuario.Size = new System.Drawing.Size(241, 36);
+            this.labelUsuario.Size = new System.Drawing.Size(250, 32);
             this.labelUsuario.TabIndex = 6;
-            this.labelUsuario.Text = "Ingresar ID Producto:";
+            this.labelUsuario.Text = "Ingresar ID ";
             this.labelUsuario.Click += new System.EventHandler(this.labelUsuario_Click);
             // 
             // txtIdProducto
             // 
-            this.txtIdProducto.Location = new System.Drawing.Point(300, 114);
+            this.txtIdProducto.Location = new System.Drawing.Point(405, 138);
+            this.txtIdProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtIdProducto.Name = "txtIdProducto";
-            this.txtIdProducto.Size = new System.Drawing.Size(200, 20);
+            this.txtIdProducto.Size = new System.Drawing.Size(218, 26);
             this.txtIdProducto.TabIndex = 7;
             this.txtIdProducto.TextChanged += new System.EventHandler(this.txtIdProducto_TextChanged);
             // 
             // buttonBack
             // 
-            this.buttonBack.BackColor = System.Drawing.Color.Gray;
+            this.buttonBack.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonBack.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.buttonBack.ForeColor = System.Drawing.Color.White;
-            this.buttonBack.Location = new System.Drawing.Point(300, 322);
+            this.buttonBack.Location = new System.Drawing.Point(730, 451);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(200, 40);
+            this.buttonBack.Size = new System.Drawing.Size(171, 51);
             this.buttonBack.TabIndex = 8;
             this.buttonBack.Text = "Volver al Menú";
             this.buttonBack.UseVisualStyleBackColor = false;
@@ -117,19 +126,20 @@
             // lblResultado
             // 
             this.lblResultado.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblResultado.Location = new System.Drawing.Point(297, 243);
+            this.lblResultado.Location = new System.Drawing.Point(401, 309);
+            this.lblResultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(282, 65);
+            this.lblResultado.Size = new System.Drawing.Size(423, 100);
             this.lblResultado.TabIndex = 9;
             this.lblResultado.Text = "Resultado:";
             this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // FrmBajaProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(590, 380);
+            this.BackColor = System.Drawing.Color.Indigo;
+            this.ClientSize = new System.Drawing.Size(925, 527);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.txtIdProducto);
@@ -138,6 +148,7 @@
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.panelLeft);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmBajaProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BajaProducto";
