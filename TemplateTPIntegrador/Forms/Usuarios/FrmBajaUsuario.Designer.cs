@@ -38,7 +38,7 @@ namespace TemplateTPIntegrador.Forms
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(250, 410);
+            this.panelLeft.Size = new System.Drawing.Size(250, 337);
             this.panelLeft.TabIndex = 0;
             // 
             // pictureBoxIcon
@@ -59,7 +59,6 @@ namespace TemplateTPIntegrador.Forms
             this.labelTitle.Size = new System.Drawing.Size(241, 50);
             this.labelTitle.TabIndex = 1;
             this.labelTitle.Text = "Baja Usuario";
-        
             // 
             // labelUsuario
             // 
@@ -69,12 +68,12 @@ namespace TemplateTPIntegrador.Forms
             this.labelUsuario.Size = new System.Drawing.Size(241, 36);
             this.labelUsuario.TabIndex = 2;
             this.labelUsuario.Text = "Ingresar ID:";
-            
+            // 
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(300, 109);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(200, 26);
+            this.txtUsuario.Size = new System.Drawing.Size(200, 20);
             this.txtUsuario.TabIndex = 3;
             // 
             // btnDarBaja
@@ -114,7 +113,7 @@ namespace TemplateTPIntegrador.Forms
             // 
             // FrmBajaUsuario
             // 
-            this.ClientSize = new System.Drawing.Size(635, 410);
+            this.ClientSize = new System.Drawing.Size(591, 337);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.labelUsuario);
@@ -123,6 +122,7 @@ namespace TemplateTPIntegrador.Forms
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.buttonBack);
             this.Name = "FrmBajaUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Baja de Usuario";
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();

@@ -1,5 +1,6 @@
 ﻿using Datos;
 using Newtonsoft.Json;
+using Persistencia.UsuariosData;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,9 +14,10 @@ namespace Persistencia.Productos
  
         public class ObtenerProductosWS
         {
-            //private String adminId = "1653c7ec-870d-468a-b581-9800961d53d2";
+        //private String adminId = "1653c7ec-870d-468a-b581-9800961d53d2";
+        string usuario = "...";
 
-            public String AgregarProducto(int idCategoria, string idUsuario, string idProveedor, String nombre, double precio, int stock)
+        public String AgregarProducto(int idCategoria, string idUsuario, string idProveedor, String nombre, double precio, int stock)
             {
                 // Crear el diccionario con los parámetros del producto
                 Dictionary<String, Object> datos = new Dictionary<String, Object>
@@ -125,6 +127,42 @@ namespace Persistencia.Productos
             {
                 Console.WriteLine($"Excepción: {ex.Message}");
                 return "Error";
+            }
+        }
+        // Nuevo método para eliminar producto
+        public bool EliminarProducto(string idProducto)
+        {
+            
+            try
+            {
+                // Crear diccionario de datos con el ID del producto a eliminar
+                Dictionary<string, object> datos = new Dictionary<string, object>
+                {
+                    { "idProducto", idProducto },
+                    { "IdUsuario", usuario }
+                };
+
+                // Convertir los datos a JSON
+                var jsonData = JsonConvert.SerializeObject(datos);
+
+                // Enviar la solicitud DELETE al servicio web
+                HttpResponseMessage response = WebHelper.Post("api/Producto/BajaProducto", jsonData);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    // Si la respuesta es exitosa, el producto se eliminó
+                    return true;
+                }
+                else
+                {
+                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Excepción: {ex.Message}");
+                return false;
             }
         }
 

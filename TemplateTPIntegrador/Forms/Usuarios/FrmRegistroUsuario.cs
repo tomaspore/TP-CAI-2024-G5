@@ -87,10 +87,7 @@ namespace TemplateTPIntegrador.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //VOLVER AL MENU INICIAL
-            this.Close();  // Cierra el formulario actual (Registrar Usuario)
-            FrmMenuAdmin menu = new FrmMenuAdmin(); // Crea una instancia del menú administrador
-            menu.Show();  // Muestra el formulario del menú administrador
+            
         }
 
         private void txtIdUsuario_TextChanged(object sender, EventArgs e)
@@ -161,6 +158,14 @@ namespace TemplateTPIntegrador.Forms
         private void txtApellido_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            //VOLVER AL MENU INICIAL
+            this.Close();  // Cierra el formulario actual (Registrar Usuario)
+            FrmMenuAdmin menu = new FrmMenuAdmin(); // Crea una instancia del menú administrador
+            menu.Show();  // Muestra el formulario del menú administrador
         }
     }
 }

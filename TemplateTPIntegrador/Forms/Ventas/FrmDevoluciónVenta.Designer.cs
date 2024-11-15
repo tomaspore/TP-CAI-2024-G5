@@ -73,7 +73,7 @@
             this.txtIDVenta.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtIDVenta.Location = new System.Drawing.Point(209, 120);
             this.txtIDVenta.Name = "txtIDVenta";
-            this.txtIDVenta.Size = new System.Drawing.Size(200, 36);
+            this.txtIDVenta.Size = new System.Drawing.Size(200, 27);
             this.txtIDVenta.TabIndex = 2;
             // 
             // lblDNIVenta
@@ -113,7 +113,7 @@
             // 
             // FrmDevoluciónVenta
             // 
-            this.ClientSize = new System.Drawing.Size(544, 338);
+            this.ClientSize = new System.Drawing.Size(499, 338);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.lblDNIVenta);
@@ -121,6 +121,7 @@
             this.Controls.Add(this.btnDevolverVenta);
             this.Controls.Add(this.btnVolver);
             this.Name = "FrmDevoluciónVenta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Devolución de Venta";
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
