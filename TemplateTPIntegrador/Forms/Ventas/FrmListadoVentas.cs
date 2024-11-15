@@ -20,21 +20,23 @@ namespace TemplateTPIntegrador.Forms.Ventas
         {
             InitializeComponent();
             ventasWS = new ObtenerVentasWS();
+            CargarVentasFicticias(); 
         }
 
-        private void CargarVentasPorCliente(Guid idCliente)
+        private void CargarVentasFicticias()
         {
-            List<Venta> ventas = ventasWS.ObtenerVentasPorCliente(idCliente);
+            List<Venta> ventas = ventasWS.ObtenerVentasFicticias();
 
             if (ventas != null && ventas.Count > 0)
             {
-                dgvVentas.DataSource = ventas; // Asigna la lista de ventas al DataGridView
+                dgvVentas.DataSource = ventas; 
             }
             else
             {
-                MessageBox.Show("No se encontraron ventas para el cliente especificado o hubo un error al cargar las ventas.");
+                MessageBox.Show("No se encontraron ventas ficticias.");
             }
         }
+
 
         private void dgvVentas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -43,14 +45,22 @@ namespace TemplateTPIntegrador.Forms.Ventas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (Guid.TryParse(txtIdCliente.Text, out Guid idCliente))
-            {
-                CargarVentasPorCliente(idCliente);
-            }
-            else
-            {
-                MessageBox.Show("Ingrese un ID de cliente válido.");
-            }
+            
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            // Cerrar el formulario actual
+            this.Close();
+
+            // Mostrar el formulario del menú principal
+            FrmMenuAdmin menuPrincipal = new FrmMenuAdmin();
+            menuPrincipal.Show();
         }
     }
 }

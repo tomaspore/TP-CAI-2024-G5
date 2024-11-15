@@ -36,47 +36,52 @@
             // lblCartel
             // 
             this.lblCartel.AutoSize = true;
-            this.lblCartel.Location = new System.Drawing.Point(98, 54);
+            this.lblCartel.Location = new System.Drawing.Point(113, 32);
             this.lblCartel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCartel.Name = "lblCartel";
-            this.lblCartel.Size = new System.Drawing.Size(210, 20);
+            this.lblCartel.Size = new System.Drawing.Size(237, 20);
             this.lblCartel.TabIndex = 0;
             this.lblCartel.Text = "¿Desea confirmar la acción?";
             // 
             // btnConfirmarVenta
             // 
+            this.btnConfirmarVenta.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnConfirmarVenta.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnConfirmarVenta.Location = new System.Drawing.Point(69, 122);
+            this.btnConfirmarVenta.Location = new System.Drawing.Point(83, 76);
             this.btnConfirmarVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConfirmarVenta.Name = "btnConfirmarVenta";
-            this.btnConfirmarVenta.Size = new System.Drawing.Size(112, 35);
+            this.btnConfirmarVenta.Size = new System.Drawing.Size(124, 35);
             this.btnConfirmarVenta.TabIndex = 1;
             this.btnConfirmarVenta.Text = "Confirmar";
-            this.btnConfirmarVenta.UseVisualStyleBackColor = true;
+            this.btnConfirmarVenta.UseVisualStyleBackColor = false;
             this.btnConfirmarVenta.Click += new System.EventHandler(this.btnConfirmarVenta_Click);
             // 
             // btnCancelarVenta
             // 
+            this.btnCancelarVenta.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnCancelarVenta.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelarVenta.Location = new System.Drawing.Point(223, 122);
+            this.btnCancelarVenta.Location = new System.Drawing.Point(249, 76);
             this.btnCancelarVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelarVenta.Name = "btnCancelarVenta";
-            this.btnCancelarVenta.Size = new System.Drawing.Size(112, 35);
+            this.btnCancelarVenta.Size = new System.Drawing.Size(124, 35);
             this.btnCancelarVenta.TabIndex = 2;
             this.btnCancelarVenta.Text = "Cancelar";
-            this.btnCancelarVenta.UseVisualStyleBackColor = true;
+            this.btnCancelarVenta.UseVisualStyleBackColor = false;
             this.btnCancelarVenta.Click += new System.EventHandler(this.btnCancelarVenta_Click);
             // 
-            // FrmConfirmarVenta
+            // FrmConfirmarAcción
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(432, 190);
+            this.BackColor = System.Drawing.Color.Goldenrod;
+            this.ClientSize = new System.Drawing.Size(457, 168);
             this.Controls.Add(this.btnCancelarVenta);
             this.Controls.Add(this.btnConfirmarVenta);
             this.Controls.Add(this.lblCartel);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.White;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "FrmConfirmarVenta";
+            this.Name = "FrmConfirmarAcción";
             this.Text = "Confirmación";
             this.Load += new System.EventHandler(this.FrmConfirmarVenta_Load);
             this.ResumeLayout(false);

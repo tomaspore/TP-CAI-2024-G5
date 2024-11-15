@@ -35,17 +35,6 @@ namespace TemplateTPIntegrador.Forms
 
         private void OperaciónAgregarCliente()
         {
-            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
-
-            if (confirmar.ShowDialog() == DialogResult.OK)
-            {
-                OperaciónAgregarCliente();
-            }
-            
-        }
-
-        private void OperaciónAgregarCliente()
-        {
             string nombre = txtNombreCliente.Text;
             string apellido = txtApellidoCliente.Text;
             DateTime fechanacimiento = dtpFechaNacimiento.Value;
@@ -92,6 +81,16 @@ namespace TemplateTPIntegrador.Forms
 
                 MessageBox.Show("No debe haber campos vacios. \nLa Fecha de Nacimiento no puede ser en el futuro");
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

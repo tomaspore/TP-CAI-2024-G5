@@ -37,81 +37,137 @@
             this.lblNuevoStock = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelLeft = new System.Windows.Forms.Panel();
+            this.pictureBoxIcon = new System.Windows.Forms.PictureBox();
+            this.panelLeft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.Location = new System.Drawing.Point(118, 41);
+            this.txtNombreProducto.Location = new System.Drawing.Point(523, 162);
+            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(121, 20);
+            this.txtNombreProducto.Size = new System.Drawing.Size(200, 26);
             this.txtNombreProducto.TabIndex = 0;
             // 
             // txtNuevoPrecioProducto
             // 
-            this.txtNuevoPrecioProducto.Location = new System.Drawing.Point(118, 80);
+            this.txtNuevoPrecioProducto.Location = new System.Drawing.Point(523, 213);
+            this.txtNuevoPrecioProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNuevoPrecioProducto.Name = "txtNuevoPrecioProducto";
-            this.txtNuevoPrecioProducto.Size = new System.Drawing.Size(121, 20);
+            this.txtNuevoPrecioProducto.Size = new System.Drawing.Size(200, 26);
             this.txtNuevoPrecioProducto.TabIndex = 1;
             // 
             // txtNuevoStockProducto
             // 
-            this.txtNuevoStockProducto.Location = new System.Drawing.Point(118, 124);
+            this.txtNuevoStockProducto.Location = new System.Drawing.Point(523, 260);
+            this.txtNuevoStockProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNuevoStockProducto.Name = "txtNuevoStockProducto";
-            this.txtNuevoStockProducto.Size = new System.Drawing.Size(121, 20);
+            this.txtNuevoStockProducto.Size = new System.Drawing.Size(200, 26);
             this.txtNuevoStockProducto.TabIndex = 2;
             // 
             // lblNombreProducto
             // 
             this.lblNombreProducto.AutoSize = true;
-            this.lblNombreProducto.Location = new System.Drawing.Point(23, 43);
+            this.lblNombreProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreProducto.Location = new System.Drawing.Point(331, 161);
+            this.lblNombreProducto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombreProducto.Name = "lblNombreProducto";
-            this.lblNombreProducto.Size = new System.Drawing.Size(89, 13);
+            this.lblNombreProducto.Size = new System.Drawing.Size(177, 25);
             this.lblNombreProducto.TabIndex = 3;
             this.lblNombreProducto.Text = "Nombre producto";
             // 
             // lblNuevoPrecio
             // 
             this.lblNuevoPrecio.AutoSize = true;
-            this.lblNuevoPrecio.Location = new System.Drawing.Point(23, 83);
+            this.lblNuevoPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.lblNuevoPrecio.Location = new System.Drawing.Point(331, 212);
+            this.lblNuevoPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNuevoPrecio.Name = "lblNuevoPrecio";
-            this.lblNuevoPrecio.Size = new System.Drawing.Size(71, 13);
+            this.lblNuevoPrecio.Size = new System.Drawing.Size(139, 25);
             this.lblNuevoPrecio.TabIndex = 4;
             this.lblNuevoPrecio.Text = "Nuevo precio";
             // 
             // lblNuevoStock
             // 
             this.lblNuevoStock.AutoSize = true;
-            this.lblNuevoStock.Location = new System.Drawing.Point(23, 127);
+            this.lblNuevoStock.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.lblNuevoStock.Location = new System.Drawing.Point(331, 259);
+            this.lblNuevoStock.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNuevoStock.Name = "lblNuevoStock";
-            this.lblNuevoStock.Size = new System.Drawing.Size(68, 13);
+            this.lblNuevoStock.Size = new System.Drawing.Size(131, 25);
             this.lblNuevoStock.TabIndex = 5;
             this.lblNuevoStock.Text = "Nuevo stock";
+            this.lblNuevoStock.Click += new System.EventHandler(this.lblNuevoStock_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(118, 193);
+            this.button1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.button1.Location = new System.Drawing.Point(736, 515);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.Size = new System.Drawing.Size(160, 40);
             this.button1.TabIndex = 6;
             this.button1.Text = "Volver al Menú";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(118, 164);
+            this.button2.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.button2.Location = new System.Drawing.Point(521, 328);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 23);
+            this.button2.Size = new System.Drawing.Size(202, 35);
             this.button2.TabIndex = 7;
             this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label1.Location = new System.Drawing.Point(331, 47);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(282, 37);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Nombre producto";
+            // 
+            // panelLeft
+            // 
+            this.panelLeft.BackColor = System.Drawing.Color.Goldenrod;
+            this.panelLeft.Controls.Add(this.pictureBoxIcon);
+            this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelLeft.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelLeft.Name = "panelLeft";
+            this.panelLeft.Size = new System.Drawing.Size(323, 569);
+            this.panelLeft.TabIndex = 9;
+            // 
+            // pictureBoxIcon
+            // 
+            this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarx2;
+            this.pictureBoxIcon.Location = new System.Drawing.Point(41, 141);
+            this.pictureBoxIcon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBoxIcon.Name = "pictureBoxIcon";
+            this.pictureBoxIcon.Size = new System.Drawing.Size(225, 231);
+            this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxIcon.TabIndex = 0;
+            this.pictureBoxIcon.TabStop = false;
             // 
             // FrmModificarProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(318, 228);
+            this.BackColor = System.Drawing.Color.Indigo;
+            this.ClientSize = new System.Drawing.Size(909, 569);
+            this.Controls.Add(this.panelLeft);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblNuevoStock);
@@ -120,10 +176,15 @@
             this.Controls.Add(this.txtNuevoStockProducto);
             this.Controls.Add(this.txtNuevoPrecioProducto);
             this.Controls.Add(this.txtNombreProducto);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmModificarProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Producto";
+            this.panelLeft.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,5 +200,8 @@
         private System.Windows.Forms.Label lblNuevoStock;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panelLeft;
+        private System.Windows.Forms.PictureBox pictureBoxIcon;
     }
 }

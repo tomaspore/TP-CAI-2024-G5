@@ -47,5 +47,10 @@ namespace TemplateTPIntegrador.Forms
         {
 
         }
+
+        private void lblNuevoStock_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
