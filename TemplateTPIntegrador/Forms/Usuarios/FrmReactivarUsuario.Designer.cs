@@ -46,13 +46,13 @@
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(248, 425);
+            this.panelLeft.Size = new System.Drawing.Size(248, 346);
             this.panelLeft.TabIndex = 0;
             // 
             // pictureBoxIcon
             // 
-            this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
-            this.pictureBoxIcon.Location = new System.Drawing.Point(29, 112);
+            this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarx2;
+            this.pictureBoxIcon.Location = new System.Drawing.Point(37, 83);
             this.pictureBoxIcon.Name = "pictureBoxIcon";
             this.pictureBoxIcon.Size = new System.Drawing.Size(180, 169);
             this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -63,25 +63,25 @@
             // 
             this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.Goldenrod;
-            this.labelTitle.Location = new System.Drawing.Point(254, 21);
+            this.labelTitle.Location = new System.Drawing.Point(272, 22);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(293, 43);
+            this.labelTitle.Size = new System.Drawing.Size(215, 46);
             this.labelTitle.TabIndex = 1;
             this.labelTitle.Text = "Reactivar Usuario";
             // 
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.textBox9.Location = new System.Drawing.Point(261, 126);
+            this.textBox9.Location = new System.Drawing.Point(261, 105);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(184, 36);
+            this.textBox9.Size = new System.Drawing.Size(226, 27);
             this.textBox9.TabIndex = 2;
             // 
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(256, 94);
+            this.label11.Location = new System.Drawing.Point(258, 68);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(133, 24);
             this.label11.TabIndex = 2;
@@ -93,7 +93,7 @@
             this.btnReactivar.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnReactivar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReactivar.ForeColor = System.Drawing.Color.White;
-            this.btnReactivar.Location = new System.Drawing.Point(261, 193);
+            this.btnReactivar.Location = new System.Drawing.Point(295, 176);
             this.btnReactivar.Name = "btnReactivar";
             this.btnReactivar.Size = new System.Drawing.Size(150, 40);
             this.btnReactivar.TabIndex = 3;
@@ -106,9 +106,9 @@
             this.buttonBack.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonBack.ForeColor = System.Drawing.Color.White;
-            this.buttonBack.Location = new System.Drawing.Point(480, 376);
+            this.buttonBack.Location = new System.Drawing.Point(295, 241);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(168, 37);
+            this.buttonBack.Size = new System.Drawing.Size(150, 39);
             this.buttonBack.TabIndex = 4;
             this.buttonBack.Text = "Volver al Menú";
             this.buttonBack.UseVisualStyleBackColor = false;
@@ -117,7 +117,7 @@
             // FrmReactivarUsuario
             // 
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(660, 425);
+            this.ClientSize = new System.Drawing.Size(520, 346);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.label11);
