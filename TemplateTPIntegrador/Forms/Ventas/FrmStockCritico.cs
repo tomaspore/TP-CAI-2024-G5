@@ -68,5 +68,47 @@ namespace TemplateTPIntegrador.Forms.Ventas
                 menuSupervisor.Show();
             }
         }
+
+        private void FrmStockCritico_Load(object sender, EventArgs e)
+        {
+            //load
+            // Llama al método que obtiene los productos
+            List<ProductoWS> productos = productosWS.ObtenerProductosOrdenadosPorStock();
+
+            // Verificar si hay productos con stock crítico (stock == 0)
+            bool tieneStockCritico = productos.Any(p => p.Stock == 0);
+
+            // Si hay productos con stock crítico, mostrar el MessageBox y el mensaje en el Label
+            if (tieneStockCritico)
+            {
+                MessageBox.Show("¡Atención! Hay productos con stock crítico. Favor de revisar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                lblAdvertencia.Text = "¡Atención! Hay productos con stock crítico. Favor de revisar.";
+                lblAdvertencia.Visible = true;
+            }
+            else
+            {
+                lblAdvertencia.Visible = false; // Oculta el label si no hay productos con stock crítico
+            }
+
+            // Configuración del DataGridView
+            dgvStockCritico.AutoGenerateColumns = false;
+            dgvStockCritico.Columns.Clear();
+
+            // Añadir columnas manualmente
+            dgvStockCritico.Columns.Add("Nombre", "Nombre");
+            dgvStockCritico.Columns["Nombre"].DataPropertyName = "Nombre";
+
+            dgvStockCritico.Columns.Add("Categoria", "Categoría");
+            dgvStockCritico.Columns["Categoria"].DataPropertyName = "IdCategoria";
+
+            dgvStockCritico.Columns.Add("Precio", "Precio");
+            dgvStockCritico.Columns["Precio"].DataPropertyName = "Precio";
+
+            dgvStockCritico.Columns.Add("Stock", "Stock");
+            dgvStockCritico.Columns["Stock"].DataPropertyName = "Stock";
+
+            // Asigna el DataSource después de configurar las columnas
+            dgvStockCritico.DataSource = productos;
+        }
     }
 }

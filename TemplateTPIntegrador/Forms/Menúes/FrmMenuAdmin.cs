@@ -67,6 +67,7 @@ namespace TemplateTPIntegrador
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
             if (confirmacion.ShowDialog() == DialogResult.Yes)
             {

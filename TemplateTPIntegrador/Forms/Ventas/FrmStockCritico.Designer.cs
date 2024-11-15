@@ -31,7 +31,7 @@
             this.dgvStockCritico = new System.Windows.Forms.DataGridView();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblAdvertencia = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStockCritico)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,29 +69,30 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Reporte de Stock Crítico";
             // 
-            // label2
+            // lblAdvertencia
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(36, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 18);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Advertencia";
+            this.lblAdvertencia.AutoSize = true;
+            this.lblAdvertencia.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdvertencia.ForeColor = System.Drawing.Color.Red;
+            this.lblAdvertencia.Location = new System.Drawing.Point(22, 82);
+            this.lblAdvertencia.Name = "lblAdvertencia";
+            this.lblAdvertencia.Size = new System.Drawing.Size(98, 18);
+            this.lblAdvertencia.TabIndex = 3;
+            this.lblAdvertencia.Text = "Advertencia";
             // 
             // FrmStockCritico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(476, 403);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(489, 403);
+            this.Controls.Add(this.lblAdvertencia);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.dgvStockCritico);
             this.Name = "FrmStockCritico";
             this.Text = "FrmStockCritico";
+            this.Load += new System.EventHandler(this.FrmStockCritico_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvStockCritico)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -103,6 +104,6 @@
         private System.Windows.Forms.DataGridView dgvStockCritico;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblAdvertencia;
     }
 }

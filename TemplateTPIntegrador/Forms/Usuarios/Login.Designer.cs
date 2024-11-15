@@ -49,7 +49,7 @@
             this.btnAcceder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAcceder.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAcceder.Location = new System.Drawing.Point(297, 302);
-            this.btnAcceder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAcceder.Margin = new System.Windows.Forms.Padding(2);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(93, 36);
             this.btnAcceder.TabIndex = 3;
@@ -61,7 +61,7 @@
             // 
             this.txtContraseña.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.Location = new System.Drawing.Point(297, 216);
-            this.txtContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(239, 27);
             this.txtContraseña.TabIndex = 1;
@@ -71,7 +71,7 @@
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Location = new System.Drawing.Point(297, 138);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(239, 27);
             this.txtUsuario.TabIndex = 0;
@@ -125,7 +125,7 @@
             this.chkMostrarContraseña.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkMostrarContraseña.ForeColor = System.Drawing.SystemColors.Control;
             this.chkMostrarContraseña.Location = new System.Drawing.Point(297, 250);
-            this.chkMostrarContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkMostrarContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.chkMostrarContraseña.Name = "chkMostrarContraseña";
             this.chkMostrarContraseña.Size = new System.Drawing.Size(139, 20);
             this.chkMostrarContraseña.TabIndex = 2;
@@ -139,7 +139,7 @@
             this.pictureBox1.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
             this.pictureBox1.Location = new System.Drawing.Point(0, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(257, 392);
+            this.pictureBox1.Size = new System.Drawing.Size(275, 392);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
@@ -149,11 +149,11 @@
             this.label2.BackColor = System.Drawing.Color.Goldenrod;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(23, 312);
+            this.label2.Location = new System.Drawing.Point(12, 312);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(201, 17);
+            this.label2.Size = new System.Drawing.Size(252, 17);
             this.label2.TabIndex = 4;
-            this.label2.Text = "He olvidado mi contraseña";
+            this.label2.Text = "Cambie su contraseña al ingresar";
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // button1
@@ -162,7 +162,7 @@
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.Location = new System.Drawing.Point(74, 342);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 25);
             this.button1.TabIndex = 5;
@@ -200,7 +200,7 @@
             this.Controls.Add(this.btnAcceder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
