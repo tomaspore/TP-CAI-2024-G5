@@ -105,7 +105,7 @@
             this.txtIdProducto.Location = new System.Drawing.Point(405, 138);
             this.txtIdProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtIdProducto.Name = "txtIdProducto";
-            this.txtIdProducto.Size = new System.Drawing.Size(218, 26);
+            this.txtIdProducto.Size = new System.Drawing.Size(328, 26);
             this.txtIdProducto.TabIndex = 7;
             this.txtIdProducto.TextChanged += new System.EventHandler(this.txtIdProducto_TextChanged);
             // 
@@ -114,10 +114,10 @@
             this.buttonBack.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonBack.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.buttonBack.ForeColor = System.Drawing.Color.White;
-            this.buttonBack.Location = new System.Drawing.Point(715, 431);
+            this.buttonBack.Location = new System.Drawing.Point(507, 414);
             this.buttonBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(171, 51);
+            this.buttonBack.Size = new System.Drawing.Size(218, 68);
             this.buttonBack.TabIndex = 8;
             this.buttonBack.Text = "Volver al Menú";
             this.buttonBack.UseVisualStyleBackColor = false;
