@@ -70,7 +70,7 @@
             // 
             this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.Goldenrod;
-            this.labelTitle.Location = new System.Drawing.Point(206, 18);
+            this.labelTitle.Location = new System.Drawing.Point(215, 20);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(268, 32);
             this.labelTitle.TabIndex = 1;
@@ -79,7 +79,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtUsuario.Location = new System.Drawing.Point(220, 92);
+            this.txtUsuario.Location = new System.Drawing.Point(233, 92);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(220, 27);
             this.txtUsuario.TabIndex = 3;
@@ -88,16 +88,16 @@
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(217, 62);
+            this.label3.Location = new System.Drawing.Point(230, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(236, 27);
+            this.label3.Size = new System.Drawing.Size(199, 33);
             this.label3.TabIndex = 2;
             this.label3.Text = "ID Usuario:";
             // 
             // txtContraseñaActual
             // 
             this.txtContraseñaActual.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtContraseñaActual.Location = new System.Drawing.Point(220, 165);
+            this.txtContraseñaActual.Location = new System.Drawing.Point(233, 165);
             this.txtContraseñaActual.Name = "txtContraseñaActual";
             this.txtContraseñaActual.Size = new System.Drawing.Size(220, 27);
             this.txtContraseñaActual.TabIndex = 5;
@@ -107,7 +107,7 @@
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(217, 133);
+            this.label1.Location = new System.Drawing.Point(230, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(223, 29);
             this.label1.TabIndex = 4;
@@ -116,7 +116,7 @@
             // txtContraseñaNueva
             // 
             this.txtContraseñaNueva.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtContraseñaNueva.Location = new System.Drawing.Point(220, 279);
+            this.txtContraseñaNueva.Location = new System.Drawing.Point(233, 279);
             this.txtContraseñaNueva.Name = "txtContraseñaNueva";
             this.txtContraseñaNueva.Size = new System.Drawing.Size(220, 27);
             this.txtContraseñaNueva.TabIndex = 8;
@@ -126,7 +126,7 @@
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(217, 244);
+            this.label2.Location = new System.Drawing.Point(230, 244);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(223, 32);
             this.label2.TabIndex = 7;
@@ -137,7 +137,7 @@
             this.txtModificarContraseña.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.txtModificarContraseña.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.txtModificarContraseña.ForeColor = System.Drawing.Color.White;
-            this.txtModificarContraseña.Location = new System.Drawing.Point(255, 371);
+            this.txtModificarContraseña.Location = new System.Drawing.Point(270, 362);
             this.txtModificarContraseña.Name = "txtModificarContraseña";
             this.txtModificarContraseña.Size = new System.Drawing.Size(131, 48);
             this.txtModificarContraseña.TabIndex = 10;
@@ -148,7 +148,7 @@
             // 
             this.chkMostrarContraseñaActual.Font = new System.Drawing.Font("Arial", 9F);
             this.chkMostrarContraseñaActual.ForeColor = System.Drawing.Color.White;
-            this.chkMostrarContraseñaActual.Location = new System.Drawing.Point(240, 211);
+            this.chkMostrarContraseñaActual.Location = new System.Drawing.Point(249, 204);
             this.chkMostrarContraseñaActual.Name = "chkMostrarContraseñaActual";
             this.chkMostrarContraseñaActual.Size = new System.Drawing.Size(180, 30);
             this.chkMostrarContraseñaActual.TabIndex = 6;
@@ -159,7 +159,7 @@
             // 
             this.chkMostrarContraseñaNueva.Font = new System.Drawing.Font("Arial", 9F);
             this.chkMostrarContraseñaNueva.ForeColor = System.Drawing.Color.White;
-            this.chkMostrarContraseñaNueva.Location = new System.Drawing.Point(240, 321);
+            this.chkMostrarContraseñaNueva.Location = new System.Drawing.Point(249, 310);
             this.chkMostrarContraseñaNueva.Name = "chkMostrarContraseñaNueva";
             this.chkMostrarContraseñaNueva.Size = new System.Drawing.Size(180, 35);
             this.chkMostrarContraseñaNueva.TabIndex = 9;
@@ -182,7 +182,7 @@
             // FrmCambioContraseña
             // 
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(497, 429);
+            this.ClientSize = new System.Drawing.Size(508, 429);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.label3);

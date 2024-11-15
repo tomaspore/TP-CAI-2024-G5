@@ -117,7 +117,7 @@
             // FrmReactivarUsuario
             // 
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(520, 346);
+            this.ClientSize = new System.Drawing.Size(508, 346);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.label11);
