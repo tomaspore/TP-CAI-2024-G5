@@ -59,7 +59,7 @@
             // btnRegistroUsuario
             // 
             this.btnRegistroUsuario.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnRegistroUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistroUsuario.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistroUsuario.Location = new System.Drawing.Point(16, 28);
             this.btnRegistroUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegistroUsuario.Name = "btnRegistroUsuario";
@@ -72,7 +72,7 @@
             // btnReactivarUsuario
             // 
             this.btnReactivarUsuario.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnReactivarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReactivarUsuario.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReactivarUsuario.Location = new System.Drawing.Point(16, 70);
             this.btnReactivarUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnReactivarUsuario.Name = "btnReactivarUsuario";
@@ -85,7 +85,7 @@
             // btnBajaUsuario
             // 
             this.btnBajaUsuario.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnBajaUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBajaUsuario.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaUsuario.Location = new System.Drawing.Point(16, 113);
             this.btnBajaUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBajaUsuario.Name = "btnBajaUsuario";
@@ -98,7 +98,7 @@
             // btnAltaProducto
             // 
             this.btnAltaProducto.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnAltaProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAltaProducto.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAltaProducto.Location = new System.Drawing.Point(80, 39);
             this.btnAltaProducto.Name = "btnAltaProducto";
             this.btnAltaProducto.Size = new System.Drawing.Size(240, 30);
@@ -110,7 +110,7 @@
             // btnModificacionProductos
             // 
             this.btnModificacionProductos.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnModificacionProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificacionProductos.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificacionProductos.Location = new System.Drawing.Point(79, 80);
             this.btnModificacionProductos.Name = "btnModificacionProductos";
             this.btnModificacionProductos.Size = new System.Drawing.Size(240, 30);
@@ -122,7 +122,7 @@
             // btnBajaProductos
             // 
             this.btnBajaProductos.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnBajaProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBajaProductos.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaProductos.Location = new System.Drawing.Point(79, 122);
             this.btnBajaProductos.Name = "btnBajaProductos";
             this.btnBajaProductos.Size = new System.Drawing.Size(240, 30);
@@ -134,7 +134,7 @@
             // btnReporteVentasXVendedor
             // 
             this.btnReporteVentasXVendedor.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnReporteVentasXVendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporteVentasXVendedor.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteVentasXVendedor.Location = new System.Drawing.Point(13, 70);
             this.btnReporteVentasXVendedor.Name = "btnReporteVentasXVendedor";
             this.btnReporteVentasXVendedor.Size = new System.Drawing.Size(208, 30);
@@ -146,7 +146,7 @@
             // btnRepProdMasVendidoXCategoria
             // 
             this.btnRepProdMasVendidoXCategoria.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnRepProdMasVendidoXCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRepProdMasVendidoXCategoria.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRepProdMasVendidoXCategoria.Location = new System.Drawing.Point(13, 113);
             this.btnRepProdMasVendidoXCategoria.Name = "btnRepProdMasVendidoXCategoria";
             this.btnRepProdMasVendidoXCategoria.Size = new System.Drawing.Size(208, 30);
@@ -157,7 +157,7 @@
             // btnReporteStockCritico
             // 
             this.btnReporteStockCritico.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnReporteStockCritico.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporteStockCritico.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteStockCritico.Location = new System.Drawing.Point(13, 29);
             this.btnReporteStockCritico.Name = "btnReporteStockCritico";
             this.btnReporteStockCritico.Size = new System.Drawing.Size(208, 28);
@@ -171,7 +171,7 @@
             this.groupBox1.Controls.Add(this.btnReporteStockCritico);
             this.groupBox1.Controls.Add(this.btnReporteVentasXVendedor);
             this.groupBox1.Controls.Add(this.btnRepProdMasVendidoXCategoria);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox1.Location = new System.Drawing.Point(408, 58);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -187,7 +187,7 @@
             this.groupBox2.Controls.Add(this.btnModificacionProductos);
             this.groupBox2.Controls.Add(this.btnBajaProductos);
             this.groupBox2.Controls.Add(this.btnAltaProducto);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox2.Location = new System.Drawing.Point(227, 234);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -205,7 +205,7 @@
             this.groupBox3.Controls.Add(this.btnRegistroUsuario);
             this.groupBox3.Controls.Add(this.btnReactivarUsuario);
             this.groupBox3.Controls.Add(this.btnBajaUsuario);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.White;
             this.groupBox3.Location = new System.Drawing.Point(227, 58);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -219,7 +219,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Goldenrod;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(22, 292);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(160, 40);
@@ -262,7 +262,7 @@
             // btnCerrarSesión
             // 
             this.btnCerrarSesión.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnCerrarSesión.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesión.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesión.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesión.Location = new System.Drawing.Point(22, 249);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
