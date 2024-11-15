@@ -49,13 +49,13 @@
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(375, 527);
+            this.panelLeft.Size = new System.Drawing.Size(363, 496);
             this.panelLeft.TabIndex = 1;
             // 
             // pictureBoxIcon
             // 
             this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarx2;
-            this.pictureBoxIcon.Location = new System.Drawing.Point(75, 154);
+            this.pictureBoxIcon.Location = new System.Drawing.Point(53, 123);
             this.pictureBoxIcon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxIcon.Name = "pictureBoxIcon";
             this.pictureBoxIcon.Size = new System.Drawing.Size(225, 231);
@@ -114,7 +114,7 @@
             this.buttonBack.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonBack.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.buttonBack.ForeColor = System.Drawing.Color.White;
-            this.buttonBack.Location = new System.Drawing.Point(730, 451);
+            this.buttonBack.Location = new System.Drawing.Point(715, 431);
             this.buttonBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(171, 51);
@@ -139,7 +139,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(925, 527);
+            this.ClientSize = new System.Drawing.Size(899, 496);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.txtIdProducto);

@@ -46,19 +46,20 @@
             this.label2 = new System.Windows.Forms.Label();
             this.greet_user = new System.Windows.Forms.Label();
             this.btnCerrarSesión = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRegistroUsuario
             // 
             this.btnRegistroUsuario.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnRegistroUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistroUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistroUsuario.Location = new System.Drawing.Point(24, 45);
             this.btnRegistroUsuario.Name = "btnRegistroUsuario";
             this.btnRegistroUsuario.Size = new System.Drawing.Size(220, 35);
@@ -70,7 +71,7 @@
             // btnReactivarUsuario
             // 
             this.btnReactivarUsuario.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnReactivarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReactivarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReactivarUsuario.Location = new System.Drawing.Point(24, 109);
             this.btnReactivarUsuario.Name = "btnReactivarUsuario";
             this.btnReactivarUsuario.Size = new System.Drawing.Size(220, 34);
@@ -82,7 +83,7 @@
             // btnBajaUsuario
             // 
             this.btnBajaUsuario.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnBajaUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBajaUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaUsuario.Location = new System.Drawing.Point(24, 174);
             this.btnBajaUsuario.Name = "btnBajaUsuario";
             this.btnBajaUsuario.Size = new System.Drawing.Size(220, 32);
@@ -94,11 +95,11 @@
             // btnAltaProducto
             // 
             this.btnAltaProducto.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnAltaProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAltaProducto.Location = new System.Drawing.Point(516, 409);
+            this.btnAltaProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAltaProducto.Location = new System.Drawing.Point(141, 50);
             this.btnAltaProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAltaProducto.Name = "btnAltaProducto";
-            this.btnAltaProducto.Size = new System.Drawing.Size(240, 35);
+            this.btnAltaProducto.Size = new System.Drawing.Size(297, 35);
             this.btnAltaProducto.TabIndex = 3;
             this.btnAltaProducto.Text = "Alta de Productos";
             this.btnAltaProducto.UseVisualStyleBackColor = false;
@@ -107,11 +108,11 @@
             // btnModificacionProductos
             // 
             this.btnModificacionProductos.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnModificacionProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificacionProductos.Location = new System.Drawing.Point(516, 475);
+            this.btnModificacionProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificacionProductos.Location = new System.Drawing.Point(141, 106);
             this.btnModificacionProductos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnModificacionProductos.Name = "btnModificacionProductos";
-            this.btnModificacionProductos.Size = new System.Drawing.Size(240, 35);
+            this.btnModificacionProductos.Size = new System.Drawing.Size(297, 44);
             this.btnModificacionProductos.TabIndex = 4;
             this.btnModificacionProductos.Text = "Modificacion de Productos";
             this.btnModificacionProductos.UseVisualStyleBackColor = false;
@@ -120,11 +121,11 @@
             // btnBajaProductos
             // 
             this.btnBajaProductos.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnBajaProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBajaProductos.Location = new System.Drawing.Point(516, 542);
+            this.btnBajaProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBajaProductos.Location = new System.Drawing.Point(141, 169);
             this.btnBajaProductos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBajaProductos.Name = "btnBajaProductos";
-            this.btnBajaProductos.Size = new System.Drawing.Size(240, 35);
+            this.btnBajaProductos.Size = new System.Drawing.Size(297, 35);
             this.btnBajaProductos.TabIndex = 5;
             this.btnBajaProductos.Text = "Baja de Productos";
             this.btnBajaProductos.UseVisualStyleBackColor = false;
@@ -133,7 +134,7 @@
             // btnReporteVentasXVendedor
             // 
             this.btnReporteVentasXVendedor.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnReporteVentasXVendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporteVentasXVendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteVentasXVendedor.Location = new System.Drawing.Point(24, 108);
             this.btnReporteVentasXVendedor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReporteVentasXVendedor.Name = "btnReporteVentasXVendedor";
@@ -146,7 +147,7 @@
             // btnRepProdMasVendidoXCategoria
             // 
             this.btnRepProdMasVendidoXCategoria.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnRepProdMasVendidoXCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRepProdMasVendidoXCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRepProdMasVendidoXCategoria.Location = new System.Drawing.Point(24, 174);
             this.btnRepProdMasVendidoXCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRepProdMasVendidoXCategoria.Name = "btnRepProdMasVendidoXCategoria";
@@ -158,7 +159,7 @@
             // btnReporteStockCritico
             // 
             this.btnReporteStockCritico.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnReporteStockCritico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporteStockCritico.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteStockCritico.Location = new System.Drawing.Point(24, 45);
             this.btnReporteStockCritico.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReporteStockCritico.Name = "btnReporteStockCritico";
@@ -184,7 +185,10 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Controls.Add(this.btnModificacionProductos);
+            this.groupBox2.Controls.Add(this.btnBajaProductos);
+            this.groupBox2.Controls.Add(this.btnAltaProducto);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox2.Location = new System.Drawing.Point(340, 360);
             this.groupBox2.Name = "groupBox2";
@@ -213,7 +217,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Goldenrod;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(74, 507);
+            this.button4.Location = new System.Drawing.Point(97, 449);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(176, 61);
@@ -235,12 +239,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(69, 29);
+            this.label2.Location = new System.Drawing.Point(4, 23);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(203, 28);
+            this.label2.Size = new System.Drawing.Size(387, 45);
             this.label2.TabIndex = 20;
             this.label2.Text = "ELECTROHOGAR";
             // 
@@ -249,7 +253,7 @@
             this.greet_user.AutoSize = true;
             this.greet_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.greet_user.ForeColor = System.Drawing.Color.White;
-            this.greet_user.Location = new System.Drawing.Point(81, 42);
+            this.greet_user.Location = new System.Drawing.Point(87, 149);
             this.greet_user.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.greet_user.Name = "greet_user";
             this.greet_user.Size = new System.Drawing.Size(185, 32);
@@ -261,7 +265,7 @@
             this.btnCerrarSesión.BackColor = System.Drawing.Color.Goldenrod;
             this.btnCerrarSesión.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesión.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarSesión.Location = new System.Drawing.Point(74, 443);
+            this.btnCerrarSesión.Location = new System.Drawing.Point(93, 386);
             this.btnCerrarSesión.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
             this.btnCerrarSesión.Size = new System.Drawing.Size(180, 44);
@@ -270,12 +274,22 @@
             this.btnCerrarSesión.UseVisualStyleBackColor = false;
             this.btnCerrarSesión.Click += new System.EventHandler(this.button3_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
+            this.pictureBox2.Location = new System.Drawing.Point(-53, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(386, 603);
+            this.pictureBox2.TabIndex = 23;
+            this.pictureBox2.TabStop = false;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Indigo;
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.btnCerrarSesión);
+            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.greet_user);
             this.panel1.Location = new System.Drawing.Point(0, 80);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -283,26 +297,13 @@
             this.panel1.Size = new System.Drawing.Size(322, 630);
             this.panel1.TabIndex = 22;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::TemplateTPIntegrador.Properties.Resources._31_10_2024_18_31_58;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 103);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(314, 305);
-            this.pictureBox1.TabIndex = 22;
-            this.pictureBox1.TabStop = false;
-            // 
             // FrmMenuAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(1013, 699);
-            this.Controls.Add(this.btnAltaProducto);
-            this.Controls.Add(this.btnModificacionProductos);
+            this.ClientSize = new System.Drawing.Size(1002, 653);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnBajaProductos);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -313,12 +314,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal - Administrador";
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
             }
@@ -342,7 +344,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label greet_user;
         private System.Windows.Forms.Button btnCerrarSesión;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
     }

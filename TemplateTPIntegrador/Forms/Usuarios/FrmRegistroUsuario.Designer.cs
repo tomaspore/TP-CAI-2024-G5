@@ -68,9 +68,9 @@
             // pictureBoxIcon
             // 
             this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
-            this.pictureBoxIcon.Location = new System.Drawing.Point(46, 166);
+            this.pictureBoxIcon.Location = new System.Drawing.Point(24, 175);
             this.pictureBoxIcon.Name = "pictureBoxIcon";
-            this.pictureBoxIcon.Size = new System.Drawing.Size(192, 181);
+            this.pictureBoxIcon.Size = new System.Drawing.Size(231, 215);
             this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxIcon.TabIndex = 0;
             this.pictureBoxIcon.TabStop = false;
