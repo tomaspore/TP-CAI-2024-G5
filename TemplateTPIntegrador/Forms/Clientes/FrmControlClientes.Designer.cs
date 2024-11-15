@@ -65,7 +65,6 @@
             // btnAgregarCliente
             // 
             this.btnAgregarCliente.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnAgregarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAgregarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarCliente.ForeColor = System.Drawing.Color.White;
             this.btnAgregarCliente.Location = new System.Drawing.Point(340, 46);
@@ -79,7 +78,6 @@
             // btnModificarCliente
             // 
             this.btnModificarCliente.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnModificarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnModificarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificarCliente.ForeColor = System.Drawing.Color.White;
             this.btnModificarCliente.Location = new System.Drawing.Point(28, 43);
@@ -93,7 +91,6 @@
             // btnBajaCliente
             // 
             this.btnBajaCliente.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnBajaCliente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBajaCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaCliente.ForeColor = System.Drawing.Color.White;
             this.btnBajaCliente.Location = new System.Drawing.Point(28, 150);
@@ -107,7 +104,6 @@
             // btnReactivarCliente
             // 
             this.btnReactivarCliente.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnReactivarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReactivarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReactivarCliente.ForeColor = System.Drawing.Color.White;
             this.btnReactivarCliente.Location = new System.Drawing.Point(28, 99);

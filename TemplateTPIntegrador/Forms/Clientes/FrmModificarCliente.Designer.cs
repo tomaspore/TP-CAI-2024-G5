@@ -112,7 +112,6 @@
             // btnModificarDatos
             // 
             this.btnModificarDatos.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnModificarDatos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnModificarDatos.Location = new System.Drawing.Point(146, 243);
             this.btnModificarDatos.Name = "btnModificarDatos";
             this.btnModificarDatos.Size = new System.Drawing.Size(142, 34);
