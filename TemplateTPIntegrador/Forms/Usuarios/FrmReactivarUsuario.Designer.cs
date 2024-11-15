@@ -41,28 +41,29 @@
             // 
             // panelLeft
             // 
-            this.panelLeft.BackColor = System.Drawing.Color.Purple;
+            this.panelLeft.BackColor = System.Drawing.Color.Goldenrod;
             this.panelLeft.Controls.Add(this.pictureBoxIcon);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(212, 341);
+            this.panelLeft.Size = new System.Drawing.Size(248, 425);
             this.panelLeft.TabIndex = 0;
             // 
             // pictureBoxIcon
             // 
             this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
-            this.pictureBoxIcon.Location = new System.Drawing.Point(30, 79);
+            this.pictureBoxIcon.Location = new System.Drawing.Point(29, 112);
             this.pictureBoxIcon.Name = "pictureBoxIcon";
-            this.pictureBoxIcon.Size = new System.Drawing.Size(151, 138);
+            this.pictureBoxIcon.Size = new System.Drawing.Size(180, 169);
             this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxIcon.TabIndex = 0;
             this.pictureBoxIcon.TabStop = false;
             // 
             // labelTitle
             // 
-            this.labelTitle.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.labelTitle.Location = new System.Drawing.Point(247, 9);
+            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.Color.Goldenrod;
+            this.labelTitle.Location = new System.Drawing.Point(254, 21);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(293, 43);
             this.labelTitle.TabIndex = 1;
@@ -71,15 +72,16 @@
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.textBox9.Location = new System.Drawing.Point(254, 130);
+            this.textBox9.Location = new System.Drawing.Point(261, 126);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(184, 27);
+            this.textBox9.Size = new System.Drawing.Size(184, 36);
             this.textBox9.TabIndex = 2;
             // 
             // label11
             // 
-            this.label11.Font = new System.Drawing.Font("Arial", 12F);
-            this.label11.Location = new System.Drawing.Point(249, 94);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(256, 94);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(133, 24);
             this.label11.TabIndex = 2;
@@ -88,10 +90,10 @@
             // 
             // btnReactivar
             // 
-            this.btnReactivar.BackColor = System.Drawing.Color.Purple;
-            this.btnReactivar.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnReactivar.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnReactivar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReactivar.ForeColor = System.Drawing.Color.White;
-            this.btnReactivar.Location = new System.Drawing.Point(254, 224);
+            this.btnReactivar.Location = new System.Drawing.Point(261, 193);
             this.btnReactivar.Name = "btnReactivar";
             this.btnReactivar.Size = new System.Drawing.Size(150, 40);
             this.btnReactivar.TabIndex = 3;
@@ -101,12 +103,12 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.BackColor = System.Drawing.Color.Gray;
-            this.buttonBack.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.buttonBack.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.buttonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonBack.ForeColor = System.Drawing.Color.White;
-            this.buttonBack.Location = new System.Drawing.Point(254, 270);
+            this.buttonBack.Location = new System.Drawing.Point(480, 376);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(204, 40);
+            this.buttonBack.Size = new System.Drawing.Size(168, 37);
             this.buttonBack.TabIndex = 4;
             this.buttonBack.Text = "Volver al Menú";
             this.buttonBack.UseVisualStyleBackColor = false;
@@ -114,7 +116,8 @@
             // 
             // FrmReactivarUsuario
             // 
-            this.ClientSize = new System.Drawing.Size(540, 341);
+            this.BackColor = System.Drawing.Color.Indigo;
+            this.ClientSize = new System.Drawing.Size(660, 425);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.label11);

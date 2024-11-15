@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panelLeft = new System.Windows.Forms.Panel();
-            this.pictureBoxIcon = new System.Windows.Forms.PictureBox();
             this.labelTitle = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,34 +40,26 @@
             this.chkMostrarContraseñaActual = new System.Windows.Forms.CheckBox();
             this.chkMostrarContraseñaNueva = new System.Windows.Forms.CheckBox();
             this.buttonBack = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelLeft.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLeft
             // 
-            this.panelLeft.BackColor = System.Drawing.Color.Purple;
-            this.panelLeft.Controls.Add(this.pictureBoxIcon);
+            this.panelLeft.BackColor = System.Drawing.Color.Goldenrod;
+            this.panelLeft.Controls.Add(this.pictureBox1);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(333, 521);
+            this.panelLeft.Size = new System.Drawing.Size(333, 551);
             this.panelLeft.TabIndex = 0;
-            // 
-            // pictureBoxIcon
-            // 
-            this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
-            this.pictureBoxIcon.Location = new System.Drawing.Point(81, 142);
-            this.pictureBoxIcon.Name = "pictureBoxIcon";
-            this.pictureBoxIcon.Size = new System.Drawing.Size(158, 146);
-            this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxIcon.TabIndex = 0;
-            this.pictureBoxIcon.TabStop = false;
             // 
             // labelTitle
             // 
-            this.labelTitle.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.labelTitle.Location = new System.Drawing.Point(442, 20);
+            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.Color.Goldenrod;
+            this.labelTitle.Location = new System.Drawing.Point(350, 24);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(415, 50);
             this.labelTitle.TabIndex = 1;
@@ -77,15 +68,16 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtUsuario.Location = new System.Drawing.Point(449, 119);
+            this.txtUsuario.Location = new System.Drawing.Point(367, 119);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(220, 27);
+            this.txtUsuario.Size = new System.Drawing.Size(220, 36);
             this.txtUsuario.TabIndex = 3;
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Arial", 12F);
-            this.label3.Location = new System.Drawing.Point(444, 89);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(362, 89);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(236, 27);
             this.label3.TabIndex = 2;
@@ -94,16 +86,17 @@
             // txtContraseñaActual
             // 
             this.txtContraseñaActual.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtContraseñaActual.Location = new System.Drawing.Point(449, 203);
+            this.txtContraseñaActual.Location = new System.Drawing.Point(367, 214);
             this.txtContraseñaActual.Name = "txtContraseñaActual";
-            this.txtContraseñaActual.Size = new System.Drawing.Size(220, 27);
+            this.txtContraseñaActual.Size = new System.Drawing.Size(220, 36);
             this.txtContraseñaActual.TabIndex = 5;
             this.txtContraseñaActual.UseSystemPasswordChar = true;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Arial", 12F);
-            this.label1.Location = new System.Drawing.Point(444, 173);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(362, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 27);
             this.label1.TabIndex = 4;
@@ -112,16 +105,17 @@
             // txtContraseñaNueva
             // 
             this.txtContraseñaNueva.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtContraseñaNueva.Location = new System.Drawing.Point(449, 320);
+            this.txtContraseñaNueva.Location = new System.Drawing.Point(367, 341);
             this.txtContraseñaNueva.Name = "txtContraseñaNueva";
-            this.txtContraseñaNueva.Size = new System.Drawing.Size(220, 27);
+            this.txtContraseñaNueva.Size = new System.Drawing.Size(220, 36);
             this.txtContraseñaNueva.TabIndex = 8;
             this.txtContraseñaNueva.UseSystemPasswordChar = true;
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Arial", 12F);
-            this.label2.Location = new System.Drawing.Point(444, 289);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(362, 310);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(236, 28);
             this.label2.TabIndex = 7;
@@ -129,10 +123,10 @@
             // 
             // txtModificarContraseña
             // 
-            this.txtModificarContraseña.BackColor = System.Drawing.Color.Purple;
+            this.txtModificarContraseña.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.txtModificarContraseña.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.txtModificarContraseña.ForeColor = System.Drawing.Color.White;
-            this.txtModificarContraseña.Location = new System.Drawing.Point(449, 408);
+            this.txtModificarContraseña.Location = new System.Drawing.Point(367, 425);
             this.txtModificarContraseña.Name = "txtModificarContraseña";
             this.txtModificarContraseña.Size = new System.Drawing.Size(200, 40);
             this.txtModificarContraseña.TabIndex = 10;
@@ -142,7 +136,8 @@
             // chkMostrarContraseñaActual
             // 
             this.chkMostrarContraseñaActual.Font = new System.Drawing.Font("Arial", 9F);
-            this.chkMostrarContraseñaActual.Location = new System.Drawing.Point(449, 245);
+            this.chkMostrarContraseñaActual.ForeColor = System.Drawing.Color.White;
+            this.chkMostrarContraseñaActual.Location = new System.Drawing.Point(367, 256);
             this.chkMostrarContraseñaActual.Name = "chkMostrarContraseñaActual";
             this.chkMostrarContraseñaActual.Size = new System.Drawing.Size(200, 24);
             this.chkMostrarContraseñaActual.TabIndex = 6;
@@ -152,29 +147,42 @@
             // chkMostrarContraseñaNueva
             // 
             this.chkMostrarContraseñaNueva.Font = new System.Drawing.Font("Arial", 9F);
-            this.chkMostrarContraseñaNueva.Location = new System.Drawing.Point(449, 362);
+            this.chkMostrarContraseñaNueva.ForeColor = System.Drawing.Color.White;
+            this.chkMostrarContraseñaNueva.Location = new System.Drawing.Point(367, 383);
             this.chkMostrarContraseñaNueva.Name = "chkMostrarContraseñaNueva";
-            this.chkMostrarContraseñaNueva.Size = new System.Drawing.Size(187, 24);
+            this.chkMostrarContraseñaNueva.Size = new System.Drawing.Size(258, 36);
             this.chkMostrarContraseñaNueva.TabIndex = 9;
             this.chkMostrarContraseñaNueva.Text = "Mostrar Contraseña Nueva";
             this.chkMostrarContraseñaNueva.CheckedChanged += new System.EventHandler(this.ChkMostrarContraseñaNueva_CheckedChanged);
             // 
             // buttonBack
             // 
-            this.buttonBack.BackColor = System.Drawing.Color.Gray;
+            this.buttonBack.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonBack.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.buttonBack.ForeColor = System.Drawing.Color.White;
-            this.buttonBack.Location = new System.Drawing.Point(449, 458);
+            this.buttonBack.Location = new System.Drawing.Point(675, 494);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(200, 40);
+            this.buttonBack.Size = new System.Drawing.Size(175, 45);
             this.buttonBack.TabIndex = 0;
             this.buttonBack.Text = "Volver al Menú";
             this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarx2;
+            this.pictureBox1.Location = new System.Drawing.Point(54, 144);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(225, 231);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmCambioContraseña
             // 
-            this.ClientSize = new System.Drawing.Size(846, 521);
+            this.BackColor = System.Drawing.Color.Indigo;
+            this.ClientSize = new System.Drawing.Size(862, 551);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.label3);
@@ -191,7 +199,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cambio de Contraseña";
             this.panelLeft.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,7 +208,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panelLeft;
-        private System.Windows.Forms.PictureBox pictureBoxIcon;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUsuario;
@@ -212,6 +219,6 @@
         private System.Windows.Forms.CheckBox chkMostrarContraseñaNueva;
         private System.Windows.Forms.Button txtModificarContraseña;
         private System.Windows.Forms.Button buttonBack;
-
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
