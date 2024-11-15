@@ -64,6 +64,7 @@ namespace TemplateTPIntegrador
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
                         supervisor.Show();
+                        this.Hide();
                     }
                     else if (perfil.StartsWith("Vendedor"))
                     {

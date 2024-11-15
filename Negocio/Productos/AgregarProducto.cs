@@ -11,7 +11,7 @@ namespace Negocio.Utils
         public class AgregarProductos
         {
         //string idadmin = "1653c7ec-870d-468a-b581-9800961d53d2";
-        private ObtenerProductosWS _obtenerProductosWS;
+        private ObtenerProductosWS _obtenerProductosWS = new ObtenerProductosWS();
         public AgregarProductos()
             {
              

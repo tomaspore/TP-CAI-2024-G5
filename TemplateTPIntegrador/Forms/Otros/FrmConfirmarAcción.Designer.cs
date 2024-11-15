@@ -37,10 +37,10 @@
             // 
             this.lblCartel.AutoSize = true;
             this.lblCartel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCartel.Location = new System.Drawing.Point(93, 34);
+            this.lblCartel.Location = new System.Drawing.Point(41, 31);
             this.lblCartel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCartel.Name = "lblCartel";
-            this.lblCartel.Size = new System.Drawing.Size(175, 14);
+            this.lblCartel.Size = new System.Drawing.Size(265, 22);
             this.lblCartel.TabIndex = 0;
             this.lblCartel.Text = "¿Desea confirmar la acción?";
             // 
@@ -48,7 +48,7 @@
             // 
             this.btnConfirmarVenta.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnConfirmarVenta.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnConfirmarVenta.Location = new System.Drawing.Point(50, 76);
+            this.btnConfirmarVenta.Location = new System.Drawing.Point(39, 76);
             this.btnConfirmarVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConfirmarVenta.Name = "btnConfirmarVenta";
             this.btnConfirmarVenta.Size = new System.Drawing.Size(124, 35);
@@ -61,7 +61,7 @@
             // 
             this.btnCancelarVenta.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnCancelarVenta.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelarVenta.Location = new System.Drawing.Point(199, 76);
+            this.btnCancelarVenta.Location = new System.Drawing.Point(188, 76);
             this.btnCancelarVenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelarVenta.Name = "btnCancelarVenta";
             this.btnCancelarVenta.Size = new System.Drawing.Size(124, 35);
@@ -72,10 +72,10 @@
             // 
             // FrmConfirmarAcción
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
-            this.ClientSize = new System.Drawing.Size(381, 165);
+            this.ClientSize = new System.Drawing.Size(349, 139);
             this.Controls.Add(this.btnCancelarVenta);
             this.Controls.Add(this.btnConfirmarVenta);
             this.Controls.Add(this.lblCartel);

@@ -111,10 +111,28 @@ namespace TemplateTPIntegrador.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmMenuVendedor menu = new FrmMenuVendedor();
+            this.Close(); // Cierra el formulario actual
 
-            menu.Show();
-            this.Close();
+            if (ConfiguracionUsuario.PerfilUsuario == "Supervisor")
+            {
+                FrmMenuSupervisor menuSupervisor = new FrmMenuSupervisor();
+                menuSupervisor.Show();
+            }
+            else if (ConfiguracionUsuario.PerfilUsuario == "Vendedor")
+            {
+                FrmMenuVendedor menuVendedor = new FrmMenuVendedor();
+                menuVendedor.Show();
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
 
         private void label1_Click(object sender, EventArgs e)
