@@ -46,23 +46,24 @@
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 0);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(190, 338);
+            this.panelLeft.Size = new System.Drawing.Size(234, 428);
             this.panelLeft.TabIndex = 0;
             // 
             // pictureBoxIcon
             // 
             this.pictureBoxIcon.Image = global::TemplateTPIntegrador.Properties.Resources.eletrohogarok;
-            this.pictureBoxIcon.Location = new System.Drawing.Point(21, 83);
+            this.pictureBoxIcon.Location = new System.Drawing.Point(36, 111);
             this.pictureBoxIcon.Name = "pictureBoxIcon";
             this.pictureBoxIcon.Size = new System.Drawing.Size(132, 132);
             this.pictureBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxIcon.TabIndex = 0;
             this.pictureBoxIcon.TabStop = false;
+            this.pictureBoxIcon.Click += new System.EventHandler(this.pictureBoxIcon_Click);
             // 
             // labelTitle
             // 
             this.labelTitle.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.labelTitle.Location = new System.Drawing.Point(196, 22);
+            this.labelTitle.Location = new System.Drawing.Point(287, 39);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(336, 59);
             this.labelTitle.TabIndex = 1;
@@ -71,15 +72,15 @@
             // txtIDVenta
             // 
             this.txtIDVenta.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtIDVenta.Location = new System.Drawing.Point(209, 120);
+            this.txtIDVenta.Location = new System.Drawing.Point(294, 207);
             this.txtIDVenta.Name = "txtIDVenta";
-            this.txtIDVenta.Size = new System.Drawing.Size(200, 27);
+            this.txtIDVenta.Size = new System.Drawing.Size(200, 36);
             this.txtIDVenta.TabIndex = 2;
             // 
             // lblDNIVenta
             // 
             this.lblDNIVenta.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblDNIVenta.Location = new System.Drawing.Point(204, 83);
+            this.lblDNIVenta.Location = new System.Drawing.Point(289, 151);
             this.lblDNIVenta.Name = "lblDNIVenta";
             this.lblDNIVenta.Size = new System.Drawing.Size(200, 25);
             this.lblDNIVenta.TabIndex = 2;
@@ -90,7 +91,7 @@
             this.btnDevolverVenta.BackColor = System.Drawing.Color.Purple;
             this.btnDevolverVenta.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.btnDevolverVenta.ForeColor = System.Drawing.Color.White;
-            this.btnDevolverVenta.Location = new System.Drawing.Point(209, 206);
+            this.btnDevolverVenta.Location = new System.Drawing.Point(344, 290);
             this.btnDevolverVenta.Name = "btnDevolverVenta";
             this.btnDevolverVenta.Size = new System.Drawing.Size(150, 40);
             this.btnDevolverVenta.TabIndex = 3;
@@ -103,7 +104,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.Gray;
             this.btnVolver.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.btnVolver.ForeColor = System.Drawing.Color.White;
-            this.btnVolver.Location = new System.Drawing.Point(209, 262);
+            this.btnVolver.Location = new System.Drawing.Point(318, 356);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(200, 38);
             this.btnVolver.TabIndex = 4;
@@ -113,7 +114,7 @@
             // 
             // FrmDevoluciónVenta
             // 
-            this.ClientSize = new System.Drawing.Size(499, 338);
+            this.ClientSize = new System.Drawing.Size(648, 428);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.lblDNIVenta);
