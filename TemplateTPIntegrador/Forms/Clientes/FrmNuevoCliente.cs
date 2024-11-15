@@ -35,28 +35,6 @@ namespace TemplateTPIntegrador.Forms
 
         private void OperaciónAgregarCliente()
         {
-            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
-
-            if (confirmar.ShowDialog() == DialogResult.OK)
-            {
-                OperaciónAgregarCliente();
-            }
-            
-        }
-
-        private void OperaciónAgregarCliente()
-        {
-            FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
-
-            if (confirmar.ShowDialog() == DialogResult.OK)
-            {
-                OperaciónAgregarCliente();
-            }
-            
-        }
-
-        private void OperaciónAgregarCliente()
-        {
             string nombre = txtNombreCliente.Text;
             string apellido = txtApellidoCliente.Text;
             DateTime fechanacimiento = dtpFechaNacimiento.Value;
