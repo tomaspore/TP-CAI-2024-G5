@@ -65,5 +65,10 @@ namespace TemplateTPIntegrador.Forms
                
 
         }
+
+        private void pictureBoxIcon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,38 +10,45 @@ namespace Persistencia.Venta
 {
     public class ObtenerVentasWS
     {
-        public List<Venta> ObtenerVentasPorCliente(Guid idCliente)
+        public List<Venta> ObtenerVentasFicticias()
         {
-            try
+            
+            List<Venta> ventasFicticias = new List<Venta>
             {
-                // Realiza la solicitud GET a la API con el ID del cliente
-                HttpResponseMessage response = WebHelper.Get($"Venta/GetVentaByCliente?id={idCliente}");
-
-                if (!response.IsSuccessStatusCode)
+                new Venta
                 {
-                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                    return null;
-                }
-
-                // Leer el contenido de la respuesta de la API
-                var contentStream = response.Content.ReadAsStringAsync().Result;
-
-                if (string.IsNullOrEmpty(contentStream))
+                    Id = Guid.NewGuid(),
+                    NombreCliente = "Juan Pérez",
+                    NombreUsuario = "Carlos López",
+                    NombreProducto = "Televisor 55 pulgadas",
+                    Cantidad = 5,
+                    FechaAlta = DateTime.Now.AddDays(-10),
+                    Estado = 1
+                },
+                new Venta
                 {
-                    Console.WriteLine("El contenido de la respuesta está vacío.");
-                    return null;
-                }
+                    Id = Guid.NewGuid(),
+                    NombreCliente = "María García",
+                    NombreUsuario = "Ana Torres",
+                    NombreProducto = "Laptop Gaming",
+                    Cantidad = 2,
+                    FechaAlta = DateTime.Now.AddDays(-7),
+                    Estado = 1
+                },
+                new Venta
+                {
+                    Id = Guid.NewGuid(),
+                    NombreCliente = "Pedro Rodríguez",
+                    NombreUsuario = "Luis Martínez",
+                    NombreProducto = "Smartphone",
+                    Cantidad = 8,
+                    FechaAlta = DateTime.Now.AddDays(-3),
+                    Estado = 0
+                },
+                
+            };
 
-                // Deserializar la respuesta en una lista de ventas
-                List<Venta> listadoVentas = JsonConvert.DeserializeObject<List<Venta>>(contentStream);
-
-                return listadoVentas;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Excepción: {ex.Message}");
-                return null;
-            }
+            return ventasFicticias;
         }
     }
 }
