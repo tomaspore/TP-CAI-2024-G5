@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmModificarProducto));
-            this.txtNombreProducto = new System.Windows.Forms.TextBox();
+            this.txtIdProducto = new System.Windows.Forms.TextBox();
             this.txtNuevoPrecioProducto = new System.Windows.Forms.TextBox();
             this.txtNuevoStockProducto = new System.Windows.Forms.TextBox();
-            this.lblNombreProducto = new System.Windows.Forms.Label();
+            this.lblIdProducto = new System.Windows.Forms.Label();
             this.lblNuevoPrecio = new System.Windows.Forms.Label();
             this.lblNuevoStock = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -44,14 +44,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtNombreProducto
+            // txtIdProducto
             // 
-            this.txtNombreProducto.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreProducto.Location = new System.Drawing.Point(290, 101);
-            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(200, 31);
-            this.txtNombreProducto.TabIndex = 0;
+            this.txtIdProducto.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdProducto.Location = new System.Drawing.Point(290, 101);
+            this.txtIdProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtIdProducto.Name = "txtIdProducto";
+            this.txtIdProducto.Size = new System.Drawing.Size(200, 31);
+            this.txtIdProducto.TabIndex = 0;
             // 
             // txtNuevoPrecioProducto
             // 
@@ -71,16 +71,16 @@
             this.txtNuevoStockProducto.Size = new System.Drawing.Size(200, 31);
             this.txtNuevoStockProducto.TabIndex = 2;
             // 
-            // lblNombreProducto
+            // lblIdProducto
             // 
-            this.lblNombreProducto.AutoSize = true;
-            this.lblNombreProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreProducto.Location = new System.Drawing.Point(289, 79);
-            this.lblNombreProducto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblNombreProducto.Name = "lblNombreProducto";
-            this.lblNombreProducto.Size = new System.Drawing.Size(177, 25);
-            this.lblNombreProducto.TabIndex = 3;
-            this.lblNombreProducto.Text = "Nombre producto";
+            this.lblIdProducto.AutoSize = true;
+            this.lblIdProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdProducto.Location = new System.Drawing.Point(289, 79);
+            this.lblIdProducto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIdProducto.Name = "lblIdProducto";
+            this.lblIdProducto.Size = new System.Drawing.Size(155, 25);
+            this.lblIdProducto.TabIndex = 3;
+            this.lblIdProducto.Text = "ID de Producto";
             // 
             // lblNuevoPrecio
             // 
@@ -174,10 +174,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblNuevoStock);
             this.Controls.Add(this.lblNuevoPrecio);
-            this.Controls.Add(this.lblNombreProducto);
+            this.Controls.Add(this.lblIdProducto);
             this.Controls.Add(this.txtNuevoStockProducto);
             this.Controls.Add(this.txtNuevoPrecioProducto);
-            this.Controls.Add(this.txtNombreProducto);
+            this.Controls.Add(this.txtIdProducto);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -194,10 +194,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtNombreProducto;
+        private System.Windows.Forms.TextBox txtIdProducto;
         private System.Windows.Forms.TextBox txtNuevoPrecioProducto;
         private System.Windows.Forms.TextBox txtNuevoStockProducto;
-        private System.Windows.Forms.Label lblNombreProducto;
+        private System.Windows.Forms.Label lblIdProducto;
         private System.Windows.Forms.Label lblNuevoPrecio;
         private System.Windows.Forms.Label lblNuevoStock;
         private System.Windows.Forms.Button button1;

@@ -46,6 +46,24 @@ namespace TemplateTPIntegrador.Forms
 
         private void OperaciónModificarProducto()
         {
+            string id = txtIdProducto.Text;
+            string preciovalidar = txtNuevoPrecioProducto.Text;
+            string stockvalidar = txtNuevoStockProducto.Text;
+
+            ProductosNegocio modificarproducto = new ProductosNegocio();
+
+            if (double.TryParse(preciovalidar, out double precio) && int.TryParse(stockvalidar, out int stock))
+            {
+                string response = modificarproducto.ModificarProductos(id, precio, stock);
+
+                MessageBox.Show(response);
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar un precio y/o stock validos.");
+            }
+
+
         }
     }
 }
