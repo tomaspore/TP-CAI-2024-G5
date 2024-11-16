@@ -22,7 +22,7 @@ namespace TemplateTPIntegrador.Forms
             _clientesService = new AgregarClienteWS();
         }
 
-        private async void btnAgregarCliente_Click(object sender, EventArgs e)
+        private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
             FrmConfirmarAcción confirmar = new FrmConfirmarAcción();
 
@@ -81,6 +81,16 @@ namespace TemplateTPIntegrador.Forms
 
                 MessageBox.Show("No debe haber campos vacios. \nLa Fecha de Nacimiento no puede ser en el futuro");
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -246,3 +246,101 @@ C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIn
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmReactivarUsuario.resources
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmDevoluciónVenta.resources
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmarAcción.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.dll
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.dll
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.dll
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.dll
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.pdb
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.pdb
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmControlClientes.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmNuevoCliente.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Clientes.FrmReactivarCliente.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmarAcción.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmModificarProducto.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmRegistrarDatosVenta.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmAgregarProducto.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmBajaUsuario.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmCambioContraseña.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmacionCerrarSesion.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmMenuAdmin.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuSupervisor.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuVendedor.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmReactivarUsuario.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistrarVenta.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmDevoluciónVenta.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmLogin.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmModificarCliente.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Properties.Resources.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmarAcción.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmDevoluciónVenta.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.BajaProducto.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmarAcción.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmModificarProducto.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmDevoluciónVenta.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmControlClientes.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmNuevoCliente.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Clientes.FrmReactivarCliente.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmarAcción.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmModificarProducto.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmRegistrarDatosVenta.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmAgregarProducto.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmBajaUsuario.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmCambioContraseña.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmacionCerrarSesion.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmMenuAdmin.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuSupervisor.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuVendedor.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmReactivarUsuario.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistrarVenta.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmDevoluciónVenta.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmLogin.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmModificarCliente.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Properties.Resources.resources
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.dll
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.dll
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.dll
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.pdb
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.pdb
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomas\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
+C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmStockCritico.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmarAcción.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmDevoluciónVenta.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmStockCritico.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmStockCritico.resources

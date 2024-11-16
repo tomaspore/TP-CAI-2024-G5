@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TemplateTPIntegrador.Forms;
+using TemplateTPIntegrador.Forms.Productos;
+using TemplateTPIntegrador.Forms.Ventas;
 
 namespace TemplateTPIntegrador
 {
@@ -65,6 +67,7 @@ namespace TemplateTPIntegrador
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FrmConfirmacionCerrarSesion confirmacion = new FrmConfirmacionCerrarSesion();
             if (confirmacion.ShowDialog() == DialogResult.Yes)
             {
@@ -160,7 +163,14 @@ namespace TemplateTPIntegrador
 
         private void btnReporteStockCritico_Click(object sender, EventArgs e)
         {
+            // Crear una instancia del formulario FrmStockCritico
+            FrmStockCritico frmStockCritico = new FrmStockCritico();
 
+            // Mostrar el formulario de Stock Crítico
+            frmStockCritico.Show();
+
+            // Cerrar el formulario actual
+            this.Close();
         }
 
         private void btnModificacionProductos_Click(object sender, EventArgs e)
@@ -169,6 +179,22 @@ namespace TemplateTPIntegrador
 
             modificarProducto.Show();
             this.Hide();
+        }
+
+        private void btnBajaProductos_Click(object sender, EventArgs e)
+        {
+            // Crear y mostrar el formulario de baja de productos
+            FrmBajaProducto frmBajaProducto = new FrmBajaProducto();
+            frmBajaProducto.Show();
+
+            // Cerrar el formulario actual (Menú Principal)
+            this.Close();
+        }
+
+        private void btnReporteVentasXVendedor_Click(object sender, EventArgs e)
+        {
+            FrmListadoVentas listadoVentasForm = new FrmListadoVentas();
+            listadoVentasForm.Show();
         }
     }
 }

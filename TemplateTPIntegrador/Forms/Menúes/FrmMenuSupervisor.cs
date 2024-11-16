@@ -10,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TemplateTPIntegrador.Forms.Productos;
+using TemplateTPIntegrador.Forms.Ventas;
 
 namespace TemplateTPIntegrador.Forms
 {
@@ -110,7 +112,12 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnBajaProductos_Click_1(object sender, EventArgs e)
         {
+            // Crear y mostrar el formulario de baja de productos
+            FrmBajaProducto frmBajaProducto = new FrmBajaProducto();
+            frmBajaProducto.Show();
 
+            // Cerrar el formulario actual (Menú Principal)
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -135,6 +142,26 @@ namespace TemplateTPIntegrador.Forms
             clientes.Show();
 
             this.Hide();
+        }
+
+        private void btnModificacionProductos_Click_1(object sender, EventArgs e)
+        {
+            FrmModificarProducto modificar = new FrmModificarProducto();
+
+            modificar.Show();
+            this.Close();
+        }
+
+        private void btnReporteStockCritico_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario FrmStockCritico
+            FrmStockCritico frmStockCritico = new FrmStockCritico();
+
+            // Mostrar el formulario de Stock Crítico
+            frmStockCritico.Show();
+
+            // Cerrar el formulario actual
+            this.Close();
         }
     }
 }

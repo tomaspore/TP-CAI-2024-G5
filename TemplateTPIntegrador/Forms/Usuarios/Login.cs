@@ -64,6 +64,7 @@ namespace TemplateTPIntegrador
                         validacionUntil.MensajeBienvenida(nombre);
                         FrmMenuSupervisor supervisor = new FrmMenuSupervisor();
                         supervisor.Show();
+                        this.Hide();
                     }
                     else if (perfil.StartsWith("Vendedor"))
                     {
@@ -138,8 +139,14 @@ namespace TemplateTPIntegrador
 
         private void label2_Click_1(object sender, EventArgs e)
         {
-            //label olvide mi contraseña
-            MessageBox.Show("Contacte al administrador para restablecer su contraseña.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           
+            FrmCambioContraseña cambiarpassword = new FrmCambioContraseña();
+
+           
+            cambiarpassword.Show();
+
+           
+            this.Hide();
         }
 
         private void logout_btn_Click(object sender, EventArgs e)
@@ -162,6 +169,12 @@ namespace TemplateTPIntegrador
         private void txtUsuario_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            //exit
+            this.Close();
         }
     }
 }

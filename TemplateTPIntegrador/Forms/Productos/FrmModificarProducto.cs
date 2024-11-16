@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio.Utils;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +46,36 @@ namespace TemplateTPIntegrador.Forms
 
         private void OperaciónModificarProducto()
         {
+            string id = txtIdProducto.Text;
+            string preciovalidar = txtNuevoPrecioProducto.Text;
+            string stockvalidar = txtNuevoStockProducto.Text;
+
+            ProductosNegocio modificarproducto = new ProductosNegocio();
+
+            if (double.TryParse(preciovalidar, out double precio) && int.TryParse(stockvalidar, out int stock))
+            {
+                bool response = modificarproducto.ModificarProductos(id, precio, stock);
+
+                if(!response)
+                {
+                    MessageBox.Show("Ha ocurrido un error. Verifique los datos.");
+                }
+                else
+                {
+
+                    MessageBox.Show("Producto exitosamente modificado.");
+                    txtIdProducto.Clear();
+                    txtNuevoPrecioProducto.Clear();
+                    txtNuevoStockProducto.Clear();
+
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar un precio y/o stock validos.");
+            }
+
 
         }
     }

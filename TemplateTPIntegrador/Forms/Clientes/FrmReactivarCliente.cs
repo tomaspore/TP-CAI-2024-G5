@@ -51,5 +51,23 @@ namespace TemplateTPIntegrador.Forms.Clientes
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            //VOLVER AL MENU
+            this.Close(); // Cierra el formulario actual
+             
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -50,36 +50,40 @@
             // lblNombreCliente
             // 
             this.lblNombreCliente.AutoSize = true;
-            this.lblNombreCliente.Location = new System.Drawing.Point(47, 37);
+            this.lblNombreCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreCliente.Location = new System.Drawing.Point(46, 37);
             this.lblNombreCliente.Name = "lblNombreCliente";
-            this.lblNombreCliente.Size = new System.Drawing.Size(62, 20);
+            this.lblNombreCliente.Size = new System.Drawing.Size(70, 20);
             this.lblNombreCliente.TabIndex = 1;
             this.lblNombreCliente.Text = "Cliente:";
             // 
             // lblDireccion
             // 
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(41, 85);
+            this.lblDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDireccion.Location = new System.Drawing.Point(46, 88);
             this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(76, 20);
+            this.lblDireccion.Size = new System.Drawing.Size(86, 20);
             this.lblDireccion.TabIndex = 2;
             this.lblDireccion.Text = "Domicilio:";
             // 
             // lblTeléfono
             // 
             this.lblTeléfono.AutoSize = true;
-            this.lblTeléfono.Location = new System.Drawing.Point(42, 130);
+            this.lblTeléfono.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeléfono.Location = new System.Drawing.Point(46, 135);
             this.lblTeléfono.Name = "lblTeléfono";
-            this.lblTeléfono.Size = new System.Drawing.Size(75, 20);
+            this.lblTeléfono.Size = new System.Drawing.Size(84, 20);
             this.lblTeléfono.TabIndex = 3;
             this.lblTeléfono.Text = "Teléfono:";
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(50, 173);
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Location = new System.Drawing.Point(46, 178);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(52, 20);
+            this.lblEmail.Size = new System.Drawing.Size(58, 20);
             this.lblEmail.TabIndex = 4;
             this.lblEmail.Text = "Email:";
             this.lblEmail.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -93,33 +97,35 @@
             // 
             // txtTeléfonoCliente
             // 
-            this.txtTeléfonoCliente.Location = new System.Drawing.Point(146, 130);
+            this.txtTeléfonoCliente.Location = new System.Drawing.Point(146, 129);
             this.txtTeléfonoCliente.Name = "txtTeléfonoCliente";
             this.txtTeléfonoCliente.Size = new System.Drawing.Size(142, 26);
             this.txtTeléfonoCliente.TabIndex = 6;
             // 
             // txtEmailCliente
             // 
-            this.txtEmailCliente.Location = new System.Drawing.Point(146, 173);
+            this.txtEmailCliente.Location = new System.Drawing.Point(146, 172);
             this.txtEmailCliente.Name = "txtEmailCliente";
             this.txtEmailCliente.Size = new System.Drawing.Size(142, 26);
             this.txtEmailCliente.TabIndex = 7;
             // 
             // btnModificarDatos
             // 
-            this.btnModificarDatos.Location = new System.Drawing.Point(105, 231);
+            this.btnModificarDatos.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnModificarDatos.Location = new System.Drawing.Point(146, 243);
             this.btnModificarDatos.Name = "btnModificarDatos";
             this.btnModificarDatos.Size = new System.Drawing.Size(142, 34);
             this.btnModificarDatos.TabIndex = 8;
             this.btnModificarDatos.Text = "Modificar";
-            this.btnModificarDatos.UseVisualStyleBackColor = true;
+            this.btnModificarDatos.UseVisualStyleBackColor = false;
             this.btnModificarDatos.Click += new System.EventHandler(this.btnModificarDatos_Click);
             // 
             // FrmModificarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 287);
+            this.BackColor = System.Drawing.Color.Indigo;
+            this.ClientSize = new System.Drawing.Size(390, 342);
             this.Controls.Add(this.btnModificarDatos);
             this.Controls.Add(this.txtEmailCliente);
             this.Controls.Add(this.txtTeléfonoCliente);
@@ -129,7 +135,9 @@
             this.Controls.Add(this.lblDireccion);
             this.Controls.Add(this.lblNombreCliente);
             this.Controls.Add(this.txtNombreCliente);
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "FrmModificarCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Datos";
             this.ResumeLayout(false);
             this.PerformLayout();
