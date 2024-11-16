@@ -36,7 +36,6 @@
             this.btnModificacionProductos = new System.Windows.Forms.Button();
             this.btnBajaProductos = new System.Windows.Forms.Button();
             this.btnReporteVentasXVendedor = new System.Windows.Forms.Button();
-            this.btnRepProdMasVendidoXCategoria = new System.Windows.Forms.Button();
             this.btnReporteStockCritico = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -143,17 +142,6 @@
             this.btnReporteVentasXVendedor.UseVisualStyleBackColor = false;
             this.btnReporteVentasXVendedor.Click += new System.EventHandler(this.btnReporteVentasXVendedor_Click);
             // 
-            // btnRepProdMasVendidoXCategoria
-            // 
-            this.btnRepProdMasVendidoXCategoria.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnRepProdMasVendidoXCategoria.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRepProdMasVendidoXCategoria.Location = new System.Drawing.Point(13, 113);
-            this.btnRepProdMasVendidoXCategoria.Name = "btnRepProdMasVendidoXCategoria";
-            this.btnRepProdMasVendidoXCategoria.Size = new System.Drawing.Size(169, 30);
-            this.btnRepProdMasVendidoXCategoria.TabIndex = 8;
-            this.btnRepProdMasVendidoXCategoria.Text = "Productos más vendidos";
-            this.btnRepProdMasVendidoXCategoria.UseVisualStyleBackColor = false;
-            // 
             // btnReporteStockCritico
             // 
             this.btnReporteStockCritico.BackColor = System.Drawing.Color.DarkSlateBlue;
@@ -170,7 +158,6 @@
             // 
             this.groupBox1.Controls.Add(this.btnReporteStockCritico);
             this.groupBox1.Controls.Add(this.btnReporteVentasXVendedor);
-            this.groupBox1.Controls.Add(this.btnRepProdMasVendidoXCategoria);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox1.Location = new System.Drawing.Point(408, 58);
@@ -331,7 +318,6 @@
             private System.Windows.Forms.Button btnModificacionProductos;
             private System.Windows.Forms.Button btnBajaProductos;
             private System.Windows.Forms.Button btnReporteVentasXVendedor;
-            private System.Windows.Forms.Button btnRepProdMasVendidoXCategoria;
             private System.Windows.Forms.Button btnReporteStockCritico;
             private System.Windows.Forms.GroupBox groupBox1;
             private System.Windows.Forms.GroupBox groupBox2;

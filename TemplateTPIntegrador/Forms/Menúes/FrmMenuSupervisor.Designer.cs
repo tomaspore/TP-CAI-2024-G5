@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenuSupervisor));
             this.btnDevolucionVenta = new System.Windows.Forms.Button();
             this.btnReporteStockCritico = new System.Windows.Forms.Button();
-            this.btnRepProdMasVendidoXCategoria = new System.Windows.Forms.Button();
             this.btnReporteVentasXVendedor = new System.Windows.Forms.Button();
             this.btnModificarContraseña = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -79,17 +78,6 @@
             this.btnReporteStockCritico.UseVisualStyleBackColor = false;
             this.btnReporteStockCritico.Click += new System.EventHandler(this.btnReporteStockCritico_Click);
             // 
-            // btnRepProdMasVendidoXCategoria
-            // 
-            this.btnRepProdMasVendidoXCategoria.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnRepProdMasVendidoXCategoria.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRepProdMasVendidoXCategoria.Location = new System.Drawing.Point(20, 143);
-            this.btnRepProdMasVendidoXCategoria.Name = "btnRepProdMasVendidoXCategoria";
-            this.btnRepProdMasVendidoXCategoria.Size = new System.Drawing.Size(176, 23);
-            this.btnRepProdMasVendidoXCategoria.TabIndex = 5;
-            this.btnRepProdMasVendidoXCategoria.Text = "Productos más vendidos";
-            this.btnRepProdMasVendidoXCategoria.UseVisualStyleBackColor = false;
-            // 
             // btnReporteVentasXVendedor
             // 
             this.btnReporteVentasXVendedor.BackColor = System.Drawing.Color.DarkSlateBlue;
@@ -130,7 +118,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnReporteVentasXVendedor);
-            this.groupBox1.Controls.Add(this.btnRepProdMasVendidoXCategoria);
             this.groupBox1.Controls.Add(this.btnReporteStockCritico);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -163,9 +150,9 @@
             this.groupBox3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox3.Location = new System.Drawing.Point(256, 69);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(218, 219);
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
@@ -257,9 +244,9 @@
             this.grpClientes.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpClientes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.grpClientes.Location = new System.Drawing.Point(256, 312);
-            this.grpClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpClientes.Margin = new System.Windows.Forms.Padding(2);
             this.grpClientes.Name = "grpClientes";
-            this.grpClientes.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpClientes.Padding = new System.Windows.Forms.Padding(2);
             this.grpClientes.Size = new System.Drawing.Size(447, 89);
             this.grpClientes.TabIndex = 21;
             this.grpClientes.TabStop = false;
@@ -270,7 +257,7 @@
             this.btnControlClientes.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnControlClientes.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnControlClientes.Location = new System.Drawing.Point(149, 35);
-            this.btnControlClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnControlClientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnControlClientes.Name = "btnControlClientes";
             this.btnControlClientes.Size = new System.Drawing.Size(144, 30);
             this.btnControlClientes.TabIndex = 22;
@@ -308,7 +295,6 @@
         #endregion
         private System.Windows.Forms.Button btnDevolucionVenta;
         private System.Windows.Forms.Button btnReporteStockCritico;
-        private System.Windows.Forms.Button btnRepProdMasVendidoXCategoria;
         private System.Windows.Forms.Button btnReporteVentasXVendedor;
         private System.Windows.Forms.Button btnModificarContraseña;
         private System.Windows.Forms.Button button5;
