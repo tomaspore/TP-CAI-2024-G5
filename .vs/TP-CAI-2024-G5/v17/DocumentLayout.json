@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\negocio\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45177FE-6854-49E9-AA70-13FD2CDE1F69}|Negocio\\Negocio.csproj|solutionrelative:negocio\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|c:\\users\\talberio\\onedrive - avaya\\documents\\github\\tp-cai-2024-g5-\\templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB76CE5-28CB-4176-942F-9773F50FF7A8}|TemplateTPIntegrador\\Presentacion.csproj|solutionrelative:templatetpintegrador\\forms\\productos\\frmmodificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D70D39DA-312D-45DA-A378-FD222EC9672F}|Persistencia\\Persistencia.csproj|C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\persistencia\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FrmModificarProducto.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
               "RelativeToolTip": "TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T00:57:13.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmModificarProducto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
               "RelativeDocumentMoniker": "TemplateTPIntegrador\\Forms\\Productos\\FrmModificarProducto.cs",
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Productos\\Producto.cs",
               "RelativeDocumentMoniker": "Negocio\\Productos\\Producto.cs",
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Negocio\\Productos\\Producto.cs",
               "RelativeToolTip": "Negocio\\Productos\\Producto.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T00:53:22.625Z",
               "EditorCaption": ""
@@ -86,9 +86,10 @@
               "RelativeDocumentMoniker": "Persistencia\\Productos\\Producto.cs",
               "ToolTip": "C:\\Users\\talberio\\OneDrive - Avaya\\Documents\\GitHub\\TP-CAI-2024-G5-\\Persistencia\\Productos\\Producto.cs",
               "RelativeToolTip": "Persistencia\\Productos\\Producto.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T00:47:43.508Z"
+              "WhenOpened": "2024-11-16T00:47:43.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

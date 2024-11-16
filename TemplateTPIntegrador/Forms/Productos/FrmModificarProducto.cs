@@ -54,9 +54,22 @@ namespace TemplateTPIntegrador.Forms
 
             if (double.TryParse(preciovalidar, out double precio) && int.TryParse(stockvalidar, out int stock))
             {
-                string response = modificarproducto.ModificarProductos(id, precio, stock);
+                bool response = modificarproducto.ModificarProductos(id, precio, stock);
 
-                MessageBox.Show(response);
+                if(!response)
+                {
+                    MessageBox.Show("Ha ocurrido un error. Verifique los datos.");
+                }
+                else
+                {
+
+                    MessageBox.Show("Producto exitosamente modificado.");
+                    txtIdProducto.Clear();
+                    txtNuevoPrecioProducto.Clear();
+                    txtNuevoStockProducto.Clear();
+
+                }
+
             }
             else
             {

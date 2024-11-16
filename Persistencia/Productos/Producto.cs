@@ -94,7 +94,7 @@ namespace Persistencia.Productos
 
 
         // Método para actualizar producto
-        public String ModificarProducto(string idproducto, double precio, int stock)
+        public bool ModificarProducto(string idproducto, double precio, int stock)
         {
             string idusuario = "1653c7ec-870d-468a-b581-9800961d53d2";
             // Crear el diccionario con los parámetros del producto actualizado
@@ -117,18 +117,18 @@ namespace Persistencia.Productos
                 if (!response.IsSuccessStatusCode)
                 {
                     Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                    return "Error";
+                    return false;
                 }
 
                 var reader = new StreamReader(response.Content.ReadAsStreamAsync().Result);
                 var resultado = JsonConvert.DeserializeObject<String>(reader.ReadToEnd());
 
-                return resultado; // Devolver el resultado del servicio web
+                return true; // Devolver el resultado del servicio web
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Excepción: {ex.Message}");
-                return "Error";
+                return false;
             }
         }
         // Nuevo método para eliminar producto

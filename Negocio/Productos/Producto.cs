@@ -40,11 +40,11 @@ namespace Negocio.Utils
             return _obtenerProductosWS.EliminarProducto(idProducto);
         }
 
-        public string ModificarProductos(string idproducto, double precio, int stock)
+        public bool ModificarProductos(string idproducto, double precio, int stock)
         {
             ObtenerProductosWS productos = new ObtenerProductosWS();
 
-            string response = productos.ModificarProducto(idproducto, precio, stock);
+            bool response = productos.ModificarProducto(idproducto, precio, stock);
 
             return response;
 
