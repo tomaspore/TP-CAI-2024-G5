@@ -41,6 +41,7 @@
             this.chkMostrarContraseñaActual = new System.Windows.Forms.CheckBox();
             this.chkMostrarContraseñaNueva = new System.Windows.Forms.CheckBox();
             this.buttonBack = new System.Windows.Forms.Button();
+            this.botonVolverCambio = new System.Windows.Forms.Button();
             this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -137,9 +138,9 @@
             this.txtModificarContraseña.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.txtModificarContraseña.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.txtModificarContraseña.ForeColor = System.Drawing.Color.White;
-            this.txtModificarContraseña.Location = new System.Drawing.Point(270, 362);
+            this.txtModificarContraseña.Location = new System.Drawing.Point(233, 362);
             this.txtModificarContraseña.Name = "txtModificarContraseña";
-            this.txtModificarContraseña.Size = new System.Drawing.Size(131, 48);
+            this.txtModificarContraseña.Size = new System.Drawing.Size(107, 48);
             this.txtModificarContraseña.TabIndex = 10;
             this.txtModificarContraseña.Text = "Modificar";
             this.txtModificarContraseña.UseVisualStyleBackColor = false;
@@ -180,10 +181,24 @@
             this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
+            // botonVolverCambio
+            // 
+            this.botonVolverCambio.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.botonVolverCambio.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.botonVolverCambio.ForeColor = System.Drawing.Color.White;
+            this.botonVolverCambio.Location = new System.Drawing.Point(352, 362);
+            this.botonVolverCambio.Name = "botonVolverCambio";
+            this.botonVolverCambio.Size = new System.Drawing.Size(101, 48);
+            this.botonVolverCambio.TabIndex = 11;
+            this.botonVolverCambio.Text = "Volver al menu";
+            this.botonVolverCambio.UseVisualStyleBackColor = false;
+            this.botonVolverCambio.Click += new System.EventHandler(this.botonVolverCambio_Click);
+            // 
             // FrmCambioContraseña
             // 
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(508, 429);
+            this.Controls.Add(this.botonVolverCambio);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.label3);
@@ -221,5 +236,6 @@
         private System.Windows.Forms.Button txtModificarContraseña;
         private System.Windows.Forms.Button buttonBack;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button botonVolverCambio;
     }
 }

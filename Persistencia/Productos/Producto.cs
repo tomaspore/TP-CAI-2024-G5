@@ -165,7 +165,32 @@ namespace Persistencia.Productos
                 return false;
             }
         }
+        public List<ProductoWS> ObtenerProductosOrdenadosPorStock()
+        {
+            try
+            {
+                // Realiza una solicitud GET para obtener los productos
+                HttpResponseMessage response = WebHelper.Get("Producto/TraerProductos");
 
+                if (!response.IsSuccessStatusCode)
+                {
+                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                    return null;
+                }
+
+                // Procesa la respuesta
+                var contentStream = response.Content.ReadAsStringAsync().Result;
+                List<ProductoWS> productos = JsonConvert.DeserializeObject<List<ProductoWS>>(contentStream);
+
+                // Ordena por stock ascendente
+                return productos.OrderBy(p => p.Stock).ToList();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Excepción: {ex.Message}");
+                return null;
+            }
+        }
     }
 
 

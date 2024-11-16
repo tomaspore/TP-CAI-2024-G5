@@ -82,6 +82,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "FrmConfirmacionCerrarSesion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmConfirmacionCerrarSesion";
             this.ResumeLayout(false);
             this.PerformLayout();

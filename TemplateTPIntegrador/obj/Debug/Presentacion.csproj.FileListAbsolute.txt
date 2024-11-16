@@ -337,3 +337,9 @@ C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\T
 C:\Documentos\d78138\GitHub\tp2\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
 C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmStockCritico.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmarAcción.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Productos.FrmBajaProducto.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmListadoVentas.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmDevoluciónVenta.resources
+C:\Facultad\2DO CUATRIMESTRE - 2024\CAI-Bertagnoli\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.Ventas.FrmStockCritico.resources
