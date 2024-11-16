@@ -97,7 +97,7 @@ namespace TemplateTPIntegrador.Forms
             this.lblResultado.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblResultado.Location = new System.Drawing.Point(275, 225);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(100, 23);
+            this.lblResultado.Size = new System.Drawing.Size(204, 23);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado:";
             // 
