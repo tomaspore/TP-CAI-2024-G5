@@ -94,14 +94,16 @@ namespace Persistencia.Productos
 
 
         // Método para actualizar producto
-        public String ActualizarProducto(string nombre, double nuevoPrecio, int nuevoStock)
+        public String ModificarProducto(string idproducto, double precio, int stock)
         {
+            string idusuario = "1653c7ec-870d-468a-b581-9800961d53d2";
             // Crear el diccionario con los parámetros del producto actualizado
             Dictionary<String, Object> datos = new Dictionary<String, Object>
             {
-                { "nombre", nombre },
-                { "nuevoPrecio", nuevoPrecio },
-                { "nuevoStock", nuevoStock }
+                { "id", idproducto },
+                { "idUsuario", idusuario },
+                { "precio", precio },
+                {"stock", stock }
             };
 
             // Convertir los datos a una cadena JSON
@@ -110,7 +112,7 @@ namespace Persistencia.Productos
             try
             {
                 // Enviar la solicitud POST al servicio web para actualizar el producto
-                HttpResponseMessage response = WebHelper.Post("Producto/ActualizarProducto", jsonData);
+                HttpResponseMessage response = WebHelper.Patch("Producto/ModificarProducto", jsonData);
 
                 if (!response.IsSuccessStatusCode)
                 {

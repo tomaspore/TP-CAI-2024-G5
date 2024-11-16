@@ -70,7 +70,6 @@
     <Compile Include="Forms\Ventas\FrmStockCritico.Designer.cs">
       <DependentUpon>FrmStockCritico.cs</DependentUpon>
     </Compile>
-    <Compile Include="Negocio\ProductoNegocio.cs" />
     <Compile Include="Other\ConfiguracionUsuario.cs" />
     <Compile Include="Forms\Clientes\FrmControlClientes.cs">
       <SubType>Form</SubType>

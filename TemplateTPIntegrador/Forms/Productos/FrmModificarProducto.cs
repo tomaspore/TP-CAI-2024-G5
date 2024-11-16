@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio.Utils;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,12 +46,6 @@ namespace TemplateTPIntegrador.Forms
 
         private void OperaciónModificarProducto()
         {
-
-        }
-
-        private void lblNuevoStock_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

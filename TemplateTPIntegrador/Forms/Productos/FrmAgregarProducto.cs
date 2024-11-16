@@ -128,7 +128,7 @@ namespace TemplateTPIntegrador.Forms
                 string idUsuario = "1653c7ec-870d-468a-b581-9800961d53d2";
 
                 // Instanciar o inyectar el servicio de negocio
-                AgregarProductos productoService = new AgregarProductos();
+                ProductosNegocio productoService = new ProductosNegocio();
 
                 // Llamar al servicio de negocio para agregar el producto
                 string resultado = productoService.AgregarProductoConValidaciones(idcategoria, idUsuario, idProveedor, nombre, precio, stock);

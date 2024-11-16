@@ -50,7 +50,7 @@
             this.txtNombreProducto.Location = new System.Drawing.Point(290, 101);
             this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(200, 23);
+            this.txtNombreProducto.Size = new System.Drawing.Size(200, 31);
             this.txtNombreProducto.TabIndex = 0;
             // 
             // txtNuevoPrecioProducto
@@ -59,7 +59,7 @@
             this.txtNuevoPrecioProducto.Location = new System.Drawing.Point(290, 173);
             this.txtNuevoPrecioProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNuevoPrecioProducto.Name = "txtNuevoPrecioProducto";
-            this.txtNuevoPrecioProducto.Size = new System.Drawing.Size(200, 23);
+            this.txtNuevoPrecioProducto.Size = new System.Drawing.Size(200, 31);
             this.txtNuevoPrecioProducto.TabIndex = 1;
             // 
             // txtNuevoStockProducto
@@ -68,7 +68,7 @@
             this.txtNuevoStockProducto.Location = new System.Drawing.Point(290, 241);
             this.txtNuevoStockProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNuevoStockProducto.Name = "txtNuevoStockProducto";
-            this.txtNuevoStockProducto.Size = new System.Drawing.Size(200, 23);
+            this.txtNuevoStockProducto.Size = new System.Drawing.Size(200, 31);
             this.txtNuevoStockProducto.TabIndex = 2;
             // 
             // lblNombreProducto
@@ -78,7 +78,7 @@
             this.lblNombreProducto.Location = new System.Drawing.Point(289, 79);
             this.lblNombreProducto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombreProducto.Name = "lblNombreProducto";
-            this.lblNombreProducto.Size = new System.Drawing.Size(133, 17);
+            this.lblNombreProducto.Size = new System.Drawing.Size(177, 25);
             this.lblNombreProducto.TabIndex = 3;
             this.lblNombreProducto.Text = "Nombre producto";
             // 
@@ -89,7 +89,7 @@
             this.lblNuevoPrecio.Location = new System.Drawing.Point(289, 151);
             this.lblNuevoPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNuevoPrecio.Name = "lblNuevoPrecio";
-            this.lblNuevoPrecio.Size = new System.Drawing.Size(104, 17);
+            this.lblNuevoPrecio.Size = new System.Drawing.Size(139, 25);
             this.lblNuevoPrecio.TabIndex = 4;
             this.lblNuevoPrecio.Text = "Nuevo precio";
             // 
@@ -100,10 +100,9 @@
             this.lblNuevoStock.Location = new System.Drawing.Point(289, 219);
             this.lblNuevoStock.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNuevoStock.Name = "lblNuevoStock";
-            this.lblNuevoStock.Size = new System.Drawing.Size(97, 17);
+            this.lblNuevoStock.Size = new System.Drawing.Size(131, 25);
             this.lblNuevoStock.TabIndex = 5;
             this.lblNuevoStock.Text = "Nuevo stock";
-            this.lblNuevoStock.Click += new System.EventHandler(this.lblNuevoStock_Click);
             // 
             // button1
             // 
@@ -137,7 +136,7 @@
             this.label1.Location = new System.Drawing.Point(258, 32);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 26);
+            this.label1.Size = new System.Drawing.Size(300, 37);
             this.label1.TabIndex = 8;
             this.label1.Text = "Modificar producto";
             // 
@@ -165,7 +164,7 @@
             // 
             // FrmModificarProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(568, 400);
